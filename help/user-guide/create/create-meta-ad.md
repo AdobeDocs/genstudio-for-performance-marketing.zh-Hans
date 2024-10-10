@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ ht-degree: 0%
 **要修订生成的变体**：
 
 * **要[编辑元广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
-* **要[手动编辑元广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击任意广告部分（如主题行、标题或正文）并根据需要进行编辑。
+* **要[手动编辑元广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击任意广告部分(如主题行，
+标题或正文)并根据需要进行编辑。
 * **要更改或选择行动号召**，请单击行动号召按钮，然后从可用按钮文本选项中选择。 在&#x200B;_[!UICONTROL 链接]_&#x200B;中，输入行动号召文本的URL。
-* **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。 单击&#x200B;**[!UICONTROL 应用]**。
+* **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
+* **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。
 * **要[删除元广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击广告标题（例如，“Meta 4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
 
 ## 提交生成反馈

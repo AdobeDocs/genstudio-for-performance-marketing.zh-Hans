@@ -2,9 +2,9 @@
 title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Content, Assets, Experiences
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 9aca8368c2ea39a4059fc8d83fe69234619b1e3d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -38,22 +38,22 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 1. 输入新文本。
 1. 单击文本字段以保存它。
 
-<!-- ## Re-generate sections
+## 重新生成分区
 
-GenStudio for Performance Marketing has the built-in functionality to regenerate single sections of generated variants using _[!UICONTROL Suggested edits]_ and fresh prompts.
+GenStudio for Performance Marketing具有内置功能，可使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;和新提示重新生成生成的变体的单个部分。
 
-For example, you can re-generate the headline section of one Meta ad variant to see how it looks with a specific background asset using the _[!UICONTROL Suggested edits]_ options—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_—and entering a new prompt.
+例如，您可以使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项（_[!UICONTROL 重新短语]_、_[!UICONTROL Shortter]_&#x200B;或&#x200B;_[!UICONTROL Lengthen]_）重新生成一个元广告变体的标题部分，以查看它在特定背景资源中的外观，并输入新的提示。
 
-**To re-generate individual variant sections**:
+**要重新生成各个变体节**：
 
-1. After generating a set of variants, single-click editable text in a variant.
-1. (_Optional_) Enter a new prompt to change the focus of the regenerated content.
-1. Select a _[!UICONTROL Suggested edits]_ option—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_.
-1. Click **[!UICONTROL Generate]**.
-1. If you want to regenerate results, click the regenerate icon adjacent to _Results_.
-1. From the _Results_ that appear, select the desired option and click **[!UICONTROL Replace]**.
+1. 生成变体集后，单击变体中的任何可编辑文本。
+1. （_可选_）输入新的提示以更改已重新生成内容的焦点。
+1. 选择&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项 — _[!UICONTROL 重新短语]_、_[!UICONTROL 缩短内容]_&#x200B;或&#x200B;_[!UICONTROL 加长内容]_。
+1. 单击&#x200B;**[!UICONTROL 生成]**。
+1. 如果要重新生成结果，请单击&#x200B;_结果_&#x200B;旁边的重新生成图标。
+1. 从显示的&#x200B;_结果_&#x200B;中，选择所需的选项，然后单击&#x200B;**[!UICONTROL 替换]**。
 
-   The variant is updated with the revised text. -->
+   使用修订后的文本更新变体。
 
 ## 裁切资源
 
