@@ -3,9 +3,9 @@ title: ' [!DNL Insights]概述'
 description: 了解如何基于实时内容性能指标优化体验。
 feature: Attributes, Insights, Experiences, Assets, Channels
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: a06b226ffc6bfc0bd371a2f5045d5a422a2983bd
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,24 +36,24 @@ Adobe GenStudio for Performance Marketing [!DNL Insights]提供对内容性能�
 
 ### 渠道
 
-[!DNL Insights] _[!UICONTROL 渠道]_&#x200B;视图是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请参阅[渠道概述](channels.md)。
+[[!DNL Insights] _[!UICONTROL 渠道&#x200B;]_视图](channels.md)是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请务必[连接渠道帐户](connect-channel.md)，以便GenStudio for Performance Marketing开始接收您的统计数据。
 
 ### 体验
 
-[!DNL Insights] _[!UICONTROL 体验]_&#x200B;视图侧重于评估体验的有效性。 通过[!UICONTROL 体验]视图，可根据体验在指定日期范围内的广告投放位置分析该体验的量度。 通过单击&#x200B;_[!UICONTROL 广告名称]_，您可以查看广告绩效指标、按广告投放位置列出的绩效以及属性。
+[[!DNL Insights] _[!UICONTROL 体验&#x200B;]_视图](experiences.md)侧重于评估体验的有效性。 通过[!UICONTROL 体验]视图，可根据体验在指定日期范围内的广告投放位置分析该体验的量度。 通过单击_[!UICONTROL &#x200B;广告名称&#x200B;]_，您可以查看广告绩效指标、按广告投放位置列出的绩效以及属性。
 
 ### 资源
 
-[!DNL Insights] _[!UICONTROL Assets]_&#x200B;视图旨在帮助您分析资源的性能。 您可以识别有助于改进所选量度的资产属性，例如点击次数或展示次数。
+[[!DNL Insights] _[!UICONTROL Assets ]_视图](assets.md)旨在帮助您分析资源的性能。 您可以识别有助于改进所选量度的资产属性，例如点击次数或展示次数。
 
 单击资产可提供有关其在不同体验中的性能的更多上下文：
 
 ![资源详细信息](/help/assets/insights-asset-details.png){width="600" zoomable="yes"}
 
-在资源视图中，左侧显示资源的缩略图和属性列表。 有三个高亮显示的量度： `Click-through rate`、`Cost per click`和`Spend`。 性能突出显示显示实际值（实线）与所选时间段（默认为`Last 30 days`）的平均值（虚线）的比较结果。
+在资源详细信息视图中，左侧显示资源的缩略图和属性列表。 有三个高亮显示的量度： `Click-through rate`、`Cost per click`和`Spend`。 性能突出显示显示实际值（实线）与所选时间段（默认为`Last 30 days`）的平均值（虚线）的比较结果。
 
 ### 属性
 
 内容&#x200B;_属性_&#x200B;有助于通过固有详细信息(如颜色、色调、合成（如主题、字体、视觉元素）和其他关键组件)识别资源。 属性通常是一组经过最少衡量和分析的内容信息。
 
-[!DNL Insights] _[!UICONTROL 属性]_&#x200B;视图可以帮助您调查并确定哪些属性对特定受众、渠道和区域表现更好，还可以帮助您突出季节性趋势。 借助这些见解，您可以使用性能属性创建变体、定位特定受众或试验不同的营销活动策略。
+[[!DNL Insights] _[!UICONTROL 属性&#x200B;]_视图](attributes.md)可以帮助您调查并确定哪些属性对特定受众、渠道和区域表现更好，还可以帮助您突出季节性趋势。 借助这些见解，您可以使用性能属性创建变体、定位特定受众或试验不同的营销活动策略。
