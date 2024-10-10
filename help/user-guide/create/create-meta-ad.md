@@ -4,12 +4,11 @@ description: 了解如何通过针对性能营销的Adobe GenStudio为Facebook�
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ ht-degree: 0%
 
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 单击&#x200B;**[!UICONTROL 选择内容]**&#x200B;可添加要在体验&#x200B;*中使用的内容，单击*&#x200B;可影响内容生成。
-   * 要选择已发布到[!DNL Content]的资产（图像），请单击&#x200B;**[!UICONTROL 从内容中选择]**，然后单击以选择所需的图像。 使用筛选器进一步缩小搜索结果的范围。
+1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
+   * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
 
-     如果要使用连接的AEM Content Hub存储库中已存在的资源，请从&#x200B;_位置_&#x200B;下拉菜单中选择适用的位置，然后单击选择所需的图像。
+     若要使用已连接[!DNL AEM Assets Content Hub]存储库中的资源，请从&#x200B;_位置_&#x200B;下拉菜单中选择一个存储库。 筛选并选择一个或多个图像。
 
-   * 单击&#x200B;**[!UICONTROL 上传]**&#x200B;浏览您的文件并选择要使用的资源。 在浏览设备的同时，您还可以从Microsoft OneDrive或Dropbox导入。 单击以选择所需的图像。
-   * 将资产拖放到&#x200B;_Content_&#x200B;部分中。
+   * 或者，将资产拖放到&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;部分以上传一个或多个新资产。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
 添加完参数后，可通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示区域。
@@ -88,7 +86,7 @@ ht-degree: 0%
 * **要更改或选择行动号召**，请单击行动号召按钮，然后从可用按钮文本选项中选择。 在&#x200B;_[!UICONTROL 链接]_&#x200B;中，输入行动号召文本的URL。
 * **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。
+* **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。 单击&#x200B;**[!UICONTROL 应用]**。
 * **要[删除元广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击广告标题（例如，“Meta 4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
 
 ## 提交生成反馈
@@ -126,7 +124,7 @@ ht-degree: 0%
 
 要使生成的元广告可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
 
-1. **要发布新的元广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL Publish]**。
+1. **要发布新的元广告体验**，请单击顶部工具栏或审批流程中的&#x200B;**[!UICONTROL Publish]**。
 1. **要导出新的元广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
    1. 选择格式(仅限CSV和图像或HTML)，然后单击&#x200B;**[!UICONTROL 导出]**。
 

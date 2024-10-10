@@ -4,12 +4,11 @@ description: 了解如何在Adobe GenStudio中为性能营销创建电子邮件�
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ ht-degree: 0%
 
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 单击&#x200B;**[!UICONTROL 选择内容]**&#x200B;可添加要在体验&#x200B;*中使用的内容，单击*&#x200B;可影响内容生成。
-   * 要从[!DNL Content]存储库中选择资源（图像），请单击&#x200B;**[!UICONTROL 从内容中选择]**。 筛选并选择一个或多个图像。
+1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
+   * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
 
      若要使用已连接[!DNL AEM Assets Content Hub]存储库中的资源，请从&#x200B;_位置_&#x200B;下拉菜单中选择一个存储库。 筛选并选择一个或多个图像。
 
-   * 要上传一个或多个新资源，请单击&#x200B;**[!UICONTROL 上传]**，浏览您的文件，然后选择要使用的资源。 在浏览设备的同时，您还可以从Microsoft OneDrive或Dropbox导入。 单击以选择所需的图像。
-   * 将资产拖放到&#x200B;_Content_&#x200B;部分中。
+   * 或者，将资产拖放到&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;部分以上传一个或多个新资产。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
 >[!NOTE]
@@ -124,7 +122,7 @@ ht-degree: 0%
 
 若要使生成的电子邮件可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
 
-1. **要发布您的新电子邮件体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL Publish]**。
+1. **要发布您的新电子邮件体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL Publish]**。
 1. **要导出您的新电子邮件体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
    1. 选择格式(仅限CSV和图像或HTML)，然后单击&#x200B;**[!UICONTROL 导出]**。
 
