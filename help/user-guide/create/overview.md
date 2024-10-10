@@ -26,71 +26,38 @@ GenStudio for Performance Marketing [!DNL Create]利用AdobeGenAI的强大功能
 ## [!DNL Create] 用例
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
    <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/create/create-email-experience.md">
-
       <img alt="创建新内容" src="../../assets/icons/icon-create.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/create/create-email-experience.md">
-
          <strong>创建电子邮件体验</strong>
-
          </a>
-
       </div>
-
    </td>
-
    <!-- <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/content/overview.md">
-
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/content/overview.md">
-
          <strong>Re-use existing content</strong>
-
          </a>
-
       </div>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../create/generate-variants.md">
-
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="../create/generate-variants.md">
-
          <strong>Generate variants of approved content</strong>
-
          </a>
-
       </div>
-
    </td> -->
-
 </tr>
-
 </table>
 
 GenStudio for Performance Marketing使营销人员能够&#x200B;**创建新的营销内容**。 在此使用案例中，使用定义的[指南](/help/user-guide/guidelines/overview.md)和灵感图像来指导创建品牌一致的内容。

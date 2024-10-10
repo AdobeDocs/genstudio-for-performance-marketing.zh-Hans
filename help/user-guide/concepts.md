@@ -34,85 +34,44 @@ GenStudio for Performance Marketing利用创新型人工智能的强大功能来
 对于以更快的速度在多个渠道中获得高质量体验的需求很高。 GenStudio for Performance Marketing将内容供应链简化为营销人员组织良好的工作流程。 GenStudio for Performance Marketing在生命周期的每个阶段都利用Adobe技术。
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
        <img alt="日历" src="../assets/csc-workflow-planning.png" width="100">
-
     </td>
-
     <td>
-
         <p>集思广益，定义指南，围绕内容构建策略以吸引受众。</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="画笔和画布" src="../assets/csc-creation-production.png" width="100">
-
     </td>
-
     <td>
-
         <p>根据计划生成内容。 实时协作、接收反馈、进行编辑和批准内容。</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="图像等" src="../assets/csc-content-mgmt.png" width="100">
-
     </td>
-
     <td>
-
         <p>在集中式存储库中存储、共享和查找创意资产。 根据性能重用和振兴内容。</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="纸飞机" src="../assets/csc-delivery-activation.png" width="100">
-
     </td>
-
     <td>
-
         <p>激活内容并跨多个营销渠道发布。</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="图表" src="../assets/csc-reporting-insights.png" width="100">
-
     </td>
-
     <td>
-
         <p>收集数据并获取有关资产性能优化的见解。</p>
-
     </td>
-
 </tr>
-
 </table>
