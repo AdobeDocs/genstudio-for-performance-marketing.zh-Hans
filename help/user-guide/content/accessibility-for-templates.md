@@ -3,9 +3,9 @@ title: 创建无障碍模板
 description: 在Adobe GenStudio for Performance Marketing中构建模板，这些模板能够吸引更多受众并提供最佳体验。
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ Adobe致力于为所有受众提供最佳体验。 请参阅Adobe](https://www.a
 
 ![创意拼贴、书籍、拿着巨铅笔的男人、计算机](../../assets/card-create-assets.png){width="400"}
 
-## 对比度
+## 字体
 
-在文本和背景之间提供相应的对比度。 使用以下最小对比度：
+使用易于阅读的字体。 例如，Sans Serif字体具有干净、块状的外观，这有助于提高可读性。
+
+在文本和背景之间提供相应的对比度。 避免使用在深色背景上生成深色文本，而在浅色背景上生成浅色文本的字体颜色。 考虑对比度准则以获得最佳比例：
 
 - 文本的文本和图像：对比度至少为4.5:1
 - 大型文本和图像大型文本：对比度至少为3:1
