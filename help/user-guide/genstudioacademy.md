@@ -4,9 +4,9 @@ description: 通过Adobe GenStudio Academy增强您的内容供应链技能
 recommendations: disable, exclude
 index: false
 hidefromtoc: true
-source-git-commit: 91ad365ba7096a770d57f2de5d5c65e24ec32e4e
+source-git-commit: ef6bf8c691748844a25957de284c4f8e7dbc5e25
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -70,69 +70,61 @@ ht-degree: 0%
 
 <table>
 
- <tr style= "border: 0;colspan: 3;">
+    <tr style="border: 0;">
 
-  <td colspan="3"> <strong style= "font-size: 2em;">即将推出</strong></td>
+        <td colspan="3">
 
- </tr> 
+            <strong style="font-size: 2em;">即将推出</strong>
 
- <tr style= "border: 0;colspan: 3;"> 
+        </td>
 
-   <td align="Center">
+    </tr>
 
-      <img src="../assets/tips-and-tricks.png">
+    <tr style="border: 0;">
 
-      <div>
+        <td align="center">
 
-      <strong>提示和技巧</strong>
+            <img src="../assets/tips-and-tricks.png" alt="提示和技巧">
 
-      </div>
+            <div>
 
-      <p>
+                <strong>提示和技巧</strong>
 
-      以最有效的方式使用GenStudio for Performance Marketing的提示和技巧。
+            </div>
 
-      </p>
+            <p>以最有效的方式使用GenStudio for Performance Marketing的提示和技巧。</p>
 
-   </td>
+        </td>
 
-   <td align="Center">
+        <td align="center">
 
-      <img src="../assets/social-learning.png">
+            <img src="../assets/social-learning.png" alt="社交学习">
 
-      <div>
+            <div>
 
-      <strong>社交学习</strong>
+                <strong>社交学习</strong>
 
-      </div>
+            </div>
 
-      <p>
+            <p>轻松地向同事学习，并在整个组织内分享知识。</p>
 
-      轻松地向同事学习，并在整个组织内分享知识。
+        </td>
 
-      </p>
+        <td align="center">
 
-   </td>
+            <img src="../assets/expert-courses.png" alt="专家课程">
 
-   <td align="Center">
+            <div>
 
-      <img src="../assets/expert-courses.png">
+                <strong>专家课程</strong>
 
-      <div>
+            </div>
 
-      <strong>专家课程</strong>
+            <p>解锁营销专家级人工智能技能的高级课程。</p>
 
-      </div>
+        </td>
 
-      <p>
-
-      解锁营销专家级人工智能技能的高级课程。
-
-      </p>
-
-   </td>
-
- </tr>
+    </tr>
 
 </table>
 
@@ -142,13 +134,33 @@ ht-degree: 0%
 
     <tr></tr>
 
- <tr style= "border: 0;">
+    <tr style="border: 0;">
 
- <td><img src="../assets/put-your-learnings-into-practice.png"></td>
+        <td>
 
-  <td> <strong style= "font-size: 2em">实践您的学习。</strong><p>探索GenStudio for Performance Marketing这一人工智能优先的创新型应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有影响力的个性化营销活动。<p><a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">让我前往</span></a></td>
+            <img src="../assets/put-your-learnings-into-practice.png" alt="把学到的知识付诸实践">
 
- </tr>
+        </td>
+
+        <td>
+
+            <strong style="font-size: 3em">实践您的学习。</strong>
+
+            <p>探索GenStudio for Performance Marketing，这是一个创新型人工智能优先应用程序，可让营销团队创建自己的广告和电子邮件，以推动有影响力的个性化营销活动。</p>
+
+            <p>
+
+                <a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+
+                    <span class="spectrum-Button-label has-no-wrap">前往该处</span>
+
+                </a>
+
+            </p>
+
+        </td>
+
+    </tr>
 
     <tr></tr>
 
