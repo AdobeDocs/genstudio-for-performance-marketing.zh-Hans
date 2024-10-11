@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing概念
 description: 了解Adobe GenStudio for Performance Marketing概念和术语。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 4d2a7b72132e7bdba314c9f7c83eed327c579c46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -34,44 +34,85 @@ GenStudio for Performance Marketing利用创新型人工智能的强大功能来
 对于以更快的速度在多个渠道中获得高质量体验的需求很高。 GenStudio for Performance Marketing将内容供应链简化为营销人员组织良好的工作流程。 GenStudio for Performance Marketing在生命周期的每个阶段都利用Adobe技术。
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-       <img alt="日历" src="../assets/csc-workflow-planning.png" width="100">
-    </td>
+
     <td>
+
+       <p><strong>工作流程和规划</strong></p>
+
+    </td>
+
+    <td>
+
         <p>集思广益，定义指南，围绕内容构建策略以吸引受众。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="画笔和画布" src="../assets/csc-creation-production.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>创建与生产</strong></p>
+
+    </td>
+
+    <td>
+
         <p>根据计划生成内容。 实时协作、接收反馈、进行编辑和批准内容。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="图像等" src="../assets/csc-content-mgmt.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>内容管理</strong></p>
+
+    </td>
+
+    <td>
+
         <p>在集中式存储库中存储、共享和查找创意资产。 根据性能重用和振兴内容。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="纸飞机" src="../assets/csc-delivery-activation.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>交付和激活</strong></p>
+
+    </td>
+
+    <td>
+
         <p>激活内容并跨多个营销渠道发布。</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="图表" src="../assets/csc-reporting-insights.png" width="100">
-    </td>
+
     <td>
-        <p>收集数据并获取有关资产性能优化的见解。</p>
+
+        <p><strong>报表和分析</strong></p>
+
     </td>
+
+    <td>
+
+        <p>收集数据并获取有关资产性能优化的见解。</p>
+
+    </td>
+
 </tr>
+
 </table>
