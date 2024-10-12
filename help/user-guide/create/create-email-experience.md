@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示区域添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
+在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
 
 **要添加参数和资源**：
 
-1. 单击&#x200B;_参数_&#x200B;图标以展开提示区域。
+1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
 1. 在&#x200B;_参数_&#x200B;部分中，选择准则 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知内容创建。
 
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
@@ -54,7 +54,7 @@ ht-degree: 0%
 >
 >如果您的电子邮件模板有多个分区，请为&#x200B;_多分区电子邮件_&#x200B;中的每个电子邮件分区选择[!DNL Products]和内容（可视资产）。 多节电子邮件支持每节一个可视资产。
 
-添加完参数后，可通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示区域。
+添加完参数后，您可以通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示抽屉。
 
 ## 输入提示
 

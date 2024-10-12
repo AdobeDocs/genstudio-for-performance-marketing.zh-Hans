@@ -3,7 +3,7 @@ title: 编写有效提示
 description: 了解如何为Adobe GenStudio for Performance Marketing编写有效的提示。
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## 提示条件
 
-在GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)中，您可以在提示区域使用&#x200B;**[!UICONTROL 提示条件]** （[_参数_](/help/user-guide/create/overview.md#parameters)&#x200B;和提示）通过选择添加详细信息以改进AI解释。
+在GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)中，您可以在提示抽屉中使用&#x200B;**[!UICONTROL 提示条件]** （[_参数_](/help/user-guide/create/overview.md#parameters)&#x200B;和提示）通过选择添加详细信息以改进AI解释。
 
 对于[电子邮件](/help/user-guide/create/email-experiences.md)，提示条件可能包括在&#x200B;_参数_&#x200B;中添加[准则](/help/user-guide/guidelines/overview.md)、上传要在电子邮件变体中使用的资源以及说明性提示。 对于[元广告](/help/user-guide/create/create-meta-ad.md)，提示条件可能包括&#x200B;_参数_&#x200B;中的品牌指南、选择或上传现有资产、与图像或资产相关的设置（如长宽比）以及提示。 实际功率以[配置准则](/help/user-guide/guidelines/add-guidelines.md)开始。
 
 >[!NOTE]
 >
->如果在提示区域的&#x200B;_参数_&#x200B;中添加了准则，则无需在提示中包含对这些准则的引用。 GenStudio for Performance Marketing在内容生成中利用这些[!DNL Brands]、[!DNL Products]和[!DNL Personas]。
+>如果在提示抽屉中的&#x200B;_参数_&#x200B;中添加了准则，则无需在提示中包含对这些准则的引用。 GenStudio for Performance Marketing在内容生成中利用这些[!DNL Brands]、[!DNL Products]和[!DNL Personas]。
 
 ### 准则
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示区域添加[准则](/help/user-guide/guidelines/overview.md)和&#x200B;_参数_&#x200B;中的资产可增强内容生成过程，是准备生成元广告的关键步骤。
+在提示抽屉中添加&#x200B;_Parameters_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产可增强内容生成过程，是准备生成元广告的关键步骤。
 
 **要添加参数和资源**：
 
-1. 单击&#x200B;_参数_&#x200B;图标以展开提示区域。
+1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
 1. 在&#x200B;_参数_&#x200B;部分中，选择准则 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知内容创建。
 
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
@@ -50,7 +50,7 @@ ht-degree: 0%
    * 或者，将资产拖放到&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;部分以上传一个或多个新资产。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
-添加完参数后，可通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示区域。
+添加完参数后，您可以通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示抽屉。
 
 ## 输入提示
 

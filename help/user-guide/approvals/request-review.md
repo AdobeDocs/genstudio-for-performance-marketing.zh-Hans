@@ -2,7 +2,7 @@
 title: 请求审查和批准
 description: 请求审核。
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

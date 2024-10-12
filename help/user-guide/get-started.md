@@ -4,7 +4,7 @@ description: 了解如何设置GenStudio for Performance Marketing以生成新�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Adobe GenStudio for Performance Marketing是一个全面的平台，用于创建
 
 **编辑者**&#x200B;具有创建GenStudio for Performance Marketing [!DNL Brands]、[!DNL Campaigns]和[!DNL Content]资源所需的核心权限。 他们还可以编辑和删除自己创建的资产。 GenStudio for Performance Marketing支持快速创建数百个内容。 这些用户可生成内容部分或整个体验，这些部分或体验可编排已批准内容的离散片段，以满足特定营销活动的需求。
 
-编辑者通过&#x200B;_提示_&#x200B;与GenStudio for Performance Marketing创作AI技术交互。 画布中的提示区域提供了一些工具，用于在特定营销活动准则的上下文中放置提示。 因此，生成的内容的质量和成功部分取决于贵组织上传的品牌指南的质量以及提示的特定性。
+编辑者通过&#x200B;_提示_&#x200B;与GenStudio for Performance Marketing创作AI技术交互。 Canvas中的提示抽屉提供了一些工具，用于在特定营销活动准则的上下文中放置提示。 因此，生成的内容的质量和成功部分取决于贵组织上传的品牌指南的质量以及提示的特定性。
 
 请参阅[编写有效的提示](effective-prompts.md)。
 

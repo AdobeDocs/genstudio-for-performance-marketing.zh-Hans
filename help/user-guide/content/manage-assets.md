@@ -3,7 +3,7 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -36,7 +36,7 @@ AEM存储库是只读的，这意味着您不能将草稿、新资源或元数�
 
 ## Assets管理
 
-在[!UICONTROL Content]中，性能营销人员可以轻松地存储、检索和管理其数字资产。 通过同时利用`GenStudio assets`存储库和AEM存储库，用户可以确保其资源组织良好并可访问各种营销活动。 这种多存储库方法提供了跨环境使用资产的灵活性和控制力，确保在营销工作中仅使用经批准和最新的资产。
+在[!UICONTROL Content]中，Performance Marketing可以轻松地存储、检索和管理其数字资产。 通过同时利用`GenStudio assets`存储库和AEM存储库，用户可以确保其资源组织良好并可访问各种营销活动。 这种多存储库方法提供了跨环境使用资产的灵活性和控制力，确保在营销工作中仅使用经批准和最新的资产。
 
 ### 添加资源
 
@@ -66,7 +66,7 @@ AEM存储库是只读的，这意味着您不能将草稿、新资源或元数�
 
 1. 要查看您上传的新资源，请在画布底部的&#x200B;_可用新资源_&#x200B;通知中单击&#x200B;**[!UICONTROL 刷新]**。
 
-<!-- 
+<!--
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
