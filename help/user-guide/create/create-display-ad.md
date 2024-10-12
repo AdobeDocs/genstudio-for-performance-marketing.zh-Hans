@@ -1,11 +1,11 @@
 ---
 title: 创建显示广告体验
-description: 了解如何在Adobe [!DNL GenStudio] 中为性能营销人员创建显示广告体验。
+description: 了解如何在Adobe [!DNL GenStudio] 中为性能营销创建显示广告体验。
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示区域添加[准则](/help/user-guide/guidelines/overview.md)和&#x200B;_参数_&#x200B;中的资产会增加内容生成过程的开销，这是生成显示广告体验的一个必不可少的准备步骤。
+在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的开销，是生成显示广告体验的必要准备步骤。
 
 **要添加参数和资源**：
 
-1. 单击&#x200B;_参数_&#x200B;图标以展开提示区域。
+1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
 1. 在&#x200B;_参数_&#x200B;部分中，选择准则 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知内容创建。
 
-   如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio中以提供给性能营销人员](/help/user-guide/guidelines/add-guidelines.md)。
+   如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
    * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
@@ -50,7 +50,7 @@ ht-degree: 0%
    * 或者，将资产拖放到&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;部分以上传一个或多个新资产。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
-添加完参数后，再次单击&#x200B;_参数_&#x200B;图标以折叠提示区域。
+添加完参数后，再次单击&#x200B;_参数_&#x200B;图标以折叠提示抽屉。
 
 ## 输入提示
 

@@ -2,10 +2,10 @@
 title: Adobe GenStudio for Performance Marketing发行说明
 description: 了解Adobe GenStudio for Performance Marketing的最新功能和增强功能。
 recommendations: noDisplay
-source-git-commit: 9b5e8b37ba988c3dd4a1e5a828487997375474ac
+source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
@@ -13,6 +13,7 @@ ht-degree: 2%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 十月15日 {#latest}
+<!--
+## October 15 {#latest}
 
-待定
+TBD -->
