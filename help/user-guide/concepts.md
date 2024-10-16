@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing概念
 description: 了解Adobe GenStudio for Performance Marketing概念和术语。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 5a35f8b041e1da8e21db4bbd4e20ea7f9b4bb3c0
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ GenStudio for Performance Marketing是一款独立的企业产品，它体现了
 
 借助GenStudio for Performance Marketing，您可以：
 
-- 使用自然语言提示创建品牌上内容
-- 与利益相关者协作以审查和批准生成的内容
-- 保存生成和批准的内容以访问未来的营销活动
-- 使用有关营销活动和内容属性的见解评估内容性能
+* 使用自然语言提示创建品牌上内容
+* 与利益相关者协作以审查和批准生成的内容
+* 保存生成和批准的内容以访问未来的营销活动
+* 使用有关营销活动和内容属性的见解评估内容性能
 
 ## 创新型人工智能技术
 
@@ -28,6 +28,16 @@ GenStudio for Performance Marketing利用创新型人工智能的强大功能来
 首先，通过强大的品牌准则功能，有效地培训GenStudio for Performance Marketing有关您组织的品牌、客户角色和产品描述的信息。
 
 请参阅[准则概述](../user-guide/guidelines/overview.md)，了解如何准备和上传这些准则。
+
+## 数据治理
+
+在使用AI生成内容时，必须确保输出安全且包容所有用户。 这需要评估内容中潜在的有害偏见、仇恨言论、冒犯性材料或亵渎行为。 从多个角度进行彻底的测试、全面的道德操守审查以及执行有效的缓解计划，对于防止产出中出现有害内容非常重要。
+
+这一方针强化了社会责任，将名誉风险降至最低，并确保遵守Adobe的信任、安全和道德政策。
+
+GenStudio for Performance Marketing纳入了缓解计划，以防止根据数据治理标准和政策使用已识别的有害或偏见内容。 检测到此类内容时，您会意识到会使用“无法生成”消息阻止生成资源。
+
+出现此消息时，您可以编辑提示并重试&#x200B;_或_&#x200B;标记提示内容以供GenStudio for Performance Marketing审阅。 为内部审阅目的而收集标记为要审阅的内容的提示数据。
 
 ## 内容生命周期
 

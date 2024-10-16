@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 1. 选择&#x200B;**[!UICONTROL 添加角色]**&#x200B;按钮，然后选择&#x200B;**上传PDF**。
 1. 单击&#x200B;**[!UICONTROL 继续]**。
-1. 在添加角色弹出窗口中，附加或拖动您的角色文档(_A)。
+1. 在&#x200B;_添加您的角色_&#x200B;弹出窗口中，附加或拖动您的角色文档。
 
    您最多可以附加五个PDF文件，它们加起来最大为500 MG。
 
