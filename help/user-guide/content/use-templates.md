@@ -3,9 +3,9 @@ title: 使用模板
 description: 了解如何在Adobe GenStudio for Performance Marketing中有效地使用模板来简化您的创作过程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 3a361134a0b56a2973399e38e62f4ab345a3dbc8
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
    模板名称和渠道类型为必填项。 其他要求可能包括：
 
    - **Meta**：需要宽高比
-   <!-- - **Display ads**: requires Dimensions -->
+   - **显示广告**：需要Dimension
 
 1. 添加尽可能多的详细信息，以改进搜索和筛选中的模板识别。
 
