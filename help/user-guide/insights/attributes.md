@@ -2,9 +2,9 @@
 title: 属性概述
 description: 了解如何评估Adobe GenStudio for Performance Marketing中特定属性的性能。
 feature: Insights, Assets
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Select any of the following to open a detailed list of feature categories:
 
 ### 量度详细信息
 
-下表提供了[!UICONTROL 属性]视图中关键数字营销指标的定义和见解。 每个量度都包括与资产相关的简短定义、量度的计算方式以及一个或多个见解，以帮助了解其重要性及其对广告促销活动的影响。
+下表提供了[!UICONTROL 属性]表视图中关键数字营销指标的定义和见解。 每个量度都包括与资产相关的简短定义、量度的计算方式以及一个或多个见解，以帮助了解其重要性及其对广告促销活动的影响。
 
 | 量度 | 定义 | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
@@ -120,5 +120,6 @@ Select any of the following to open a detailed list of feature categories:
 | **[!UICONTROL 次点击]** | 用户与此属性相关的图像或视频交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
 | **[!UICONTROL CTR ]**<br>_点进率_ | 导致点击具有此属性的图像或视频的展示次数百分比(%)。<br>**计算**：`clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此属性的图像或视频的每1,000次广告展示的费用($)。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
+| **[!UICONTROL CPA ]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本($)。<br>**计算**：总金额`spent`除以已完成的客户操作数 | 帮助确定可导致客户采取重要行动的属性。 |
 | **[!UICONTROL CPC ]**<br>_每次点击成本_ | 与此属性相关的每次图像或视频点击的平均成本($)。<br>**计算**：总金额`spent`除以`clicks` | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
 | **[!UICONTROL 支出]** | 与指定时间段内的属性相关的预算支出金额($)。 | 在短时间内高支出量可能表示使用迅速，这可能导致资源提前耗尽。 根据关键绩效指标跟踪支出金额，以帮助监控总体投资回报。 |
