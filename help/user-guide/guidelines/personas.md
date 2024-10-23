@@ -3,9 +3,9 @@ title: GenStudio性能营销 [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] 真实地呈现了客户区段，并捕捉了他们的兴趣、痛点、偏好和行为特征。
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Personas]提供客户细分的真实描述，包括客户的信息、兴趣、痛点、偏好和行为特征。
 
 GenStudio for Performance Marketing利用准则（[[!DNL Brands]、 [!DNL Products]和 [!DNL Personas]](overview.md)）的强大功能以及Adobe的创作AI技术，为您的目标客户策划个性化的营销内容&#x200B;。
-
-GenStudio中的![[!DNL Personas]性能营销准则](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **要查看或修改角色**：
 
@@ -29,6 +27,8 @@ GenStudio中的![[!DNL Personas]性能营销准则](/help/assets/personas-guidel
 ## [!DNL Personas]指南
 
 个人角色指导原则为GenStudio绩效营销提供了您[!DNL Personas]的清晰图景。
+
+![角色准则](/help/assets/personas.png){width="600" zoomable="yes"}
 
 这些指南详细介绍了每个指南类别和相关示例。 这些示例是构成所生成内容输出的输入示例。 使用它们通知您自己的[!DNL Personas]指南。
 

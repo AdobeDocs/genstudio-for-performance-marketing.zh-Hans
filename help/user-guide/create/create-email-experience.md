@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 0%
 1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
 1. 在&#x200B;_参数_&#x200B;部分中，选择准则 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知内容创建。
 
+   ![选择角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
    * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
+
+     ![选择视觉内容](/help/assets/content-select-email.png){width="500" zoomable="yes"}
 
      若要使用已连接[!DNL AEM Assets Content Hub]存储库中的资源，请从&#x200B;_位置_&#x200B;下拉菜单中选择一个存储库。 筛选并选择一个或多个图像。
 
@@ -51,8 +55,8 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
 >[!NOTE]
->
 >如果您的电子邮件模板有多个分区，请为&#x200B;_多分区电子邮件_&#x200B;中的每个电子邮件分区选择[!DNL Products]和内容（可视资产）。 多节电子邮件支持每节一个可视资产。 您只能从[!DNL Content]向多节电子邮件添加可视资产，而不能从本地源拖放或上传资产。
+>![为每个电子邮件节](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}添加内容和参数
 
 添加完参数后，您可以通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示抽屉。
 
@@ -98,9 +102,15 @@ ht-degree: 0%
 **验证品牌一致性**：
 
 1. 单击变体的[**[!UICONTROL [!DNL Brand]准则检查]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)图标，并查看针对您的品牌检查该变体时的性能摘要。
+
+   ![品牌指南检查](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+
 1. 若要获取需要改进的部分和准则的详细信息，请单击&#x200B;**[!UICONTROL 查看]** _或_，单击顶部菜单栏中的“品牌验证”图标以打开&#x200B;[_品牌验证面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
 
 1. 切换每封电子邮件，了解如何改进生成的内容，使其更具品牌一致性。
+
+   ![品牌验证面板](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
+
 1. [手动修改电子邮件](#revise-generated-emails)以确保您的电子邮件与品牌紧密一致。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。

@@ -3,9 +3,9 @@ title: Adobe GenStudio中的品牌验证以进行性能营销
 description: 了解内置品牌验证系统如何在GenStudio中用于性能营销。
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ GenStudio绩效营销部从多个方面开展品牌验证，包括：
 * 为不同的渠道平台复制准则
 * 在人工智能生成的内容中，与性别、种族、种族、残疾状况和年龄相关的道德考量
 
-## 品牌指南检查
+## [!DNL Brand]准则检查
 
-可通过画布中每个变体旁边的&#x200B;_品牌指南检查_&#x200B;图标访问每个已生成内容变体的品牌验证信息摘要。
+可通过画布中每个变体旁边的&#x200B;_[!DNL Brand]准则复选_&#x200B;图标访问每个已生成内容变体的品牌验证信息摘要。
 
-_品牌准则检查_&#x200B;显示与您的[品牌](brands.md)的合规性百分比。 百分比计算方式为：通过验证的[准则](overview.md)与测试的准则数。
+_[!DNL Brand]准则检查_&#x200B;显示与您的[品牌](brands.md)的合规性百分比。 百分比计算方式为：通过验证的[准则](overview.md)与测试的准则数。
+
+![[!DNL Brand]准则检查](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
 
 单击图标可查看有多少条准则符合您的品牌，以及有多少条准则需要审查。
 
@@ -33,6 +35,8 @@ _品牌准则检查_&#x200B;显示与您的[品牌](brands.md)的合规性百分
 ## 品牌验证面板
 
 从顶部菜单栏&#x200B;_或_&#x200B;单击&#x200B;_品牌指南检查_&#x200B;图标中的变体时，_品牌验证_&#x200B;面板会在画布右侧打开。 此面板提供详细的品牌验证信息，并阐明每个变体部分的改进机会。
+
+![[!DNL Brand]验证面板](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
 
 _品牌验证_&#x200B;面板显示以下信息：
 

@@ -3,9 +3,9 @@ title: GenStudio性能营销 [!DNL Products]
 description: GenStudio for Performance Marketing [!DNL Products] 整合了产品的所有方面（图像、描述和价值主张），以创建相关内容来强调产品优势并保持产品消息传递的一致性。
 feature: Products Service, Guidelines
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 GenStudio中的[!DNL Products]用于性能营销，它利用对产品规格、优势和差异因素的深入了解来生成有影响力的内容。
 
 [!DNL Products]包含特定产品的所有元素，如图像、描述和价值主张，以创建有凝聚力的品牌呈现。 利用Adobe的高级AI技术，GenStudio for Performance Marketing准则（[[!DNL Brands]、 [!DNL Products]和 [!DNL Personas]](/help/user-guide/guidelines/overview.md)）共同生成引人注目的内容，展示您产品的强项，并确保所有消息传递的一致性。
-
-GenStudio中的![[!DNL Products]性能营销准则](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **要查看或修改产品**：
 
@@ -29,6 +27,8 @@ GenStudio中的![[!DNL Products]性能营销准则](/help/assets/products-guidel
 ## [!DNL Products]指南
 
 各个产品准则为GenStudio for Performance Marketing提供了对产品的清晰了解。
+
+![产品准则](/help/assets/products.png){width="600" zoomable="yes"}
 
 这些指南详细介绍了每个指南类别和相关示例。 这些示例是构成所生成内容输出的输入示例。 使用它们通知您的[!DNL Products]指南。
 

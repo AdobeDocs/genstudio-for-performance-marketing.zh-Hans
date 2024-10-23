@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,10 @@ ht-degree: 0%
    您可以填充各种可选准则和图像来构建您的品牌。
 
 1. 在&#x200B;_关于_&#x200B;部分中添加有关您品牌的信息。
-1. 输入&#x200B;[_品牌语音准则_](brands.md#brand-voice-guidelines)。
+1. 输入[_[!DNL Brand]语音准则&#x200B;_](brands.md#brand-voice-guidelines)。
+
+   ![添加[!DNL Brand]语音准则](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+
 1. 为每个适用的渠道输入&#x200B;[_渠道准则_](brands.md#channel-guidelines)。
 1. 输入&#x200B;[_图像指南_](brands.md#image-guidelines)。 展开“图像准则”部分中的每个类别，查看所有准则。
 
@@ -101,7 +104,9 @@ ht-degree: 0%
 
 在左侧导航区域中，单击&#x200B;**[!DNL Products]**。 在&#x200B;_[!DNL Products]_面板中，选择&#x200B;**添加产品**。
 
-您可以在GenStudio for Performance Marketing中添加[!DNL Products]，以在创建内容时指定各个产品重点区域。<!-- Add Rename, display, reposition functionality -->
+![添加[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+
+您可以在GenStudio for Performance Marketing中添加[!DNL Products]，以在创建内容时指定各个产品重点区域。
 
 请参阅[[!DNL Products]](products.md)。
 
@@ -212,7 +217,10 @@ ht-degree: 0%
 
    您可以填充各种可选准则和图像来构建您的角色。
 
-1. 在&#x200B;_描述_&#x200B;部分中添加有关您品牌的信息。
+1. 在&#x200B;_描述_&#x200B;部分中添加有关[!DNL Persona]的信息。
+
+   ![添加[!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
+
 1. 单击&#x200B;**[!UICONTROL 新角色名称]**&#x200B;并输入[!DNL Persona]的名称。
 1. 单击&#x200B;_描述_&#x200B;并输入此[!DNL Persona]的描述。
 1. 单击&#x200B;_消息首选项_&#x200B;并输入[!DNL Persona]的消息详细信息。

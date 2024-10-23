@@ -3,7 +3,7 @@ title: ' [!DNL Brands]、 [!DNL Products]和 [!DNL Personas]的概述'
 description: 将 [!DNL Brands], [!DNL Products], and [!DNL Personas] 添加到GenStudio以进行性能营销，以创建全面的品牌配置文件，该配置文件包含品牌的所有呈现方式。
 feature: Guidelines, Brands Service, Personas Service, Products Service
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

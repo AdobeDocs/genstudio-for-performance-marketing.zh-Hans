@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 ## 输入提示
 
 选择准则后，使用自然语言制作提示，开始为新的显示广告体验生成内容。 为了提高生成的显示广告体验的质量，制作详细的描述性提示至关重要。
+
+![输入提示](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 请参阅[编写有效提示](/help/user-guide/effective-prompts.md)，了解有关编写提示的详细信息。
 
@@ -115,6 +117,11 @@ When revising and preparing email experiences, you can toggle between previews f
 若要使生成的显示广告可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
 
 1. **要发布您的新显示广告体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL Publish]**。
+   1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_并添加_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
+   1. 单击&#x200B;**[!UICONTROL 发布]**。
+
+      ![Publish显示广告](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+
 1. **要导出您的新显示广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
    1. 选择格式(仅JPG)，然后单击&#x200B;**[!UICONTROL 导出]**。
 

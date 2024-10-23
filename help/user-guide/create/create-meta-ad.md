@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 0%
 1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
 1. 在&#x200B;_参数_&#x200B;部分中，选择准则 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知内容创建。
 
+   ![选择角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
    * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
+
+     ![选择视觉内容](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      若要使用已连接[!DNL AEM Assets Content Hub]存储库中的资源，请从&#x200B;_位置_&#x200B;下拉菜单中选择一个存储库。 筛选并选择一个或多个图像。
 
@@ -102,6 +106,8 @@ ht-degree: 0%
 1. 单击变体的[**[!UICONTROL [!DNL Brand]准则检查]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)图标，并查看针对您的品牌检查该变体时的性能摘要。
 1. 若要获取需要改进的部分和准则的详细信息，请单击&#x200B;**[!UICONTROL 查看]** _或_，单击顶部菜单栏中的“品牌验证”图标以打开&#x200B;[_品牌验证面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
 
+   ![品牌验证面板](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+
 1. 切换每个广告，了解如何改进生成的内容以使内容更具品牌一致性。
 1. [手动修改广告](#revise-generated-meta-ads)以确保您的广告与品牌紧密一致。
 
@@ -114,6 +120,9 @@ ht-degree: 0%
 **要获得审阅和批准**：
 
 1. [启动审批请求](/help/user-guide/approvals/request-review.md)以请求[审批草拟的元广告体验](/help/user-guide/approvals/approve-content.md)。
+
+   ![发送草稿以供审阅和审批](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
+
 1. [在审阅过程中删除或添加审阅人](/help/user-guide/approvals/review-and-edit.md#manage-approvals)。
 1. [访问内容以供审阅](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)并查看修订请求。
 1. 编辑每个审阅评论的草稿并[发布您的元广告体验](#publish-and-export-experience)。
