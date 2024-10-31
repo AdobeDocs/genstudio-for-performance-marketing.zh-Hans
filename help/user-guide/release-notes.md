@@ -2,9 +2,9 @@
 title: Adobe GenStudio for Performance Marketing发行说明
 description: 了解 Adobe GenStudio 性能营销的最新功能和增强功能。
 recommendations: noDisplay
-source-git-commit: c3e6e5f4213074b4093591ac06e8341c9d46c212
+source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '369'
 ht-degree: 5%
 
 ---
@@ -13,7 +13,25 @@ ht-degree: 5%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2024.10.14正式发布版本 {#latest}
+## 2024.10.31  {#latest}
+
+### 新增功能
+
+* **[!DNL Content]**&#x200B;搜索筛选器现在支持按颜色标记搜索。 <!-- GS-5501 -->
+
+* **[!DNL Create]**&#x200B;画布现在显示电子邮件片段的字符数。<!-- GS-5819 -->
+
+### 修复
+
+* 缺少的屏幕阅读器标签已添加到移动设备和桌面`view`元素中。<!-- GS-5624 4729 -->
+
+* **[!DNL Create]**&#x200B;画布电子邮件主题行和预标题文本区域的高度现在为动态的。<!-- GS-6258 -->
+
+* 电子邮件边框的布局问题已得到解决。<!-- GS-6631 -->
+
+* 在&#x200B;**[!DNL Content]** **[!UICONTROL 删除]**&#x200B;按钮上，键盘焦点现在可以按预期工作。 以前，键盘无法访问或操作此按钮。  <!-- GS-4065 -->
+
+## 2024.10.14正式发布版本
 
 此发行版本引入了Adobe GenStudio for Performance Marketing，这是一个基于人工智能的创新型应用程序，可加快营销活动的规划、开发和分析。 GenStudio for Performance Marketing使营销团队能够为广告、电子邮件和营销活动创建基于品牌的多渠道内容，同时提供实时见解以优化内容性能。
 
