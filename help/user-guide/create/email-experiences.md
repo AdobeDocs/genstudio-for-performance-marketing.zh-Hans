@@ -4,9 +4,9 @@ description: 了解Adobe GenStudio for Performance Marketing中的电子邮件�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,9 @@ Content creators and marketers can produce brand-consistent email experiences in
 1. 标题、电子邮件正文（用于单节电子邮件）和行动号召
 1. 后续部分的电子邮件正文（用于多部分电子邮件）
 1. 进行品牌验证过程，并且针对每个变体填充&#x200B;[_品牌指南检查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)。
+
+## 字符数
+
+生成一组电子邮件变体后，您可以看到为每个电子邮件部分显示的字符数。 将鼠标悬停在生成的部分（如主题行或正文）上或单击该部分，可查看该部分的名称和字符计数。
+
+![字符数](/help/assets/character-count.png){width="500" zoomable="yes"}
