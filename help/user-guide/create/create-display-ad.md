@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
+source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -124,5 +124,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 1. **要导出您的新显示广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
    1. 选择格式(仅JPG)，然后单击&#x200B;**[!UICONTROL 导出]**。
+
+      导出的HTML应放置在预定义的Web属性中，如模板或`div`容器。 如果没有这些设定的尺寸，独立查看图像时可能会出现扭曲。
 
 请参阅[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
