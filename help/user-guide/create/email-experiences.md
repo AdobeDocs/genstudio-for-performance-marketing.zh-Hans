@@ -4,9 +4,9 @@ description: 了解Adobe GenStudio for Performance Marketing中的电子邮件�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的电子邮件体验](/help/user-guide/create/create-email-experience.md)。
 
 [!DNL Create]使现代营销人员能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[精心编制的提示](/help/user-guide/effective-prompts.md)来快速[创建与品牌一致的电子邮件体验](/help/user-guide/create/create-email-experience.md)。
+
+在生成元体验时，会在画布中创建和显示四个变量。
 
 电子邮件体验的可编辑部分包括：
 
