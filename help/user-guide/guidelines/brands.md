@@ -1,32 +1,36 @@
 ---
-title: GenStudio性能营销 [!DNL Brands]
-description: GenStudio for Performance Marketing [!DNL Brands] 是一个全面的品牌资源集合，包括营销文案、图像、体验等，可用于指导创建品牌一致的内容。
+title: GenStudio for Performance Marketing [!DNL Brands]
+description: GenStudio for Performance Marketing [!DNL Brands] 是一系列全面的品牌资产，包括营销文案、图像、体验等，可用于指导创建品牌一致的内容。
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
-# GenStudio性能营销[!DNL Brands]
+# GenStudio for Performance Marketing [!DNL Brands]
 
 品牌可将组织、产品、服务或概念与其他人区分开来。 品牌的某些方面是客观的，如商标，而其他方面则是主观的，如语调。
 
 GenStudio for Performance Marketing使用来自您品牌的丰富品牌信息，与[!DNL Product]和[!DNL Persona]信息合作，并构建全面的品牌标识。 此品牌标识用于指导使用Adobe的创作AI技术创作on-brand内容。
 
-**要查看或修改品牌**：
+## 管理[!DNL Brands]
 
-1. 在左侧导航区域中，单击&#x200B;**[!UICONTROL [!DNL Brands]]**。
-1. 要查看品牌的概述信息，请单击以打开已定义的品牌。
-1. 要查看个人详细信息或修改品牌，请单击顶部的[**[!UICONTROL 品牌语音指南]**](#brand-voice-guidelines)、[**[!UICONTROL 渠道指南]**](#channel-guidelines)、**[!UICONTROL 图像指南]**&#x200B;或&#x200B;**[!UICONTROL 徽标]**。
+将品牌准则添加到GenStudio for Performance Marketing后，您可以[管理](/help/user-guide/guidelines/add-guidelines.md#manage-brands)和[发布](/help/user-guide/guidelines/add-guidelines.md#publish-brand)它们。 发布功能后，您的团队便可在生成资产时使用它们。
 
-您可以将品牌准则文档(最多三个PDF或DOC文件)上传到GenStudio以进行性能营销，从而自动创建品牌。 请参阅[添加准则](add-guidelines.md)，了解如何向GenStudio添加品牌以进行性能营销、修改和发布等。
+[!DNL Brands]可以处于&#x200B;_草稿_&#x200B;或&#x200B;_已发布_&#x200B;状态。 新[!DNL brands]开始为&#x200B;_草稿_。
+
+您必须发布[!DNL brand]才能使其可供团队生成资源。
+
+可以编辑已发布的[!DNL brands]，更改立即可用。 仅已发布的[!DNL brands]可用于创建和验证内容。
+
+已删除的[!DNL brands]将存档30天，可以在此期间恢复。
 
 ## [!DNL Brands]指南
 
-准则为GenStudio绩效营销提供了品牌特定方法、语调、视觉感受等的清晰描述。
+准则为GenStudio for Performance Marketing提供了您特定于品牌的方法、语调、视觉感受等的清晰描述。
 
 ![品牌指南](/help/assets/brands.png){width="600" zoomable="yes"}
 
