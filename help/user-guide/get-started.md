@@ -4,9 +4,9 @@ description: 了解如何开始使用GenStudio for Performance Marketing以生�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
+source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ GenStudio for Performance Marketing使用有关您的品牌和市场的信息来
 
 * 避免冗余。 您可能想多次重复一个指令，但准则中的冗余不能帮助底层LLM捕获和实施您的品牌准则。
 
-* 确定您希望LLM在内容生成过程中排除的元素（例如，文本中的感叹号）
+* 标识您希望LLM在内容生成过程中排除的元素（例如，文本中的感叹号）。
 
 您可以上传准则文档，或在将信息手动输入到GenStudio for Performance Marketing中时查阅这些文档。 有关上载或输入此信息的指导，请参阅[添加准则](./guidelines/overview.md)。
 
@@ -49,16 +49,28 @@ GenStudio for Performance Marketing使用有关您的品牌和市场的信息来
 
 GenStudio系统管理员可以通过手动输入或上传您组织的特定品牌要求来准备产品的基础创作AI框架。 虽然设置组织的品牌指南是一次性操作，但您可以根据组织的波动、增长和不断变化的市场环境来修订和增强这些指南。
 
-### 步骤2：上传模板
+## 步骤2：为GenStudio [!DNL Brands]设置Adobe Admin Console项目
+
+系统管理员必须先完成其他设置任务，协作者才能编辑或创建[!DNL Brands]。 Adobe系统管理员在Adobe Admin Console中执行以下任务：
+
+* 创建一个包含所有需要编辑和创建[!DNL Brands]权限的用户的新用户组。
+
+* 在Adobe Admin Console中创建新项目。
+
+请参阅[分配品牌权限](configure-brand-permissions.md)。
+
+### 步骤3：上传模板
 
 模板可加快内容创建。 模板包含已获批准的功能（如页眉和页脚），并已针对特定渠道进行了优化。 系统管理员通常为其组织上传和管理模板。 内容编辑器使用模板在组织品牌的既定范围内快速启动内容创建过程。
 
-有关自定义和上传模板的说明，请参阅[使用模板](./content/use-templates.md)。
+请参阅[使用模板](./content/use-templates.md)。
 
-### 步骤3：上传已批准的资产
+### 步骤4：上传已批准的资产
 
-[!DNL Content]中批准的资源可供所有GenStudio for Performance Marketing编辑者使用。 您可以使用资源填充[!DNL Content]，以供内容编辑者在创建新体验或资源时使用。 有关上传和管理资产的指导，请参阅[上传已批准的资产](./content/manage-assets.md)。
+[!DNL Content]中批准的资源可供所有GenStudio for Performance Marketing编辑者使用。 您可以使用资源填充[!DNL Content]，以供内容编辑者在创建新体验或资源时使用。
 
-### 步骤4：连接到元(Facebook)帐户
+请参阅[上传已批准的资产](./content/manage-assets.md)。
+
+### 步骤5：连接到元(Facebook)帐户
 
 在GenStudio for Performance Marketing与贵组织的社交帐户之间配置连接，以接收来自有效营销活动、资源和体验的数据。 [[!DNL Insights]](./insights/overview.md)提供了用于分析渠道派生数据的工具。 请参阅[连接到元(Facebook)帐户](./insights/connect-channel.md#meta-ads-connect)。
