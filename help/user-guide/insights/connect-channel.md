@@ -4,9 +4,9 @@ description: 连接渠道帐户以监控您的Adobe GenStudio for Performance Ma
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 7b3ecc1964df3d5a3fdc5c32b1e5c80f29133560
+source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing会将渠道数据保留13个月。 此保留
 
 **在GenStudio for Performance Marketing中连接元广告帐户**：
 
-1. 在&#x200B;_[!DNL Insights]_中，单击&#x200B;**[!UICONTROL 连接渠道帐户]**。
+1. 在&#x200B;_[!DNL Insights]_中，单击横幅中的&#x200B;**[!UICONTROL 连接渠道帐户]**或单击右上角的&#x200B;**[!UICONTROL 添加帐户]**按钮（带加号的人员形状）。
 
    系统可能会引导您登录Facebook。 facebook是目前唯一可用的选项。
 
