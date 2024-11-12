@@ -3,9 +3,11 @@ title: 属性类别
 description: 了解GenStudio for Performance Marketing中使用的属性类别。
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 1%
 
 属性类别是组织具有共同特征的相关属性的分类组。 这些类别通过提供更丰富的上下文并方便其应用和使用，有助于简化对特定属性的发现、识别和理解。
 
-GenStudio for Performance Marketing使用Adobe的AI和机器学习功能来研究图像、视频和文本，并根据置信度级别应用[!UICONTROL 资产属性]。 _置信度_&#x200B;指的是AI分配给预测或分类的概率。 在机器学习的语境下，它是一种衡量AI对分类正确性的“信心”程度的评分。 置信度得分越高，确定性就越大。 例如，在分析图像时，AI可以识别多个特征，并为每个特征分配一个分数，这表示特征正确的信心程度。 资产的属性列表并非详尽无遗。 包含丰富功能集的Assets可以限制为置信度阈值，例如已识别的三个最主要特征。
+GenStudio for Performance Marketing使用Adobe的AI和机器学习功能来研究图像、视频和文本，并根据正确概率应用[!UICONTROL 资产属性]。 资产的属性列表并非详尽无遗。 包含丰富功能集的Assets可能仅限于AI确定的三个最主要功能。
 
 ## 图像特征
 
