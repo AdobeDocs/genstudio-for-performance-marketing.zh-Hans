@@ -4,9 +4,9 @@ description: 了解配置GenStudio for Performance Marketing产品。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/
 >[!NOTE]
 >
 >只有Adobe系统管理员可以实施需要Adobe Admin Console访问权限的启用任务。
+
+>[!IMPORTANT]
+>
+>请勿添加新产品配置文件，也不编辑或删除现有产品配置文件。 更改默认产品配置文件可能会严重干扰GenStudio for Performance Marketing部署。
 
 ## 步骤1：访问Adobe Admin Console中的产品配置文件
 

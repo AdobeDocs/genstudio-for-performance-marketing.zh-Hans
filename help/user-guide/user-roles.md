@@ -4,9 +4,9 @@ description: 了解GenStudio for Performance Marketing用户角色和权限。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 1%
 ## 权利
 
 _授权_&#x200B;授予执行特定任务以及访问受保护资源的权限。 权利或权限在产品配置文件的用户角色中定义，用户会在分配给该角色时收到这些权利。
+
+>[!IMPORTANT]
+>
+>请勿添加新产品配置文件，也不编辑或删除现有产品配置文件。 更改默认产品配置文件可能会严重干扰GenStudio for Performance Marketing部署。
 
 ## 用户角色
 
