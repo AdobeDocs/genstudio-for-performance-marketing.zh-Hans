@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 向GenStudio for Performance Marketing添加准则是创建过程中的重要步骤。 准则告知内容创建过程，以及用户定义的提示和Adobe创作AI技术，以制作有影响力的资源。
 
+{{in-academy}}
+
 ## 添加[!DNL Brands]
 
 要添加品牌，[上载品牌指南](#upload-a-brand)或[通过选择指南并输入品牌详细信息手动创建品牌](#manually-add-brand)。 [将品牌](#publish-brand)Publish到[!DNL Content]以使其可用于未来生成内容。
@@ -27,6 +29,7 @@ ht-degree: 0%
 在左侧导航区域中，单击&#x200B;**[!DNL Brands]**。 在&#x200B;_[!DNL Brands]_面板中，选择&#x200B;**添加品牌**。
 
 >[!TIP]
+>
 >每个品牌独立运作，没有层级关系。 要在父品牌下创建子品牌，请在创建过程中包含父品牌的信息。
 
 ### 上传品牌
