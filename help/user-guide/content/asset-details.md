@@ -3,9 +3,9 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,19 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 ## 在Express中编辑
 
 您可以使用Adobe Express直接在GenStudio for Performance Marketing中编辑图像资源(JPG或PNG)。 _[!UICONTROL Powered byAdobe Express]_&#x200B;画布提供了方便的功能，无需离开GenStudio应用程序即可增强图像。 可以轻松删除背景、应用创成填充、调整效果和裁切图像。
+
+>[!BEGINSHADEBOX]
+
+使用[!DNL Edit in Adobe Express]功能增强图像的条件：
+
+- 支持的MIME类型包括`image/png`和`image/jpeg`
+- 最小图像尺寸为50x50像素
+- 图像最大尺寸为8000x8000像素
+- 最大大小为40MB（40,000,000字节）
+
+>[!ENDSHADEBOX]
+
+**使用Express**&#x200B;编辑资源：
 
 1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
 
@@ -91,7 +104,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已添加到GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已添加到GenStudio for Performance Marketing以供使用 |
 | 渠道 | GenStudio for Performance Marketing中用于资源的内容类型，如电子邮件和元广告 |
-| 时间范围 | 资产使用的时间范围，如季度、季度、年份等。 示例： `Winter 2023` |
+| 时间范围 | 使用资产的时间范围，如季度、季度、年度等。 示例： `Winter 2023` |
 | 区域 | 使用资产的区域。 示例： `North America`，`APAC`，`Italy` |
 | 语言 | 资源使用的语言。 示例： `Spanish` |
 | 关键字 | 用于进一步标识资产特征和用途的关键字 |
