@@ -1,11 +1,12 @@
 ---
 title: Adobe GenStudio for Performance Marketing发行说明
-description: 了解 Adobe GenStudio 性能营销的最新功能和增强功能。
+description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增强功能。
 recommendations: noDisplay
-source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
+exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
+source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '817'
+ht-degree: 2%
 
 ---
 
@@ -13,9 +14,35 @@ ht-degree: 3%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2024.11.07 {#latest}
+## 2024.11.14 {#latest}
 
-### 修复
+### 新增功能
+
+增加了对富媒体模板的支持，使客户能够重复使用已通过其自己的受管内容渠道发布的资产。<!-- GS-6107 -->
+
+### 修复和增强功能
+
+* 在用于生成初始内容的浏览器以外的浏览器中调整大小时，草稿现在会按预期加载。<!-- GS-7204 -->
+
+* 现在，所有字符在导出的HTML中均可正确显示。<!-- GS-7246 -->
+
+* 在某些语言中，[!DNL Content] _体验_ **[!UICONTROL 导出]**&#x200B;弹出窗口上的按钮不再被截断。<!-- GS-6873 -->
+
+* 现在，使用大小为50x50的模板创建的显示广告会以预期的图像大小导出。 以前，导出的PNG文件以预期尺寸的两倍输出。<!-- GS-7192 -->
+
+* 现在可以解决调整显示广告大小时发生的模板错误。<!-- GS-7322 -->
+
+### 本地化
+
+此版本包括对整个UI的本地化的改进，包括：
+
+* [!DNL Content] _上传资产_&#x200B;弹出窗口中的所有字符串现在都已正确本地化。<!-- GS-6872 6770 -->
+* [!DNL Content] _Assets_&#x200B;视图&#x200B;**[!UICONTROL 搜索]**&#x200B;字段中的所有工具提示都已本地化。<!-- GS-6879 -->
+* 替换[!DNL Create]画布上的电子邮件变体中的现有图像时，_从内容中选择_&#x200B;视图现在已本地化。<!-- GS-6906 -->
+
+## 2024.11.07
+
+### 修复和增强功能
 
 * 当用户单击&#x200B;**[!UICONTROL 上传新图像]**&#x200B;然后在上传完成之前取消操作时，_正在保存_&#x200B;旋转图标不再显示。<!-- GS-6780 -->
 
@@ -31,7 +58,7 @@ ht-degree: 3%
 
 * 用户现在可以单独通过键盘控制所有元和模板交互元素。<!-- GS-4066 -->
 
-* 添加了从模板图像字段提取图像维度以显示广告模板的功能。 智能裁剪请求现在针对图像的实际维度而不是整个模板发送。 <!-- GS-6926 -->
+* 将图像维度从模板图像字段提取添加到显示广告模板。 智能裁剪请求现在针对图像的实际维度而不是整个模板发送。 <!-- GS-6926 -->
 
 * 已本地化生成的电子邮件和元广告中的`Zoom to fit to screen`字符串。<!-- GS-5063 -->
 
@@ -65,7 +92,7 @@ ht-degree: 3%
 
 * **[!DNL Create]**&#x200B;画布现在显示电子邮件片段的字符数。<!-- GS-5819 -->
 
-### 修复
+### 修复和增强功能
 
 * 缺少的屏幕阅读器标签已添加到移动设备和桌面`view`元素中。<!-- GS-5624 4729 -->
 
@@ -101,4 +128,4 @@ GenStudio for Performance Marketing与其他Adobe Experience Cloud产品集成�
 
 * [Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
 
-* [Adobe GenStudio Academy](genstudioacademy.md)，Adobe在线学习平台，用于在创作过程中使用创意AI技术。 [注册GenStudio学院](http://adobe.ly/genstudioacademyregistration)。
+* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，Adobe在线学习平台，用于在创作过程中使用创意AI技术。
