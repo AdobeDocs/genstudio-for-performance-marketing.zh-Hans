@@ -1,13 +1,13 @@
 ---
 title: Adobe GenStudio for Performance Marketing入门
-description: 了解如何开始使用GenStudio for Performance Marketing以生成新的品牌整合营销内容。
+description: 了解如何使用 GenStudio for Performance Marketing 来生成新的与品牌一致的营销内容。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
 source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
