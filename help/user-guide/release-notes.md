@@ -2,10 +2,11 @@
 title: Adobe GenStudio for Performance Marketing发行说明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增强功能。
 recommendations: noDisplay
+last-substanial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
+source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 2%
 
 ### 新增功能
 
-增加了对富媒体模板的支持，使客户能够重复使用已通过其自己的受管内容渠道发布的资产。<!-- GS-6107 -->
+增加了对富媒体模板的支持，使客户能够重用已通过其自己的受管内容渠道发布的资产。<!-- GS-6107 -->
 
 ### 修复和增强功能
 
@@ -28,7 +29,7 @@ ht-degree: 2%
 
 * 在某些语言中，[!DNL Content] _体验_ **[!UICONTROL 导出]**&#x200B;弹出窗口上的按钮不再被截断。<!-- GS-6873 -->
 
-* 现在，使用大小为50x50的模板创建的显示广告会以预期的图像大小导出。 以前，导出的PNG文件以预期尺寸的两倍输出。<!-- GS-7192 -->
+* 现在，使用大小为50x50的模板创建的显示广告会以预期的图像大小导出。 以前，PNG文件的导出尺寸是预期尺寸的两倍。<!-- GS-7192 -->
 
 * 现在可以解决调整显示广告大小时发生的模板错误。<!-- GS-7322 -->
 
@@ -40,7 +41,9 @@ ht-degree: 2%
 * [!DNL Content] _Assets_&#x200B;视图&#x200B;**[!UICONTROL 搜索]**&#x200B;字段中的所有工具提示都已本地化。<!-- GS-6879 -->
 * 替换[!DNL Create]画布上的电子邮件变体中的现有图像时，_从内容中选择_&#x200B;视图现在已本地化。<!-- GS-6906 -->
 
-## 2024.11.07
+## 早期发行说明
+
++++2024.11.07版注释
 
 ### 修复和增强功能
 
@@ -84,7 +87,9 @@ ht-degree: 2%
 
 * 在调整元广告图像大小后重新生成它们不再会导致错误。 以前，在重新生成之前调整图像大小会将渠道元数据从`meta`更改为`facebook`。<!-- GS-7042 -->
 
-## 2024.10.31
++++
+
++++2024.10.31版注释
 
 ### 新增功能
 
@@ -122,10 +127,4 @@ ht-degree: 2%
 
 GenStudio for Performance Marketing与其他Adobe Experience Cloud产品集成，包括Adobe Express和AdobeAEM Assets。
 
-### 其他信息
-
-请参阅以下有用资源：
-
-* [Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
-
-* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，Adobe在线学习平台，用于在创作过程中使用创意AI技术。
++++
