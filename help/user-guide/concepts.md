@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing概念
 description: 了解Adobe GenStudio for Performance Marketing概念和术语。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: e8a210a22856683f7d61c5309c451689e445c8fe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -16,26 +16,33 @@ GenStudio for Performance Marketing是一款独立的企业产品，它体现了
 
 借助GenStudio for Performance Marketing，您可以：
 
-* 使用自然语言提示创建品牌上内容
+* 使用最优先的数字渠道的自然语言提示创建品牌内内容，例如付费媒体、电子邮件和显示广告
+
 * 与利益相关者协作以审查和批准生成的内容
 * 保存生成和批准的内容以访问未来的营销活动
-* 使用有关营销活动和内容属性的见解评估内容性能
+* 通过分析资产绩效和确定绩效最佳内容的关键属性，评估内容有效性
 
 ## 创新型人工智能技术
 
 GenStudio for Performance Marketing利用创新型人工智能的强大功能来加快内容创建过程并确保高质量内容生成。 创意资产的迭代生命周期会产生越来越准确且与品牌一致的内容，从而引起目标受众的共鸣。
 
-首先，通过强大的品牌准则功能，有效地培训GenStudio for Performance Marketing有关您组织的品牌、客户角色和产品描述的信息。 请参阅[准则概述](../user-guide/guidelines/overview.md)，了解如何准备和上传这些准则。
+首先通过强大的品牌准则功能引入组织的品牌、客户角色和产品描述。 请参阅[准则概述](../user-guide/guidelines/overview.md)，了解如何准备和上传这些准则。
 
 {{in-academy}}
 
+## 大型语言模型
+
+GenStudio for Performance Marketing利用Adobe的创新型人工智能平台，该平台提供基础人工智能和机器学习(ML)服务。 此平台简化了大型语言模型(LLM)的使用，为Adobe的GenAI功能提供支持，以创建引人入胜的体验。
+
+GenStudio for Performance Marketing通过Azure OpenAI使用GPT系列第三方LLM。<!-- Claude, and Gemini models. -->
+
 ## 数据治理
 
-在使用AI生成内容时，必须确保输出安全且包容所有用户。 这需要评估内容中潜在的有害偏见、仇恨言论、冒犯性材料或亵渎行为。 从多个角度进行彻底的测试、全面的道德操守审查以及执行有效的缓解计划，对于防止产出中出现有害内容非常重要。
+在使用AI生成内容时，必须确保输出安全且包容所有用户。 这需要评估内容中潜在的有害偏见、仇恨言论、冒犯性材料或亵渎行为。 Adobe从多个角度彻底测试内容生成技术，执行全面的道德审查，并实施有效的缓解计划，以防止在产出中出现有害内容。
 
-这一方针强化了社会责任，将名誉风险降至最低，并确保遵守Adobe的信任、安全和道德政策。
+此方法可强化社会责任，最大限度地降低信誉风险，并确保遵守[Adobe的信任与安全及道德政策](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf)。
 
-GenStudio for Performance Marketing纳入了缓解计划，以防止根据数据治理标准和政策使用已识别的有害或偏见内容。 检测到此类内容时，您会意识到会使用“无法生成”消息阻止生成资源。
+GenStudio for Performance Marketing纳入了缓解计划，以防止根据每个Adobe的数据治理标准和政策使用已识别的有害或偏见内容。 检测到此类内容时，您会意识到会使用“无法生成”消息阻止生成资源。
 
 出现此消息时，您可以编辑提示并重试&#x200B;_或_&#x200B;标记提示内容以供GenStudio for Performance Marketing审阅。 为内部审阅目的而收集标记为要审阅的内容的提示数据。
 
