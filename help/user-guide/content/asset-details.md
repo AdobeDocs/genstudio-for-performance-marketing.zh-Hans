@@ -3,9 +3,9 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
+source-git-commit: 7cb19de7f1fe61465046b0d27a528c2f5e1a4d5e
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -26,50 +26,15 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
    >
    >如果&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分不可见，请单击&#x200B;**[!UICONTROL 信息]** (i)图标。
 
-   资源详细信息包括在创建或上传过程中应用的元数据。 资源元数据类型包括[系统元数据](#system-metadata)和[用户定义的元数据](#user-defined-metadata)。
+资源详细信息包括在创建或上传过程中应用的元数据。 资源元数据类型包括[系统元数据](#system-metadata)和[用户定义的元数据](#user-defined-metadata)。
+
+以下图像资产包含描述文件类型、大小和其他特征的系统元数据、一个用户定义的关键字以及多个AI检测到的属性和颜色。
+
+具有多个标记的资源的![详细信息](/help/assets/content-asset-details.png)
 
 >[!NOTE]
 >
 >AEM存储库中的Assets显示不同的元数据。 请参阅[配置资源可见性](connect-aem-repo.md#step-4-configure-asset-visibility)以了解如何配置[!DNL AEM Assets Content Hub]资源详细信息。
-
-## 在Express中编辑
-
-您可以使用Adobe Express直接在GenStudio for Performance Marketing中编辑图像资源(JPG或PNG)。 _[!UICONTROL Powered byAdobe Express]_&#x200B;画布提供了方便的功能，无需离开GenStudio应用程序即可增强图像。 可以轻松删除背景、应用创成填充、调整效果和裁切图像。
-
->[!BEGINSHADEBOX]
-
-使用[!DNL Edit in Adobe Express]功能增强图像的条件：
-
-- 支持的MIME类型包括`image/png`和`image/jpeg`
-- 最小图像尺寸为50x50像素
-- 图像最大尺寸为8000x8000像素
-- 最大大小为40MB（40,000,000字节）
-
->[!ENDSHADEBOX]
-
-**使用Express**&#x200B;编辑资源：
-
-1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
-
-1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 在Adobe Express中编辑]**&#x200B;图标。
-
-1. 在&#x200B;_[!UICONTROL Powered byAdobe Express]_&#x200B;画布中，使用左侧面板上的Express控件增强图像。
-
-1. 如果对更新的图像满意，请单击右上角的&#x200B;**[!UICONTROL 保存副本]**。
-
-1. 选择文件格式(JPG或PNG)，然后单击&#x200B;**[!UICONTROL 保存副本]**。
-
-1. 在&#x200B;_[!UICONTROL 保存资产]_&#x200B;的副本弹出窗口中，更新&#x200B;**[!UICONTROL 资产名称]**。
-
-   - 选择&#x200B;**[!UICONTROL 与原始资产相同的详细信息]**&#x200B;以将资产详细信息结转到新图像。
-
-   - 展开&#x200B;**[!UICONTROL 更多详细信息]**&#x200B;部分以更新营销活动、准则和其他元数据。
-
-   >[!TIP]
-   >
-   >您提供的详细信息越多，就越能体验GenStudio for Performance Marketing的强大功能。 从列表中选择一个或多个详细信息，或在适用的情况下输入新详细信息，例如使用关键字。 您添加的每个详细信息都显示在列表下方。 单击&#x200B;**`x`**&#x200B;可删除详细信息。
-
-1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 系统元数据
 
@@ -107,7 +72,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 | 时间范围 | 使用资产的时间范围，如季度、季度、年度等。 示例： `Winter 2023` |
 | 区域 | 使用资产的区域。 示例： `North America`，`APAC`，`Italy` |
 | 语言 | 资源使用的语言。 示例： `Spanish` |
-| 关键字 | 用于进一步标识资产特征和用途的关键字 |
+| 关键字 | 用于进一步标识资产特征和用途的用户定义关键字 |
 
 <!-- ## History
 

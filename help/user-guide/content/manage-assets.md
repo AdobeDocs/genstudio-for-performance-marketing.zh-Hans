@@ -3,9 +3,9 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
+source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,57 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品牌批准资源的管理，以便在您的数字营销历程中使用和重复使用。
 
-## Assets图库
+## 内容库
 
-[!UICONTROL Assets]图库显示已批准资源的清单。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个类别中进行选择，以筛选图库中显示的资产。 单击搜索（放大镜）图标可使用关键字查找资产。
+图库会根据所选视图显示已批准资产、体验或模板的清单。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个类别中进行选择，以筛选图库中显示的内容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;视图中，单击搜索（放大镜）图标以使用关键字查找资源。
+
 
 下面显示了[!UICONTROL Assets]图库中搜索词`dog`的搜索：
 
 ![Assets视图（包含对狗的搜索）](../../assets/content-assets.png)
 
-### Assets位置
+### 搜索内容
+
+过滤器和搜索界面快速且响应迅速，提供了高效的搜索优先体验。 每个[!DNL Content]视图都提供筛选选项，以缩小搜索范围，从而缩小搜索范围，以找到理想的资产、体验或模板。 对于资源和体验，您可以选择营销活动和特定准则，例如为特定产品制作的内容。
+
+存在基于[关键字](asset-details.md#user-defined-metadata)和[属性类别](/help/user-guide/insights/attribute-category.md)的筛选器以缩小搜索结果范围。 例如，您可能希望查找特定文件类型或主题的资产，以帮助您为营销策划构建新的体验。
+
+在搜索&#x200B;_体验_&#x200B;时，您可以使用&#x200B;**[!UICONTROL 创建者]**&#x200B;筛选器将列表限制为仅显示您或特定人员创建的体验。
+
+**要搜索要重复使用的内容，请执行以下操作：**
+
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL Assets]**部分。
+
+1. 从&#x200B;**[!UICONTROL 位置]**&#x200B;列表中选择一个资源存储库，或验证您所查看的资源存储库是否正确。 `GenStudio assets`是默认存储库。
+
+   >[!IMPORTANT]
+   >
+   >_位置_&#x200B;列表仅在您[连接到AEM存储库](connect-aem-repo.md)时可用。
+
+1. 单击&#x200B;**[!UICONTROL 搜索]**（放大镜）以输入关键字或说明。
+
+1. 通过从&#x200B;_[!UICONTROL 筛选器]_&#x200B;列表中选择一个类别来缩小搜索范围。 例如，如果要查找PNG文件，请单击&#x200B;**[!UICONTROL 文件格式]**，然后选择&#x200B;**PNG**。
+
+   缩小搜索范围越多，可用的过滤器选项就越少。 单击&#x200B;**[!UICONTROL 全部清除]**&#x200B;可删除所有筛选器。
+
+1. 选择资源以获取完整视图和详细信息列表。
+
+   单击&#x200B;**[!UICONTROL 下载]**（向下箭头）以在本地工作站中使用资产。
+
+### 位置
 
 默认情况下，您通过[!DNL Create]进程或通过上载添加到[!DNL Content]的资源存储在`GenStudio assets`存储库中。 `GenStudio assets`存储库是GenStudio for Performance Marketing中的读写存储库。 这意味着您可以保存、编辑和删除`GenStudio assets`存储库中的资源。
 
-右侧图库上方的&#x200B;**[!UICONTROL 位置]**&#x200B;列表允许您从连接的Adobe Experience Manager (AEM) [!DNL Assets Content Hub]存储库中进行选择。 选择AEM存储库时，库会显示该存储库中的资源清单，这样您就可以利用这些存储库中已批准的资源作为内容创建的输入。 筛选器选项会更改以反映[!DNL AEM Assets Content Hub]中配置的类别。
+右侧&#x200B;_[!UICONTROL Assets]_&#x200B;库上方的&#x200B;**[!UICONTROL 位置]**&#x200B;列表允许您从连接的Adobe Experience Manager (AEM) [!DNL Assets Content Hub]存储库中进行选择。
+
+![存储库的位置列表](../../assets/content-location-selection.png){width="350"}
+
+
+选择AEM存储库时，库会显示该存储库中的资源清单，这样您就可以利用这些存储库中已批准的资源作为内容创建的输入。 筛选器选项会更改以反映[!DNL AEM Assets Content Hub]中配置的类别。
 
 有关将[!DNL AEM Assets Content Hub]存储库添加到GenStudio for Performance Marketing的指导，请参阅[连接AEM存储库](connect-aem-repo.md)。
 
-AEM存储库是只读的，这意味着您不能将草稿、新资源或元数据保存到AEM存储库。 资产、体验和模板的所有草稿和最终更新都将使用新的[系统元数据](asset-details.md#system-metadata)保存到`GenStudio assets`存储库。
+AEM存储库为只读，这意味着您可以访问内容，但无法将草稿、新资源或元数据保存到AEM存储库。 资产、体验和模板的所有草稿和最终更新都将使用新的[系统元数据](asset-details.md#system-metadata)保存到`GenStudio assets`存储库。
 
 {{note-aem-assets}}
 
@@ -42,7 +76,7 @@ AEM存储库是只读的，这意味着您不能将草稿、新资源或元数�
 
 将资源添加到[!DNL Content]时，默认存储在`GenStudio assets`存储库中。 仅当&#x200B;_[!UICONTROL 位置]_&#x200B;是`GenStudio assets`存储库时，_[!UICONTROL 添加资源]_&#x200B;按钮才可用。
 
-![位置字段](../../assets/content-location.png){width="350" align="center"}
+![位置字段](../../assets/content-location.png){width="350"}
 
 **要添加一个或多个资源**：
 
@@ -70,30 +104,61 @@ AEM存储库是只读的，这意味着您不能将草稿、新资源或元数�
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
-### 搜索内容
+### 下载资源
 
-过滤器和搜索界面快速且响应迅速，提供了高效的搜索优先体验。 每个[!DNL Content]视图都提供筛选器选项，以缩小搜索范围，从而缩小搜索范围，以找到理想的资产、体验或模板。 对于资源和体验，您可以选择营销活动和特定准则，例如为特定产品制作的内容。
+**要下载资源**：
 
-存在基于[关键字](asset-details.md#user-defined-metadata)和[属性](/help/user-guide/insights/attributes.md)的筛选器以缩小搜索结果范围。 例如，您可能希望查找特定文件类型或主题的资产，以帮助您为营销策划构建新的体验。
+1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
 
-在搜索&#x200B;_体验_&#x200B;时，您可以使用&#x200B;**[!UICONTROL 创建者]**&#x200B;筛选器将列表限制为仅显示您或特定人员创建的体验。
+1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 下载]**&#x200B;图标（向下箭头）。
 
-**要搜索要重复使用的内容，请执行以下操作：**
+1. 下载操作将开始将资产副本放置到默认下载位置。
 
-1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL Assets]**部分。
+### 删除资源
 
-1. 从&#x200B;**[!UICONTROL 位置]**&#x200B;列表中选择一个资源存储库，或验证您所查看的资源存储库是否正确。 `GenStudio assets`是默认存储库。
+**要删除资源**：
 
-   >[!IMPORTANT]
+1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
+
+1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 删除]**&#x200B;图标（垃圾桶）。
+
+1. 在&#x200B;_删除资产_&#x200B;弹出窗口中，验证该资产并单击&#x200B;**[!UICONTROL 删除]**。
+
+## 在Express中编辑
+
+您可以使用Adobe Express直接在GenStudio for Performance Marketing中编辑图像资源(JPG或PNG)。 _[!UICONTROL Powered byAdobe Express]_&#x200B;画布提供了方便的功能，无需离开GenStudio应用程序即可增强图像。 可以轻松删除背景、应用创成填充、调整效果和裁切图像。
+
+>[!BEGINSHADEBOX]
+
+使用[!DNL Edit in Adobe Express]功能增强图像的条件：
+
+- 支持的MIME类型包括`image/png`和`image/jpeg`
+- 最小图像尺寸为50x50像素
+- 图像最大尺寸为8000x8000像素
+- 最大大小为40MB（40,000,000字节）
+
+>[!ENDSHADEBOX]
+
+**使用Express**&#x200B;编辑资源：
+
+1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
+
+1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 在Adobe Express中编辑]**&#x200B;图标。
+
+1. 在&#x200B;_[!UICONTROL Powered byAdobe Express]_&#x200B;画布中，使用左侧面板上的Express控件增强图像。
+
+1. 如果对更新的图像满意，请单击右上角的&#x200B;**[!UICONTROL 保存副本]**。
+
+1. 选择文件格式(JPG或PNG)，然后单击&#x200B;**[!UICONTROL 保存副本]**。
+
+1. 在&#x200B;_[!UICONTROL 保存资产]_&#x200B;的副本弹出窗口中，更新&#x200B;**[!UICONTROL 资产名称]**。
+
+   - 选择&#x200B;**[!UICONTROL 与原始资产相同的详细信息]**&#x200B;以将资产详细信息结转到新图像。
+
+   - 展开&#x200B;**[!UICONTROL 更多详细信息]**&#x200B;部分以更新营销活动、准则和其他元数据。
+
+   >[!TIP]
    >
-   >_位置_&#x200B;列表仅在您[连接到AEM存储库](connect-aem-repo.md)时可用。
+   >您提供的详细信息越多，就越能体验GenStudio for Performance Marketing的强大功能。 从列表中选择一个或多个详细信息，或在适用的情况下输入新详细信息，例如使用关键字。 您添加的每个详细信息都显示在列表下方。 单击&#x200B;**`x`**&#x200B;可删除详细信息。
 
-1. 单击&#x200B;**[!UICONTROL 搜索]**（放大镜）以输入关键字或说明。
-
-1. 通过从&#x200B;_[!UICONTROL 筛选器]_&#x200B;列表中选择一个类别来缩小搜索范围。 例如，如果要查找PNG文件，请单击&#x200B;**[!UICONTROL 文件格式]**，然后选择&#x200B;**PNG**。
-
-   缩小搜索范围越多，可用的过滤器选项就越少。 单击&#x200B;**[!UICONTROL 全部清除]**&#x200B;可删除所有筛选器。
-
-1. 选择资源以获取完整视图和详细信息列表。
-
-   单击&#x200B;**[!UICONTROL 下载]**（向下箭头）以在本地工作站中使用资产。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
