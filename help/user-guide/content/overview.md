@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing [!DNL Content]概述
 description: 了解如何在一个直观的门户中查找、编辑、重用和共享品牌批准的资源。
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -17,63 +17,116 @@ GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，
 ## [!DNL Content] 用例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="magnifier" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search">
+
          <strong>查找内容</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="带加号的图像" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>添加资源</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/customize-template.md">
+
          <img alt="资产上的发光螺钉" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
+
          <a href="../content/customize-template.md">
+
          <strong>自定义模板</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/use-templates.md">
+
          <img alt="带加号的资产上的发光螺钉" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
+
          <a href="../content/use-templates.md#upload-a-template">
+
          <strong>上载模板</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="在Adobe Express中编辑" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>在Adobe Express中编辑资源</strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## [!DNL Content]功能
 
-通过GenStudio for Performance Marketing [!DNL Content]，可以轻松管理已批准的资源并加快内容生命周期。 在&#x200B;**[!UICONTROL [!DNL Content]]**&#x200B;中，您可以搜索、查找和重用性能内容或选择资源或体验以快速启动为常青营销活动创建新变体。
+通过GenStudio for Performance Marketing [!DNL Content]，可以轻松管理已批准的资源并加快内容生命周期。 在&#x200B;**[!UICONTROL [!DNL Content]]**&#x200B;中，您可以搜索、查找和重用性能内容或选择资产或体验以开始为常青营销活动创建新变体。
 
 ### 上传资源
 
