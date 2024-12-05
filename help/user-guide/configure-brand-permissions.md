@@ -3,9 +3,10 @@ title: 分配 [!DNL Brand] 权限
 description: 了解如何为GenStudio for Performance Marketing [!DNL Brand] 创建者和编辑者分配权利。
 level: Intermediate
 feature: Brands Service, Generative AI
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+exl-id: fc33ecd3-4403-4045-87af-012a0377226c
+source-git-commit: baa225419ba5e851f28d41f829971027655e103e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -54,7 +55,25 @@ ht-degree: 1%
 
 请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[将产品配置文件分配给用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
 
-## 步骤3：创建[!DNL Brands]项目
+## 第3步：将用户添加到用户组
+
+要向用户分配创建、编辑和发布[!DNL Brands]的权限，请将其添加到新创建的用户组。
+
+>[!NOTE]
+>
+>您必须先将至少一个用户添加到此用户组，然后才能将组添加到项目中。
+
+**要将用户添加到用户组**：
+
+1. 从&#x200B;_Admin Console_，导航到&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**。
+
+1. 选择您之前创建的用户组的名称。 打开&#x200B;_将用户添加到此用户组_&#x200B;弹出窗口。
+
+1. 通过用户名或电子邮件地址添加新用户或现有用户。 为现有用户输入名称或电子邮件地址时，将自动为属于此IMS组织的已知用户填充匹配名称。 了解如何在&#x200B;_企业和团队管理指南_&#x200B;的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)中管理用户组。
+
+添加到组时，用户被授予Adobe GenStudio系统管理员的[!DNL Brand]创建、编辑和发布权限。 用户还会收到自动发送的电子邮件邀请，以编辑Adobe GenStudio for Performance Marketing [!DNL Brands]项目。
+
+## 步骤4：创建[!DNL Brands]项目
 
 _项目_&#x200B;提供了一个存储位置，选定的用户可以在该位置保存资源，在本例中为[!DNL Brands]个资源。
 
@@ -72,7 +91,7 @@ _项目_&#x200B;提供了一个存储位置，选定的用户可以在该位置�
 
 请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[管理项目](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)。
 
-## 步骤4：邀请用户组加入项目
+## 步骤5：邀请用户组加入项目
 
 您现在可以将刚刚创建的用户组添加到`Adobe GenStudio [!DNL Brands]`项目。
 
@@ -83,17 +102,3 @@ _项目_&#x200B;提供了一个存储位置，选定的用户可以在该位置�
 1. 选择&#x200B;**可以编辑**&#x200B;权限选项。
 
 1. 单击&#x200B;**[!UICONTROL 邀请]**。
-
-## 步骤5：将用户添加到用户组
-
-要向用户分配创建、编辑和发布[!DNL Brands]的权限，请将其添加到新创建的用户组。
-
-**要将用户添加到用户组**：
-
-1. 从&#x200B;_Admin Console_，导航到&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**。
-
-1. 选择您之前创建的用户组的名称。 打开&#x200B;_将用户添加到此用户组_&#x200B;弹出窗口。
-
-1. 通过用户名或电子邮件地址添加新用户或现有用户。 了解如何在&#x200B;_企业和团队管理指南_&#x200B;的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)中管理用户组。
-
-添加到组时，用户被授予Adobe GenStudio系统管理员的[!DNL Brand]创建、编辑和发布权限。 用户还会收到自动发送的电子邮件邀请，以编辑Adobe GenStudio for Performance Marketing [!DNL Brands]项目。
