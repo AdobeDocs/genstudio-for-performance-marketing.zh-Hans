@@ -2,11 +2,12 @@
 title: 为Adobe GenStudio for Performance Marketing准备元广告模板
 description: 了解如何为Adobe GenStudio for Performance Marketing构建自定义元广告模板。
 level: Intermediate
+hidefromtoc: true
 feature: Templates, Content
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: 创建无障碍模板
 description: 在Adobe GenStudio for Performance Marketing中构建模板，这些模板能够吸引更多受众并提供最佳体验。
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
+source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe致力于为所有受众提供最佳体验。 请参阅Adobe](https://www.a
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![创意拼贴、书籍、拿着巨铅笔的男人、计算机](../../assets/card-create-assets.png){width="400"}
+![创意拼贴、书籍、拿着巨铅笔的男人、计算机](/help/assets/card-create-assets.png){width="400"}
 
 ## 字体
 

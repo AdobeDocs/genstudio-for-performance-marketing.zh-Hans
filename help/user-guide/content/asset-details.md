@@ -3,9 +3,9 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
-   >[!TIP]
-   >
-   >如果&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分不可见，请单击&#x200B;**[!UICONTROL 信息]** (i)图标。
+1. 如果&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分不可见，请单击&#x200B;**[!UICONTROL 信息]** (i)图标。
 
 资源详细信息包括在创建或上传过程中应用的元数据。 资源元数据类型包括[系统元数据](#system-metadata)和[用户定义的元数据](#user-defined-metadata)。
 
@@ -38,9 +36,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 ## 系统元数据
 
-上传资源时，会自动收集某些资源元数据。 无法编辑默认的系统元数据。
-
-为资源存储和捕获的默认元数据包括文件名、维度、源等。
+上传资源时，会自动收集某些资源元数据，例如文件类型、大小、维度、源等。 除文件名外，您无法编辑默认的系统元数据。
 
 ### 生成的标记
 

@@ -3,10 +3,10 @@ title: 编写有效提示
 description: 了解如何为 Adobe GenStudio for Performance Marketing 编写有效的提示。
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,9 +57,9 @@ GenStudio for Performance Marketing指南帮助创作AI个性化您的资源组�
 
 ### 结构化提示
 
-对于多节电子邮件，您可以构造提示以提供特定节的说明，以为[电子邮件](/help/user-guide/create/email-experiences.md)中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板](/help/user-guide/content/email-template.md#multi-section-emails)中的[节名称，以便生成的内容可以插入到相应的内容占位符中。
+对于多节电子邮件，您可以构建提示以提供特定于节的说明，以便为电子邮件中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板](/help/user-guide/content/customize-template.md#sections-or-groups)中的[节名称，以便生成的内容可以插入到相应的内容占位符中。
 
-例如，您可以指示GenStudio for Performance Marketing在电子邮件的第一部分中生成推广新产品的内容，并在电子邮件的第二部分中生成详细说明该产品节省成本优势的内容。
+例如，您可以在第一部分中指示GenStudio for Performance Marketing为推广新产品的电子邮件生成内容，并在第二部分中详细介绍可节省成本的好处。
 
 结构化提示应：
 
@@ -72,7 +72,7 @@ GenStudio for Performance Marketing指南帮助创作AI个性化您的资源组�
   例如，如果您的模板使用`moduleA`或`Group-3`作为节名称，则您可以在提示中引用这些节名称。
 
 - 遵循建议的规则/结构。 如果提示结构不符合提供的格式，则该提示将应用于&#x200B;*所有*&#x200B;电子邮件节，并且仍然有助于内容生成。
-- 使用在电子邮件模板](/help/user-guide/content/email-template.md#code-an-email-template)中定义的[节名称。 提示引用必须与电子邮件模板中编码的部分名称匹配。
+- 使用在电子邮件模板中定义的节名称。 提示引用必须与电子邮件模板中编码的部分名称匹配。
 - 不区分大小写。 例如，您可以在电子邮件模板和结构化提示中使用`Pod`或`pod`。
 - 首先引用常规用户提示，然后引用特定于部分的指令。
 - 使用冒号、连字符、逗号或其他分隔(`,:;#$!~|@=-%&*^_`)作为节名引用和指令之间的分隔。 例如，您可以使用以下内容作为特定节的提示指令： `Pod1; Describe how to easily edit text and swap images.`
@@ -91,7 +91,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-请参阅[准备电子邮件模板](/help/user-guide/content/email-template.md#code-an-email-template)。
+查看[使用模板的最佳实践](/help/user-guide/content/best-practices-for-templates.md)。
 
 ## 重试
 

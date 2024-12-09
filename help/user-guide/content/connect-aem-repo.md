@@ -1,11 +1,12 @@
 ---
-title: “连接到 [!DNL AEM Assets Content Hub] 存储库”
+title: 连接到 [!DNL AEM Assets Content Hub] 存储库
 description: 了解如何将Adobe GenStudio for Performance Marketing连接到Adobe Experience Manager (AEM) [!DNL Content Hub] 存储库并利用现有的已批准内容。
 level: Experienced
 feature: Assets, Content
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
+source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,3 +55,5 @@ ht-degree: 0%
 ## 步骤5：验证连接
 
 在GenStudio for Performance Marketing内容中，_[!UICONTROL 位置]_&#x200B;列表位于图库的右上方。 如果您没有访问权限，或者您的组织尚未部署和连接[!DNL AEM Assets Content Hub]存储库，则列表不可用。
+
+请参阅[Assets位置](manage-assets.md#assets-location)以了解有关位置列表和更改存储库的信息。

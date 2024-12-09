@@ -4,18 +4,25 @@ description: 了解如何针对Adobe GenStudio for Performance Marketing个性�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: f95848546abc2decbb5ac52491307977820ce503
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 自定义模板
 
-使用&#x200B;_Handlebars_ HTML语言调整模板以用于Adobe GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅&#x200B;_Handlebars语言指南_&#x200B;中的[`What is [!DNL Handlebars]?`](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-接下来的几个部分将说明如何添加内容占位符、在预览中隐藏不必要的元素和管理指向静态内容的链接。 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
+以下几个部分将说明如何使用&#x200B;_Handlebars_ HTML语言来调整模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 查看[什么是 [!DNL Handlebars]？_Handlebars语言指南_&#x200B;中的](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+
+
+模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
+
+>[!TIP]
+>
+>遵循[辅助功能准则](accessibility-for-templates.md)和[最佳实践](/help/user-guide/content/best-practices-for-templates.md)，以便您可以接触到更多受众并提供最佳体验。
 
 ## 内容占位符
 
@@ -34,14 +41,14 @@ GenStudio for Performance Marketing可识别模板中的某些[元素](use-templ
 下表列出了GenStudio for Performance Marketing识别用于填充到模板中的字段名称。 在需要GenStudio for Performance Marketing生成内容的模板中使用[!DNL Handlebars]语法添加这些字段名称。
 
 | 字段 | 角色 | 渠道模板 |
-| -------------- | ---------------------- | ------------------------------ |
-| `pre_header` | 预标题 | 电子邮件 |
-| `headline` | 标题 | 电子邮件<br>元广告 |
-| `body` | 正文 | 电子邮件<br>元广告 |
-| `cta` | 行动号召 | 电子邮件<br>元广告 |
-| `on_image_text` | 在图像文本上 | 元广告 |
-| `image` | 图像 | 电子邮件<br>元广告 |
-| `brand_logo` | 所选品牌的徽标<br>请参阅[品牌徽标字段名称](#brand-logo-field-name)以了解建议用法。 | 电子邮件<br>元广告 |
+| ------------------ | ---------------------- | -------------------------------- |
+| `{{pre_header}}` | 预标题 | 电子邮件 |
+| `{{headline}}` | 标题 | 电子邮件<br>元广告<br>显示广告 |
+| `{{body}}` | 正文 | 电子邮件<br>元广告<br>显示广告 |
+| `{{cta}}` | 行动号召 | 电子邮件<br>元广告<br>显示广告 |
+| `{{on_image_text}}` | 在图像文本上 | 元广告 |
+| `{{image}}` | 图像 — 从内容中选择 | 电子邮件<br>元广告<br>显示广告 |
+| `{{brand_logo}}` | 所选品牌的徽标<br>请参阅[品牌徽标字段名称](#brand-logo-field-name)以了解建议用法。 | 电子邮件<br>元广告 |
 
 GenStudio for Performance Marketing会自动填充以下模板中的特定字段：
 
@@ -93,23 +100,27 @@ GenStudio for Performance Marketing会自动填充以下模板中的特定字段
 
 _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
 
-在字段名称中使用您选择的前缀来指示字段是部分或组的一部分。 例如，您可能希望突出显示区域中显示的内容：
+在字段名称中使用您选择的前缀来指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（`headline`、`body`、`image`或`cta`）。 例如，以下标题和正文属于`pod1`部分：
 
 - `pod1_headline`
 - `pod1_body`
 
-每个部分只能使用每种字段类型中的一种。 在上述示例中，`pod1`节只能使用一个`pod1_headline`字段。
+每个部分只能使用每种字段类型中的一种。 在上述示例中，`pod1`节只能使用一个`pod1_headline`字段。 由于此规则，无法嵌套这些部分。
 
-一个模板最多可以包含三个部分：
+电子邮件模板最多可包含三个部分。 例如，以下列表有三个标题和正文部分：
 
-- `headline`
-- `body`
+- `pre-header`
 - `pod1_headline`
 - `pod1_body`
 - `pod2_headline`
 - `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
 
 GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系比`pod2_body`更密切。
+
+请参阅[结构化提示](/help/user-guide/effective-prompts.md#structured-prompts)，了解如何制作一个提示，为电子邮件中的每个部分生成不同的内容。
 
 ## 模板预览
 
@@ -117,7 +128,7 @@ GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系�
 
 电子邮件模板的示例预览：
 
-![检测到预览字段](../../assets/template-detected-fields.png){width="650"}
+![检测到预览字段](/help/assets/template-detected-fields.png){width="650"}
 
 ### 控件预览
 

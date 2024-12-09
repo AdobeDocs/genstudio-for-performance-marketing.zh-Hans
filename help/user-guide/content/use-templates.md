@@ -3,10 +3,10 @@ title: 使用模板
 description: 了解如何在Adobe GenStudio for Performance Marketing中有效地使用模板来简化您的创作过程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
+source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 模板元素
 
-模板是使用HTML和内联CSS定义的一组指令，可用于生成电子邮件或元广告体验。
+模板是使用HTML和内联CSS定义的一组指令，可用于生成电子邮件、社交广告或展示广告体验。 模板元素为内容创建提供了结构。
 
-以下是在模板中使用的元素列表，以及有关其特征的一些详细信息。
+以下是在模板中使用的元素列表，以及有关其特征的一些详细信息：
 
 - **预编译标头**
 
@@ -73,19 +73,13 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 >
 >查看GenStudio for Performance Marketing支持的用于每种渠道类型模板的[可识别的字段名称](customize-template.md#recognized-field-names)。
 
-## 配置渠道准则
-
-在GenStudio for Performance Marketing中使用模板之前，最佳实践是为每个品牌配置[渠道准则](../guidelines/brands.md#channel-guidelines)。 渠道指南直接影响使用模板时生成的内容类型。 例如，您可以对电子邮件正文设置字符限制。
-
-![正文规范](/help/assets/channel-email-body.png)
-
 ## 自定义模板
 
 您[通过插入生成AI用于插入内容的内容占位符或字段自定义模板](customize-template.md)以便在GenStudio for Performance Marketing中使用。 GenStudio for Performance Marketing可识别某些字段，如`body`字段，并遵守为所选品牌配置的渠道准则。
 
 >[!TIP]
 >
->遵循有关生成模板的[辅助功能准则](accessibility-for-templates.md)，以便您可以接触到更多受众并提供最佳体验。
+>遵循[辅助功能准则](accessibility-for-templates.md)和[最佳实践](/help/user-guide/content/best-practices-for-templates.md)，以便您可以接触到更多受众并提供最佳体验。
 
 ## 上传模板
 
@@ -103,7 +97,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
    电子邮件模板的示例预览：
 
-   ![检测到预览字段](../../assets/template-detected-fields.png){width="650"}
+   ![检测到预览字段](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
@@ -128,7 +122,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
-   ![内容模板列表](../../assets/content-templates.png){width="650" zoomable="yes"}
+   ![内容模板列表](/help/assets/content-templates.png){width="650" zoomable="yes"}
 
 1. 选择模板以查看完整视图和详细信息列表。
 
