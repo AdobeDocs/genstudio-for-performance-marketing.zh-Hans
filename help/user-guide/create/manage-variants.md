@@ -2,13 +2,13 @@
 title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Content, Assets, Experiences
-source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
+exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
-
 
 # 管理变体
 
@@ -40,23 +40,36 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 
 ## 重新生成分区
 
-GenStudio for Performance Marketing具有内置功能，可使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;和新提示重新生成生成的变体的单个部分。
+GenStudio for Performance Marketing具有内置功能，可重新生成生成的变体的各个部分。 您可以重新短语、缩短或加长文本，或者添加新的提示来生成新内容。
 
-例如，您可以使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项（_[!UICONTROL 重新短语]_、_[!UICONTROL Shortter]_&#x200B;或&#x200B;_[!UICONTROL Lengthen]_）重新生成一个元广告变体的标题部分，以查看它在特定背景资源中的外观，并输入新的提示。
+例如，您可以重新生成一个元广告变体的标题部分，以查看它在特定背景资源中的外观。 您可以&#x200B;_[!UICONTROL 重新短语]_、_[!UICONTROL 缩短]_、_[!UICONTROL 加长]_&#x200B;节的内容，或者&#x200B;_[!UICONTROL 生成新文本]_&#x200B;以添加新提示。
 
 ![重新生成节](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **要重新生成各个变体节**：
 
 1. 生成变体集后，单击变体中的任何可编辑文本。
-1. 选择&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项 — _[!UICONTROL 重新短语]_、_[!UICONTROL 缩短内容]_&#x200B;或&#x200B;_[!UICONTROL 加长内容]_。
-   * 选择一个可用选项，然后单击&#x200B;**[!UICONTROL 替换]**。
-1. （_可选_）选择_[!UICONTROL 使用提示生成]，然后输入新的提示以更改已重新生成内容的焦点。
-   * 单击&#x200B;**[!UICONTROL 生成]**。
-1. 如果要重新生成结果以查看更多选项，请单击&#x200B;_结果_&#x200B;旁边的重新生成图标。
-1. 从显示的&#x200B;_结果_&#x200B;中，选择所需的选项，然后单击&#x200B;**[!UICONTROL 替换]**。
+1. 若要更改现有文本，请选择&#x200B;_[!UICONTROL 重新短语]_、_[!UICONTROL 缩短]_&#x200B;或&#x200B;_[!UICONTROL 加长]_。
+1. 要生成新的措辞选项，请选择&#x200B;_[!UICONTROL 生成新文本]_&#x200B;并输入新提示。
+   1. 单击&#x200B;**[!UICONTROL 生成]**。
+1. 在重新生成部分的文本时，单击重新生成图标可查看更多文本选项。
+1. 从显示的结果中，选择所需的选项，然后单击&#x200B;**[!UICONTROL 替换]**。
 
    使用修订后的文本更新变体。
+
+## 修订行动号召
+
+生成一组变体后，您可以修订行动号召(CTA)文本和链接。
+
+**要修订变体中的CTA**：
+
+1. 生成一组变体后，单击显示CTA文本的按钮。
+1. 要更改CTA按钮文本，请从&#x200B;_行动号召_&#x200B;列表中的可用选项中选择。
+1. 要在CTA中更改链接，请单击&#x200B;**[!UICONTROL 链接]**。
+   1. 在&#x200B;_编辑链接_&#x200B;分区中输入或粘贴新链接或者修订现有链接，然后单击&#x200B;**[!UICONTROL 应用]**。 您可以单击&#x200B;**[!UICONTROL 删除链接]**&#x200B;以在进入新链接之前删除现有链接。
+
+
+添加或修订的链接将应用于变量集中的所有CTA。
 
 ## 裁切资源
 

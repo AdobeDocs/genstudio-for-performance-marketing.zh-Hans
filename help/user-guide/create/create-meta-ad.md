@@ -1,14 +1,14 @@
 ---
 title: 创建元广告体验
-description: 了解如何通过针对性能营销的Adobe GenStudio为Facebook或Instagram创建品牌上元广告体验。
+description: 了解如何使用Adobe GenStudio for Performance Marketing为Facebook或Instagram创建品牌上元广告体验。
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
+source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本教程将演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成品牌[元广告体验](/help/user-guide/create/meta-experiences.md)（左侧导航区域中的画笔图标）。
 
-在开始生成元广告体验之前，请务必[将准则](/help/user-guide/guidelines/add-guidelines.md)纳入GenStudio以进行性能营销，并熟悉[创建提示](/help/user-guide/effective-prompts.md)的基础知识。
+在开始生成元广告体验之前，务必要在GenStudio for Performance Marketing中[引入准则](/help/user-guide/guidelines/add-guidelines.md)，并熟悉[创建提示符](/help/user-guide/effective-prompts.md)的基础知识。
 
 ## 选择模板
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    ![选择角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
-   如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
+   如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
    * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
@@ -86,9 +86,9 @@ ht-degree: 0%
 **要修订生成的变体**：
 
 * **要[编辑元广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
-* **要[手动编辑元广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击任意广告部分(如主题行，
+* **要[手动编辑元广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意广告部分(如主题行，
 标题或正文)并根据需要进行编辑。
-* **要更改或选择行动号召**，请单击行动号召按钮，然后从可用按钮文本选项中选择。 在&#x200B;_[!UICONTROL 链接]_&#x200B;中，输入行动号召文本的URL。
+* **要更改或选择行动号召**，请单击显示行动号召的按钮，然后从可用的按钮文本选项中选择。<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。
 * **要[删除元广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击广告标题（例如，“Meta 4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
@@ -135,12 +135,12 @@ ht-degree: 0%
 
 1. **要发布新的元广告体验**，请单击顶部工具栏或审批流程中的&#x200B;**[!UICONTROL Publish]**。
 1. **要导出新的元广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
-   1. 选择格式(仅限CSV和图像或HTML)，然后单击&#x200B;**[!UICONTROL 导出]**。
+   1. 选择格式 — HTML和图像或CSV和图像(JPG或PNG) — 单击&#x200B;**[!UICONTROL 导出]**。
 
 有关详细信息，请参阅[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
 
 ## 连接元
 
-您可以将GenStudio性能营销连接到Meta以接收高级分析和[对内容性能的分析](/help/user-guide/insights/overview.md)。
+您可以将GenStudio for Performance Marketing连接到Meta以接收高级分析和[对内容性能的分析](/help/user-guide/insights/overview.md)。
 
 有关详细信息，请参阅[连接渠道帐户](/help/user-guide/insights/connect-channel.md)。

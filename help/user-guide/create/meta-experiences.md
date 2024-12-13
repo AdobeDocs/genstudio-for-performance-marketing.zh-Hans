@@ -4,13 +4,13 @@ description: 了解Adobe GenStudio for Performance Marketing中的Meta体验的�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # 元体验
 
@@ -54,3 +54,9 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 1. 头条
 1. 图像上文本
 1. 进行品牌验证过程，并且针对每个变体填充&#x200B;[_品牌指南检查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)。
+
+## 字符数
+
+生成一组Meta变体后，您可以看到为每个部分显示的字符数。 将鼠标悬停在生成的部分（如主题行或正文）上或单击该部分，可查看该部分的名称和字符计数。
+
+![字符数](/help/assets/character-count.png){width="500" zoomable="yes"}

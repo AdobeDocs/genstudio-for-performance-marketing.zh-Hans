@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
+source-git-commit: a308972afc9fa6aeced0168b14d3c5f864d678f8
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 上传品牌
 
-您可以上传自己的品牌文档以填充新品牌。
+您可以将自己的品牌指南文档(最多三个PDF或DOC文件)上传到GenStudio for Performance Marketing以自动创建品牌。
 
 请参阅[[!DNL Brands]](/help/user-guide/guidelines/brands.md)。
 
@@ -85,7 +85,7 @@ GenStudio for Performance Marketing使用Adobe的创作AI技术，从您上传�
 
 1. 在左侧导航区域中，单击&#x200B;**[!UICONTROL [!DNL Brands]]**。
 
-   _已发布_&#x200B;徽章对于当前已发布的所有品牌可见。
+   当前发布的所有品牌都会看到&#x200B;_已发布_&#x200B;徽章以及上次发布品牌的日期。
 
 1. 单击以打开未发布的品牌。 如果未发布该品牌，则会显示&#x200B;**[!UICONTROL Publish]**&#x200B;按钮。
 1. 在&#x200B;_Publish brand_&#x200B;弹出窗口中，验证谁有权查看和使用发布的品牌。
@@ -98,23 +98,30 @@ GenStudio for Performance Marketing使用Adobe的创作AI技术，从您上传�
 
 品牌显示绿色圆点和“已发布”，并显示&#x200B;**[!UICONTROL Publish]**&#x200B;按钮。
 
-**要取消发布已发布的品牌**，请单击以将其打开，然后单击&#x200B;**[!UICONTROL Publish]**。
+**要取消发布已发布的品牌**，请单击以将其打开，然后单击&#x200B;**[!UICONTROL 取消发布]**。
 
-已发布的品牌现在可在&#x200B;_[!DNL Create]_或_[!DNL Content]_&#x200B;中使用。
+已发布的品牌现在可在[_[!DNL Create]_](/help/user-guide/create/overview.md)或[_[!DNL Content]_](/help/user-guide/content/overview.md)中使用。
 
 ### 管理[!DNL Brands]
 
 在&#x200B;_[!DNL Brands]_主页中，您可以单击打开已创建的品牌以管理或发布该品牌。
 
-**要查看或修改品牌**：
+要&#x200B;**查看品牌信息**，请单击左侧导航区域中的&#x200B;**[!UICONTROL [!DNL Brands]]**，然后单击以打开现有品牌。
 
-1. 在左侧导航区域中，单击&#x200B;**[!UICONTROL [!DNL Brands]]**。
-1. 要查看品牌的概述信息，请单击以打开已定义的品牌。
+**要在[!DNL Brands]视图中修改品牌**：
+
+1. 在&#x200B;**[!DNL Brands]**&#x200B;中，单击以打开定义的品牌。
 1. 要查看个人详细信息或修改品牌指南，请单击顶部的[**[!UICONTROL 品牌语音指南]**](#brand-voice-guidelines)、[**[!UICONTROL 渠道指南]**](#channel-guidelines)、**[!UICONTROL 图像指南]**&#x200B;或&#x200B;**[!UICONTROL 徽标]**。
-1. 要重命名现有品牌，请从[!DNL Brands]操作菜单中选择&#x200B;**[!UICONTROL 重命名]**。
+1. 要重命名现有品牌，请从&#x200B;_[!DNL Brands]_操作菜单中选择&#x200B;**[!UICONTROL 重命名]**。
+1. 要复制现有品牌，请从&#x200B;_[!DNL Brands]_操作菜单中选择&#x200B;**[!UICONTROL 复制]**。
+   1. 在&#x200B;_复制品牌_&#x200B;弹出窗口中输入品牌名称，然后单击&#x200B;**[!UICONTROL 复制品牌]**。
+
+      弹出窗口将确认该品牌已复制 — “已创建新品牌”。 重复的品牌最初处于&#x200B;_取消发布_&#x200B;模式。
+
+   1. 自定义重复的品牌，然后[发布它](#publish-brand)使其可用。
 1. 要删除品牌，请从[!DNL Brands]操作菜单中选择&#x200B;**[!UICONTROL 删除]**。
 
-您可以将品牌准则文档(最多三个PDF或DOC文件)上传到GenStudio for Performance Marketing以自动创建品牌。
+您还可以从&#x200B;_[!DNL Brands]_操作菜单（三个圆点）管理[!DNL Brands]视图中的品牌。
 
 ## 添加[!DNL Products]
 

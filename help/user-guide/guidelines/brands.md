@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] 是一系列全面的品牌资产，包括营销文案、图像、体验等，可用于指导创建品牌一致的内容。
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ GenStudio for Performance Marketing使用来自您品牌的丰富品牌信息，
 
 将品牌准则添加到GenStudio for Performance Marketing后，您可以[管理](/help/user-guide/guidelines/add-guidelines.md#manage-brands)和[发布](/help/user-guide/guidelines/add-guidelines.md#publish-brand)它们。 发布功能后，您的团队便可在生成资产时使用它们。
 
-[!DNL Brands]可以处于&#x200B;_草稿_&#x200B;或&#x200B;_已发布_&#x200B;状态。 新[!DNL brands]开始为&#x200B;_草稿_。
+[!DNL Brands]可以处于&#x200B;_Unpublished_&#x200B;或&#x200B;_Published_&#x200B;状态。 新[!DNL brands]开始于&#x200B;_已取消发布_。
 
-您必须发布[!DNL brand]才能使其可供团队生成资源。
+您必须[发布品牌](/help/user-guide/guidelines/add-guidelines.md#publish-brand)，才能让您的团队生成该品牌。
 
-可以编辑已发布的[!DNL brands]，更改立即可用。 仅已发布的[!DNL brands]可用于创建和验证内容。
+可以编辑、复制或取消发布已发布的品牌（更改立即可用）。 仅已发布的[!DNL brands]可用于创建和验证内容。 查看[管理品牌](/help/user-guide/guidelines/add-guidelines.md#manage-brands)。
 
 已删除的[!DNL brands]将存档30天，可以在此期间恢复。
 

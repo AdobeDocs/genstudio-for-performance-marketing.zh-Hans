@@ -5,9 +5,10 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
+exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 ## 选择模板
 
-要创建显示广告体验，请使用可用的模板为您的内容提供框架。
+要创建显示广告体验，请使用可用的模板为您的内容提供框架。 有关支持的显示广告维度的信息，请参阅[模板的最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 **选择显示广告模板**：
 
@@ -75,6 +76,7 @@ ht-degree: 0%
 
 * **要[编辑显示广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题，然后输入新标题。
 * **要[手动编辑显示广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击显示广告的任何部分或字段（例如主题行、标题或正文），然后根据需要进行编辑。
+* **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑的文本字段，然后使用可用选项重新短语、缩短、加长或生成新文本。
 * **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在该图像上，单击显示的裁切图标，然后调整图像大小和位置。 单击&#x200B;**[!UICONTROL 应用]**。
 
@@ -123,7 +125,7 @@ When revising and preparing email experiences, you can toggle between previews f
       ![Publish显示广告](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **要导出您的新显示广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
-   1. 选择格式(仅JPG)，然后单击&#x200B;**[!UICONTROL 导出]**。
+   1. 选择格式(HTML和图像、PNG或JPG)，然后单击&#x200B;**[!UICONTROL 导出]**。
 
       导出的HTML应放置在预定义的Web属性中，如模板或`div`容器。 如果没有这些设定的尺寸，独立查看图像时可能会出现扭曲。
 

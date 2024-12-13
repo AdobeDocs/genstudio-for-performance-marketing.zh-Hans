@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 333d40a733f5417ea182d7708bef38907dfd5722
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 ## 字符数
 
-生成一组电子邮件变体后，您可以看到为每个电子邮件部分显示的字符数。 将鼠标悬停在生成的部分（如主题行或正文）上或单击该部分，可查看该部分的名称和字符计数。
+生成一组电子邮件变体后，您可以看到为每个部分显示的字符数。 将鼠标悬停在生成的部分（如主题行或正文）上或单击该部分，可查看该部分的名称和字符计数。
 
 ![字符数](/help/assets/character-count.png){width="500" zoomable="yes"}

@@ -3,9 +3,9 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -54,25 +54,53 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 在[上传资源](/help/user-guide/content/manage-assets.md#add-assets)时，您可以将GenStudio for Performance Marketing中存在的一组可选资源详细信息定义为元数据。 包含更多详细信息可以改进搜索和筛选中的资产识别。
 
+**要编辑用户定义的元数据**：
+
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。
+
+1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
+
+1. 单击&#x200B;**[!UICONTROL 编辑详细信息]** （铅笔）以编辑资源元数据。
+
+   您提供的详细信息越多，就越能体验GenStudio for Performance Marketing的强大功能。 从列表中选择一个或多个详细信息，或在适用的情况下输入新详细信息，例如使用关键字。 您添加的每个详细信息都显示在列表下方。 单击&#x200B;**`x`**&#x200B;可删除详细信息。
+
 ### 元数据详细信息
 
 下表详细列出了在创建资源时可以定义的元数据（资源详细信息）。
 
 | 字段 | 描述 |
-| ------------- | ----------- |
-| 营销活动（项目名称） | 捕获并随资产一起存储的默认元数据 |
+| -------------- | ----------- |
+| 标题 | 资源的名称；默认标题可能是原始文件名 |
+| [!DNL Campaigns] | [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md)包含具有一致消息传递的促销内容，以实现业务目标<br>单击促销活动链接将会转到促销活动的概述页面 |
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md)已添加到GenStudio for Performance Marketing并发布以供使用 |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已添加到GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已添加到GenStudio for Performance Marketing以供使用 |
-| 渠道 | GenStudio for Performance Marketing中用于资源的内容类型，如电子邮件和元广告 |
+| 渠道 | 用于分发特定内容类型（如电子邮件和显示广告）的平台 |
 | [!UICONTROL 时间范围] | 使用资产的时间范围，如季度、季度、年份等。 示例： `Winter 2023` |
 | 区域 | 使用资产的区域。 示例： `North America`，`APAC`，`Italy` |
 | 语言 | 资源使用的语言。 示例： `Spanish` |
-| 关键字 | 用于进一步标识资产特征和用途的用户定义关键字 |
+| 关键字 | 用户定义的关键字用于进一步标识资源特征和用途 |
 
-<!-- ## History
+>[!TIP]
+>
+>单击&#x200B;**[!UICONTROL 编辑详细信息]** （铅笔）以编辑资源元数据。 例如，您可以更改资源名称或添加或删除关键字。
 
-Expand the _[!UICONTROL History]_ section to view a timeline of approvals and activity.
+## 生成上下文
 
-list other activity, show screenshot?
--->
+[!UICONTROL 生成上下文]部分显示用于生成体验的信息，例如[!DNL Create]进程期间使用的`Prompt`。 此洞察信息可帮助您构建更加成功的变体。
+
+信息可能包括：
+
+- `Brand`、`Product`和`Persona`参数
+- 电子邮件体验的`Subject line`和`Pre Header`
+- 元广告的`Headline`和`Body`
+
+## 历史记录
+
+展开体验中的&#x200B;_[!UICONTROL 历史记录]_&#x200B;部分以查看审批和活动的时间表。 例如，已批准的体验将显示批准日期、时间和批准者：
+
+```
+Approved
+
+December 10, 2024 at 6:00 PM by Username
+```

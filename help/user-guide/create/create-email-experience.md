@@ -1,12 +1,12 @@
 ---
 title: 创建电子邮件体验
-description: 了解如何在Adobe GenStudio中为性能营销创建电子邮件体验。
+description: 了解如何在Adobe GenStudio for Performance Marketing中创建电子邮件体验。
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本教程演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成品牌[电子邮件体验](/help/user-guide/create/email-experiences.md)（左侧导航区域中的画笔图标）。
 
-若要创建有效的电子邮件体验，建议您[向GenStudio添加准则以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)，并在开始之前[复习构建提示的基础知识](/help/user-guide/effective-prompts.md)。
+若要创建有效的电子邮件体验，建议您[将准则添加到GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)中，并在开始之前[复习构建提示的基础知识](/help/user-guide/effective-prompts.md)。
 
 ## 选择模板
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    ![选择角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
-   如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio以进行性能营销](/help/user-guide/guidelines/add-guidelines.md)。
+   如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
    * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
@@ -82,7 +82,7 @@ ht-degree: 0%
 **要修订生成的变体**：
 
 * **要[编辑电子邮件草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
-* **要[手动编辑电子邮件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击任何可编辑的文本字段（如主题行、标题或正文）并根据需要进行编辑
+* **要[手动编辑电子邮件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意可编辑的文本字段（如主题行、标题或正文）并根据需要进行编辑
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
 * **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容中选择/交换]**&#x200B;或&#x200B;**[!UICONTROL 上传新图像]**，以便在单个变体中添加或交换图像。
 * **要[删除电子邮件](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击以选择电子邮件标题（例如，“电子邮件1/4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。

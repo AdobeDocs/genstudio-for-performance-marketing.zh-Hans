@@ -3,10 +3,10 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
+source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1271'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,6 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 ![存储库的位置列表](../../assets/content-location-selection.png){width="350"}
 
-
 选择AEM存储库时，库会显示该存储库中的资源清单，这样您就可以利用这些存储库中已批准的资源作为内容创建的输入。 筛选器选项会更改以反映[!DNL AEM Assets Content Hub]中配置的类别。
 
 有关将[!DNL AEM Assets Content Hub]存储库添加到GenStudio for Performance Marketing的指导，请参阅[连接AEM存储库](connect-aem-repo.md)。
@@ -70,7 +69,20 @@ AEM存储库为只读，这意味着您可以访问内容，但无法将草稿�
 
 ## Assets管理
 
-在[!UICONTROL Content]中，Performance Marketing可以轻松地存储、检索和管理其数字资产。 通过同时利用`GenStudio assets`存储库和AEM存储库，用户可以确保其资源组织良好并可访问各种营销活动。 这种多存储库方法提供了跨环境使用资产的灵活性和控制力，确保在营销工作中仅使用经批准和最新的资产。
+在[!UICONTROL Content]中，您可以轻松地存储、检索和管理数字资源。 通过利用`GenStudio assets`存储库和AEM存储库，您可以确保您的资源组织良好并且可供各种营销活动访问。 这种多存储库方法提供了跨环境使用资产的灵活性和控制力，确保在营销工作中仅使用经批准和最新的资产。
+
+下表列出了资产、体验和模板可用的管理任务：
+
+| 任务 | 资源 | 体验 | 模板 |
+| --------------------------------------------------------- | :----: | :---------: | :-------: |
+| [查看详细信息](/help/user-guide/content/asset-details.md) | ✓ {\f13 } | ✓ | ✓ |
+| [创建体验](/help/user-guide/create/overview.md) |        |             | ✓ |
+| [在Adobe Express中编辑](#edit-in-express) | ✓ |             |           |
+| [导出以进行激活](#export-for-activation) |        | ✓ |           |
+| [下载](#download-assets) | ✓ |             | ✓ |
+| [删除](#delete-assets) | ✓ | ✓ | ✓ |
+
+<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### 添加资源
 
@@ -100,10 +112,6 @@ AEM存储库为只读，这意味着您可以访问内容，但无法将草稿�
 
 1. 要查看您上传的新资源，请在画布底部的&#x200B;_可用新资源_&#x200B;通知中单击&#x200B;**[!UICONTROL 刷新]**。
 
-<!--
-In the future, need guidance on template upload errors. For now, the UI just says error.
--->
-
 ### 下载资源
 
 **要下载资源**：
@@ -123,6 +131,23 @@ In the future, need guidance on template upload errors. For now, the UI just say
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 删除]** （垃圾桶）。
 
 1. 在&#x200B;_删除资产_&#x200B;弹出窗口中，验证该资产并单击&#x200B;**[!UICONTROL 删除]**。
+
+## 导出以供激活
+
+您可以采用与目标渠道兼容的格式导出已批准的体验以供激活。
+
+**要导出体验**：
+
+1. 在&#x200B;_[!DNL Content]_中，选择一个体验。 单击某个体验将打开详细信息视图，或者单击快捷菜单(`...`)。
+
+1. 单击&#x200B;**[!UICONTROL 导出以进行激活]** （带有指向箭头的框）。
+
+1. 在&#x200B;_导出以供激活_&#x200B;弹出窗口中，选择一种可用格式：
+
+   - 电子邮件： `HTML`，`CSV`
+   - 元广告和显示广告： `HTML`、`JPEG`、`PNG`
+
+请参阅[激活](/help/user-guide/activation/overview.md)。
 
 ## 在Express中编辑
 
