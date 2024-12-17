@@ -1,11 +1,11 @@
 ---
 title: 审阅和编辑内容
-description: 了解如何反复查看和编辑内容。
+description: 了解如何使用Adobe GenStudio for Performance Marketing迭代查看和编辑内容。
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe GenStudio for Performance Marketing的创作AI功能可加快内容创建�
 
 ## 请求更改
 
-您可以从内容&#x200B;_审批_&#x200B;面板中列出建议的更改或询问有关草稿的问题。 **需要工作**&#x200B;草稿状态通知内容创建者已请求更改。
+您可以从[!DNL Content] _审批_&#x200B;面板中列出建议的更改或询问有关草稿的问题。 **需要工作**&#x200B;草稿状态通知内容创建者已请求更改。
 
 审查、建议对内容创建者进行编辑，然后修改内容并可选地通过`@mention`注释请求其他输入的过程是高度迭代的。 正是通过这一部分的周期，您可以看到GenStudio for Performance Marketing的省时功能。
 
