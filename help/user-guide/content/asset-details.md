@@ -3,9 +3,9 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 **要编辑用户定义的元数据**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
-1. 单击&#x200B;**[!UICONTROL 编辑详细信息]** （铅笔）以编辑资源元数据。
+1. 单击&#x200B;**[!UICONTROL 编辑详细信息]** （铅笔）可编辑资源、体验或模板元数据。
 
    您提供的详细信息越多，就越能体验GenStudio for Performance Marketing的强大功能。 从列表中选择一个或多个详细信息，或在适用的情况下输入新详细信息，例如使用关键字。 您添加的每个详细信息都显示在列表下方。 单击&#x200B;**`x`**&#x200B;可删除详细信息。
 
@@ -91,8 +91,8 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 信息可能包括：
 
-- `Brand`、`Product`和`Persona`参数
-- 电子邮件体验的`Subject line`和`Pre Header`
+- 在[!DNL Create]进程期间选择的`Brand`、`Product`和`Persona`参数
+- 电子邮件体验的`Subject line`和`Preheader`
 - 元广告的`Headline`和`Body`
 
 ## 历史记录

@@ -3,9 +3,9 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1302'
 ht-degree: 1%
 
 ---
@@ -14,10 +14,9 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品牌批准资源的管理，以便在您的数字营销历程中使用和重复使用。
 
-## 内容库
+## [!DNL Content]图库
 
 图库会根据所选视图显示已批准资产、体验或模板的清单。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个类别中进行选择，以筛选图库中显示的内容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;视图中，单击搜索（放大镜）图标以使用关键字查找资源。
-
 
 下面显示了[!UICONTROL Assets]图库中搜索词`dog`的搜索：
 
@@ -27,9 +26,10 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 过滤器和搜索界面快速且响应迅速，提供了高效的搜索优先体验。 每个[!DNL Content]视图都提供筛选选项，以缩小搜索范围，从而缩小搜索范围，以找到理想的资产、体验或模板。 对于资源和体验，您可以选择营销活动和特定准则，例如为特定产品制作的内容。
 
-存在基于[关键字](asset-details.md#user-defined-metadata)和[属性类别](/help/user-guide/insights/attribute-category.md)的筛选器以缩小搜索结果范围。 例如，您可能希望查找特定文件类型或主题的资产，以帮助您为营销策划构建新的体验。
+存在基于[关键字](asset-details.md#user-defined-metadata)和[属性类别](/help/user-guide/insights/attribute-category.md)的筛选器以缩小搜索结果范围。 例如，您可能希望查找特定文件类型或主题的资产，以帮助您为营销策划构建新的体验。 或者，您也可以根据用户名或团队成员姓名来筛选内容：
 
-在搜索&#x200B;_体验_&#x200B;时，您可以使用&#x200B;**[!UICONTROL 创建者]**&#x200B;筛选器将列表限制为仅显示您或特定人员创建的体验。
+- **[!UICONTROL 由]**&#x200B;上传的过滤器将&#x200B;_[!UICONTROL Assets]_&#x200B;列表限制为仅显示由您或特定人员上传的资源。
+- **[!UICONTROL 创建者]**&#x200B;筛选器限制&#x200B;_[!UICONTROL 体验]_&#x200B;列表仅显示您或特定人员创建的体验。
 
 **要搜索要重复使用的内容，请执行以下操作：**
 
@@ -79,10 +79,9 @@ AEM存储库为只读，这意味着您可以访问内容，但无法将草稿�
 | [创建体验](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [在Adobe Express中编辑](#edit-in-express) | ✓ |             |           |
 | [导出以进行激活](#export-for-activation) |        | ✓ |           |
+| [刷新](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [下载](#download-assets) | ✓ |             | ✓ |
 | [删除](#delete-assets) | ✓ | ✓ | ✓ |
-
-<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### 添加资源
 
@@ -116,7 +115,7 @@ AEM存储库为只读，这意味着您可以访问内容，但无法将草稿�
 
 **要下载资源**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个资源或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 下载]**&#x200B;图标（向下箭头）。
 
@@ -126,7 +125,7 @@ AEM存储库为只读，这意味着您可以访问内容，但无法将草稿�
 
 **要删除资源**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 删除]** （垃圾桶）。
 
