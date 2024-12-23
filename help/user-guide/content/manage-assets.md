@@ -3,10 +3,10 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 AEM存储库为只读，这意味着您可以访问内容，但无法将草稿、新资源或元数据保存到AEM存储库。 资产、体验和模板的所有草稿和最终更新都将使用新的[系统元数据](asset-details.md#system-metadata)保存到`GenStudio assets`存储库。
 
 {{note-aem-assets}}
+
+AEM存储库可能会强制实施某些许可要求，如资源过期。 这些资产可能无法在[!DNL Create]工作流中使用。 可能需要续订或替换过期的资产，以保持项目的连续性。 请咨询您的[!DNL AEM Assets Content Hub]管理员以获得这些资源的帮助。
 
 ## Assets管理
 
