@@ -4,9 +4,9 @@ description: 了解如何针对Adobe GenStudio for Performance Marketing个性�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要�
 
 每个部分只能使用每种字段类型中的一种。 在上述示例中，`pod1`节只能使用一个`pod1_headline`字段。 由于此规则，无法嵌套这些部分。
 
-电子邮件模板最多可包含三个部分。 例如，以下列表有三个标题和正文部分：
+每种模板类型（如电子邮件或元广告）都包含特定于渠道的部分使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
+
+例如，电子邮件模板最多可包含三个部分；因此，您可以包含三个标题部分和正文部分：
 
 - `pre-header`
 - `pod1_headline`
