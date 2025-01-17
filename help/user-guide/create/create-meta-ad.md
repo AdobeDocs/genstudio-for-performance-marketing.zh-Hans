@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 选择模板
 
-要开始生成新的元广告体验，请使用可用的模板为您的内容提供框架。
+要开始生成新的元广告体验，请使用可用的模板为您的内容提供框架。 有关支持的元广告长宽比的信息，请参阅[模板最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 **选择元广告模板**：
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 输入提示
 
-选择准则后，使用自然语言制作提示，开始为新的元广告体验生成内容。 详细提示比模糊或不描述性提示产生更高的输出质量。
+选择准则后，使用自然语言制作提示，开始为新的元广告体验生成内容。 详细的提示比模糊或模糊的提示产生更高的输出质量。
 
 请参阅[编写有效提示](/help/user-guide/effective-prompts.md)，了解有关编写提示的详细信息。
 
@@ -88,7 +88,8 @@ ht-degree: 0%
 * **要[编辑元广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
 * **要[手动编辑元广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意广告部分(如主题行，
 标题或正文)并根据需要进行编辑。
-* **要更改或选择行动号召**，请单击显示行动号召的按钮，然后从可用的按钮文本选项中选择。<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **要更改或选择行动号召**，请单击行动号召按钮，然后从可用按钮文本选项中选择。 在&#x200B;_链接_&#x200B;中，输入行动号召文本的URL。
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。
 * **要[删除元广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击广告标题（例如，“Meta 4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。

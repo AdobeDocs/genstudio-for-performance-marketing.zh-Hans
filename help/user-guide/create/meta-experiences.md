@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ ht-degree: 0%
 
 在生成元体验时，会在画布中创建和显示四个变量。
 
+GenStudio for Performance Marketing支持[标准和自定义大小的元广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+
 电子邮件体验的可编辑部分包括：
 
 * 标题
 * 正文
-* 行动号召(CTA)
+* 行动动员(CTA)
 * 图像上文本
 * 图像
 * 品牌徽标

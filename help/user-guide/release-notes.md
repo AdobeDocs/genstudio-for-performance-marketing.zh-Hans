@@ -2,11 +2,11 @@
 title: Adobe GenStudio for Performance Marketing发行说明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增强功能。
 recommendations: noDisplay
-last-substantial-update: 2024-12-13T00:00:00Z
+last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1644'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,49 @@ ht-degree: 1%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2024.12.12 {#latest}
+## 2025.1.16 {#latest}
+
+### 与Adobe Workfront Proof集成
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+GenStudio for Performance Marketing与Adobe Workfront Proof集成Beta程序将于本月启动。 Workfront Proof通过审批模板、多阶段工作流和注释来加快内容创建和激活生命周期。 拥有Workfront Proof权限的GenStudio for Performance Marketing用户可以使用GenStudio for Performance Marketing中的Proof高级功能来查看和评论GenStudio生成的内容。
+
+Beta项目提供了一种帮助制定产品开发并确定一般可用性准备情况的方法。 有关GenStudio for Performance Marketing/Workfront Proof集成Beta计划的信息，请联系Etienne Bosch (etienneb@adobe.com) 。
+
+### 生成新的行动号召
+
+现在，您可以在管理变体时生成新的行动号召(CTA)短语。 使用新的&#x200B;_重新短语_&#x200B;和&#x200B;_添加链接_&#x200B;选项来生成新短语并编辑CTA链接。 必须正确设置您的模板，这些新的CTA功能才能正常工作。 遵循&#x200B;_自定义模板_&#x200B;中的准则： [行动号召](/help/user-guide/content/customize-template.md#calls-to-action)。 有关管理变体中CTA的准则，请参阅[修改行动号召](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
+
+### 修复和增强功能
+
+* 现在，字符计数将显示在所有生成的和手动的显示广告字段中。 查看[元体验](/help/user-guide/create/meta-experiences.md#character-counts)中的&#x200B;_字符数_。<!-- GS-7732 -->
+
+* _协作者_&#x200B;现在可以查看资源，但不能创建、编辑或删除这些资源。 以前，协作者权限未按[!DNL Create]中的预期执行。<!-- GS-7614 -->
+
+* 内容编辑者现在可以编辑资产、体验和模板元数据。<!-- GS-4905 -->
+
+* 现在支持在元广告模板中自定义图像大小。<!-- GS-7512 -->
+
+* 现在，在生成模板期间会预加载角色、品牌和产品选择。<!-- GS-8069 -->
+
+* 电子邮件行动号召链接不再是必填字段。<!-- GS-8103 -->
+
+* [!DNL Brand]选择器下拉菜单现在对模板按预期工作。 以前，某些模板的选择器无法成功加载。<!-- GS-8908 -->
+
+* 现在，编辑者最多可以为单面板电子邮件和元广告选择四个图像。<!-- GS-2631 -->
+
+* 在编辑体验的元数据后，已批准体验的`Created by`字段的年份值现在与预期一致。<!-- GS-8344 -->
+
+* 内容编辑者现在可以从[!DNL Create]中成功选择模板。 以前，当编辑器选择模板时，应用程序会引发控制台错误。 <!-- GS-8798 -->
+
+* 解决了为元广告调整大小和重新生成操作的问题。<!-- GS-8900 -->
+
+* 现在，**[!UICONTROL 返回]**&#x200B;按钮会按预期将用户返回到上一页或[!DNL Create]登陆页面。<!-- GS-8622 -->
+
+## 早期发行说明
+
++++2024.12.12版注释
 
 ### 新增功能
 
@@ -89,7 +131,7 @@ ht-degree: 1%
 
 * 改进了[!DNL Create] **[!UICONTROL 返回]**&#x200B;按钮的性能。<!-- GS-6767 -->
 
-## 早期发行说明
++++
 
 +++2024.11.14版注释
 

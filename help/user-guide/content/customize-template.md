@@ -4,9 +4,9 @@ description: 了解如何针对Adobe GenStudio for Performance Marketing个性�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-以下几个部分将说明如何使用&#x200B;_Handlebars_ HTML语言来调整模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 查看[什么是 [!DNL Handlebars]？_Handlebars语言指南_&#x200B;中的](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_HTML语言来调整模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
 
 
 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
@@ -123,6 +123,32 @@ _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要�
 GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系比`pod2_body`更密切。
 
 请参阅[结构化提示](/help/user-guide/effective-prompts.md#structured-prompts)，了解如何制作一个提示，为电子邮件中的每个部分生成不同的内容。
+
+### 行动号召
+
+行动号召(CTA)包括短语和链接。 为了使CTA _[!UICONTROL 重写]_&#x200B;和&#x200B;_[!UICONTROL 添加链接]_&#x200B;功能在变体生成过程中正常工作，您必须在模板中包含链接和短语的占位符。
+
+使用下面的指南设置CTA占位符：
+
+- CTA短语可用且链接可编辑
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- CTA重新短语可用，但链接&#x200B;**不可编辑**，因为模板中提供了实际链接
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- CTA链接可编辑，但重新短语是&#x200B;**不可用的**，因为模板中提供了短语
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+GenStudio for Performance Marketing也可以提供各种行动号召短语。 请参阅[修改行动要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。
 
 ## 模板预览
 

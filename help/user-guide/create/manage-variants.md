@@ -3,9 +3,9 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增强生成的变体 — [电子邮件](/help/user-guide/create/email-experiences.md)、[元广告](/help/user-guide/create/meta-experiences.md)等 — 以用于数字营销计划。
 
-在[创建体验](/help/user-guide/create/overview.md)时，您可以单独或批量修改生成的变体的内容和资产。 通过在单个微观级别管理变体，您可以明确管理生成的每段内容。
+在[创建体验](/help/user-guide/create/overview.md)时，您可以单独或批量修改生成的变体的内容和资产。 通过在单个微观级别管理变体，您可以管理生成的每个内容片段。
 
 ## 更改草稿名称
 
@@ -32,7 +32,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 
 您可以编辑生成的变体中的文本字段。 通过尝试不同的短语和短语，优化面向受众的文本。 例如，您可以手动修订变体中的文本以预览具有选定图像的标题的外观。
 
-**要手动编辑生成的变体中的文本**：
+**若要在生成的变量中手动编辑文本**：
 
 1. 生成变体集后，双击变体中的可编辑文本。
 1. 输入新文本。
@@ -52,7 +52,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 若要更改现有文本，请选择&#x200B;_[!UICONTROL 重新短语]_、_[!UICONTROL 缩短]_&#x200B;或&#x200B;_[!UICONTROL 加长]_。
 1. 要生成新的措辞选项，请选择&#x200B;_[!UICONTROL 生成新文本]_&#x200B;并输入新提示。
    1. 单击&#x200B;**[!UICONTROL 生成]**。
-1. 在重新生成部分的文本时，单击重新生成图标可查看更多文本选项。
+1. 在重新生成截面的文本时，单击重新生成图标（圆圈箭头）可查看更多文本选项。
 1. 从显示的结果中，选择所需的选项，然后单击&#x200B;**[!UICONTROL 替换]**。
 
    使用修订后的文本更新变体。
@@ -61,13 +61,29 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 生成一组变体后，您可以修订行动号召(CTA)文本和链接。
 
+>[!NOTE]
+>
+>如果标签文本是生成的模板字段（未在模板中硬编码），则可以使用&#x200B;_[!UICONTROL 重新短语]_&#x200B;选项编辑CTA标签文本。 如果链接存在并可编辑（未在模板中硬编码），则可以使用&#x200B;_[!UICONTROL 编辑链接]_&#x200B;选项编辑CTA链接。
+
 **要修订变体中的CTA**：
 
-1. 生成一组变体后，单击显示CTA文本的按钮。
-1. 要更改CTA按钮文本，请从&#x200B;_行动号召_&#x200B;列表中的可用选项中选择。
-1. 要在CTA中更改链接，请单击&#x200B;**[!UICONTROL 链接]**。
-   1. 在&#x200B;_编辑链接_&#x200B;分区中输入或粘贴新链接或者修订现有链接，然后单击&#x200B;**[!UICONTROL 应用]**。 您可以单击&#x200B;**[!UICONTROL 删除链接]**&#x200B;以在进入新链接之前删除现有链接。
+1. 单击其中一个变体中的CTA按钮。
 
+   选择此按钮，显示字符数并显示两个选项：_[!UICONTROL 重新短语]_&#x200B;和&#x200B;_[!UICONTROL 添加链接]_。
+
+1. 单击&#x200B;**[!UICONTROL 重新短语]**。
+
+   1. 从已重新生成的短语列表中进行选择，或单击&#x200B;**[!UICONTROL 刷新结果]**&#x200B;以获取更多选项。
+
+   1. 单击&#x200B;**[!UICONTROL 替换]**。
+
+      CTA文本已刷新，并且显示&#x200B;_“按钮标签已被替换”_&#x200B;消息，确认更改。
+
+1. 单击&#x200B;**[!UICONTROL 添加链接]**。
+
+   1. 键入或粘贴URL并单击&#x200B;**[!UICONTROL 应用]**。
+
+      要修订CTA中的现有链接，请编辑现有URL或粘贴到新URL中，然后单击&#x200B;**[!UICONTROL 应用]**。
 
 添加或修订的链接将应用于变量集中的所有CTA。
 

@@ -4,9 +4,9 @@ description: 将模板与Adobe GenStudio for Performance Marketing结合使用�
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 0%
 - 正方形1:1（1080 x 1080像素）
 - 垂直4:5（1080 x 1350像素）
 - 文章9:16 （1080 x 1920像素）
+- 自定义图像大小： （最小图像宽度50 x 50像素）
 
 **可识别的字段名称**：
 
@@ -121,6 +122,8 @@ ht-degree: 0%
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 
 >[!TAB 显示广告]
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
 
 在自定义显示广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
 

@@ -2,13 +2,14 @@
 title: 创建显示广告体验
 description: 了解如何在Adobe [!DNL GenStudio] 中为性能营销创建显示广告体验。
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---

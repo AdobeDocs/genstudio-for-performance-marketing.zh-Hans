@@ -1,16 +1,16 @@
 ---
-title: 面向性能营销的GenStudio概述 [!DNL Create]
-description: 使用创作AI在Adobe GenStudio中为性能营销 [!DNL Create]快速生成高性能、品牌内内容。
+title: GenStudio for Performance Marketing [!DNL Create]概述
+description: 在Adobe GenStudio for Performance Marketing [!DNL Create]中使用generative AI快速生成高性能、按品牌显示的内容。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 8f77f877eb09f91160cb149d5df55e1030989370
+source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '600'
 ht-degree: 1%
 
 ---
 
-# GenStudio性能营销[!DNL Create]
+# GenStudio for Performance Marketing [!DNL Create]
 
 GenStudio for Performance Marketing [!DNL Create]利用AdobeGenAI的强大功能，使营销人员和分散的团队能够创建高性能、品牌化的体验。
 
@@ -27,38 +27,71 @@ GenStudio for Performance Marketing [!DNL Create]利用AdobeGenAI的强大功能
 ## [!DNL Create] 用例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="创建新内容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>创建电子邮件体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="创建元广告体验" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>创建元广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="创建显示广告体验" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>创建显示广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing使营销人员能够&#x200B;**创建新的营销内容**。 在此使用案例中，使用定义的[指南](/help/user-guide/guidelines/overview.md)和灵感图像来指导创建品牌一致的内容。
@@ -77,7 +110,7 @@ GenStudio for Performance Marketing使营销人员能够&#x200B;**创建新的�
 
 在提示抽屉中，您可以添加&#x200B;_参数_&#x200B;如[!DNL Brands]、[!DNL Products]和[!DNL Personas] （准则）以及[!DNL Content] （资产）来塑造生成的体验。
 
-这些添加的参数将[准则](/help/user-guide/guidelines/overview.md)和资产注入生成过程，确保内容已自定义以符合品牌的综合标识。 建议向GenStudio中添加准则以进行性能营销，并在内容生成过程中使用它们，因为它们可以极大地增强合适品牌内内容的创建过程。
+这些添加的参数将[准则](/help/user-guide/guidelines/overview.md)和资产注入生成过程，确保内容已自定义以符合品牌的综合标识。 建议向GenStudio for Performance Marketing添加准则并在内容生成过程中使用，因为它们可以极大地增强合适品牌内内容的创建过程。
 
 在&#x200B;_中上传或添加的图像资源内容参数_&#x200B;用于生成的变体并通知为变体生成的复制内容（文本）。 您可以上传资源，或选择[!DNL Content]或任何连接的AEM Content Hub存储库中已存在的资源。
 
@@ -99,9 +132,11 @@ GenStudio for Performance Marketing对品牌标识的各个方面进行品牌验
 
 ### 草稿
 
-在[!DNL Create]的&#x200B;_最近工作_&#x200B;部分中，访问和管理所有最近草稿。 查看并完成您以前的工作，准备将其发布到[[!DNL Content]](/help/user-guide/content/overview.md)。
+在[!DNL Create]的&#x200B;_最近工作_&#x200B;部分中，访问和管理所有最近草稿。 查看并完成您以前的工作，准备将其发布到[[!DNL Content]](/help/user-guide/content/overview.md)或导出以供使用。
 
-正在自动保存草稿。 当您导航回[!DNL Create]主页时，_最近工作_&#x200B;部分将更新为最新的草稿。 对于每个草稿，您可以查看它是&#x200B;_已批准_&#x200B;还是仍处于&#x200B;_草稿_&#x200B;形式。
+正在自动保存草稿。 当您导航回[!DNL Create]主页时，_最近工作_&#x200B;部分将更新为最新的草稿。 此部分中的每个草稿都显示一个状态，如&#x200B;_草稿_&#x200B;或&#x200B;_已批准_。
+
+单击排序图标（网格或表）以在网格或表视图中显示&#x200B;_最近工作_&#x200B;项。
 
 ### 管理变体
 

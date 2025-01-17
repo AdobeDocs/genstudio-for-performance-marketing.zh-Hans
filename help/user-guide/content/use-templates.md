@@ -3,9 +3,9 @@ title: 使用模板
 description: 了解如何在Adobe GenStudio for Performance Marketing中有效地使用模板来简化您的创作过程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,9 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
    - 能够包括文本、图像和其他媒体
    - 在电子邮件和元广告模板中使用
 
-- **CTA（行动号召）**
+- **行动号召 (CTA)**
 
+   - 行动号召按钮使用短语和链接
    - 鼓励收件人采取特定操作，例如单击链接或进行购买
    - 在电子邮件和元广告模板中使用
 

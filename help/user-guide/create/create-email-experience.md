@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 输入提示
 
-选择准则后，使用自然语言编写提示，以开始为新的电子邮件体验生成内容。 详细提示比模糊或不描述性提示产生更高的输出质量。
+选择准则后，使用自然语言编写提示，以开始为新的电子邮件体验生成内容。 详细的提示比模糊或模糊的提示产生更高的输出质量。
 
 请参阅[编写有效提示](/help/user-guide/effective-prompts.md)，了解有关编写提示的详细信息。
 
@@ -83,6 +83,7 @@ ht-degree: 0%
 
 * **要[编辑电子邮件草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
 * **要[手动编辑电子邮件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意可编辑的文本字段（如主题行、标题或正文）并根据需要进行编辑
+* **要[更改或选择行动号召](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，请单击行动号召按钮，然后选择&#x200B;_[!UICONTROL 重新发语]_&#x200B;或&#x200B;_[!UICONTROL 添加链接]_。
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
 * **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容中选择/交换]**&#x200B;或&#x200B;**[!UICONTROL 上传新图像]**，以便在单个变体中添加或交换图像。
 * **要[删除电子邮件](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击以选择电子邮件标题（例如，“电子邮件1/4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
