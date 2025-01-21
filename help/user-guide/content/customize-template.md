@@ -4,9 +4,9 @@ description: 了解如何针对Adobe GenStudio for Performance Marketing个性�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -181,17 +181,13 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 
 ## 静态内容
 
-电子邮件和元模板通常链接到托管在GenStudio for Performance Marketing外部的图像和CSS文件。 当GenStudio for Performance Marketing为这些模板或从中派生的体验生成缩略图时，如果外部资源没有正确的跨源资源共享(CORS)标头，则可能会忽略这些外部资源。
+电子邮件和元模板通常链接到托管在其他域上的图像和CSS文件。 当GenStudio for Performance Marketing为模板预览或从中派生的体验生成缩略图时，它将验证内容源并嵌入副本以进行预览。
 
-要确保这些资源在缩略图生成过程中可用，请考虑两个选项：
+临时嵌入外部文件仅用于创建模板预览，这可确保预览准确反映内容在创建时显示的情况。 这些外部文件&#x200B;**不是**&#x200B;永久存储在GenStudio for Performance Marketing中。 创建模板预览后，GenStudio for Performance Marketing将继续引用模板中提供的原始源链接。
 
-1. **使用CORS标头**：主机服务器必须发送响应，其中生产环境的`Access-Control-Allow-Origin`标头设置为`https://experience.adobe.com`值。 此方法允许GenStudio for Performance Marketing访问并包含资源。
+### 刷新内容
 
-1. **使用数据URL**：使用数据URL将外部资源直接嵌入模板。 此方法绕过CORS限制，并确保资源在生成缩略图期间可用。
-
->[!TIP]
->
->使用[refresh](/help/user-guide/content/use-templates.md#refresh-template)用最新的静态内容更新模板预览。
+如果在创建初始预览后源发生更改，请使用[refresh](/help/user-guide/content/use-templates.md#refresh-template)函数以外部源内容的最新版本更新模板预览。
 
 ## 模板示例
 

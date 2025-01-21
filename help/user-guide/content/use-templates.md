@@ -3,9 +3,9 @@ title: 使用模板
 description: 了解如何在Adobe GenStudio for Performance Marketing中有效地使用模板来简化您的创作过程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ### 刷新模板
 
-模板可能包括静态文件，如图标或徽标。 使用刷新可更新模板预览，以显示这些资源的最新版本。
+模板可能包括静态文件，如图标或徽标。 创建模板预览后未存储[静态内容](/help/user-guide/content/customize-template.md#static-content)。 GenStudio for Performance Marketing将继续引用模板中提供的源链接。 使用刷新可更新模板预览，以显示这些资源的最新版本。
 
 **刷新模板**：
 
@@ -155,4 +155,4 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 1. 单击右上角的&#x200B;**[!UICONTROL 创建体验]** （画笔）以使用该模板。
 
-1. 继续[创建](/help/user-guide/create/overview.md)体验。
+1. 继续[创建](/help/user-guide/create/overview.md#create-use-cases)体验。
