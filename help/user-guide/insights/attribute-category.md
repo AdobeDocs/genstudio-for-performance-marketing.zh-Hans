@@ -5,9 +5,9 @@ feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
 last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 976358742e598b55b1f0c4ca4664d2bcd8f1e9b9
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,8 @@ GenStudio for Performance Marketing使用Adobe的AI和机器学习功能来研�
 | 相机角度 | 相机相对于主体的位置和角度。 |                                                                                                                                                                                |
 | 目标距离 | 摄像头和图像目标之间的距离。 | `close up`、`mid shot`、`long shot` |
 | 相机设置 | 用于生成图像的相机控件的配置。 |                                                                                                                                                                                |
-| 颜色和色调 | 计算图像元素中使用的颜色。 在以下图像图层中，从一组40种预先确定的颜色中标识一到三种颜色： <br>**[!UICONTROL 前景颜色&#x200B;]**— 图像前图层中的元素<br>**[!UICONTROL 背景颜色]** — 图像后图层中的元素<p>**[!UICONTROL 色温]**&#x200B;描述图像中颜色的常规热度或冷度。<br>色调或温度值： `warm`、`cool`、`neutral` | ![颜色和淡色调](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
+| 颜色和色调 | 计算图像元素中使用的颜色。 在以下图像图层中，从一组40种预先确定的颜色中标识一到三种颜色： <br>**[!UICONTROL 前景颜色&#x200B;]**— 图像前图层中的元素<br>**[!UICONTROL 背景颜色]** — 图像后图层中的元素 | 颜色值： `Red`、`Dark_Red`、`Green`、`Bright_Green`、`Dark_Green`、`Light_Green`、`Mud_Green`、`Blue`、`Dark_Blue`、`Light_Blue`、`Royal_Blue`、`Black`、`White`、`Off_White`、`Gray`、`Dark_Gray`、`Silver`、`Cream`、`Magenta`、`Cyan`、`Yellow`、`Mustard`、`Khaki`、`Brown`、`Dark_Brown`、`Violet`、`Pink`、`Dark_Pink`、`Maroon` `Tan`、`Purple`、`Lavender`、`Turquoise`、`Plum`、`Gold`、`Emerald`、`Orange`、`Beige`、`Lilac`、`Olive` |
+| 色温 | 描述图像中颜色的一般温暖或冷度。 | 色调或温度值： `warm`、`cool`、`neutral`<br>![颜色和冷色调](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
 | 图像样式 | 图像的视觉处理。 |                                                                                                                                                                                |
 | 照明条件 | 图像中的光类型。 |                                                                                                                                                                                |
 | 对象 | 标识构成图像的一个或多个项目、图元和元素。 | ![向日葵，飞机，花物件](../../assets/category/image-objects.png){width="200" zoomable="yes"} |
