@@ -1,11 +1,17 @@
 ---
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 # GenStudio for Performance Marketing代码片段
+
+## 连接见解 {#connect-insights}
+
+>[!TIP]
+>
+>GenStudio for Performance Marketing要求您连接到渠道帐户才能开始接收数据。 请参阅[连接渠道帐户](/help/user-guide/insights/connect-channel.md)。
 
 ## 注意：AEM Assets {#note-aem-assets}
 
@@ -17,4 +23,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->通过[Adobe GenStudio学院](https://learningmanager.adobe.com/genstudioacademy)丰富您关于此主题的技能。
+>通过[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)丰富您关于此主题的技能。

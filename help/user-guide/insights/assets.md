@@ -3,9 +3,9 @@ title: Assets概述
 description: 了解如何在Adobe GenStudio for Performance Marketing中评估资源性能。
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 [!DNL Insights] _[!UICONTROL Assets]_&#x200B;视图显示在所选渠道帐户的体验和广告营销活动中使用的资源列表。
 
-_[!UICONTROL Assets]_&#x200B;图库是默认视图，该视图显示资源预览拼合和量度（如点进率）。 单击图库右侧上方的设置(cog)图标可切换以下三个可视量度之一：
+{{connect-insights}}
+
+_[!UICONTROL Assets]_&#x200B;表是使用[!UICONTROL 资源ID]组织的。 您可以使用视图列表（表格）图标和图库视图（网格）图标在视图之间切换。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。
+
+![Assets筛选器和表](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+_[!UICONTROL Assets]_&#x200B;图库视图显示资源预览拼合和量度，如点进率。 单击图库右上方的设置(cog)图标以打开&#x200B;**[!UICONTROL 卡片设置]**&#x200B;并切换三个可查看的量度之一：
 
 - CPA（每次操作的成本）
 - CTR（点进率）
 - CPC（每次点击成本）
 - 支出
-
-_[!UICONTROL Assets]_&#x200B;表是使用[!UICONTROL 资源ID]组织的。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。
-
-![Assets筛选器和表](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-您可以使用视图列表（表格）图标和图库视图（网格）图标在视图之间切换。
 
 ## 资源详细信息
 

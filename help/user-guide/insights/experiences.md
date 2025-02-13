@@ -3,7 +3,7 @@ title: 体验概述
 description: 有关Adobe GenStudio for Performance Marketing中的体验和广告投放效果，请参阅客户参与、预算和支出的概述。
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -14,9 +14,13 @@ ht-degree: 0%
 
 [!DNL Insights] _[!UICONTROL 体验]_&#x200B;视图显示已连接渠道广告帐户的体验列表。 对于Facebook，体验是元广告名称。
 
+{{connect-insights}}
+
 _[!UICONTROL 体验]_&#x200B;表是使用[!UICONTROL 广告名称]组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的过滤器（漏斗）图标打开&#x200B;**[!UICONTROL 过滤器]**&#x200B;菜单，从中可以从[!UICONTROL 帐户]和[!UICONTROL 促销活动]列表中选择以过滤表格中的广告名称。
 
 ![体验筛选器和表](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## 体验详细信息
 
@@ -38,9 +42,9 @@ _体验_&#x200B;是一种促销资源，包括作为营销活动的一部分分�
 
 GenStudio for Performance Marketing支持广告格式，如资源馈送、链接广告以及单个图像或视频。 以下是按平台划分的广告格式列表：
 
-| instagram | facebook/Meta | Messenger | Audience Network |
+| Instagram | Facebook/Meta | Messenger | Audience Network |
 | ------------ | ---------------- | ------------ | ---------------- |
-| 浏览<br>浏览主页<br>浏览网格主页<br>信息源<br>卷轴<br>配置文件信息源<br>搜索<br>商店<br>故事 | 商务探索<br>摘要<br>串流视频<br>市场<br>卷轴<br>卷轴重叠<br>右列<br>搜索结果<br>故事<br>视频摘要<br>Facebook卷轴上的广告 | 收件箱<br>故事 | 本机、横幅和插播式广告<br>奖励视频 |
+| 浏览<br>浏览主页<br>浏览网格主页<br>信息源<br>卷轴<br>配置文件信息源<br>搜索<br>商店<br>故事 | 商务探索<br>摘要<br>流视频<br>市场<br>转盘<br>转盘覆盖<br>右列<br>搜索结果<br>故事<br>视频摘要<br>Facebook转盘上的广告 | 收件箱<br>故事 | 本机、横幅和插播式广告<br>奖励视频 |
 
 #### 不支持的投放位置
 

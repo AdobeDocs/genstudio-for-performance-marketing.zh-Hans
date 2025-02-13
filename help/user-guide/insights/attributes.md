@@ -3,7 +3,7 @@ title: 属性概述
 description: 了解如何评估Adobe GenStudio for Performance Marketing中特定属性的性能。
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 [!DNL Insights] _[!UICONTROL 属性]_&#x200B;视图显示所选渠道帐户在广告营销活动中使用的属性列表。
 
+{{connect-insights}}
+
 _[!UICONTROL 属性]_&#x200B;表是使用[!UICONTROL 属性]名称组织的。 您可以使用&#x200B;**[!UICONTROL 图像]**&#x200B;按钮和&#x200B;**[!UICONTROL 视频]**&#x200B;按钮在列表类型之间切换。 单击表格右侧上方的设置(cog)图标可切换可查看列。
 
 表左上方的筛选器（漏斗）图标打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从中从[!UICONTROL 帐户]和[!UICONTROL 属性类别]中选择以筛选表中的属性。 以下示例显示了`Lighting Condition`类别中的属性列表。
 
 ![属性筛选器和表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## 属性详细信息
 

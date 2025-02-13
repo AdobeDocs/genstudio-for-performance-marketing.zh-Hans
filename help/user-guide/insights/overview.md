@@ -3,9 +3,9 @@ title: ' [!DNL Insights]概述'
 description: 了解如何基于实时内容性能指标优化体验。
 feature: Attributes, Insights, Experiences, Assets, Channels
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: a06b226ffc6bfc0bd371a2f5045d5a422a2983bd
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ Adobe GenStudio for Performance Marketing [!DNL Insights]提供对内容性能�
 - **优化性能不佳的内容**：查找性能不佳的内容，并使用集成的创作AI立即创建变体，从而在不从头开始的情况下提高其有效性。
 - **振兴高性能内容**：获取成功的内容并对其进行调整，以刷新受众的体验，或调整主页内容以用于新的营销活动，这可能会延长其生命周期和性能。
 
->[!TIP]
->
->请参阅[Connect渠道帐户](connect-channel.md)，了解如何让GenStudio for Performance Marketing接收来自您当前营销活动、资源和体验的数据。
+{{connect-insights}}
 
 ## 仪表板
 

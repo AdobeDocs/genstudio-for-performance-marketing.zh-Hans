@@ -3,9 +3,9 @@ title: 渠道概述
 description: 有关Adobe GenStudio for Performance Marketing中营销活动的客户参与、性能、预算和支出的概述，请参阅。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 [!DNL Insights] _[!UICONTROL 渠道]_&#x200B;视图显示连接的渠道广告帐户的营销活动列表。
 
->[!TIP]
->
->GenStudio for Performance Marketing要求您连接到渠道帐户才能开始接收数据。 请参阅[连接渠道帐户](connect-channel.md)。
+{{connect-insights}}
 
 _[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从中从[!UICONTROL 帐户]、[!UICONTROL 状态]和[!UICONTROL 目标]列表中进行选择，以筛选表格中的促销活动。
 
 ![渠道筛选器和表](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 当您选择某个营销活动时，[[!UICONTROL 体验]选项卡](experiences.md)将打开一个与该营销活动关联的广告名称列表，通过该列表，您可以识别哪些体验为其整体成功做出了贡献。
 
