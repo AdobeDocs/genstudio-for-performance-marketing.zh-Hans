@@ -1,13 +1,14 @@
 ---
 title: 数据管理
-description: 了解GenStudio for Performance Marketing中用于分析的数据引入和存储。
+description: 了解GenStudio for Performance Marketing中 [!DNL Insights] 的数据引入和存储。
 feature: Insights
 level: Experienced
 role: Admin
 last-substantial-update: 2025-1-7
-source-git-commit: 5dbe645f2ccf033f515da22ffdcce86edcb9fb24
+exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)通过�
 
 >[!WARNING]
 >
->在AEP中重置生产沙盒将删除所有数据连接并导致[!DNL Insights]停止工作。
+>在AEP中重置生产沙盒会删除所有数据连接并导致[!DNL Insights]停止工作。
 
 请务必小心，不要删除GenStudio for Performance Marketing可靠运行所需的以下数据连接：
 

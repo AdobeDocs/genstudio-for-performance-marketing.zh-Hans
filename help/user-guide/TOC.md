@@ -4,10 +4,10 @@ breadcrumb-title: 用户指南
 user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能。了解如何快速创建品牌资产、生成变体并优化体验。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: c76e0584c049b77e5e5742f4b52e959503422016
+source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 23%
+source-wordcount: '171'
+ht-degree: 22%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 23%
    + [请求审阅和批准内容](approvals/request-review.md)
    + [审阅和编辑内容](approvals/review-and-edit.md)
    + [批准内容](approvals/approve-content.md)
-   + [Publish批准的内容](approvals/publish-content.md)
+   + [发布批准的内容](approvals/publish-content.md)
 + 内容{#content}
    + [内容概述](content/overview.md)
    + [管理资源和体验](content/manage-assets.md)
@@ -66,7 +66,10 @@ ht-degree: 23%
    + [体验](insights/experiences.md)
    + [Assets](insights/assets.md)
    + [属性](insights/attributes.md)
-   + [属性类别](insights/attribute-category.md)
+   + 属性类别{#categories}
+      + [图像功能](insights/image-features.md)
+      + [视频功能](insights/video-features.md)
+      + [文本功能 — 隐藏](insights/text-features.md)
    + [数据管理](insights/data-management.md)
 + [GenStudio Academy — 隐藏](genstudioacademy.md)
 + [测试Markdown — 隐藏](test-markdown.md)

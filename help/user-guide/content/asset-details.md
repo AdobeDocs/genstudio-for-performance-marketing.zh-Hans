@@ -3,7 +3,7 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 当您在[!DNL Content]中存储批准的资源时，GenStudio for Performance Marketing会使用Adobe的AI和机器学习功能来研究该资源并根据资源功能应用标记。 例如，猫的图片可能会产生诸如`pet photography`或`cat`之类的属性标记，以及标识图片中主要颜色的颜色标记。 您无法编辑已检测并自动应用的标记。
 
-有关图像、视频和文本功能的详细列表，请参阅[!DNL Insights] [属性类别](/help/user-guide/insights/attribute-category.md)。
+有关图像、视频和文本功能的详细列表，请参阅[!DNL Insights] [属性类别](/help/user-guide/insights/attributes.md#categories)。
 
 ### 生成的内容元数据
 

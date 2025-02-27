@@ -3,9 +3,9 @@ title: 渠道概述
 description: 有关Adobe GenStudio for Performance Marketing中营销活动的客户参与、性能、预算和支出的概述，请参阅。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ _[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组
 
 ## 渠道性能
 
-根据您的绩效目标，分析量度可以帮助您评估是否实现了您的目标。
+根据您的绩效目标，[!DNL Insights]量度可以帮助您评估是否实现了您的目标。
 
 例如，如果了解是您的目标，那么提高`impressions`的比率可能表示您正在扩大您的范围。 为了了解这是否实现了您的目标，您可以查看指示您的内容正在参与的量度，如`clicks`或`video plays`。 受众与您的内容交互的效率如何？
 

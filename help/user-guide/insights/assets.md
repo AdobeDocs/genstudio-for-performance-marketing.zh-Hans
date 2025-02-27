@@ -3,9 +3,9 @@ title: Assets概述
 description: 了解如何在Adobe GenStudio for Performance Marketing中评估资源性能。
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{connect-insights}}
 
-_[!UICONTROL Assets]_&#x200B;表是使用[!UICONTROL 资源ID]组织的。 您可以使用视图列表（表格）图标和图库视图（网格）图标在视图之间切换。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。
+_[!UICONTROL Assets]_&#x200B;表是使用[!UICONTROL 资源ID]组织的。 您可以使用视图列表（表格）图标和图库视图（网格）图标在视图之间切换。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 单击&#x200B;**重置**&#x200B;以清除所有筛选器选择。
 
 ![Assets筛选器和表](/help/assets/insights-assets-filter.png){zoomable="yes"}
 
@@ -48,7 +48,7 @@ _资源_&#x200B;是已批准用于营销计划的图像、视频、文本或其�
 | **[!UICONTROL 资产ID]** | 与此资源关联的名称。 | 单击任何关键量度的列标题可对表进行排序。 |
 | **[!UICONTROL 展示次数]** | 每次在渠道中加载资源时的计数，不考虑交互或查看。 | 高展示次数计数可能表示广泛的可见性，但为了深入了解真实性能，请考虑将其与其他参与量度关联起来。 |
 | **[!UICONTROL 次点击]** | 用户与资源上的可单击元素（例如链接）进行交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
-| **[!UICONTROL CTR ]**<br>_点进率_ | 导致体验内资产点击的展示次数百分比(%)。<br>**计算**：`clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
+| **[!UICONTROL CTR ]**<br>_点进率_ | 导致体验内资产点击的展示次数百分比(%)。<br>**计算**：`clicks`除以`impressions` | 高点进率表明内容与受众高度相关且富有吸引力。 这表明，信息传递和设计有效地抓住了观众的兴趣，促使他们采取行动。 此外，高CTR可能意味着资产具有针对性并与目标受众产生共鸣，从而提高整体营销活动效果。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 资产每千次广告展示的成本。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
 | **[!UICONTROL CPA ]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本。<br>**计算**：总金额`spent`除以已完成的客户操作数 | 帮助识别可产生有价值的客户行动的资产。 |
 | **[!UICONTROL CPC ]**<br>_每次点击成本_ | 与每次单击资产关联的平均成本。<br>**计算**：总金额`spent`除以`clicks` | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |

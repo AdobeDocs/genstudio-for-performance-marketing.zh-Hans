@@ -3,9 +3,9 @@ title: 属性概述
 description: 了解如何评估Adobe GenStudio for Performance Marketing中特定属性的性能。
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 _[!UICONTROL 属性]_&#x200B;表是使用[!UICONTROL 属性]名称组织的。 您可以使用&#x200B;**[!UICONTROL 图像]**&#x200B;按钮和&#x200B;**[!UICONTROL 视频]**&#x200B;按钮在列表类型之间切换。 单击表格右侧上方的设置(cog)图标可切换可查看列。
 
-表左上方的筛选器（漏斗）图标打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从中从[!UICONTROL 帐户]和[!UICONTROL 属性类别]中选择以筛选表中的属性。 以下示例显示了`Lighting Condition`类别中的属性列表。
+表左上方的筛选器（漏斗）图标打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从中从[!UICONTROL 帐户]和[!UICONTROL 属性类别]中选择以筛选表中的属性。 以下示例显示了`Lighting Condition`类别中的属性列表。 单击&#x200B;**重置**&#x200B;以清除所有筛选器选择。
 
 ![属性筛选器和表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -36,11 +36,17 @@ GenStudio for Performance Marketing会检测某些功能，并将相应的属性
 
 ## 类别
 
-GenStudio for Performance Marketing可识别图像、视频和文本的某些功能，并将功能标记应用于资源。 _类别_&#x200B;是共享特定特征的一组功能。 例如，_图像方向_&#x200B;类别具有`landscape`、`portrait`或`square`值。
+属性类别是组织具有共同特征的相关属性的分类组。 这些类别通过提供更丰富的上下文并方便其应用和使用，有助于简化对特定属性的发现、识别和理解。
 
-您无法编辑已检测并自动应用的标记。
+GenStudio for Performance Marketing使用Adobe的AI和机器学习功能来研究[图像](image-features.md)、[视频](video-features.md)和文本并根据正确概率应用[!UICONTROL 资产属性]。
 
-有关图像、视频和文本功能的详细列表，请参阅[属性类别](/help/user-guide/insights/attribute-category.md)。
+为资产检测到的属性列表并非详尽无遗。 包含丰富功能集的Assets可能仅限于AI确定的三个最主要功能。 例如，下图包含多个检测到的图像属性，包括多个对象、前景色和背景色。
+
+![图像资产属性](/help/assets/category/asset-attributes.png "图康图像包含多个检测到的属性"){width="300" zoomable="yes"}
+
+>[!INFO]
+>
+>您无法编辑已检测并自动应用的标记。
 
 ## 属性性能
 
