@@ -3,16 +3,16 @@ title: GenStudio for Performance Marketing [!DNL Create]概述
 description: 在Adobe GenStudio for Performance Marketing [!DNL Create]中使用generative AI快速生成高性能、按品牌显示的内容。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
+source-git-commit: 11d86ddddd1289c0bd198f21fe75a84b1459253e
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
 
 # GenStudio for Performance Marketing [!DNL Create]
 
-GenStudio for Performance Marketing [!DNL Create]利用AdobeGenAI的强大功能，使营销人员和分散的团队能够创建高性能、品牌化的体验。
+GenStudio for Performance Marketing [!DNL Create]利用Adobe GenAI的强大功能，使营销人员和分散的团队能够创建高性能、品牌化的体验。
 
 ![创建仪表板](/help/assets/create.png){width="600" zoomable="yes"}
 
@@ -24,41 +24,76 @@ GenStudio for Performance Marketing [!DNL Create]利用AdobeGenAI的强大功能
 
 除了[指南](/help/user-guide/guidelines/overview.md)—[!DNL Brands]、[!DNL Products]和[!DNL Personas]—[内容](/help/user-guide/content/overview.md)、[审核和批准](/help/user-guide/approvals/overview.md)和[分析](/help/user-guide/insights/overview.md)、[!DNL Create]的强大功能外，还有助于创建有效的品牌一致营销内容。
 
+编辑人员和系统管理员拥有[!DNL Create]的完全访问权限。 有关详细的角色访问信息，请参阅[用户角色和权限](/help/user-guide/user-roles.md)。
+
 ## [!DNL Create] 用例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="创建新内容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>创建电子邮件体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="创建元广告体验" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>创建元广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="创建显示广告体验" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>创建显示广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing使营销人员能够&#x200B;**创建新的营销内容**。 在此使用案例中，使用定义的[指南](/help/user-guide/guidelines/overview.md)和灵感图像来指导创建品牌一致的内容。
