@@ -112,3 +112,4 @@ GenStudio for Performance Marketing对品牌标识的各个方面进行品牌验
 GenStudio for Performance Marketing允许[全面控制各个变体](/help/user-guide/create/manage-variants.md)的各个部分。
 
 您可以修订单个变体的各个部分，重新生成各个部分的内容，并使用建议的编辑来改进消息、调整资源大小等等，所有这些都在画布中。
+
