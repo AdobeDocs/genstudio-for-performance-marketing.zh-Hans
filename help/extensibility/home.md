@@ -1,9 +1,10 @@
 ---
 title: Adobe GenStudio可扩展性指南
-description: 探索GenStudio for Performance Marketing可扩展性框架的功能。
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+description: 探索Adobe GenStudio for Performance Marketing UI SDK的功能，并了解如何构建可扩展的应用程序。
+exl-id: 4eca9e83-a109-431e-bfaa-9a6f7682e56f
+source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
