@@ -3,9 +3,9 @@ title: 渠道概述
 description: 有关Adobe GenStudio for Performance Marketing中营销活动的客户参与、性能、预算和支出的概述，请参阅。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 {{connect-insights}}
 
-_[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从中从[!UICONTROL 帐户]、[!UICONTROL 状态]和[!UICONTROL 目标]列表中进行选择，以筛选表格中的促销活动。
+_[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 选择表上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;可删除所有筛选器。
 
 ![渠道筛选器和表](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-当您选择某个营销活动时，[[!UICONTROL 体验]选项卡](experiences.md)将打开一个与该营销活动关联的广告名称列表，通过该列表，您可以识别哪些体验为其整体成功做出了贡献。
+当您选择某个促销活动时，[[!UICONTROL 广告]选项卡](ads.md)将打开一个与该促销活动关联的广告名称列表，通过该列表，您可以识别哪些广告促成了促销活动的整体成功。
 
 ## 目标
 

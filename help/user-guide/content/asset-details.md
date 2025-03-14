@@ -3,9 +3,9 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: f401f93e7dd08db4837b8709e28acec5571052f7
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md)已添加到GenStudio for Performance Marketing并发布以供使用 |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已添加到GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已添加到GenStudio for Performance Marketing以供使用 |
-| 渠道 | 用于分发特定内容类型（如电子邮件和显示广告）的平台 |
+| 渠道 | 用于分发特定内容类型（如电子邮件、横幅和显示广告）的平台 |
 | [!UICONTROL 时间范围] | 使用资产的时间范围，如季度、季度、年份等。 示例： `Winter 2023` |
 | 区域 | 使用资产的区域。 示例： `North America`，`APAC`，`Italy` |
 | 语言 | 资源使用的语言。 示例： `Spanish` |

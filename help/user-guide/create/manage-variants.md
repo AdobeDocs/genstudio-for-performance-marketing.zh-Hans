@@ -3,9 +3,9 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 504f556825c5645172c2315877cb6c06f015cf0e
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -139,18 +139,31 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 **在变体中添加或交换图像**：
 
+1. 生成一组变体后，单击图像资源（如果图像当前不存在，则单击图像资源区域）。
+1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
+1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
+
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+
+1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
+
+   图像已添加或交换到适用的变量中。
+
+## 添加图像链接
+
+与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接](/help/user-guide/content/customize-template.md#content-placeholders)的[内容占位符才能启用此功能。
+
+**在变体中添加图像链接**：
+
 1. 生成一组变体后，单击图像资源。
 
    如果变体当前没有放置的图像资源，请单击图像资源区域。
 
-1. 要选择已发布到[!DNL Content]的图像资产，请执行以下操作：
-   1. 单击&#x200B;**[!UICONTROL 从内容中选择]**。 使用筛选器进一步缩小搜索结果的范围。
-   1. 单击&#x200B;**[!UICONTROL 使用]**
-1. 要上传图像资产，请执行以下操作：
-   1. 单击&#x200B;**[!UICONTROL 上传新图像]**&#x200B;浏览您的文件并选择要使用的资源。 在浏览设备的同时，您还可以从Microsoft OneDrive或Dropbox导入。
-   1. 单击&#x200B;**[!UICONTROL 添加Assets]**。
+1. 单击链接图标。
+1. 单击&#x200B;**[!UICONTROL 删除链接]**&#x200B;可删除现有的默认链接。
+1. 在文本字段中添加链接，然后单击&#x200B;**[!UICONTROL 应用]**。
 
-   将图像添加或交换到适用的变量中。
+   定义的链接将应用于变量集中的所有图像。
 
 ## 设备预览
 
@@ -176,9 +189,9 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 按变量进行品牌验证
 
-使用&#x200B;_[!UICONTROL 品牌准则检查]_&#x200B;和&#x200B;_[!UICONTROL 品牌验证面板]_&#x200B;来保持一致的品牌标识和变体一致性。
+使用&#x200B;_内容检查_&#x200B;面板维护一致的品牌标识、[ADA辅助功能标准、平台准则](/help/user-guide/guidelines/overview.md#content-checks)以及变体的一致性。
 
-请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)。
+请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 
 ## 生成反馈
 

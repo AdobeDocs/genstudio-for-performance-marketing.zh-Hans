@@ -4,10 +4,10 @@ breadcrumb-title: 用户指南
 user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能。了解如何快速创建品牌资产、生成变体并优化体验。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 22%
+source-wordcount: '189'
+ht-degree: 20%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 22%
    + [[!DNL Create] 概述](create/overview.md)
    + [电子邮件体验](create/email-experiences.md)
    + [元体验](create/meta-experiences.md)
+   + [LinkedIn体验](create/linkedin-experiences.md)
    + [显示广告体验](create/display-ad-experiences.md)
+   + [横幅体验](create/banner-experiences.md)
    + [管理变体](create/manage-variants.md)
    + [创建电子邮件体验](create/create-email-experience.md)
    + [创建元广告体验](create/create-meta-ad.md)
+   + [创建LinkedIn体验](create/create-linkedin.md)
    + [创建显示广告体验](create/create-display-ad.md)
+   + [创建横幅体验](create/create-banner-experience.md)
 + 审阅和批准{#approve}
    + [审阅和批准概述](approvals/overview.md)
    + [请求审阅和批准内容](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 22%
    + 模板 {#templates}
       + [使用模板](content/use-templates.md)
       + [自定义模板](content/customize-template.md)
+      + [模板代码编辑器](content/code-editor.md)
       + [创建可访问的模板](content/accessibility-for-templates.md)
       + [模板的最佳实践](content/best-practices-for-templates.md)
 + 营销活动{#campaigns}
@@ -63,8 +68,8 @@ ht-degree: 22%
    + [见解概述](insights/overview.md)
    + [连接渠道帐户](insights/connect-channel.md)
    + [渠道](insights/channels.md)
-   + [体验](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [广告和广告投放](insights/ads.md)
+   + [媒体](insights/media.md)
    + [属性](insights/attributes.md)
    + 属性类别{#categories}
       + [图像功能](insights/image-features.md)

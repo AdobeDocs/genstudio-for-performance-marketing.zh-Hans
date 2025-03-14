@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
 
+如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 您可以根据需要更改它们。
+
 **要添加参数和资源**：
 
 1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
@@ -54,9 +56,9 @@ ht-degree: 0%
    * 或者，将资产拖放到&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;部分以上传一个或多个新资产。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
->[!NOTE]
->如果您的电子邮件模板有多个分区，请为&#x200B;_多分区电子邮件_&#x200B;中的每个电子邮件分区选择[!DNL Products]和内容（可视资产）。 多节电子邮件支持每节一个可视资产。 您只能从[!DNL Content]向多节电子邮件添加可视资产，而不能从本地源拖放或上传资产。
->![为每个电子邮件节](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}添加内容和参数
+   >[!NOTE]
+   >如果您的电子邮件模板有多个分区，请为&#x200B;_多分区电子邮件_&#x200B;中的每个电子邮件分区选择[!DNL Products]和内容（可视资产）。 多节电子邮件支持每节一个可视资产。 您只能从[!DNL Content]向多节电子邮件添加可视资产，而不能从本地源拖放或上传资产。
+   >![为每个电子邮件部分添加内容和参数](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 添加完参数后，您可以通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示抽屉。
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 
 生成的内容以渐进方式加载 — 在生成电子邮件体验的每个部分时，这些部分都会显示在画布中。 请参阅[电子邮件体验](/help/user-guide/create/meta-experiences.md#progressive-loading)，了解如何在画布中加载这些更改。
 
-## 修订生成的电子邮件
+## 修订生成的变体
 
 在选择要发送哪些内容以供审批或发布到[!DNL Content]之前，您可以编辑电子邮件部分或从生成的电子邮件集中删除变体。
 
@@ -85,7 +87,8 @@ ht-degree: 0%
 * **要[手动编辑电子邮件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意可编辑的文本字段（如主题行、标题或正文）并根据需要进行编辑
 * **要[更改或选择行动号召](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，请单击行动号召按钮，然后选择&#x200B;_[!UICONTROL 重新发语]_&#x200B;或&#x200B;_[!UICONTROL 添加链接]_。
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
-* **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容中选择/交换]**&#x200B;或&#x200B;**[!UICONTROL 上传新图像]**，以便在单个变体中添加或交换图像。
+* **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
+* **要[添加指向变体中的图像的链接](/help/user-guide/create/manage-variants.md#add-image-link)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击链接图标。
 * **要[删除电子邮件](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击以选择电子邮件标题（例如，“电子邮件1/4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
 
 ## 提交生成反馈
@@ -96,29 +99,23 @@ ht-degree: 0%
 
 在修订和准备电子邮件体验时，您可以[在桌面视图和移动设备视图的预览之间切换](/help/user-guide/create/manage-variants.md#preview-for-device)，以确保草稿变体的一致性和视觉吸引力。
 
-## 验证品牌一致性
+## 验证内容检查对齐方式
 
-要优化生成的电子邮件并确保严格遵守品牌标识，请利用&#x200B;[_品牌指南检查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)（为变体提供品牌一致性摘要）和&#x200B;[_品牌验证_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)的强大功能，其中显示全面的品牌验证详细信息并阐明改进领域。
+要优化生成的变体并确保严格遵守品牌标识、平台准则和辅助功能标准，请利用&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的强大功能。 此面板可显示全面的内容检查详细信息并阐明改进领域。
 
-**验证品牌一致性**：
+**要对变体执行内容检查**：
 
-1. 单击变体的[**[!UICONTROL [!DNL Brand]准则检查]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)图标，并查看针对您的品牌检查该变体时的性能摘要。
+1. 单击右侧操作栏中的&#x200B;_内容检查_&#x200B;面板图标以打开&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 查看&#x200B;*需要审核*&#x200B;和&#x200B;*通过*&#x200B;检查的摘要，以查看哪些部分和准则需要改进。
 
-   ![品牌指南检查](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. 若要获取需要改进的部分和准则的详细信息，请单击&#x200B;**[!UICONTROL 查看]** _或_，单击顶部菜单栏中的“品牌验证”图标以打开&#x200B;[_品牌验证面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
-
-1. 切换每封电子邮件，了解如何改进生成的内容，使其更具品牌一致性。
-
-   ![品牌验证面板](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
-
-1. [手动修改电子邮件](#revise-generated-emails)以确保您的电子邮件与品牌紧密一致。
+1. [手动修订变体](#revise-generated-variants)以确保您的变体与执行的内容检查紧密一致。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 
 ## 获取审阅和批准
 
-使用画布顶部菜单栏上的“批准”面板，可获取审核、跟踪审核评论并从利益相关者处获得批准。
+使用批准面板（可在画布的右侧操作栏中作为图标访问），以获取审核、跟踪审核评论并从利益相关者处获得批准。
 
 **要获得审阅和批准**：
 
@@ -129,11 +126,11 @@ ht-degree: 0%
 
 有关详细信息，请参阅[审核和批准](/help/user-guide/approvals/overview.md)。
 
-## Publish和导出体验
+## 发布和导出体验
 
 若要使生成的电子邮件可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
 
-1. **要发布您的新电子邮件体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL Publish]**。
+1. **要发布您的新电子邮件体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
 1. **要导出您的新电子邮件体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
    1. 选择格式(仅限CSV和图像或HTML)，然后单击&#x200B;**[!UICONTROL 导出]**。
 

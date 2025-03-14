@@ -2,9 +2,10 @@
 title: 视频功能
 description: 了解GenStudio for Performance Marketing中使用的属性类别的视频功能。
 feature: Insights, Attributes, Generative AI
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ GenStudio for Performance Marketing中的音频检测涉及分析视频的音频
 
 1. 切换&#x200B;**取消静音**（位于视频预览的左下角）按钮并收听视频预览的音频。
 
-下表列出了GenStudio for Performance Marketing AI识别的视频功能类别。 为资产检测到的属性列表并非详尽无遗。 包含丰富功能集的Assets可能仅限于AI确定的三个最主要功能。
+下表列出了GenStudio for Performance Marketing AI识别的视频功能类别。 检测到的媒体内容属性列表并不完整。 包含丰富功能的媒体可能仅限于AI确定的三个最主要的特征。
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

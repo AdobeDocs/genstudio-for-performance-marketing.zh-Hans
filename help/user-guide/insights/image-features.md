@@ -2,7 +2,8 @@
 title: 图像特征
 description: 了解GenStudio for Performance Marketing中使用的属性类别的图像功能。
 feature: Insights, Attributes, Generative AI
-source-git-commit: c15140ed3fe3d07e9112e9ad4781cb8fcf65045d
+exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 1. _属性详细信息_&#x200B;页面列出了具有此属性的所有图像。
 
-下表列出了GenStudio for Performance Marketing AI识别的图像功能类别。 为资产检测到的属性列表并非详尽无遗。 包含丰富功能集的Assets可能仅限于AI确定的三个最主要功能。
+下表列出了GenStudio for Performance Marketing AI识别的图像功能类别。 检测到的媒体内容属性列表并不完整。 包含丰富功能的媒体可能仅限于AI确定的三个最主要的特征。
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

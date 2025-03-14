@@ -1,9 +1,10 @@
 ---
 title: 创建一个App Builder项目以扩展GenStudio for Performance Marketing
 description: 为您的应用程序或加载项创建一个App Builder项目。
-source-git-commit: 62d29311d02616939634ce09c0ae97f382787c8d
+exl-id: 502b6dd5-68ac-4392-bba3-3ab8cd9eefc2
+source-git-commit: 7cc91ff9260370a164331095101f04ee0ffc1119
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -14,6 +15,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
+**先决条件**
 您必须有权访问App Builder和[Adobe Developer Console](https://developer.adobe.com/developer-console/)，才能为您的应用程序创建项目。 请参阅[在Developer Console](https://developer.adobe.com/app-builder/docs/getting_started/first_app#2-create-a-new-project-on-developer-console)中创建项目。
 
 >[!ENDSHADEBOX]

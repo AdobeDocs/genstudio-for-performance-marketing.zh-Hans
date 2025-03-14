@@ -5,7 +5,8 @@ feature: Insights, Attributes, Generative AI
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 文本特征包括某些文本元素的计数，如词语、句子、表情符号，以及用于通过[!DNL Insights]进行分析的语义、情感和色调的分类。 文本也可以接收可读性分数。
 
-GenStudio for Performance Marketing使用Adobe的AI和机器学习功能来学习文本，并根据关联的文本音调和营销叙述应用[!UICONTROL 资产属性]。 该过程验证输入文本以确保它包含字母数字字符，去除多余的空格和不可打印的字符，并将文本截断到最大允许的1500个单词。 在应用检测到的属性标记之前，AI预测流行色调。
+GenStudio for Performance Marketing使用Adobe的AI和机器学习功能来学习文本，并根据关联的文本音调和营销叙述应用[!UICONTROL 媒体属性]。 该过程验证输入文本以确保它包含字母数字字符，去除多余的空格和不可打印的字符，并将文本截断到最大允许的1500个单词。 在应用检测到的属性标记之前，AI预测流行色调。
 
 ## 语调
 
@@ -52,7 +53,7 @@ AI进一步检测更细微的音调。 使用前一个示例中的同一紧急�
 
 ## 叙述
 
-叙述属性可帮助您识别传达与目标受众产生共鸣的值、目的或身份的资产。
+叙述属性可帮助您识别媒体，这些媒体传达与目标受众产生共鸣的值、目的或身份。
 
 | 叙述 | 描述 | 示例 |
 | ----------------- | ----------- | ------- |

@@ -1,24 +1,24 @@
 ---
-title: 显示广告体验
-description: 了解Adobe GenStudio for Performance Marketing中的显示广告体验。
+title: 横幅体验
+description: 了解Adobe GenStudio for Performance Marketing中的横幅体验。
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 role: User
 level: Beginner
-exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 25c3ad69774301d82573f2eec89f0eb0ea15404b
+source-git-commit: ee1fa197fbf67903e8871e8d88cb7f1fd7cb06d0
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# 显示广告体验
+# 横幅体验
 
-借助Adobe GenStudio for Performance Marketing，您可以使用创作AI简化[成功展示广告体验](/help/user-guide/create/create-display-ad.md)的创建。
+Adobe GenStudio for Performance Marketing使您能够利用创作AI来增强[成功创建横幅体验](/help/user-guide/create/create-banner-experience.md)。
 
-[!DNL Create]使现代营销人员能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资产和[精心编制的提示符](/help/user-guide/effective-prompts.md)来[生成品牌一致的显示广告体验](/help/user-guide/create/create-display-ad.md)。
+[!DNL Create]使现代营销人员能够利用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[精心制作的](/help/user-guide/effective-prompts.md)来[制作具有凝聚力的横幅体验](/help/user-guide/create/create-banner-experience.md)。
 
-在生成显示广告体验时，将会创建四个变体并将其显示在画布中。
+在生成横幅体验时，会在画布中创建和显示四个变体。
 
 请参阅[遵循特定于渠道的模板准则](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以了解有关支持的维度、可识别的字段名称等的信息。
 

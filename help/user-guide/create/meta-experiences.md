@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 
 ## 元广告渠道
 
-在创建元广告体验时，您可以为Facebook和Instagram渠道生成变体。 在Facebook和Instagram广告之间来回切换以预览每个渠道的变体。
+创建元广告体验时，您可以为Facebook和Instagram渠道生成变体。 在Facebook和Instagram广告之间来回切换以预览每个渠道的变体。
 
 请参阅[选择元广告频道](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel)。
 
@@ -55,7 +55,9 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 1. 行动呼吁和相关联的URL
 1. 头条
 1. 图像上文本
-1. 进行品牌验证过程，并且针对每个变体填充&#x200B;[_品牌指南检查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)。
+1. 品牌验证
+
+   进行品牌验证和内容检查过程，并为每个变体填充&#x200B;[_内容检查_&#x200B;摘要](/help/user-guide/guidelines/brand-validation.md#content-check-summary)。
 
 ## 字符数
 

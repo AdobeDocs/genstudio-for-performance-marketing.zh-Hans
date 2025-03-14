@@ -2,11 +2,10 @@
 title: Adobe GenStudio for Performance Marketing发行说明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增强功能。
 recommendations: noDisplay
-last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
+source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,50 @@ ht-degree: 1%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.2.13 {#latest}
+## 2025.03.13 {#latest}
+
+### 创建LinkedIn体验
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+添加了对[创建LinkedIn体验](/help/user-guide/create/create-linkedin.md)的支持。 请参阅特定于渠道的指南中的[LinkedIn广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)选项卡。
+
+### 创建横幅体验
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+添加了对[创建横幅体验](/help/user-guide/create/create-banner-experience.md)的支持。 请参阅特定于渠道的指南中的[横幅](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)选项卡。
+
+### 合规性
+
+作为品牌验证流程的一部分，[内容检查](/help/user-guide/guidelines/brand-validation.md)中引入了[合规性标准](/help/user-guide/guidelines/overview.md)。 这些检查将根据[!DNL Brand]、[!DNL Product]和[!DNL Persona]准则、平台准则（例如Meta）、道德考虑因素和ADA标准来审核体验中的每个变体。 此过程全面总结了需要修订的准则和标准，以更好地满足合规性要求。
+
+### 可扩展性
+
+新的GenStudio for Performance Marketing [可扩展性框架](/help/extensibility/overview.md)为组织提供了工具，使它们可以将自己的声明合规性协议纳入内容创建工作流并通过插件或可扩展应用程序进行验证。
+
+### 模板
+
+* **模板代码编辑器** — 新的[模板代码编辑器](/help/user-guide/content/code-editor.md)可帮助您验证和优化您的模板，以便在使用GenStudio for Performance Marketing生成新体验时获得最佳使用。
+
+  ![代码编辑器视图](/help/assets/template-detected-fields.png "检查检测到的字段"){width="500" zoomable="yes"}
+
+* **图像上的链接** — 通过启用图像链接来自定义您的电子邮件模板。 请参阅[自定义模板：映像](/help/user-guide/content/customize-template.md#link-on-image)上的链接。
+* **AJO和Marketo模板** — 上传您在Adobe Journey Optimizer (AJO)或Marketo中创建的模板。 请参阅[使用AJO和Marketo中的模板](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo)。
+
+### 修复和增强功能
+
+* 为[[!DNL Brands]](/help/user-guide/guidelines/brands.md)的[默认渠道](/help/user-guide/guidelines/brands.md#channel-guidelines)、[图像](/help/user-guide/guidelines/brands.md#image-guidelines)、[徽标](/help/user-guide/guidelines/brands.md#logos)和[颜色](/help/user-guide/guidelines/brands.md#colors)准则启用功能。
+* 添加了将链接[添加到变体中的图像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
+* 已将[内容检查](/help/user-guide/guidelines/brand-validation.md)和审核和批准功能移至新的右侧操作栏，以最大化画布上的空间并改善用户体验。
+* 简化了[上传或手动添加品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
+* 引入了在画布上的变体](/help/user-guide/create/manage-variants.md#swap-image)中[添加或交换图像资产的功能。
+* 通过将渠道类别[划分到自有媒体、付费媒体和内容部分，改进了创建主页](/help/user-guide/create/overview.md)上的用户体验和可见性。
+* 改进了[!DNL Insights]表和图库视图中的筛选。
+
+## 早期发行说明
+
++++2025.02.13版注释
 
 ### [!DNL Create]的登陆页面改进
 
@@ -23,11 +65,11 @@ GenStudio for Performance Marketing中的[!DNL Create]登陆页面包含可增�
 
 ### 分析导出到CSV
 
-您现在可以将可见表从任何[!DNL Insights]视图下载到CSV文件中。 此功能允许您从各种[!DNL Insights]视图轻松导出和分析数据，从而方便数据分析和报告选项。
+您现在可以将可见表从任何[!DNL Insights]视图下载到CSV文件中。 此功能允许您从各种[!DNL Insights]视图导出和分析数据，从而方便数据分析和报告选项。
 
-## 早期发行说明
++++
 
-+++2025.1.16版注释
++++2025.01.16版注释
 
 ### 与Adobe Workfront Proof集成
 
@@ -45,7 +87,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 * 现在，字符计数将显示在所有生成的和手动的显示广告字段中。 查看[元体验](/help/user-guide/create/meta-experiences.md#character-counts)中的&#x200B;_字符数_。<!-- GS-7732 -->
 
-* _协作者_&#x200B;现在可以查看资源，但不能创建、编辑或删除这些资源。 以前，协作者权限未按[!DNL Create]中的预期执行。<!-- GS-7614 -->
+* _协作者_&#x200B;现在可以查看资源，但不能创建、编辑或删除这些资源。 以前，[!DNL Create]中未按预期强制执行协作者授权。<!-- GS-7614 -->
 
 * 内容编辑者现在可以编辑资产、体验和模板元数据。<!-- GS-4905 -->
 

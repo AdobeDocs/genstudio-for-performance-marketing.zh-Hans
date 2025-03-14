@@ -1,14 +1,14 @@
 ---
 title: 创建元广告体验
-description: 了解如何使用Adobe GenStudio for Performance Marketing为Facebook或Instagram创建品牌上元广告体验。
+description: 了解如何使用Adobe GenStudio for Performance Marketing创建品牌内元广告体验（适用于Facebook或Instagram）。
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 ## 添加参数
 
 在提示抽屉中添加&#x200B;_Parameters_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产可增强内容生成过程，是准备生成元广告的关键步骤。
+
+如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 您可以根据需要更改它们。
 
 **要添加参数和资源**：
 
@@ -75,11 +77,11 @@ ht-degree: 0%
 
 在生成元广告时，您可以在Facebook或Instagram广告之间进行选择。
 
-切换右侧菜单栏中的“元广告”渠道选项(在&#x200B;**Facebook**&#x200B;和&#x200B;**Instagram**&#x200B;之间)以查看和管理每个渠道的变体(Facebook和Instagram图标)。
+在右侧菜单栏（Facebook和Instagram图标）中切换“元广告”渠道选项（在&#x200B;**Facebook**&#x200B;和&#x200B;**Instagram**&#x200B;之间）以查看和管理每个渠道的变体。
 
-在[修订元广告](#revise-generated-meta-ads)时，您可以更改Facebook和Instagram广告的长宽比。
+在[修订元广告](#revise-generated-variants)时，您可以更改Facebook和Instagram广告的长宽比。
 
-## 修订生成的元广告
+## 修订生成的变体
 
 在选择要发送哪些内容以供审批或发布到[!DNL Content]之前，您可以编辑元广告或从生成的广告集中删除变体。
 
@@ -90,33 +92,33 @@ ht-degree: 0%
 标题或正文)并根据需要进行编辑。
 * **要更改或选择行动号召**，请单击行动号召按钮，然后从可用按钮文本选项中选择。 在&#x200B;_链接_&#x200B;中，输入行动号召文本的URL。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
+* **要[添加指向变体中的图像的链接](/help/user-guide/create/manage-variants.md#add-image-link)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击链接图标。
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
+* **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。
-* **要[删除元广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击广告标题（例如，“Meta 4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
+* **要[删除元广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击变体的选项菜单，然后单击&#x200B;**[!UICONTROL 删除变体]**。
 
 ## 提交生成反馈
 
 要[提交有关生成输出质量的反馈](/help/user-guide/create/manage-variants.md#generation-feedback)，请单击选项图标（三个点）并选择&#x200B;**[!UICONTROL 输出良好]**&#x200B;或&#x200B;**[!UICONTROL 输出不良]**。
 
-## 验证品牌一致性
+## 验证内容检查对齐方式
 
-要优化生成的广告并确保严格遵守品牌标识，请利用&#x200B;[_品牌指南检查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)（为变体提供品牌一致性摘要）和&#x200B;[_品牌验证_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)的强大功能，其中显示全面的品牌验证详细信息并阐明改进领域。
+要优化生成的变体并确保严格遵守品牌标识、平台准则和辅助功能标准，请利用&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的强大功能。 此面板可显示全面的内容检查详细信息并阐明改进领域。
 
-**验证品牌一致性**：
+**要对变体执行内容检查**：
 
-1. 单击变体的[**[!UICONTROL [!DNL Brand]准则检查]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)图标，并查看针对您的品牌检查该变体时的性能摘要。
-1. 若要获取需要改进的部分和准则的详细信息，请单击&#x200B;**[!UICONTROL 查看]** _或_，单击顶部菜单栏中的“品牌验证”图标以打开&#x200B;[_品牌验证面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
+1. 单击右侧操作栏中的&#x200B;_内容检查_&#x200B;面板图标以打开&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 查看&#x200B;*需要审核*&#x200B;和&#x200B;*通过*&#x200B;检查的摘要，以查看哪些部分和准则需要改进。
 
-   ![品牌验证面板](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. 切换每个广告，了解如何改进生成的内容以使内容更具品牌一致性。
-1. [手动修改广告](#revise-generated-meta-ads)以确保您的广告与品牌紧密一致。
+1. [手动修订变体](#revise-generated-variants)以确保您的变体与执行的内容检查紧密一致。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 
 ## 获取审阅和批准
 
-使用画布顶部菜单栏上的“批准”面板，可获取审核、跟踪审核评论并从利益相关者处获得批准。
+使用批准面板（可在画布的右侧操作栏中作为图标访问），以获取审核、跟踪审核评论并从利益相关者处获得批准。
 
 **要获得审阅和批准**：
 
@@ -130,11 +132,11 @@ ht-degree: 0%
 
 有关详细信息，请参阅[审核和批准](/help/user-guide/approvals/overview.md)。
 
-## Publish和导出体验
+## 发布和导出体验
 
 要使生成的元广告可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
 
-1. **要发布新的元广告体验**，请单击顶部工具栏或审批流程中的&#x200B;**[!UICONTROL Publish]**。
+1. **要发布新的元广告体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
 1. **要导出新的元广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
    1. 选择格式 — HTML和图像或CSV和图像(JPG或PNG) — 单击&#x200B;**[!UICONTROL 导出]**。
 

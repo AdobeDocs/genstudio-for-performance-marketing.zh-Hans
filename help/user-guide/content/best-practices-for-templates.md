@@ -4,9 +4,9 @@ description: 将模板与Adobe GenStudio for Performance Marketing结合使用�
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
+source-git-commit: cdba0ef2cc359a6ed0fd25ce946bcf89f9b712f9
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
    - 基本模板（仅一个部分）可以生成一组模板元素。
    - 一个复杂的模板（多个部分）最多可生成三组模板元素。
 - 模板中允许的最大字段数为20
-- 最大HTML文件大小为102 KB
+- HTML文件最大大小为102 KB
 
 **可识别的字段名称**：
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 - `headline`
 - `body`
 - `cta`
-- `image` （从内容中选择）
+- `image` (从Content JPEG、PNG或GIF中选择)
 - `brand_logo`
 
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
@@ -115,17 +115,15 @@ ht-degree: 0%
 
 对于元广告，`headline`、`body`和`CTA`字段是自动生成的。 对以下字段使用内容占位符：
 
-- `image` （从内容中选择）
-- `on-image-text`
+- `image` (从Content JPEG、PNG或GIF中选择)
+- `on_image_text`
 - `brand_logo`
 
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 
->[!TAB 显示广告]
+>[!TAB 横幅和显示广告]
 
-[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
-
-在自定义显示广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
+在自定义横幅和显示广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
 
 - 使用Adobe或Google字体
 - 准备以超薄尺寸完美显示的资产
@@ -159,7 +157,55 @@ ht-degree: 0%
 - `headline`
 - `body`
 - `cta`
-- `image` （从内容中选择）
+- `image` (从Content JPEG、PNG或GIF中选择)
+
+请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
+
+>[!TAB LinkedIn广告]
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+在自定义LinkedIn广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
+
+**约束**：
+
+- [节](customize-template.md#sections-or-groups)的使用：
+   - 只能使用一个部分，生成一组模板元素。
+- 最大图像大小5 MB
+- 最大标题70个字符
+- 介绍性文本的最大长度为150个字符
+
+**支持的宽高比**：
+
+- 方形1:1
+   - 桌面或移动设备
+   - 最小值：360 x 360像素
+   - 最大：4320 x 4320像素
+- 水平1.91:1
+   - 桌面
+   - 最小值：640 x 360像素
+   - 最大：7680 x 4320像素
+- 垂直1:1.91
+   - 移动设备
+   - 最小值：360 x 640像素
+   - 最大：2430 x 4320像素
+- 垂直2.3
+   - 移动设备
+   - 最小值：360 x 640像素
+   - 最大：2430 x 4320像素
+- Verticle 4.5（推荐）
+   - 移动设备
+   - 最小值：360 x 640像素
+   - 最大：2430 x 4320像素
+
+**可识别的字段名称**：
+
+对于LinkedIn广告，`headline`和`CTA`字段是自动生成的。 对以下字段使用内容占位符：
+
+- `image` (从Content JPEG、PNG或GIF中选择)
+- `introductory_text`
+- `on_image_text`
+- `brand_logo`
 
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 

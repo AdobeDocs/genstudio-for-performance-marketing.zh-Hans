@@ -3,9 +3,9 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1361'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 图库会根据所选视图显示已批准资产、体验或模板的清单。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个类别中进行选择，以筛选图库中显示的内容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;视图中，单击搜索（放大镜）图标以使用关键字查找资源。
 
-下面显示了[!UICONTROL Assets]图库中搜索词`dog`的搜索：
+下面显示了[!UICONTROL Assets]图库中搜索词`space`的搜索：
 
-![Assets视图（包含对狗的搜索）](/help/assets/content-assets.png)
+![搜索空间的Assets视图](/help/assets/content-assets-filter.png "搜索具有空间属性的资源")
 
 ### 搜索内容
 
@@ -57,7 +57,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 位于右侧&#x200B;_[!UICONTROL Assets]_&#x200B;图库上方的&#x200B;**[!UICONTROL 位置]**&#x200B;列表允许您从连接的Adobe Experience Manager (AEM) [!DNL Assets Content Hub]存储库中进行选择。
 
-![存储库的位置列表](../../assets/content-location-selection.png){width="350"}
+![存储库的位置列表](/help/assets/content-location-selection.png "选择内容存储库"){width="350"}
 
 选择AEM存储库后，图库会显示该存储库中的资源清单，这样您就可以将这些存储库中已批准的资源用作内容创建的输入。 筛选器选项会更改以反映[!DNL AEM Assets Content Hub]中配置的类别。
 
@@ -89,7 +89,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 将资源添加到[!DNL Content]时，默认存储在`GenStudio assets`存储库中。 仅当&#x200B;_[!UICONTROL 位置]_&#x200B;是`GenStudio assets`存储库时，_[!UICONTROL 添加资源]_&#x200B;按钮才可用。
 
-![位置字段](../../assets/content-location.png){width="350"}
+![位置字段](/help/assets/content-location.png "位置字段"){width="350"}
 
 **要添加一个或多个资源**：
 
@@ -146,7 +146,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 1. 在&#x200B;_导出以供激活_&#x200B;弹出窗口中，选择一种可用格式：
 
    - 电子邮件： `HTML`，`CSV`
-   - 元广告和显示广告： `HTML`、`JPEG`、`PNG`
+   - 元、横幅和显示广告： `HTML`、`JPEG`、`PNG`
 
 请参阅[激活](/help/user-guide/activation/overview.md)。
 

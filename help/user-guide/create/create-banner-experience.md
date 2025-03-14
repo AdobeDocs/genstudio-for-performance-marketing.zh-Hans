@@ -1,42 +1,40 @@
 ---
-title: 创建显示广告体验
-description: 了解如何在Adobe [!DNL GenStudio] 中为性能营销创建显示广告体验。
+title: 创建横幅体验
+description: 了解如何在Adobe [!DNL GenStudio] 中创建用于性能营销的横幅体验。
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 role: User
 level: Beginner
 recommendations: noDisplay
-exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
-# 创建显示广告体验
+# 创建横幅体验
 
-本教程演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成品牌[显示广告体验](display-ad-experiences.md)（左侧导航区域中的画笔图标）。
+本教程向您展示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)创建品牌[横幅体验](banner-experiences.md)（左侧导航区域中的画笔图标）。
 
-若要设计引人入胜的显示广告体验，建议您[将准则添加到GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)，并在开始之前查看[编写提示的基础知识](/help/user-guide/effective-prompts.md)。
+若要设计引人入胜的横幅体验，建议在开始之前[将准则添加到GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)并查看[编写提示的基础知识](/help/user-guide/effective-prompts.md)。
 
 ## 选择模板
 
-要创建显示广告体验，请使用可用的模板为您的内容提供框架。 有关支持的显示广告维度的信息，请参阅[模板的最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+要创建横幅体验，请使用可用的模板为内容提供框架。 有关支持的横幅维度的信息，请参阅[模板最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
-**选择显示广告模板**：
+**选择横幅模板**：
 
-1. 在&#x200B;_[!DNL Create]_中，在“_”中单击&#x200B;**[!UICONTROL 显示广告]**“您今天要创建什么内容？”_节。
-1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的显示广告模板。
-1. 在&#x200B;_选择模板_&#x200B;视图中，单击显示广告模板。
+1. 在&#x200B;_[!DNL Create]_中，在_“今天要创建什么？”中单击&#x200B;**[!UICONTROL 横幅]**_节。
+1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的横幅模板。
+1. 在&#x200B;_选择模板_&#x200B;视图中，单击横幅模板。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
-   此时将显示画布，它是内容创建的中心中心。
+   此时将显示画布，它是创建内容的基础。
 
 ## 添加参数
 
-在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的开销，是生成显示广告体验的必要准备步骤。
-
-如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 您可以根据需要更改它们。
+将[准则](/help/user-guide/guidelines/overview.md)和资产合并到提示抽屉中的&#x200B;_参数_&#x200B;中可增强内容生成过程，并且是创建横幅体验的重要准备步骤。
 
 **要添加参数和资源**：
 
@@ -57,7 +55,7 @@ ht-degree: 0%
 
 ## 输入提示
 
-选择准则后，使用自然语言制作提示，开始为新的显示广告体验生成内容。 为了提高生成的显示广告体验的质量，制作详细的描述性提示至关重要。
+选择准则后，使用自然语言创建提示，以开始为新横幅体验生成内容。 要确保高质量的结果，必须制作详细且描述性的提示。
 
 ![输入提示](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
@@ -70,14 +68,14 @@ ht-degree: 0%
 
 默认情况下，将生成四个变体（以提示、指南和添加的内容为动力）并显示在画布中。
 
-## 修订生成的变体
+## 修订生成的横幅
 
-在选择要发送哪些内容以供审批或发布到[!DNL Content]之前，您可以编辑显示广告部分和文本字段，或删除生成的变体。
+在选择要发送哪些内容以供审批或发布到[!DNL Content]之前，您可以编辑横幅部分和文本字段，或删除生成的变体。
 
 **要修订生成的变体**：
 
-* **要[编辑显示广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题，然后输入新标题。
-* **要[手动编辑显示广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击显示广告的任何部分或字段（例如主题行、标题或正文），然后根据需要进行编辑。
+* **要[编辑横幅草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题，然后输入新标题。
+* **要[手动编辑横幅](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击任何横幅部分或字段(如标题或CTA)，然后根据需要进行编辑。
 * **要[重新生成变体](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的部分，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者在_[!UICONTROL 生成新文本_部分]中输入新提示，然后单击&#x200B;**[!UICONTROL 生成]**。
 * **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 * **要[添加指向变体中的图像的链接](/help/user-guide/create/manage-variants.md#add-image-link)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击链接图标。
@@ -98,7 +96,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 **要对变体执行内容检查**：
 
-1. 单击右侧操作栏中的&#x200B;_内容检查_&#x200B;面板图标以打开&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 查看&#x200B;*需要审核*&#x200B;和&#x200B;*通过*&#x200B;检查的摘要，以查看哪些部分和准则需要改进。
+1. 单击右侧操作栏中的&#x200B;_内容检查_&#x200B;面板图标以打开&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 查看&#x200B;_需要审核_&#x200B;和&#x200B;_通过_&#x200B;检查的摘要，以查看哪些部分和准则需要改进。
 
    ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
@@ -108,28 +106,28 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## 获取审阅和批准
 
-使用批准面板（可在画布的右侧操作栏中作为图标访问），以获取审核、跟踪审核评论并从利益相关者处获得批准。
+使用画布右侧操作栏上的&#x200B;_批准_&#x200B;面板（可作为一个图标访问）以获取审核、跟踪审核评论并从利益相关者处获得批准。
 
 **要获得审阅和批准**：
 
-1. [启动批准请求](/help/user-guide/approvals/request-review.md)以请求[批准草拟的显示广告体验](/help/user-guide/approvals/approve-content.md)。
+1. [启动审批请求](/help/user-guide/approvals/request-review.md)以请求[审批草稿的横幅体验](/help/user-guide/approvals/approve-content.md)。
 1. [在审阅过程中删除或添加审阅人](/help/user-guide/approvals/review-and-edit.md#manage-approvals)。
 1. [访问内容以供审阅](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)并查看修订请求。
-1. 编辑每个审阅评论的草稿，并[发布您的显示广告体验](#publish-and-export-experience)。
+1. 编辑每次审阅评论的草稿并[发布您的横幅体验](#publish-and-export-experience)。
 
 查看[审核和批准](/help/user-guide/approvals/overview.md)。
 
 ## 发布和导出体验
 
-若要使生成的显示广告可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
+若要使生成的横幅可用于当前和将来使用，请将其发布到[!UICONTROL Content]，并将其导出以用于您的营销活动。
 
-1. **要发布您的新显示广告体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
+1. **要发布您的新横幅体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
    1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_并添加_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
    1. 单击&#x200B;**[!UICONTROL 发布]**。
 
-      ![发布显示广告](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![发布横幅](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **要导出您的新显示广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
+1. **要导出新横幅**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
    1. 选择格式 — HTML and images、PNG或JPG — 并单击&#x200B;**[!UICONTROL 导出]**。
 
       导出的HTML应放置在预定义的Web属性中，如模板或`div`容器。 如果没有这些设定的尺寸，独立查看图像时可能会出现扭曲。
