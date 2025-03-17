@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing发行说明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增强功能。
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
+source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
 ## 2025.03.13 {#latest}
+
+### 激活元广告
+
+营销人员现在可以将GenStudio for Performance Marketing中的[广告体验](/help/user-guide/activation/overview.md)发布到元广告管理器。 [!DNL Activate]支持部署前的详细元广告预览。 通过[!DNL Activate]发布的元广告一旦上线，就会自动提取到[!DNL Insights]中，使用户能够跟踪和报告广告效果。
 
 ### 创建LinkedIn体验
 
