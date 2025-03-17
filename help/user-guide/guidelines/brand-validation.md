@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing中的品牌验证
 description: 了解内置品牌验证系统在GenStudio for Performance Marketing中的工作方式。
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 GenStudio for Performance Marketing从多个方面执行品牌验证和其他内容检查，包括：
 
-* 已定义或默认的[!DNL Brand]、[!DNL Persona]和[!DNL Product]准则
+* 已定义或默认的[!DNL Brand]准则
 * 平台准则
-* 在人工智能生成的内容中，与性别、种族、种族、残疾状况和年龄相关的道德考量
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * 美国残疾人法(ADA)标准
 
 ## 内容检查摘要
