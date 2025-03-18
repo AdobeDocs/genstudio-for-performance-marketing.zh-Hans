@@ -2,12 +2,13 @@
 title: 为Adobe GenStudio for Performance Marketing准备电子邮件模板
 description: 了解如何为Adobe GenStudio for Performance Marketing构建自定义电子邮件模板。
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ ht-degree: 0%
 要定义生成的内容区域，请执行以下操作：
 
 * 确定GenStudio for Performance Marketing应自动生成的模板中的文本元素，如标题或CTA。
-* 通过使用Handlebars语法在HTML模板中插入占位符来调整模板。
+* 通过使用Handlebars语法在HTML模板中插入占位符来调整该模板。
 
 请参阅[内容占位符](/help/user-guide/content/customize-template.md#content-placeholders)。
 

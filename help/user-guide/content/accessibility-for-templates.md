@@ -1,18 +1,18 @@
 ---
 title: 创建无障碍模板
 description: 在Adobe GenStudio for Performance Marketing中构建模板，这些模板能够吸引更多受众并提供最佳体验。
-feature: Templates, Content
+feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # 创建无障碍模板
 
-Adobe致力于为所有受众提供最佳体验。 请参阅Adobe](https://www.adobe.com/trust/accessibility/initiatives.html)上的[辅助功能计划以进一步阅读。
+Adobe致力于为所有受众提供最佳体验。 请参阅Adobe上的[辅助功能计划](https://www.adobe.com/trust/accessibility/initiatives.html)以了解更多内容。
 
 在GenStudio for Performance Marketing中，您可以上传资源和模板，以便为各种体验创建内容。 遵守辅助功能标准有助于您的内容触及最大目标受众。
 

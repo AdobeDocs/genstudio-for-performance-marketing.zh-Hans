@@ -2,12 +2,13 @@
 title: 为Adobe GenStudio for Performance Marketing准备元广告模板
 description: 了解如何为Adobe GenStudio for Performance Marketing构建自定义元广告模板。
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ GenStudio for Performance Marketing支持对元广告使用这些宽高比：
 
 ## 测试元广告模板
 
-使用Meta的Creative Hub测试您的模板，以查看广告在不同投放位置（如信息源或故事）中的外观。
+使用Meta的Creative中心测试您的模板，以查看广告在不同投放位置（如信息源或故事）中的外观。
 
 使用您的电子邮件投放或验证平台来测试您的电子邮件，并验证它是否在不同电子邮件客户端和设备之间正确呈现。
 
@@ -53,7 +54,7 @@ GenStudio for Performance Marketing支持对元广告使用这些宽高比：
 要定义生成的内容区域，请执行以下操作：
 
 * 确定GenStudio for Performance Marketing应自动生成的模板中的文本元素，如标题或CTA。
-* 通过使用Handlebars语法在HTML模板中插入占位符来调整模板。
+* 通过使用Handlebars语法在HTML模板中插入占位符来调整该模板。
 
 请参阅[内容占位符](/help/user-guide/content/customize-template.md#content-placeholders)。
 
