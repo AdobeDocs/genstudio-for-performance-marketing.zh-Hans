@@ -4,9 +4,9 @@ description: 了解如何使用 GenStudio for Performance Marketing 来生成新
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
+source-git-commit: 462834fb622dae4680a64e3de5c370b9268ee4cb
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '616'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Adobe GenStudio for Performance Marketing提供了一整套旨在简化内容创
 
 ## 开始创建、共享和审核内容
 
-如果您不熟悉基于创作的人工智能工具，或只是对GenStudio for Performance Marketing的核心原则感兴趣，请参阅[概念](concepts.md)和[编写有效的提示](effective-prompts.md)。 您可以查看[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，这是Adobe关于如何在创作过程中使用创作AI技术的在线学习平台。
+如果您不熟悉基于创作的人工智能工具，或只是对GenStudio for Performance Marketing的核心原则感兴趣，请参阅[概念](concepts.md)和[编写有效的提示](effective-prompts.md)。 您可以查看Adobe的在线学习平台[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，了解有关在创作过程中使用创作AI技术的信息。
 
 ## 培训GenStudio for Performance Marketing
 
@@ -31,19 +31,7 @@ GenStudio for Performance Marketing使用有关您的品牌和市场的信息来
 
 #### 准备您的准则文档
 
-全面而重点明确的[[!DNL Brands]](./guidelines/brands.md)、[[!DNL Products]](./guidelines/products.md)和[[!DNL Personas]](./guidelines/personas.md)准则定义了组织营销活动的核心方面。 GenStudio for Performance Marketing会从这些指南中提取信息，以开始构建您的品牌。
-
-在准备准则时，请遵循以下最佳实践：
-
-* 使用特定语言。
-
-* 提供您希望营销活动资产体现的样式和色调的最佳示例。
-
-* 避免冗余。 您可能想多次重复一个指令，但准则中的冗余不能帮助底层LLM捕获和实施您的品牌准则。
-
-* 标识您希望LLM在内容生成过程中排除的元素（例如，文本中的感叹号）。
-
-您可以上传准则文档，或在将信息手动输入到GenStudio for Performance Marketing中时查阅这些文档。 有关上载或输入此信息的指导，请参阅[添加准则](./guidelines/overview.md)。
+全面而重点明确的[[!DNL Brands]](./guidelines/brands.md)、[[!DNL Products]](./guidelines/products.md)和[[!DNL Personas]](./guidelines/personas.md)准则定义了组织营销活动的核心方面。 GenStudio for Performance Marketing会从这些指南中提取信息，以开始构建您的品牌。 您可以上传准则文档，或在将信息手动输入到GenStudio for Performance Marketing中时查阅这些文档。 有关上载或输入此信息的指导，请参阅[添加准则](./guidelines/overview.md)。
 
 #### 修订准则
 
@@ -53,7 +41,7 @@ GenStudio系统管理员可以通过手动输入或上传您组织的特定品�
 
 系统管理员必须先完成其他设置任务，协作者才能编辑或创建[!DNL Brands]。 Adobe系统管理员在Adobe Admin Console中执行以下任务：
 
-* 创建一个包含所有需要编辑和创建[!DNL Brands]权限的用户的新用户组。
+* 创建一个新的用户组，该用户组包含所有需要编辑和创建[!DNL Brands]授权的用户。
 
 * 在Adobe Admin Console中创建新项目。
 
