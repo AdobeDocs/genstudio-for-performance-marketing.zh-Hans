@@ -1,12 +1,13 @@
 ---
 title: 创建LinkedIn体验
 description: 了解如何使用Adobe GenStudio for Performance Marketing创建符合品牌要求的LinkedIn体验。
-feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
+feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 recommendations: noDisplay
-source-git-commit: 42a0fe67304b929ac3da265b746415cfd87cdaba
+exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
+source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%

@@ -1,20 +1,20 @@
 ---
-title: GenStudio性能营销 [!DNL Personas]
-description: GenStudio for Performance Marketing [!DNL Personas] 真实地呈现了客户区段，并捕捉了他们的兴趣、痛点、偏好和行为特征。
-feature: Personas Service, Guidelines
+title: GenStudio for Performance Marketing [!DNL Personas]
+description: GenStudio for Performance Marketing [!DNL Personas] 真实地呈现了您的客户区段，反映了他们的兴趣、痛点、偏好和行为特征。
+feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# GenStudio性能营销[!DNL Personas]
+# GenStudio for Performance Marketing [!DNL Personas]
 
 [!DNL Personas]提供客户细分的真实描述，包括客户的信息、兴趣、痛点、偏好和行为特征。
 
-GenStudio for Performance Marketing利用准则（[[!DNL Brands]、 [!DNL Products]和 [!DNL Personas]](overview.md)）的强大功能以及Adobe的创作AI技术，为您的目标客户策划个性化的营销内容&#x200B;。
+GenStudio for Performance Marketing利用准则（[[!DNL Brands]、 [!DNL Products]和 [!DNL Personas]](overview.md)）和Adobe的创作AI技术的强大功能为您的目标客户策划个性化的营销内容。&#x200B;
 
 **要查看或修改角色**：
 
@@ -22,11 +22,11 @@ GenStudio for Performance Marketing利用准则（[[!DNL Brands]、 [!DNL Produc
 1. 要[查看个人详细信息或修改角色](add-guidelines.md#manage-personas)，请单击&#x200B;_[!DNL Personas]_操作菜单，然后选择&#x200B;**打开**。
 1. 通过单击准则类别文本字段来修订角色准则。
 
-请参阅[添加准则](add-guidelines.md)，了解如何在GenStudio中添加或修改角色以进行性能营销。
+请参阅[添加准则](add-guidelines.md)，了解如何在GenStudio for Performance Marketing中添加或修改角色。
 
 ## [!DNL Personas]指南
 
-个人角色指导原则为GenStudio绩效营销提供了您[!DNL Personas]的清晰图景。
+个人角色准则为GenStudio for Performance Marketing提供了您[!DNL Personas]的清晰图像。
 
 ![角色准则](/help/assets/personas.png){width="600" zoomable="yes"}
 
