@@ -1,35 +1,43 @@
 ---
 title: 激活概述
 description: 了解如何使用Adobe Experience Cloud和第三方应用程序激活内容。
-feature: Assets, Approval, Experiences
+feature: Assets, Experiences
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: c3b8419deccd24cd565627fcb3f7d6376860e84a
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Adobe GenStudio for Performance Marketing激活
 
-_激活_&#x200B;是使Adobe GenStudio for Performance Marketing生成的资源和体验可通过您选择的渠道和Adobe Experience Cloud产品交付的过程。 对于您在[!DNL Products]中包含的第三方应用程序，您可以轻松地以最佳格式从GenStudio for Performance Marketing导出批准的内容。
+GenStudio for Performance Marketing _[!DNL Activate]_提供了一个中心位置，用于准备广告体验以进行激活，从而选择付费广告渠道。_&#x200B;激活&#x200B;_是将广告体验交付给处于非活动状态的指定渠道的过程，准备从渠道进行最终审查和部署。 然后，广告体验可以在其目标市场中分发。
 
-GenStudio for Performance Marketing激活功能本机集成到Adobe的Experience Delivery产品中： Journey Optimizer、Journey Optimizer B2B版本、Experience Manager、Marketo和Target。
+内容编辑者和系统管理员可以发布其资产在GenStudio for Performance Marketing中生成或上传到的体验。
 
-**要激活已批准的资产**，请执行以下操作：
+[!DNL Activate]显示每个渠道的产品拼贴。 此图块标识付费媒体渠道，并列出过去30天内发生的成功广告激活次数。 它还提供了一个入口点，用于管理激活和创建新激活。
 
-1. 从[!DNL Content]中选择资源。
+每个付费媒体渠道帐户都必须连接到GenStudio for Performance Marketing，然后才能激活广告体验。
 
-1. 单击&#x200B;_详细信息_&#x200B;视图上方的&#x200B;**[!UICONTROL 下载]** （向下箭头）图标。
+## [!DNL Activate] 用例
 
-   该资产将以ZIP文件的形式下载到您的本地&#x200B;_下载_&#x200B;文件夹。
+* [创建激活](create-activation.md)。 在推送到付费渠道之前，您可以通过选择可视资产、分配文本和定义元数据来制作广告体验。
 
-**激活已批准的体验**：
+* [管理激活](manage-activations.md)。 _[!DNL Activate]_提供所有已激活体验的概述。 您还可以查看各个激活的详细信息。
 
-1. 从[!DNL Content] > [!DNL Experiences]中选择体验。
+## [!DNL Activate]功能
 
-1. 单击体验详细信息视图上的&#x200B;**[!UICONTROL 导出以进行激活]**&#x200B;按钮。 GenStudio for Performance Marketing显示&#x200B;**[!UICONTROL 导出以供激活]**&#x200B;弹出窗口，并提供两种下载格式：CSV和HTML。 (或者，您可以从&#x200B;_更多选项_&#x200B;菜单（由`...`表示）访问&#x200B;*[!UICONTROL 导出以进行激活]**按钮。)
+_[!DNL Activate]_有助于准备广告体验以分发到其目标付费渠道。
 
-1. 通过单击弹出窗口中的&#x200B;**[!UICONTROL 导出CSV]**&#x200B;或&#x200B;**[!UICONTROL 导出HTML]**&#x200B;按钮选择首选下载格式。
+### 准备激活
 
-   导出过程将在您的本地&#x200B;_下载_&#x200B;文件夹中创建ZIP包。 此文件夹名称与体验名称相同。
+_Creative设置_&#x200B;页面整合了选择广告体验的可视化元素所需的工具、调整广告文本（包括行动号召文本）以及添加可增强体验跟踪和可见性的有用元数据。
+
+### 选择广告体验的资源
+
+从&#x200B;_[!DNL Content]_中搜索并选择批准的可视资产，或从Dropbox或OneDrive上传资产。 您还可以直接从设备上传资产。 一个广告体验可以在多个投放位置运行。 Assets可以按照广告投放所需的宽高比上传。
+
+### 预览并激活您的广告渠道体验
+
+确认与此广告激活关联的付费渠道帐户、广告集和元营销活动。 通过&#x200B;_预览_&#x200B;面板，您可以在完成广告体验之前查看不同位置的广告体验。 (在&#x200B;_预览_&#x200B;面板中选择版面时，只有广告视图会受到影响。 未保存&#x200B;_预览_&#x200B;面板中的版面选择。) 如果您对广告体验感到满意，请单击&#x200B;**[!UICONTROL 发布]**&#x200B;以将体验及其关联的元数据推送到付费广告渠道。
