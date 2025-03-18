@@ -1,16 +1,21 @@
 ---
 title: 分发您的应用程序
 description: 为GenStudio for Performance Marketing分发您的应用程序或加载项。
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+exl-id: 4935356b-08df-402c-b1a2-b89627afc188
+source-git-commit: 8884f3438a0010119f578ca9a3b7158e2e01cfa3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # 分发您的应用程序
 
-分发应用程序后，组织中的成员便可以使用该应用程序。
+分发加载项后，您的组织和可能的其他组织便可以使用该加载项。
+
+专用分发将加载项的部署限制在您为其开发加载项的IMS组织所标识的组织。 公共分发使加载项作为Adobe Exchange上的应用程序提供。 您的分发工作流程取决于您的加载项是用于公共分发还是专用分发。
+
+本主题讨论专用分发。 _App Builder_&#x200B;开发人员文档中的[公共分发](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)介绍了如何使您的应用程序可供任何Adobe组织使用。
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +31,9 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-**分发您的应用程序**：
+**要私密分发您的应用程序**：
+
+专用分发使您的应用程序仅对贵组织的成员可用。
 
 1. 从[Adobe Developer Console](https://developer.adobe.com/console/)中，选择部署应用程序的组织、项目和工作区。
 
