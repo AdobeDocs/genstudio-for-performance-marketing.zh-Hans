@@ -2,9 +2,9 @@
 title: 请求审查和批准
 description: 使用Adobe GenStudio for Performance Marketing请求审阅生成的内容。
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: 1e66e13df8f1d7ddb6b6a11af6f751ba3a9b8a04
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 **请求审阅**：
 
 1. 单击画布顶部菜单栏上的&#x200B;**[!UICONTROL 为批准者发送]**&#x200B;按钮。 _发送以供审批_&#x200B;弹出窗口将打开并标识您请求审阅的草稿。 如果您生成多个变体，则将发送整个画布以供审阅。
+
+1. 确认标题草案具有描述性、信息性，且批准者侧重于审查目标。 根据需要选择&#x200B;_标题_&#x200B;字段以更改草稿标题。 更改此处的标题也会更改基础草稿体验标题。
 
 1. 选择要向其请求审阅的批准者。 开始键入时，**[!UICONTROL 审批者]**&#x200B;字段会从具有GenStudio for Performance Marketing查看和审批权限的用户列表中自动完成审批者用户名。 在输入至少一个审批者名称后，**[!UICONTROL 发送]**&#x200B;按钮被激活。
 
