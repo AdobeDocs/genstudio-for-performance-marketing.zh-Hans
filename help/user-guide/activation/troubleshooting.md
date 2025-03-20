@@ -1,7 +1,9 @@
 ---
 title: 优化您的激活
 description: 了解如何优化对第三方付费广告渠道的激活。
-source-git-commit: a098e053dffe4835a4425252203977dc6ce44713
+feature: Ad Activation, Workflow
+exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
+source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
