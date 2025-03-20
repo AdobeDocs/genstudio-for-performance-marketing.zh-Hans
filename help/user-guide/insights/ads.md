@@ -1,9 +1,9 @@
 ---
 title: 广告和广告投放概述
 description: 有关Adobe GenStudio for Performance Marketing中的广告和广告投放效果的客户参与、预算和支出的概述。
-feature: Insights, Experiences, Attributes
+feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 9c4df8d5b9e45d0c26bee8db9085e3ad21b02742
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%

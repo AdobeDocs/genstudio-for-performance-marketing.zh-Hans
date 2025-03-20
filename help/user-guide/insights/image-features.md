@@ -1,9 +1,9 @@
 ---
 title: 图像特征
 description: 了解GenStudio for Performance Marketing中使用的属性类别的图像功能。
-feature: Insights, Attributes, Generative AI
+feature: Reporting and Insights, Image Attributes, Generative AI
 exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
-source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%

@@ -1,9 +1,9 @@
 ---
 title: ' [!DNL Insights]概述'
 description: 了解如何根据实时内容性能指标优化广告。
-feature: Attributes, Insights, Experiences, Assets, Channels
+feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 9c4df8d5b9e45d0c26bee8db9085e3ad21b02742
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%

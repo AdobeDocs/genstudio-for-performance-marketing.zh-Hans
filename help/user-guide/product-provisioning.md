@@ -2,9 +2,9 @@
 title: 配置Adobe GenStudio for Performance Marketing
 description: 了解配置GenStudio for Performance Marketing产品。
 level: Beginner
-feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
+feature: Generative AI
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 配置Adobe GenStudio for Performance Marketing
 
-Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中执行初始配置任务。 通过Admin Console，Adobe系统管理员可以访问GenStudio产品配置文件，并将可用的产品许可证分配给用户。
+Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中执行初始配置任务。 从Admin Console中，Adobe系统管理员可以访问GenStudio产品配置文件，并将可用的产品许可证分配给用户。
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
 ## 步骤1：访问Adobe Admin Console中的产品配置文件
 
-在该Admin Console中，产品配置文件定义了在GenStudio for Performance Marketing中创建和管理品牌和促销活动时独特的规则和用户配置文件。
+在Admin Console中，产品配置文件定义了在GenStudio for Performance Marketing中创建和管理品牌和促销活动时独特的规则和用户配置文件。
 
 **访问GenStudio产品配置文件**
 
@@ -35,7 +35,7 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
    成功登录后，您会看到Adobe Admin Console的&#x200B;_概述_&#x200B;选项卡。
 
-1. 导航到&#x200B;_产品_&#x200B;选项卡。 此选项卡显示贵组织已购买的所有Adobe产品。
+1. 导航到&#x200B;_产品_&#x200B;选项卡。 此选项卡显示贵组织购买的所有Adobe产品。
 
 1. 从产品列表中选择&#x200B;**[!UICONTROL GenStudio]**。 控制台将显示GenStudio产品配置文件，该配置文件显示有关贵组织已购买的产品许可证的关键信息。 它还提供了管理这些许可证的选项。
 
@@ -43,7 +43,7 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
 ## 步骤2：配置用户
 
-在Admin Console中配置用户是将产品许可证分配给用户的过程。 这些用户必须属于产品配置文件中指定的IMS组织。 您可以按照为其他Adobe产品配置用户的相同方式，为您的GenStudio for Performance Marketing组织配置用户。 您可以手动添加用户或批量导入用户。
+在Admin Console中配置用户是将产品许可证分配给用户的过程。 这些用户必须属于产品配置文件中指定的IMS组织。 您可以按照为其他GenStudio for Performance Marketing产品配置用户的相同方式，为您的Adobe组织配置用户。 您可以手动添加用户或批量导入用户。
 
 >[!TIP]
 >

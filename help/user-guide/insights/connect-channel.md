@@ -2,11 +2,11 @@
 title: 连接渠道帐户
 description: 连接渠道帐户以监控您的Adobe GenStudio for Performance Marketing促销活动和媒体效果。
 level: Intermediate
-feature: Insights, Channels
+feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
+source-git-commit: 91b684d27f3205806e5e92ea14db45cee84b806b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ GenStudio for Performance Marketing会将渠道数据保留13个月。 此保留
 
 >[!ENDSHADEBOX]
 
-**在GenStudio for Performance Marketing中连接元广告帐户**：
+**要连接元广告帐户**：
 
-1. 在&#x200B;_[!DNL Insights]_中，单击横幅中的&#x200B;**[!UICONTROL 连接渠道帐户]**或单击右上角的&#x200B;**[!UICONTROL 添加帐户]**按钮（带加号的人员形状）。
+1. 在_[!DNL Insights]中，如果这是您第一次连接帐户，请单击横幅中的&#x200B;**[!UICONTROL 连接渠道帐户]**。
 
-   系统可能会引导您登录Facebook。 Facebook是目前唯一可用的选项。
+   或者，选择左下方的省略号(...)，然后单击&#x200B;**[!UICONTROL 设置]**。
+
+1. 在&#x200B;_Data Connectors_&#x200B;部分中，单击&#x200B;_中继广告_&#x200B;卡上的&#x200B;**[!UICONTROL 连接]**。
 
 1. 登录到您的Facebook帐户。
 
