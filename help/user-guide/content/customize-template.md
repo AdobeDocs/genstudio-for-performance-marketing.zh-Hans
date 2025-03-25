@@ -2,9 +2,10 @@
 title: 自定义模板
 description: 了解如何针对Adobe GenStudio for Performance Marketing个性化和优化模板。
 level: Intermediate
+role: Developer
 feature: Media Templates, Content Generation
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
 workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 0%
@@ -70,7 +71,7 @@ GenStudio for Performance Marketing会自动填充以下模板中的特定字段
 
 ### 行动号召
 
-行动号召(CTA)包括短语和链接。 为了使CTA _[!UICONTROL 重写]_&#x200B;和&#x200B;_[!UICONTROL 添加链接]_&#x200B;功能在变体生成过程中正常工作，您必须在模板中包含链接和短语的占位符。
+行动号召(CTA)包括短语和链接。 为了使&#x200B;_[!UICONTROL 重写]_&#x200B;和&#x200B;_[!UICONTROL 添加链接]_&#x200B;功能在变体生成过程中正常工作，您必须在模板中包含链接和短语的占位符。
 
 使用下面的指南设置CTA占位符：
 
@@ -148,12 +149,19 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 
 _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
 
-在字段名称中使用您选择的前缀来指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（`headline`、`body`、`image`或`cta`）。 例如，以下标题和正文属于`pod1`部分：
+在字段名称中使用您选择的前缀来指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（`headline`、`body`、`image`或`cta`）。
+
+- _正确_ (??)： `pod1_body`
+- _不正确_ (❌)： `pod1_link`
+
+每个部分只能使用每种字段类型中的一种。 例如，以下字段属于`pod1`部分：
 
 - `pod1_headline`
 - `pod1_body`
+- `pod1_image`
+- `pod1_cta`
 
-每个部分只能使用每种字段类型中的一种。 在上述示例中，`pod1`节只能使用一个`pod1_headline`字段。 由于此规则，无法嵌套这些部分。
+由于此规则，无法嵌套这些部分。
 
 每种模板类型（如电子邮件或元广告）都包含特定于渠道的部分使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
 
@@ -223,27 +231,27 @@ GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系�
 ```html {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Adobe</title>
-    <style>
-        .container {
+    <head>
+        <title>Adobe</title>
+        <style>
+            .container {
             width: 100%;
             padding: 20px;
             font-family: Arial, sans-serif;
-        }
-    </style>
-</head>
-<body>{{ pre_header }}
-    <div class="container">
-        <h1>{{ headline }}</h1>
-        <p><a href="{{ link }}">
-           <img alt="{{ headline }}"
-                src="{{ image }}"
-                width="600" height="600"
-                border="0"/></a></p>
-        <p>{{ body }}</p>
-    </div>
-</body>
+            }
+        </style>
+    </head>
+    <body>{{ pre_header }}
+        <div class="container">
+            <h1>{{ headline }}</h1>
+            <p><a href="{{ link }}">
+            <img alt="{{ headline }}"
+                    src="{{ image }}"
+                    width="600" height="600"
+                    border="0"/></a></p>
+            <p>{{ body }}</p>
+        </div>
+    </body>
 </html>
 ```
 
@@ -256,48 +264,48 @@ GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系�
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Adobe</title>
-    <style>
-        .container {
+    <head>
+        <title>Adobe</title>
+        <style>
+            .container {
             width: 100%;
             padding: 20px;
             font-family: Arial, sans-serif;
-        }
-        .pod {
+            }
+            .pod {
             background-color: #f8f8f8;
             margin: 10px;
             padding: 20px;
             border-radius: 5px;
-        }
-        .pod h2 {
+            }
+            .pod h2 {
             color: #333;
-        }
-        .pod p {
-            color: #666;
-        }
-    </style>
-</head>
-<body>{{ pre_header }}
-    <div class="container">
-        <h1>{{ headline }}</h1>
-        <p>{{ body }}</p>
-        <!-- Pod1 -->
-        <div class="pod">
-            <h2>{{ pod1_headline }}</h2>
-            <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
-            <p>{{ pod1_body }}</p>
+            }
+            .pod p {
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>{{ pre_header }}
+        <div class="container">
+            <h1>{{ headline }}</h1>
+            <p>{{ body }}</p>
+            <!-- Pod1 -->
+            <div class="pod">
+                <h2>{{ pod1_headline }}</h2>
+                <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
+                <p>{{ pod1_body }}</p>
+            </div>
+            <!-- End of Pod1 -->
+            <!-- Pod2 -->
+            <div class="pod">
+                <h2>{{ pod2_headline }}</h2>
+                <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
+                <p>{{ pod2_body }}</p>
+            </div>
+            <!-- End of Pod2 -->
         </div>
-        <!-- End of Pod1 -->
-        <!-- Pod2 -->
-        <div class="pod">
-            <h2>{{ pod2_headline }}</h2>
-            <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
-            <p>{{ pod2_body }}</p>
-        </div>
-        <!-- End of Pod2 -->
-    </div>
-</body>
+    </body>
 </html>
 ```
 
@@ -305,54 +313,45 @@ GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系�
 
 +++示例：元广告模板
 
-以下是元广告模板的基本示例。 标头包含用于样式化的内联CSS。 正文使用带有前缀的[内容占位符](#content-placeholders)。
+以下是元广告模板的基本示例。 标头包含用于样式化的内联CSS。 正文使用[内容占位符](#content-placeholders)（如`image`和`on_image_text`）来指示GenStudio for Performance Marketing可在何处生成内容。
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adobe</title>
-    <style>
-        .ad-container {
-            width: 300px;
-            border: 1px solid #ddd;
-            padding: 16px;
-            font-family: Arial, sans-serif;
-        }
-        .ad-image {
-            width: 100%;
-            height: auto;
-        }
-        .ad-headline {
-            font-size: 18px;
-            font-weight: bold;
-            margin: 12px 0;
-        }
-        .ad-body {
-            font-size: 14px;
-            margin: 12px 0;
-        }
-        .ad-cta {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adobe</title>
+        <style>
+            .ad-container {
+            font-family: Helvetica, sans-serif;
+            position: relative;
             text-align: center;
-        }
-    </style>
-</head>
-<body>
-<div class="ad-container">
-    <img src="{{ image }}" alt="Ad Image" class="ad-image">
-    <div class="ad-headline">{{ headline }}</div>
-    <div class="ad-body">{{ body }}</div>
-    <a href="{{ link }}" class="ad-cta">{{ CTA }}</a>
-</div>
-</body>
+            height: 100%;
+            }
+            .ad-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+            .ad-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 1em;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 1em;
+            font-size: 75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ad-container">
+            <img src="{{ image }}" alt="Ad Image" class="ad-image" />
+            <div class="ad-text">{{ on_image_text }}</div>
+        </div>
+    </body>
 </html>
 ```
 

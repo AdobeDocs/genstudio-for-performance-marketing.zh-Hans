@@ -1,11 +1,13 @@
 ---
 title: 模板最佳实践
 description: 将模板与Adobe GenStudio for Performance Marketing结合使用时，请遵循最佳实践。
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ ht-degree: 0%
 
 ## 遵循特定于渠道的模板准则
 
-构建适应每个渠道的布局和视觉要求的模板。 在使用每种模板类型时，请考虑以下提示和限制以确保最佳性能和兼容性：
+在创建模板时，请确保它们满足预期渠道的特定要求。 构建适应每个渠道的布局和视觉要求的模板。 有一些常规准则适用于任何模板，例如：
+
+- 使用简洁且响应式的HTML和内联CSS
+- 使用Adobe或Google字体
+- **不**&#x200B;使用JavaScript
+
+在使用每种模板类型时，请考虑以下提示和限制以确保最佳性能和兼容性：
 
 >[!BEGINTABS]
 
@@ -86,17 +94,8 @@ ht-degree: 0%
 - 请&#x200B;**不**&#x200B;定义视区
 - **不**&#x200B;使用JavaScript
 - 请&#x200B;**不**&#x200B;覆盖CSS中的HTML元素
-- 对背景图像使用以下设置：
-
-  将`object-fit: cover`值添加到`background-image` CSS类：
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- 使用`<img>`标记而不是`background-image`
+- 使用蒙版提高背景图像上的文本可读性
 
 **约束**：
 
@@ -151,11 +150,10 @@ ht-degree: 0%
 
 **可识别的字段名称**：
 
-对以下字段使用内容占位符：
+对于横幅广告和显示广告，会自动生成`CTA`字段。 对以下字段使用内容占位符：
 
 - `headline`
 - `body`
-- `cta`
 - `image` (从Content JPEG、PNG或GIF中选择)
 
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
@@ -192,17 +190,16 @@ ht-degree: 0%
    - 移动设备
    - 最小值：360 x 640像素
    - 最大：2430 x 4320像素
-- Verticle 4.5（推荐）
+- 垂直4.5（推荐）
    - 移动设备
    - 最小值：360 x 640像素
    - 最大：2430 x 4320像素
 
 **可识别的字段名称**：
 
-对于LinkedIn广告，`headline`和`CTA`字段是自动生成的。 对以下字段使用内容占位符：
+对于LinkedIn广告，`headline`、`introductory_text`和`CTA`字段是自动生成的。 对以下字段使用内容占位符：
 
 - `image` (从Content JPEG、PNG或GIF中选择)
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 
