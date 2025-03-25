@@ -1,16 +1,16 @@
 ---
-title: Publish批准的内容
+title: 发布批准的内容
 description: 了解如何使用Adobe GenStudio for Performance Marketing发布批准的内容。
-feature: Approval, Content
+feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Publish批准的内容
+# 发布批准的内容
 
 创建与品牌一致的已批准内容的最后一个步骤是使用适当的元数据将其保存到[!DNL Content]。 您（内容编辑者或创建者）可以通过发布或保存已批准的资产到[!DNL Content]来完成它。
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 **要发布批准的内容**：
 
-1. 直接访问已批准的草稿，或从&#x200B;_已批准的变体访问已批准的草稿，准备发布_&#x200B;弹出窗口。 此弹出窗口包含用于推迟已批准资源发布的&#x200B;**[!UICONTROL 关闭]**&#x200B;按钮和用于启动发布过程的&#x200B;**[!UICONTROL Publish]**&#x200B;按钮。
+1. 直接访问已批准的草稿，或从&#x200B;_已批准的变体访问已批准的草稿，准备发布_&#x200B;弹出窗口。 此弹出窗口包含用于推迟已批准资产发布的&#x200B;**[!UICONTROL 关闭]**&#x200B;按钮和用于启动发布过程的&#x200B;**[!UICONTROL 发布]**&#x200B;按钮。
 
-1. 单击&#x200B;**[!UICONTROL Publish]**&#x200B;以将资源或体验保存到[!DNL Content]。 GenStudio for Performance Marketing显示已批准内容的&#x200B;_确认详细信息_&#x200B;窗口，其中显示已批准资源的缩略图。
+1. 单击&#x200B;**[!UICONTROL 发布]**&#x200B;以将资源或体验保存到[!DNL Content]。 GenStudio for Performance Marketing显示已批准内容的&#x200B;_确认详细信息_&#x200B;窗口，其中显示已批准资源的缩略图。
 
 1. 按照GenStudio for Performance Marketing的提示添加有关内容的信息。 此信息另存为元数据，这将为[!DNL Content]筛选和搜索操作添加值。 在发布流程中的这一阶段，您可以将资源添加到GenStudio for Performance Marketing营销活动。
 
