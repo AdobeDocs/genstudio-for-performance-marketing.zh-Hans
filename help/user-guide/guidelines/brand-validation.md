@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing中的品牌验证
 description: 了解内置品牌验证系统在GenStudio for Performance Marketing中的工作方式。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -41,7 +41,7 @@ _内容检查_&#x200B;摘要显示：
 
 从右侧操作栏&#x200B;_或_&#x200B;单击时，画布右侧会打开&#x200B;_内容检查_&#x200B;面板，单击变量的&#x200B;[_内容检查_&#x200B;摘要图标](#content-check-summary)可打开该面板。 此面板提供详细的品牌验证。 平台指南和无障碍标准信息并说明了每个变体部分的改进机会。
 
-![内容检查面板](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+![内容检查面板](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 _内容检查_&#x200B;面板显示变体每个部分的验证和[合规性信息](/help/user-guide/guidelines/overview.md#compliance)：
 
