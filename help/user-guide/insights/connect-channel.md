@@ -2,9 +2,10 @@
 title: 连接渠道帐户
 description: 连接渠道帐户以监控您的Adobe GenStudio for Performance Marketing促销活动和媒体效果。
 level: Intermediate
+role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 91b684d27f3205806e5e92ea14db45cee84b806b
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%

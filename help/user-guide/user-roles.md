@@ -3,8 +3,9 @@ title: Adobe GenStudio for Performance Marketing用户角色和权限
 description: 了解GenStudio for Performance Marketing用户角色和权限。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
+role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: de1c54ceb4402d98fd3ae9bd129b26d6b4919681
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 1%
@@ -55,7 +56,7 @@ _编辑者_&#x200B;或内容创建者具有创建GenStudio for Performance Marke
 
 下表显示了默认编辑器权限：
 
-| 专题 | 创建 | 更新 | 删除 | 查看 |
+| 功能 | 创建 | 更新 | 删除 | 查看 |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | 否 | 否 | 否 | 是 |
 | [!DNL Campaigns] | 是 | 是 | 是 | 是 |
@@ -79,7 +80,7 @@ _协作者_&#x200B;可以在GenStudio for Performance Marketing中查看资源�
 
 下表显示默认的Collaborator权限：
 
-| 专题 | 创建 | 更新 | 删除 | 查看 |
+| 功能 | 创建 | 更新 | 删除 | 查看 |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | 否 | 否 | 否 | 是 |
 | [!DNL Campaigns] | 否 | 否 | 否 | 是 |
@@ -97,7 +98,7 @@ _GenStudio系统管理员_&#x200B;在GenStudio for Performance Marketing中具�
 
 下表显示默认的系统管理员权限：
 
-| 专题 | 创建 | 更新 | 删除 | 查看 |
+| 功能 | 创建 | 更新 | 删除 | 查看 |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | 是 | 是 | 是 | 是 |
 | [!DNL Campaigns] | 是 | 是 | 是 | 是 |

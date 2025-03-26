@@ -2,8 +2,9 @@
 title: Adobe GenStudio for Performance Marketing概念
 description: 了解Adobe GenStudio for Performance Marketing概念和术语。
 feature: Workflow, Generative AI
+role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # 概念
 
-GenStudio for Performance Marketing是一款独立的企业产品，它体现了Adobe的内容供应链，以简化营销活动。 大规模构建经品牌批准的个性化内容、监控效果和快速适应不断变化的市场具有挑战性。 GenStudio for Performance Marketing在一个应用程序中将Creative Cloud和Experience Cloud整合在一起，该应用程序利用创作AI作为企业营销团队的绩效提升器。
+GenStudio for Performance Marketing是一款独立的企业产品，它体现了Adobe的内容供应链以简化营销活动。 大规模构建经品牌批准的个性化内容、监控效果和快速适应不断变化的市场具有挑战性。 GenStudio for Performance Marketing将Creative Cloud和Experience Cloud整合到一个应用程序中，该应用程序利用创作AI作为企业营销团队的绩效倍增器。
 
 借助GenStudio for Performance Marketing，您可以：
 
@@ -32,7 +33,7 @@ GenStudio for Performance Marketing利用创新型人工智能的强大功能来
 
 ## 大型语言模型
 
-GenStudio for Performance Marketing利用Adobe的创新型人工智能平台，该平台提供基础人工智能和机器学习(ML)服务。 此平台简化了大型语言模型(LLM)的使用，为Adobe的GenAI功能提供支持，以创建引人入胜的体验。
+GenStudio for Performance Marketing利用Adobe的创新型人工智能平台，该平台提供基础人工智能和机器学习(ML)服务。 此平台简化了大型语言模型(LLM)的使用，从而使Adobe的GenAI功能能够创建引人入胜的体验。
 
 GenStudio for Performance Marketing通过Azure OpenAI使用GPT系列第三方LLM。<!-- Claude, and Gemini models. -->
 
@@ -80,11 +81,11 @@ If genactions roll over month to month or not -->
 
 ## 数据治理
 
-在使用AI生成内容时，必须确保输出安全且包容所有用户。 这需要评估内容中潜在的有害偏见、仇恨言论、冒犯性材料或亵渎行为。 Adobe从多个角度彻底测试内容生成技术，执行全面的道德审查，并实施有效的缓解计划，以防止在产出中出现有害内容。
+在使用AI生成内容时，必须确保输出安全且包容所有用户。 这需要评估内容中潜在的有害偏见、仇恨言论、冒犯性材料或亵渎行为。 Adobe从多个角度全面测试内容生成技术，执行全面的道德审查，并实施有效的缓解计划以防止在输出中出现有害内容。
 
 此方法可强化社会责任，最大限度地降低信誉风险，并确保遵守[Adobe的信任与安全及道德政策](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf)。
 
-GenStudio for Performance Marketing纳入了缓解计划，以防止根据每个Adobe的数据治理标准和政策使用已识别的有害或偏见内容。 检测到此类内容时，您会意识到会使用“无法生成”消息阻止生成资源。
+GenStudio for Performance Marketing纳入了缓解计划，以防止根据Adobe数据治理标准和政策使用已识别的有害或偏见内容。 检测到此类内容时，您会意识到会使用“无法生成”消息阻止生成资源。
 
 出现此消息时，您可以编辑提示并重试&#x200B;_或_&#x200B;标记提示内容以供GenStudio for Performance Marketing审阅。 为内部审阅目的而收集标记为要审阅的内容的提示数据。
 

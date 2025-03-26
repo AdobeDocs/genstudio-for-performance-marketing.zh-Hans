@@ -3,8 +3,9 @@ title: 配置Adobe GenStudio for Performance Marketing
 description: 了解配置GenStudio for Performance Marketing产品。
 level: Beginner
 feature: Generative AI
+role: Admin
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -63,6 +64,6 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
 * [单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
 
-* [管理多个用户/批量CSV上传](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
+* [管理多个用户/批量CSV上传](https://helpx.adobe.com/cn//enterprise/using/bulk-upload-users.html)
 
 将用户载入组织的GenStudio for Performance Marketing后，GenStudio系统管理员即可[设置组织的品牌和媒体准则](get-started.md)。

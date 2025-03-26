@@ -1,9 +1,10 @@
 ---
 title: Adobe GenStudio for Performance Marketing [!DNL Content]概述
 description: 了解如何在一个直观的门户中查找、编辑、重用和共享品牌批准的资源。
+level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -17,58 +18,111 @@ GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，
 ## [!DNL Content] 用例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="magnifier" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search-content">
+
          <strong>查找内容</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="带加号的图像" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>添加资源</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="在Adobe Express中编辑" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>在Adobe Express中编辑资源</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/customize-template.md">
+
          <img alt="资产上的发光螺钉" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
+
          <a href="../content/customize-template.md">
+
          <strong>自定义模板</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/use-templates.md">
+
          <img alt="带加号的资产上的发光螺钉" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
+
          <a href="../content/use-templates.md#upload-a-template">
+
          <strong>上载模板</strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## [!DNL Content]功能
