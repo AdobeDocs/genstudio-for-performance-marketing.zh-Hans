@@ -18,111 +18,58 @@ GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，
 ## [!DNL Content] 用例
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/manage-assets.md#search">
-
          <img alt="magnifier" src="../../assets/icons/icon-search.png">
-
       </a>
-
       <p>
-
          <a href="../content/manage-assets.md#search-content">
-
          <strong>查找内容</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/manage-assets.md">
-
          <img alt="带加号的图像" src="../../assets/icons/icon-addContent.png">
-
       </a>
-
       <p>
-
          <a href="../content/manage-assets.md">
-
          <strong>添加资源</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/asset-details.md#edit-in-express">
-
          <img alt="在Adobe Express中编辑" src="../../assets/icons/icon-editExpress.png">
-
       </a>
-
       <p>
-
          <a href="../content/asset-details.md#edit-in-express">
-
          <strong>在Adobe Express中编辑资源</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/customize-template.md">
-
          <img alt="资产上的发光螺钉" src="../../assets/icons/icon-template.png">
-
       </a>
-
       <p>
-
          <a href="../content/customize-template.md">
-
          <strong>自定义模板</strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/use-templates.md">
-
          <img alt="带加号的资产上的发光螺钉" src="../../assets/icons/icon-addTemplate.png">
-
       </a>
-
       <p>
-
          <a href="../content/use-templates.md#upload-a-template">
-
          <strong>上载模板</strong>
-
          </a>
-
       </p>
-
    </td>
-
 </tr>
-
 </table>
 
 ## [!DNL Content]功能
