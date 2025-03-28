@@ -1,19 +1,19 @@
 ---
-user-guide-title: Adobe GenStudio for Performance Marketing可扩展性指南
+user-guide-title: Adobe GenStudio for Performance Marketing 可扩展性指南
 breadcrumb-title: 可扩展性指南
-user-guide-description: 探索Adobe GenStudio for Performance Marketing可扩展性框架的功能。
+user-guide-description: 浏览 Adobe GenStudio for Performance Marketing 可扩展性框架功能。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
 source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Adobe GenStudio for Performance Marketing可扩展性指南 {#ext-guide}
+# Adobe GenStudio for Performance Marketing 可扩展性指南 {#ext-guide}
 
 + [可扩展性指南](home.md)
 + 开始使用{#get-started}
