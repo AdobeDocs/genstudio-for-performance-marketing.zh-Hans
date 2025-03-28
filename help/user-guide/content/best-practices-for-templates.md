@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ ht-degree: 0%
 - `body`
 - `cta`
 - `image` (从Content JPEG、PNG或GIF中选择)
-- `brand_logo`
 
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 
@@ -115,7 +114,6 @@ ht-degree: 0%
 
 - `image` (从Content JPEG、PNG或GIF中选择)
 - `on_image_text`
-- `brand_logo`
 
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 
@@ -201,7 +199,6 @@ ht-degree: 0%
 
 - `image` (从Content JPEG、PNG或GIF中选择)
 - `on_image_text`
-- `brand_logo`
 
 请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 

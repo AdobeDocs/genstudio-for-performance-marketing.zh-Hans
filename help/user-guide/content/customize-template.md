@@ -1,13 +1,13 @@
 ---
 title: 自定义模板
-description: 了解如何针对Adobe GenStudio for Performance Marketing个性化和优化模板。
+description: 了解如何使用Adobe GenStudio for Performance Marketing创作AI识别的内容占位符自定义HTML模板。
 level: Intermediate
 role: Developer
-feature: Media Templates, Content Generation
+feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
+source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,19 @@ GenStudio for Performance Marketing可识别模板中的某些[元素](use-templ
 | `{{headline}}` | 标题 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
 | `{{introductory_text}}` | 介绍性文本 | LinkedIn广告 |
 | `{{body}}` | 正文 | 电子邮件<br>元广告<br>横幅和显示广告 |
-| `{{cta}}` | 行动号召 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
+| `{{cta}}` | 行动号召<br>查看[行动号召](#calls-to-action) | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
 | `{{image}}` | 图像 — 从[!DNL Content]中选择 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
-| `{{on_image_text}}` | 在图像文本上 | 元广告<br>LinkedIn广告 |
+| `{{on_image_text}}` | 在图像文本上<br>请参阅[在图像文本上](#on-image-text)。 | 元广告<br>LinkedIn广告 |
 | `{{link}}` | 对映像<br>的行动号召，请参阅映像](#link-on-image)上的[链接。 | 电子邮件 |
-| `{{brand_logo}}` | 所选品牌<br>的徽标请参阅[品牌徽标字段名称](#brand-logo-field-name)。 | 电子邮件<br>元广告<br>链接加入广告 |
 
-GenStudio for Performance Marketing会自动填充以下模板中的特定字段：
+<!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
+
+GenStudio for Performance Marketing在以下模板中自动生成某些字段：
 
 - **电子邮件模板**&#x200B;不需要您识别`subject`字段
 - **元广告模板**&#x200B;不要求您识别`headline`、`body`和`CTA`字段
 - **横幅和显示广告模板**&#x200B;不需要您识别`CTA`字段
-- **LinkedIn广告模板**&#x200B;不需要您识别`headline`、`introductory_text`和`CTA`字段
+- **LinkedIn广告模板**&#x200B;不要求您识别`headline`、`introductory_text`和`CTA`字段
 
 >[!WARNING]
 >
@@ -109,17 +110,19 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 - `src="image-source.jpg"`应替换为实际图像源URL。
 - `alt="description"`为图像提供替换文本，这对于辅助功能和SEO很有用。
 
-### 品牌徽标字段名称
+<!-- this field does not work in Create canvas 2025/03
 
-此时，您无法选择用于模板上传的品牌徽标。 以下示例演示了两种有条件地呈现品牌徽标的方法。 每种方法都验证源，提供默认或替代图像（如果品牌徽标不可用），并应用样式：
+### Brand logo field name
 
-**示例1**：直接在HTML `img src`属性中使用[!DNL Handlebars]内置帮助程序条件：
+At this time, you cannot select the brand logo for the template upload. The following examples demonstrate two methods that conditionally render the brand logo. Each method verifies the source, provides a default or alternative image in case the brand logo is not available, and applies a style:
+
+**Example 1**: Using [!DNL Handlebars] Built-in Helpers condition directly in the HTML `img src` attribute:
 
 ```html
 <img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
 ```
 
-**示例2**：使用[!DNL Handlebars]内置条件语句封装HTML `img`标记：
+**Example 2**: Using [!DNL Handlebars] Built-in condition statement to wrap the HTML `img` tag:
 
 ```html
 {{#if brand_logo}}
@@ -128,6 +131,8 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
     <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
 {{/if}}
 ```
+
+-->
 
 ### 手动字段名称
 
@@ -139,10 +144,18 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 <tbody>
     <tr>
         <td>
-            <p><span class="s1">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{ footerLegal }}</span></p>
         </td>
     </tr>
 </tbody>
+```
+
+## 在图像文本上
+
+`{{ on_image_text }}`占位符用于指定直接置于体验中图像上的短消息文本叠加，这些短消息具有影响力。
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
 ```
 
 ## 区域或组
@@ -179,7 +192,6 @@ _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要�
 GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系比`pod2_body`更密切。
 
 请参阅[结构化提示](/help/user-guide/effective-prompts.md#structured-prompts)，了解如何在多节电子邮件中制作为每个节生成不同内容的提示。
-
 
 ## 模板预览
 
