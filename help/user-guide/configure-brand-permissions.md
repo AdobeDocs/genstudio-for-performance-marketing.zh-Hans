@@ -2,9 +2,9 @@
 title: 分配 [!DNL Brand] 权限
 description: 了解如何为GenStudio for Performance Marketing [!DNL Brand] 创建者和编辑者分配权利。
 level: Intermediate
-feature: Brands Service, Generative AI
+feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 默认情况下，GenStudio系统管理员可以创建并编辑[!DNL Brands]。 内容编辑者和协作者角色具有编辑和创建权限，但可能不需要任何系统管理权限。 要授予内容编辑者和协作者这些与[!DNL Brand]相关的权限，Adobe系统管理员必须在Adobe Admin Console中执行一些其他配置任务。 请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)。
 
-添加用户和用户组是所有拥有权限的Adobe产品所共有的基本任务，这些权限是通过Admin Console管理的。 有关用户管理和添加用户和用户组的过程的概述，请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[Adobe Admin Console用户](https://helpx.adobe.com/cn/enterprise/using/users.html)。
+添加用户和用户组是所有具有通过Admin Console管理的权限的Adobe产品所共有的基本任务。 有关用户管理和添加用户和用户组的过程的概述，请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[Adobe Admin Console用户](https://helpx.adobe.com/cn/enterprise/using/users.html)。
 
 ## 第1步：创建用户组
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 1. （可选）添加组及其用途的说明。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。Admin Console将打开带有新创建组名称的&#x200B;_新建组_&#x200B;弹出窗口。
+1. 单击&#x200B;**[!UICONTROL 保存]**。Admin Console将打开带有新创建组的名称的&#x200B;_新建组_&#x200B;弹出窗口。
 
 请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 1. 通过用户名或电子邮件地址添加新用户或现有用户。 为现有用户输入名称或电子邮件地址时，将自动为属于此IMS组织的已知用户填充匹配名称。 了解如何在&#x200B;_企业和团队管理指南_&#x200B;的[管理用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)中管理用户组。
 
-添加到组时，用户被授予Adobe GenStudio系统管理员的[!DNL Brand]创建、编辑和发布权限。 用户还会收到自动发送的电子邮件邀请，以编辑Adobe GenStudio for Performance Marketing [!DNL Brands]项目。
+添加到组时，用户将获得Adobe GenStudio系统管理员的[!DNL Brand]创建、编辑和发布权限。 用户还会收到自动发送的电子邮件邀请，以编辑Adobe GenStudio for Performance Marketing [!DNL Brands]项目。
 
 ## 步骤4：创建[!DNL Brands]项目
 
