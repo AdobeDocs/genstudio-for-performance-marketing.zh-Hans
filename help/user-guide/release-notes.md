@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2198'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 1%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.03.13 {#latest}
+## 2025.04.10 {#latest}
+
+### 修复和增强功能
+
+* 新增模板过滤器选项！ 现在，您可以在[!DNL Create]和&#x200B;_[!UICONTROL 内容]_ > _[!UICONTROL 模板]_&#x200B;中优化&#x200B;_[!UICONTROL 选择模板]_&#x200B;列表。 请参阅[搜索模板](/help/user-guide/content/use-templates.md#search-templates)。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
+* 启用了以下功能：[查看和选择体验的单个图层](/help/user-guide/create/manage-variants.md#view-layers)（可编辑文本字段或可编辑图像）以突出显示它们以进行修订，如重新生成内容或裁切图像。
+* 添加了[新模板字段](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，用于在体验中添加其他文本以吸引受众关注并突出显示营销消息。
+
+## 早期发行说明
+
++++2025.03.13版注释
 
 ### 激活元广告
 
@@ -60,7 +70,7 @@ ht-degree: 1%
 * 通过将渠道类别[划分到自有媒体、付费媒体和内容部分，改进了创建主页](/help/user-guide/create/overview.md)上的用户体验和可见性。
 * 改进了[!DNL Insights]表和图库视图中的筛选。
 
-## 早期发行说明
++++
 
 +++2025.02.13版注释
 
@@ -86,7 +96,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 ### 生成新的行动号召
 
-现在，您可以在管理变体时生成新的行动号召(CTA)短语。 使用新的&#x200B;_重新短语_&#x200B;和&#x200B;_添加链接_&#x200B;选项来生成新短语并编辑CTA链接。 必须正确设置您的模板，这些新的CTA功能才能正常工作。 遵循&#x200B;_自定义模板_&#x200B;中的准则： [行动号召](/help/user-guide/content/customize-template.md#calls-to-action)。 有关管理变体中CTA的准则，请参阅[修改行动号召](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
+现在，您可以在管理变体时生成新的call-to-action (CTA)短语。 使用新的&#x200B;_重新短语_&#x200B;和&#x200B;_添加链接_&#x200B;选项来生成新短语并编辑CTA链接。 必须正确设置您的模板，这些新的CTA功能才能正常工作。 遵循&#x200B;_自定义模板_&#x200B;中的准则： [行动号召](/help/user-guide/content/customize-template.md#calls-to-action)。 有关管理变体中CTA的准则，请参阅[修改行动号召](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
 
 ### 修复和增强功能
 
@@ -100,7 +110,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 * 现在，在生成模板期间会预加载角色、品牌和产品选择。<!-- GS-8069 -->
 
-* 电子邮件行动号召链接不再是必填字段。<!-- GS-8103 -->
+* 电子邮件call-to-action链接不再是必填字段。<!-- GS-8103 -->
 
 * [!DNL Brand]选择器下拉菜单现在对模板按预期工作。 以前，某些模板的选择器无法成功加载。<!-- GS-8908 -->
 

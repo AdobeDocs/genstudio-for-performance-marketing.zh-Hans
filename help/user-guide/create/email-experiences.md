@@ -5,9 +5,9 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 
 * 预标题
 * 标题
+* 副标题
 * 正文
 * 行动动员(CTA)
 * 图像

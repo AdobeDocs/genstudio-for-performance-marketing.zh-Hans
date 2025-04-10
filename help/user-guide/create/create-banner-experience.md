@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 **选择横幅模板**：
 
 1. 在&#x200B;_[!DNL Create]_中，在_“今天要创建什么？”中单击&#x200B;**[!UICONTROL 横幅]**_节。
-1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的横幅模板。
+1. 使用[搜索和&#x200B;_筛选器_&#x200B;选项](/help/user-guide/content/use-templates.md#search-templates)查找特定模板。
 1. 在&#x200B;_选择模板_&#x200B;视图中，单击横幅模板。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 

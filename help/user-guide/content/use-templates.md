@@ -5,10 +5,10 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: b53a6aeee056a987064833f1fc99bfd6bfe3556a
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 1%
+source-wordcount: '1326'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +37,14 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 | **预编译标头** | 电子邮件 | 电子邮件中的次要主题行，通常为40-50个字符，用于增强主主题行。 在打开电子邮件之前，它显示在收件箱中主题旁边。 |
 | **页眉** | 电子邮件 | 收件人打开电子邮件时看到的电子邮件顶部设置了提示音并为包含的内容提供了上下文。 |
 | **标题** | 元广告、横幅和显示广告、LinkedIn | 收件人看到的第一个内容应具有吸引人的吸引力。 |
-| **介绍性文本** | LinkedIn | 主消息传送核心消息，类似于正文。 它最多可包含150个字符，包括空格、最多四个表情符号和标点。 |
-| **正文** | 电子邮件、元广告、横幅和显示广告 | 广告的主文本传达核心消息。 它应具有吸引力、信息性和说服力，以鼓励受众采取所需的行动。 |
-| **行动号召 (CTA)** | 电子邮件、元广告、横幅和显示广告、LinkedIn | 行动号召按钮使用短语和链接鼓励收件人采取特定操作，如单击链接或购买。 |
-| **图像** | 电子邮件、元广告、横幅和显示广告、LinkedIn | 增强视觉吸引力，分解文本并支持消息。 图像应高品质且抢眼。 |
-| **页脚** | 电子邮件 | 电子邮件的底部包含其他内容，如联系详情、社交媒体链接、免责声明和取消订阅选项。 |
-| **文本叠加** | 元广告 | 放置在图像上的文本，用于支持和增强标题和正文内容。 |
+| **副标题** | 电子邮件、横幅和显示广告 | 支持标题的次要文本元素。 它通常简洁，旨在补充主标题，进一步吸引读者关注内容。 |
+
+| **介绍性文本**| LinkedIn                                 | 主消息传送核心消息，类似于正文。 它最多可包含150个字符，包括空格、最多四个表情符号和标点。 |
+| **正文**             | 电子邮件、元广告、横幅和显示广告    | 广告的主文本传达核心消息。 它应具有吸引力、信息性和说服力，以鼓励受众采取所需的行动。 |
+| **CTA**              | 电子邮件、元广告、横幅和显示广告、LinkedIn | call-to-action按钮使用短语和链接来鼓励收件人采取特定操作，例如单击链接或进行购买。      |
+| **图像**           | 电子邮件、元广告、横幅和显示广告、LinkedIn | 增强视觉吸引力，分解文本并支持消息。 图像应高品质且抢眼。                                                   |
+| **页脚**           | 电子邮件                                    | 电子邮件的底部包含其他内容，如联系详情、社交媒体链接、免责声明和取消订阅选项。            |
+| **文本叠加**     | 元广告                                  | 放置在图像上的文本，用于支持和增强标题和正文内容。                                                                                  |
 
 >[!TIP]
 >
@@ -58,13 +60,26 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 管理模板
 
-_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。 您可以按渠道类型（如电子邮件、显示广告、元广告和LinkedIn广告）筛选模板。
+_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
+
+### 搜索模板
+
+每个[!DNL Content]视图都提供筛选选项，以缩小搜索范围，从而缩小搜索范围，以找到理想的资产、体验或模板。 存在基于[准则](/help/user-guide/guidelines/overview.md)、[关键字](asset-details.md#user-defined-metadata)和[属性类别](/help/user-guide/insights/attributes.md#categories)的筛选器以缩小搜索结果范围。
+
+例如，您可能希望查找由您创建的特定渠道类型或纵横比的模板：
+
+- **[!UICONTROL 创建者]**：限制&#x200B;_[!UICONTROL 模板]_&#x200B;列表仅显示您或特定人员创建的模板。
+- **[!UICONTROL 宽高比]**：限制&#x200B;_[!UICONTROL 模板]_&#x200B;列表以显示针对特定宽高比设计的模板。
+
+下面显示了按渠道类型（如电子邮件、显示广告、元广告和LinkedIn广告）过滤的内容。
 
 ![内容模板列表](/help/assets/content-templates-filter.png "搜索LinkedIn模板"){width="650" zoomable="yes"}
 
+在为自有或付费媒体选择模板时，模板搜索功能在[!UICONTROL 创建]期间可用。 如果某些过滤器选项不可见，则表示存储库中没有符合相应元数据条件的模板。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
+
 ### 添加模板
 
-在上传模板之前，请按照[自定义模板](customize-template.md)指南，确保模板已完全准备就绪并可以在GenStudio for Performance Marketing中使用。
+在上传模板之前，请按照[自定义模板](customize-template.md)中的指导，确保模板已完全准备好，可以在GenStudio for Performance Marketing中使用。
 
 **添加模板**：
 
@@ -86,7 +101,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
 1. 对模板预览感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在&#x200B;_[!UICONTROL 提供模板详细信息和上传]_&#x200B;窗格中，命名您的模板并选择&#x200B;**[!UICONTROL 渠道]**&#x200B;类型。
+1. 在&#x200B;_[!UICONTROL 提供模板详细信息并上传]_&#x200B;中，命名您的模板并选择&#x200B;**[!UICONTROL 渠道]**&#x200B;类型。
 
    模板名称和渠道类型为必填项。 其他要求可能包括：
 

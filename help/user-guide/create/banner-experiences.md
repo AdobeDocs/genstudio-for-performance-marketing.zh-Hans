@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功�
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 7784f8a722d808159df9522ff7fce5fbddcc34ce
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Adobe GenStudio for Performance Marketing使您能够利用创作AI来增强[成
 显示广告体验的可编辑部分包括：
 
 * 标题
+* 副标题
 * 正文
 * 行动动员(CTA)
 * 图像

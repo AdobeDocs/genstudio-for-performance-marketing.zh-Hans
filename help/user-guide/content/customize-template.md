@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ GenStudio for Performance Marketing可识别模板中的某些[元素](use-templ
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | 预编译标头 | 电子邮件 |
 | `{{headline}}` | 标题 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
+| `{{sub_headline}}` | 副标题 | 电子邮件<br>横幅和显示广告 |
 | `{{introductory_text}}` | 介绍性文本 | LinkedIn广告 |
 | `{{body}}` | 正文 | 电子邮件<br>元广告<br>横幅和显示广告 |
 | `{{cta}}` | 行动号召<br>查看[行动号召](#calls-to-action) | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
@@ -101,14 +102,14 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 您可以自定义电子邮件模板，以允许创意人员添加指向图像的链接。 与CTA链接类似，使用下列指南将`link`占位符应用于图像标记：
 
 ```html
-<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+<a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
 在此示例中：
 
 - `{{link}}`是实际URL的占位符。
 - `src="image-source.jpg"`应替换为实际图像源URL。
-- `alt="description"`为图像提供替换文本，这对于辅助功能和SEO很有用。
+- `{{imageDescription}}`是用户定义的字段名称，它为图像的替换文本提供占位符，这对于辅助功能和SEO很有用。
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -136,7 +137,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ### 手动字段名称
 
-所有其他字段名称均被视为手动填充的字段。 例如，您可能需要为页脚内容保留部分。
+所有其他字段名称由用户定义，并视为手动填充的字段。 例如，您可能需要为页脚内容保留部分。
 
 要创建可编辑的节，请在节名称两侧添加双括号：
 

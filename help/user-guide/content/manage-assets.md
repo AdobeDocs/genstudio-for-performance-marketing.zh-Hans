@@ -3,9 +3,9 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1409'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,13 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 过滤器和搜索界面快速且响应迅速，提供了高效的搜索优先体验。 每个[!DNL Content]视图都提供筛选选项，以缩小搜索范围，从而缩小搜索范围，以找到理想的资产、体验或模板。 对于资源和体验，您可以选择营销活动和特定准则，例如为特定产品制作的内容。
 
-存在基于[关键字](asset-details.md#user-defined-metadata)和[属性类别](/help/user-guide/insights/attributes.md#categories)的筛选器以缩小搜索结果范围。 例如，您可能希望查找特定文件类型或主题的资产，以帮助您为营销策划构建新的体验。 或者，您也可以根据用户名或团队成员姓名来筛选内容：
+存在基于[准则](/help/user-guide/guidelines/overview.md)、[关键字](asset-details.md#user-defined-metadata)和[属性类别](/help/user-guide/insights/attributes.md#categories)的筛选器以缩小搜索结果范围。 例如，您可能希望查找特定文件类型或主题的资产，以帮助您为营销策划构建新的体验。 或者，您也可以根据用户名或团队成员姓名来筛选内容：
 
-- **[!UICONTROL 由]**&#x200B;上传的过滤器将&#x200B;_[!UICONTROL Assets]_&#x200B;列表限制为仅显示由您或特定人员上传的资源。
-- **[!UICONTROL 创建者]**&#x200B;筛选器限制&#x200B;_[!UICONTROL 体验]_&#x200B;列表仅显示您或特定人员创建的体验。
+- **[!UICONTROL 上传者]**：将&#x200B;_[!UICONTROL Assets]_&#x200B;列表限制为仅显示您或特定人员上传的资源。
+- **[!UICONTROL 创建者]**：限制&#x200B;_[!UICONTROL 体验]_&#x200B;列表以仅显示您或特定人员创建的体验。
+- **[!UICONTROL 模板]**：将&#x200B;_[!UICONTROL 体验]_&#x200B;列表限制为仅显示使用所选模板创建的体验。
+
+如果某些过滤器选项不可见，则表示存储库中没有符合相应元数据条件的模板。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
 
 **要搜索要重复使用的内容，请执行以下操作：**
 

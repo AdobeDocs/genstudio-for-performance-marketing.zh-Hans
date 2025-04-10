@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 **选择元广告模板**：
 
 1. 在&#x200B;_[!DNL Create]_中，在_“今天要创建什么？”中单击&#x200B;**[!UICONTROL 元广告]**_节。
-1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的元广告模板。
+1. 使用[搜索和&#x200B;_筛选器_&#x200B;选项](/help/user-guide/content/use-templates.md#search-templates)查找特定模板。
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
    此操作将打开画布，它是内容创建的中心中心。
@@ -85,12 +85,14 @@ ht-degree: 0%
 
 在选择要发送哪些内容以供审批或发布到[!DNL Content]之前，您可以编辑元广告或从生成的广告集中删除变体。
 
+要突出显示要修订的单个图层，请单击可编辑的字段或图像，然后单击&#x200B;_[!UICONTROL 查看图层]_。
+
 **要修订生成的变体**：
 
 * **要[编辑元广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
 * **要[手动编辑元广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意广告部分(如主题行，
 标题或正文)并根据需要进行编辑。
-* **要更改或选择行动号召**，请单击行动号召按钮，然后从可用按钮文本选项中选择。 在&#x200B;_链接_&#x200B;中，输入行动号召文本的URL。
+* **要更改或选择行动号召**，请单击call-to-action按钮，然后从可用按钮文本选项中进行选择。 在&#x200B;_链接_&#x200B;中，输入call-to-action文本的URL。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **要[添加指向变体中的图像的链接](/help/user-guide/create/manage-variants.md#add-image-link)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击链接图标。
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
@@ -144,6 +146,6 @@ ht-degree: 0%
 
 ## 连接元
 
-您可以将GenStudio for Performance Marketing连接到Meta以接收高级分析和[对内容性能的分析](/help/user-guide/insights/overview.md)。
+您可以将GenStudio for Performance Marketing连接到Meta ，以接收高级分析和内容性能分析。
 
-有关详细信息，请参阅[连接渠道帐户](/help/user-guide/insights/connect-channel.md)。
+查看[元广告连接](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
