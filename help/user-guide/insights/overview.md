@@ -4,9 +4,9 @@ description: 了解如何根据实时内容性能指标优化广告。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c1c595f3be42b86d0e0aebd42c9c50c9d9aa4cdc
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ Adobe GenStudio for Performance Marketing [!DNL Insights]提供对内容性能�
 - **识别最有效的内容**：查明哪些内容对不同的受众表现最佳，并根据趋势偏好调整未来的内容或营销活动。
 - **优化性能不佳的内容**：查找性能不佳的内容，并使用集成的创作AI立即创建变体，从而在不从头开始的情况下提高其有效性。
 - **振兴高性能内容**：获取成功的内容并调整该内容以刷新受众的广告，或调整主页内容以用于新的营销活动，这可能会延长其生命周期和性能。
+
+## Data connectors
+
+首次打开[!DNL Insights]时，您可能会看到一个横幅，引导您将Adobe GenStudio for Performance Marketing与渠道帐户连接。
+
+通过此连接，GenStudio for Performance Marketing可以从您活跃的营销活动、媒体和广告接收统计数据。 最初，GenStudio for Performance Marketing会摄取过去6个月的数据，以便您能够使用工具分析最新数据并采取相应措施。
 
 {{connect-insights}}
 
@@ -35,7 +41,7 @@ Adobe GenStudio for Performance Marketing [!DNL Insights]提供对内容性能�
 
 ### 渠道
 
-[[!DNL Insights] _[!UICONTROL 渠道&#x200B;]_视图](channels.md)是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请务必[连接渠道帐户](connect-channel.md)，以便GenStudio for Performance Marketing开始接收您的统计数据。
+[[!DNL Insights] _[!UICONTROL 渠道&#x200B;]_视图](channels.md)是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请务必[连接渠道帐户](/help/user-guide/connectors/connect-channel.md)，以便GenStudio for Performance Marketing开始接收您的统计数据。
 
 ### 广告
 

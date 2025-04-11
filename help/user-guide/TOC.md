@@ -5,9 +5,9 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: f3fe4228b089ec71d0568b5e39830f2c1d7ae4d8
+source-git-commit: beeaa7e9b434321b99c58827ea0ca62e31e114a5
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 19%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 19%
    + [配置 [!DNL Brand] 权限](configure-brand-permissions.md)
    + [用户角色](user-roles.md)
    + [有效提示](effective-prompts.md)
++ 设置{#settings}
+   + [连接付费媒体](connectors/connect-channel.md)
 + 准则{#guidelines}
    + [指南概述](guidelines/overview.md)
    + [品牌](guidelines/brands.md)
@@ -71,7 +73,6 @@ ht-degree: 19%
    + [优化激活](activation/troubleshooting.md)
 + 分析{#insights}
    + [见解概述](insights/overview.md)
-   + [连接渠道帐户](insights/connect-channel.md)
    + [渠道](insights/channels.md)
    + [广告和广告投放](insights/ads.md)
    + [媒体](insights/media.md)

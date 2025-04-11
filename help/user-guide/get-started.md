@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: ac166245f5358c3bd050227b3ba9c53caa0e3622
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
@@ -62,4 +62,4 @@ GenStudio系统管理员可以通过手动输入或上传您组织的特定品�
 
 ### 步骤5：连接到元(Facebook)帐户
 
-在GenStudio for Performance Marketing与贵组织的社交帐户之间配置连接，以接收来自有效营销活动、资源和体验的数据。 [[!DNL Insights]](./insights/overview.md)提供了用于分析渠道派生数据的工具。 请参阅[连接到元(Facebook)帐户](./insights/connect-channel.md#meta-ads-connect)。
+在GenStudio for Performance Marketing与贵组织的社交帐户之间配置连接，以接收来自有效营销活动、资源和体验的数据。 [!DNL Insights]提供了用于分析渠道派生数据的工具。 请参阅[连接到元(Facebook)帐户](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
