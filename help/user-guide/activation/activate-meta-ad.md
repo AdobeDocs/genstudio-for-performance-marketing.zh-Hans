@@ -1,6 +1,6 @@
 ---
 title: 激活元广告
-description: 了解如何激活Meta广告体验。
+description: 了解如何激活元广告体验。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
@@ -25,13 +25,13 @@ Adobe GenStudio for Performance Marketing支持将元广告或创意内容激活
 * Facebook页面
 * 元营销活动
 * 元广告集
-* instagram配置文件（可选）
+* Instagram个人资料（可选）
 
-您必须具有将内容发布到Meta Ads Manager的权限。
+您必须具有将内容发布到元广告管理器的权限。
 
-## 步骤2：连接到您的Meta帐户
+## 步骤2：连接到您的元帐户
 
-在您的组织可以激活体验之前，GenStudio系统管理员需要将您的Meta帐户连接到GenStudio以进行性能营销。 这种连接允许数据在GenStudio和外部营销工具（如Meta）之间流动，从而启用激活流程。
+在您的组织可以激活体验之前，GenStudio系统管理员需要将您的元帐户连接到GenStudio for Performance Marketing。 通过这种连接，数据可以在GenStudio和外部营销工具（如Meta）之间流动，从而启用激活流程。
 
 请参阅[连接到元(Facebook)帐户](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
 
@@ -62,13 +62,13 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 **从内容上载资产**：
 
-_[!DNL Content]_为您的组织的已批准资产和体验提供一个中心视图。 您可以使用&#x200B;**[!UICONTROL 搜索]**（放大镜）和_&#x200B;滤镜&#x200B;_菜单选项聚焦[_[!DNL Content]_&#x200B;图库](/help/user-guide/content/manage-assets.md)显示的资源清单。
+_[!DNL Content]_为您的组织的已批准资产和体验提供一个中心视图。 您可以使用&#x200B;**[!UICONTROL 搜索]**（放大镜）和_&#x200B;筛选器&#x200B;_菜单选项来聚焦[_[!DNL Content]_&#x200B;图库](/help/user-guide/content/manage-assets.md)显示的资产清单。
 
-1. 从&#x200B;_[!DNL Activate]_，单击Meta Ads磁贴上的&#x200B;**[!UICONTROL 新建]**。_&#x200B;创意设置&#x200B;_视图打开。
+1. 从&#x200B;_[!DNL Activate]_，单击元广告拼贴上的&#x200B;**[!UICONTROL 新建]**。 将打开_ Creative设置&#x200B;_视图。
 
-1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择&#x200B;**[!UICONTROL 从内容中选择]**。 将打开&#x200B;_选择内容_&#x200B;视图，显示您搜索或筛选的图像资源库。
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择&#x200B;**[!UICONTROL 从内容中选择]**。 _选择内容_&#x200B;视图打开，显示您搜索或筛选的图像资源库。
 
-1. 使用&#x200B;_[!DNL Content]_图库的搜索和筛选工具选择至少一个要上传的资源。
+1. 使用&#x200B;_[!DNL Content]_图库的搜索和筛选工具选择至少一个要上载的资产。
 
 1. 单击&#x200B;**[!UICONTROL 使用]**&#x200B;将所选资源包含在您的创意中。 _Creative设置_&#x200B;窗口在&#x200B;_Media_&#x200B;区域的默认纵横比中包含该资源。 _预览_&#x200B;面板在广告投放中预览支持此宽高比的资源。
 
@@ -94,7 +94,7 @@ _[!DNL Content]_为您的组织的已批准资产和体验提供一个中心视�
 
 ### 添加广告文本
 
-使用“_激活元广告_”页面的“_文本_”部分，向必填文本字段添加引人注目的品牌文本。 文本包括广告的主要（正文）文本和行动号召文本。
+使用&#x200B;_激活元广告_&#x200B;页面的&#x200B;_文本_&#x200B;部分向必填文本字段添加引人注目的品牌文本。 文本包括广告的主要（正文）文本和行动号召文本。
 
 | 字段 | 必填 | 字符数限制（最大） |
 |-----------------|---------------------------|---------------------------------|
@@ -148,10 +148,10 @@ _主文本_&#x200B;和&#x200B;_标题_&#x200B;仅在GenStudio for Performance Ma
 
 _审阅_&#x200B;页面将显示在&#x200B;_Creative设置_&#x200B;中收集的广告体验，并提供查看和编辑体验的最终机会。 单击&#x200B;_Creative设置_&#x200B;标签旁边的&#x200B;**[!UICONTROL 编辑部分]**&#x200B;以进行更改。 您还可以单击右上角的&#x200B;**[!UICONTROL 返回]**&#x200B;以返回&#x200B;_Creative设置_&#x200B;页面。
 
-### 完成激活您的广告体验
+### 完成广告体验的激活
 
-单击&#x200B;**[!UICONTROL 发布]**。完整的元广告体验及其相关元数据将直接推送到选定的Meta Ads Manager广告集中。 将体验提供给未激活的Meta Ads Manager。 从Meta Ads Manager中，您可以管理部署广告体验和Meta Campaign的最后步骤。
+单击&#x200B;**[!UICONTROL 发布]**。完整的元广告体验及其相关元数据将直接推送到选定的元广告管理器广告集中。 体验交付到已停用的元广告管理器。 通过元广告管理器，您可以管理部署广告体验和元营销活动的最后步骤。
 
-### 登录Meta Ads Manager以完成激活
+### 登录元广告管理器以完成激活
 
-激活完成后，您必须登录Meta Ads Manager。 从[Meta Ads Manager](https://adsmanager.facebook.com/)，您可以查看您的广告体验并完成发布到特定Meta渠道。
+激活完成后，您必须登录到元广告管理器。 从[元广告管理器](https://adsmanager.facebook.com/)，您可以查看广告体验并完成特定元渠道的发布。
