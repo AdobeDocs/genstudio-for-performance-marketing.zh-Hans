@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 **选择元广告模板**：
 
-1. 在&#x200B;_[!DNL Create]_中，在_“今天要创建什么？”中单击&#x200B;**[!UICONTROL 元广告]**_节。
-1. 使用[搜索和&#x200B;_筛选器_&#x200B;选项](/help/user-guide/content/use-templates.md#search-templates)查找特定模板。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 元广告]**。
+1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的元广告模板。
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
    此操作将打开画布，它是内容创建的中心中心。

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 **选择显示广告模板**：
 
-1. 在&#x200B;_[!DNL Create]_中，在“_”中单击&#x200B;**[!UICONTROL 显示广告]**“您今天要创建什么内容？”_节。
-1. 使用[搜索和&#x200B;_筛选器_&#x200B;选项](/help/user-guide/content/use-templates.md#search-templates)查找特定模板。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 显示广告]**。
+1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的显示广告模板。
 1. 在&#x200B;_选择模板_&#x200B;视图中，单击显示广告模板。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 

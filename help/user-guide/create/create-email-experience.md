@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 **要选择电子邮件模板**：
 
-1. 在&#x200B;_[!DNL Create]_中，在_“今天要创建什么？”中单击&#x200B;**[!UICONTROL 电子邮件]**_节。
-1. 使用[搜索和&#x200B;_筛选器_&#x200B;选项](/help/user-guide/content/use-templates.md#search-templates)查找特定模板。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 电子邮件]**。
+1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的电子邮件模板。
 1. 单击以选择电子邮件模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
    即会显示内容创建的中心“画布”。
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
 
-如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 您可以根据需要更改它们。
+如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 如果需要，您可以更改它们。
 
 **要添加参数和资源**：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **输入提示**：
 
-1. 在&#x200B;_“描述您要生成的体验”_&#x200B;提示框中输入提示。
+1. 在 _“描述要生成的体验”_ 提示框中输入提示。
 1. 单击&#x200B;**[!UICONTROL 生成]**。
 
 默认情况下，将生成四个变体（全部由提示、指南和您添加的内容提供），并显示在画布中。
@@ -132,6 +132,6 @@ ht-degree: 0%
 
 1. **要发布您的新电子邮件体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
 1. **要导出您的新电子邮件体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
-   1. 选择格式(仅限CSV和图像或HTML)，然后单击&#x200B;**[!UICONTROL 导出]**。
+   1. 选择格式（CSV 和图像或仅限 HTML），然后单击“导出&#x200B;]**”。**[!UICONTROL 
 
-有关详细信息，请参阅[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
+有关详细信息，请参阅 [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) 。

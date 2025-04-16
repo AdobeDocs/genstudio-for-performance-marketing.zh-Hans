@@ -5,10 +5,10 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: beeaa7e9b434321b99c58827ea0ca62e31e114a5
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 19%
+source-wordcount: '202'
+ht-degree: 21%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 19%
    + [配置 [!DNL Brand] 权限](configure-brand-permissions.md)
    + [用户角色](user-roles.md)
    + [有效提示](effective-prompts.md)
-+ 设置{#settings}
++ 设置 {#settings}
    + [连接付费媒体](connectors/connect-channel.md)
-+ 准则{#guidelines}
++ 准则 {#guidelines}
    + [指南概述](guidelines/overview.md)
    + [品牌](guidelines/brands.md)
    + [角色](guidelines/personas.md)
    + [产品](guidelines/products.md)
    + [添加准则](guidelines/add-guidelines.md)
    + [品牌验证](guidelines/brand-validation.md)
-+ 创建{#create}
++ 创建 {#create}
    + [[!DNL Create] 概述](create/overview.md)
    + [电子邮件体验](create/email-experiences.md)
    + [元体验](create/meta-experiences.md)
@@ -46,13 +46,14 @@ ht-degree: 19%
    + [创建LinkedIn体验](create/create-linkedin.md)
    + [创建显示广告体验](create/create-display-ad.md)
    + [创建横幅体验](create/create-banner-experience.md)
-+ 审阅和批准{#approve}
+   + [Generate an image](create/generate-assets.md)
++ Reviews &amp; Approvals {#approve}
    + [审阅和批准概述](approvals/overview.md)
    + [请求审阅和批准内容](approvals/request-review.md)
    + [审阅和编辑内容](approvals/review-and-edit.md)
    + [批准内容](approvals/approve-content.md)
    + [发布批准的内容](approvals/publish-content.md)
-+ 内容{#content}
++ 内容 {#content}
    + [内容概述](content/overview.md)
    + [管理资源和体验](content/manage-assets.md)
    + [连接AEM存储库](content/connect-aem-repo.md)
@@ -63,21 +64,21 @@ ht-degree: 19%
       + [模板代码编辑器](content/code-editor.md)
       + [创建可访问的模板](content/accessibility-for-templates.md)
       + [模板的最佳实践](content/best-practices-for-templates.md)
-+ 营销活动{#campaigns}
++ 营销活动 {#campaigns}
    + [促销活动概述](campaigns/overview.md)
-+ 激活{#activation}
++ 激活 {#activation}
    + [激活概述](activation/overview.md)
    + [激活工作流](activation/create-activation.md)
    + [激活元广告](activation/activate-meta-ad.md)
    + [管理激活](activation/manage-activations.md)
    + [优化激活](activation/troubleshooting.md)
-+ 分析{#insights}
++ 见解 {#insights}
    + [见解概述](insights/overview.md)
    + [渠道](insights/channels.md)
    + [广告和广告投放](insights/ads.md)
    + [媒体](insights/media.md)
    + [属性](insights/attributes.md)
-   + 属性类别{#categories}
+   + 属性类别 {#categories}
       + [图像功能](insights/image-features.md)
       + [视频功能](insights/video-features.md)
       + [文本功能](insights/text-features.md)
