@@ -1,9 +1,9 @@
 ---
 title: 管理激活
-description: 了解如何使用Adobe Genstudio管理已激活的体验以进行性能营销。
+description: 了解如何使用Adobe GenStudio for Performance Marketing管理激活的体验。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: f6e0d0138f30527a1fdf7bef6fc4c30884316e0e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 _[!DNL Activate]_可集中查看每个广告渠道的激活状态，包括“已发布”（成功）、“失败”（失败）和“发布”（挂起）激活。_&#x200B;激活的体验&#x200B;_视图会显示一个已连接的渠道广告帐户的所有激活。
 
-已激活的体验按广告渠道进行组织。 从&#x200B;_[!DNL Activate]_中，单击渠道拼贴上的&#x200B;**[!UICONTROL 查看]**。 将打开所选渠道的_&#x200B;激活的体验&#x200B;_视图。 体验按体验名称列出，并按激活日期排序。 如果您的组织尚未为该渠道激活体验，则产品拼贴不包含&#x200B;**[!UICONTROL 查看]**按钮。
+_[!DNL Activate]_按广告渠道组织已激活的体验。 在渠道拼贴上单击&#x200B;**[!UICONTROL 查看]**。 将打开所选渠道的_&#x200B;激活的体验&#x200B;_视图。 此视图将按名称列出体验，并按激活日期对体验进行排序。 如果您的组织尚未为该渠道激活体验，则产品拼贴不包含&#x200B;**[!UICONTROL 查看]**按钮。
 
 ## 激活的体验视图
 
-激活按体验名称以降序时间顺序列出（最新的列在前）。
+此视图按体验名称以降序时间顺序列出激活情况（最新激活列在最前面）。
 
 下表列出了定义每个体验的属性。
 

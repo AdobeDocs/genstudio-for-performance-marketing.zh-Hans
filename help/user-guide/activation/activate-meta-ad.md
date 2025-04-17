@@ -3,9 +3,9 @@ title: 激活元广告
 description: 了解如何激活元广告体验。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing支持将元广告或创意内容激活
 
 您可以在GenStudio for Performance Marketing中[创建元体验](/help/user-guide/create/create-meta-ad.md)并选择它进行激活，或在[!DNL Activate]中利用批准的资源构建新体验。
 
-激活元广告遵循激活其他付费渠道所需的[相同常规步骤](create-activation.md)。 激活过程支持根据Meta的特定要求准备广告体验。 在GenStudio for Performance Marketing中激活元体验（或创意体验）后，使用[元广告管理器](https://adsmanager.facebook.com/)在最终发布之前针对特定的元广告投放位置优化体验。
+激活元广告遵循激活其他付费渠道所需的[相同常规步骤](create-activation.md)。 激活过程支持根据广告体验为Meta的特定要求准备创意。 在GenStudio for Performance Marketing中激活元体验（或创意体验）后，使用[元广告管理器](https://adsmanager.facebook.com/)在最终发布之前针对特定的元广告投放位置优化体验。
 
 ## 步骤1：设置元帐户
 
@@ -107,7 +107,7 @@ _[!DNL Content]_为您的组织的已批准资产和体验提供一个中心视�
 | 网站URL | 是 | 1000 |
 | 图像 | 至少需要一个 |                                 |
 
-_主文本_&#x200B;和&#x200B;_标题_&#x200B;仅在GenStudio for Performance Marketing中需要，而不在Meta中需要。
+GenStudio for Performance Marketing需要&#x200B;_主文本_&#x200B;和&#x200B;_标题_，而不是Meta。
 
 ### 分配元数据
 
@@ -148,10 +148,10 @@ _主文本_&#x200B;和&#x200B;_标题_&#x200B;仅在GenStudio for Performance Ma
 
 _审阅_&#x200B;页面将显示在&#x200B;_Creative设置_&#x200B;中收集的广告体验，并提供查看和编辑体验的最终机会。 单击&#x200B;_Creative设置_&#x200B;标签旁边的&#x200B;**[!UICONTROL 编辑部分]**&#x200B;以进行更改。 您还可以单击右上角的&#x200B;**[!UICONTROL 返回]**&#x200B;以返回&#x200B;_Creative设置_&#x200B;页面。
 
-### 完成广告体验的激活
+### 步骤6：完成广告体验的激活
 
-单击&#x200B;**[!UICONTROL 发布]**。完整的元广告体验及其相关元数据将直接推送到选定的元广告管理器广告集中。 体验交付到已停用的元广告管理器。 通过元广告管理器，您可以管理部署广告体验和元营销活动的最后步骤。
+1. 单击&#x200B;**[!UICONTROL 发布]**。
 
-### 登录元广告管理器以完成激活
+   完整的元广告体验及其相关元数据将直接推送到选定的元广告管理器广告集中。 体验会以非活动状态交付到元广告管理器。 通过元广告管理器，您可以管理部署广告体验和元营销活动的最后步骤。
 
-激活完成后，您必须登录到元广告管理器。 从[元广告管理器](https://adsmanager.facebook.com/)，您可以查看广告体验并完成特定元渠道的发布。
+1. [登录元广告管理器](https://adsmanager.facebook.com/)以查看您的广告体验并完成特定元渠道的发布。

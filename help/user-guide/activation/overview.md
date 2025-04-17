@@ -4,16 +4,16 @@ description: 了解如何使用Adobe Experience Cloud和第三方应用程序激
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Adobe GenStudio for Performance Marketing激活
 
-GenStudio for Performance Marketing _[!DNL Activate]_提供了一个中心位置，用于准备广告体验以进行激活，从而选择付费广告渠道。_&#x200B;激活&#x200B;_是将广告体验交付给处于非活动状态的指定渠道的过程，准备从渠道进行最终审查和部署。 然后，广告体验可以在其目标市场中分发。
+GenStudio for Performance Marketing _[!DNL Activate]_提供了一个中心位置，用于准备广告体验以进行激活，从而选择付费广告渠道。_&#x200B;激活&#x200B;_是准备广告体验、资源和文本的过程，它是针对特定付费渠道中的投放位置专门定制的创意。 激活会将创意内容以非活动状态交付给指定的渠道，以便从渠道进行最终审查和部署。 然后，广告体验可以在其目标市场中分发。
 
 内容编辑者和系统管理员可以发布其资产在GenStudio for Performance Marketing中生成或上传到的体验。
 
@@ -21,13 +21,13 @@ GenStudio for Performance Marketing _[!DNL Activate]_提供了一个中心位置
 
 每个付费媒体渠道帐户都必须连接到GenStudio for Performance Marketing，然后才能激活广告体验。
 
-## [!DNL Activate] 用例
+## 激活用例
 
 * [创建激活](create-activation.md)。 在推送到付费渠道之前，您可以通过选择可视资产、分配文本和定义元数据来制作广告体验。
 
 * [管理激活](manage-activations.md)。 _[!DNL Activate]_提供所有已激活体验的概述。 您还可以查看各个激活的详细信息。
 
-## [!DNL Activate]功能
+## 激活功能
 
 _[!DNL Activate]_有助于准备广告体验以分发到其目标付费渠道。
 
@@ -37,7 +37,7 @@ _Creative设置_&#x200B;页面整合了选择广告体验的可视化元素所�
 
 ### 选择广告体验的资源
 
-从&#x200B;_[!DNL Content]_中搜索并选择批准的可视资产，或从Dropbox或OneDrive上传资产。 您还可以直接从设备上传资产。 一个广告体验可以在多个投放位置运行。 Assets可以按照广告投放所需的宽高比上传。
+从&#x200B;_[!DNL Content]_中搜索并选择批准的可视资产，或从Dropbox或OneDrive上传资产。 您可以直接从设备上传资产。 一个广告体验或创意可以在多个投放位置中运行。 Assets可以按照广告投放所需的宽高比上传。
 
 ### 预览并激活您的广告渠道体验
 
