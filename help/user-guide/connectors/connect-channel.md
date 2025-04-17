@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2844914d25d9bc3a2be7f47d0cd7f26f7c921555
+source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,31 @@ _[!DNL Data connectors]_支持GenStudio for Performance Marketing与您的付费
 ## 付费媒体连接
 
 GenStudio for Performance Marketing支持使用各种连接器类型与您的首选营销平台集成。 每种连接器类型都有特定的先决条件和设置步骤，需要完成这些步骤才能成功连接。
+
+### Google Campaign Manager 360连接
+
+>[!BEGINSHADEBOX]
+
+**先决条件**：
+
+- Google Campaign Manager 360帐户
+- 删除浏览器中的所有弹出窗口阻止程序
+
+>[!ENDSHADEBOX]
+
+**要连接Google Campaign Manager 360帐户**：
+
+1. 在&#x200B;_Data Connectors_&#x200B;部分中，单击&#x200B;_Google Campaign Manager 360_&#x200B;卡片上的&#x200B;**[!UICONTROL 连接]**。
+
+1. 登录到您的Google Campaign Manager 360帐户。
+
+   您可能需要删除弹出窗口阻止程序，然后使用&#x200B;**[!UICONTROL 刷新]**&#x200B;重试。
+
+1. 阅读条款和条件，然后单击&#x200B;**[!UICONTROL 允许]**&#x200B;授予访问权限。
+
+1. 在&#x200B;_[!UICONTROL Google促销活动管理器360]_&#x200B;视图中，选择一个或多个广告商并单击&#x200B;**[!UICONTROL 选择]**。
+
+_[!UICONTROL Google Campaign Manager 360帐户]_&#x200B;视图列出了`Account name`、`Added by`、`Date added`和`Status`。 使用&#x200B;**[!UICONTROL 添加帐户]**&#x200B;向列表中添加更多帐户。
 
 ### 元广告连接
 
