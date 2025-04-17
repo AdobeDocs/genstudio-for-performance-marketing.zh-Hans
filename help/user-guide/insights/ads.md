@@ -4,9 +4,9 @@ description: 有关Adobe GenStudio for Performance Marketing中的广告和广�
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2d396b183084996c45616d29387e068a5d502c53
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -33,24 +33,23 @@ _[!UICONTROL 广告]_&#x200B;表是使用[!UICONTROL 广告名称]组织的。 �
 
 广告预览下方是与广告关联的[!UICONTROL 文本属性]列表。 当资源和广告获得批准并存储在[!DNL Content]中时，GenStudio for Performance Marketing会根据其固有功能生成标记。 有关系统元数据的详细信息，请参阅[媒体详细信息](/help/user-guide/content/asset-details.md#system-metadata)。
 
+### 广告格式
+
+GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用广告格式。
+
+| 支持 | 不受支持 |
+|-----------|-------------|
+| 资产信息源规范（位置优化）<br>单个图像或视频<br>链接 | 轮播<br>协作<br>目录<br>即时体验<br>资产信息源规范（除版面优化之外）<br>调用（图像/视频）<br>应用程序（图像/视频）<br>消息传送<br>潜在客户（图像/视频）<br>幻灯片放映（视频）<br>收藏集（图像/视频主页资产）<br>购买（图像/视频）<br>页面发布中的照片或视频/ Instagram帖子/媒体<br>品牌内容<br>灵活<br>Advantage+目录 |
+
 ### 广告投放
 
 在创建包含元广告的营销活动时，您可能已根据营销活动[目标](channels.md#objectives)选择了运行广告的位置。 广告投放扩大了广告的受众范围。
 
-GenStudio for Performance Marketing支持广告格式，如资源馈送、链接广告以及单个图像或视频。 以下是按平台划分的广告格式列表：
+以下是支持的广告投放位置列表：
 
-| Instagram | Facebook/Meta | Messenger | Audience Network |
-| ------------ | ---------------- | ------------ | ---------------- |
-| 浏览<br>浏览主页<br>浏览网格主页<br>信息源<br>卷轴<br>配置文件信息源<br>搜索<br>商店<br>故事 | 商务探索<br>摘要<br>流视频<br>市场<br>转盘<br>转盘覆盖<br>右列<br>搜索结果<br>故事<br>视频摘要<br>Facebook转盘上的广告 | 收件箱<br>故事 | 本机、横幅和插播式广告<br>奖励视频 |
-
-#### 不支持的投放位置
-
-GenStudio for Performance Marketing不支持以下广告投放：
-
-- 协作
-- Catalog/Advantage+目录
-- 实例体验
-- 轮播
+| Audience Network | [Facebook/Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) | Instagram | Messenger |
+|--------------------|--------------------|-------------------------|---------------------|
+| 奖励视频 | 信息源<br>视频源<br>故事<br>市场<br>右列<br>卷轴<br>卷轴叠加<br>流中视频<br>搜索<br>商业迪斯科信息源<br>信息源 | 故事<br>信息源<br>浏览<br>卷轴<br>浏览网格主页<br>配置文件信息源<br>搜索<br>流 | 故事<br>收件箱 |
 
 ## 广告效果
 
@@ -58,14 +57,14 @@ GenStudio for Performance Marketing不支持以下广告投放：
 
 下表提供了[!UICONTROL 广告]表视图中关键数字营销指标的定义和见解。 每个量度都包含一个与广告名称、量度计算方式相关的简短定义，以及一个或多个见解，以帮助了解其重要性及其对广告的影响。
 
-| 量度 | 定义 | Insight |
+| 量度 | 定义 | insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 广告名称]** | 连接的渠道帐户的广告列表。 通过选择营销活动过滤广告。 | 单击任意关键量度可对广告列表进行排序。 |
 | **[!UICONTROL 营销活动]** | 营销策划是指一组旨在实现特定目标的广告。 | 按促销活动筛选广告表时，促销活动所有广告的摘要量度可能与[!UICONTROL 渠道]视图中促销活动的摘要行不同。 如果渠道源(如Meta和GenStudio)使用的摘要计算略有不同，则会出现这种差异。 |
 | **[!UICONTROL 投放位置]** | 广告[投放位置](#ad-placements)的计数，广告在营销活动中出现的位置。 | 投放位置会增加受众范围。<p>显示零版面和零媒体的广告可能表示[不支持的广告类型](#unsupported-placements)。</p> |
 | **[!UICONTROL 媒体]** | 广告或广告中使用的资源数。 | 广告表中的计数可能与广告详细信息视图中的计数不同。 如果渠道源(如Meta和GenStudio)使用的摘要计算略有不同，则会出现这种差异。 |
 | **[!UICONTROL 展示次数]** | 每次广告投放或广告在渠道中加载时的计数，而不管交互或查看。 | 高展示次数计数可能表示广泛的可见性，但为了深入了解真实性能，请考虑将其与其他参与量度关联起来。 |
-| **[!UICONTROL 次点击]** | 用户在广告投放中与可点击元素（例如链接或行动号召按钮）交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
+| **[!UICONTROL 次点击]** | 用户在广告投放中与可点击元素(例如链接或call-to-action按钮)交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
 | **[!UICONTROL CTR ]**<br>_点进率_ | 在营销活动中导致广告点击的展示次数百分比(%)。<br>**计算**：`clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 广告的每千次曝光成本。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
 | **[!UICONTROL CPA ]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本。<br>**计算**：总金额`spent`除以已完成的客户操作数 | 用于监控可产生有价值的客户行动的广告支出。 |
@@ -78,7 +77,7 @@ GenStudio for Performance Marketing不支持以下广告投放：
 
 下表提供了广告投放绩效指标的定义：
 
-| 量度 | 定义 | Insight |
+| 量度 | 定义 | insight |
 | ---------------------- | ----------------------------- | ----------- |
 | **[!UICONTROL CTR ]**<br>_点进率_ | 单个广告投放导致点击的展示次数百分比(%)。<p>**计算**：`clicks`除以`impressions`<p>此量度可帮助确定广告投放在吸引受众方面的有效性。 | CTR高表明广告投放与受众相关且引人入胜，可导致更多互动。 |
 | **[!UICONTROL CPA ]**<br>_每个操作的成本_ | 为实现所需的客户操作（如购买或订阅）而在单个广告投放上花费的平均成本。<p>**计算**：总金额`spent`除以已完成的客户操作数<p>此量度有助于评估广告投放在推动有价值的操作方面的成本效益。 | 较低的CPA意味着广告投放能够以较低的成本将受众互动转化为所需的操作。 |
