@@ -4,10 +4,10 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 1%
+source-wordcount: '2252'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 1%
 * 新增模板过滤器选项！ 现在，您可以在[!DNL Create]和&#x200B;_[!UICONTROL 内容]_ > _[!UICONTROL 模板]_&#x200B;中优化&#x200B;_[!UICONTROL 选择模板]_&#x200B;列表。 请参阅[搜索模板](/help/user-guide/content/use-templates.md#search-templates)。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
 * 启用了以下功能：[查看和选择体验的单个图层](/help/user-guide/create/manage-variants.md#view-layers)（可编辑文本字段或可编辑图像）以突出显示它们以进行修订，如重新生成内容或裁切图像。
 * 添加了[新模板字段](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，用于在体验中添加其他文本以吸引受众关注并突出显示营销消息。
+* 添加了对[将广告体验](/help/user-guide/activation/overview.md)从GenStudio for Performance Marketing发布到Google Campaign Manager 360的支持。 激活在发布到Google Campaign Manager 360广告商之前支持详细的Campaign Manager 360广告预览。 通过激活发布的广告一经上线，就会自动提取到分析中，使用户能够跟踪和报告广告效果。
 
 ## 早期发行说明
 
