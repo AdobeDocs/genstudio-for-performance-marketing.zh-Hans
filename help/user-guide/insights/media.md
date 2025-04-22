@@ -4,9 +4,9 @@ description: 了解如何在Adobe GenStudio for Performance Marketing中评估�
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,17 @@ _[!UICONTROL 媒体]_&#x200B;图库视图显示媒体预览拼贴和量度，如
 
 ![媒体详细信息](/help/assets/insights-media-details.png){zoomable="yes"}
 
+### 媒体属性
+
+{{$include /help/_includes/generated-attributes.md}}
+
 ## 媒体效果
 
 分析量度可以帮助您评估哪些媒体对活动取得成功做出了贡献以及哪些媒体属性最有效。
 
 下表提供了[!UICONTROL 媒体]表视图中关键数字营销量度的定义和见解。 每个量度都包括与媒体相关的简短定义、量度的计算方式以及一个或多个洞察，以帮助了解其重要性和影响。
 
-| 量度 | 定义 | Insight |
+| 量度 | 定义 | insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 媒体ID]** | 与图像、视频、文本或其他创意内容关联的名称。 | 单击任何关键量度的列标题可对表进行排序。 |
 | **[!UICONTROL 展示次数]** | 每次媒体加载到频道中的计数，无论交互或观看情况如何。 | 高展示次数计数可能表示广泛的可见性，但为了深入了解真实性能，请考虑将其与其他参与量度关联起来。 |
@@ -53,4 +57,4 @@ _[!UICONTROL 媒体]_&#x200B;图库视图显示媒体预览拼贴和量度，如
 | **[!UICONTROL CPC ]**<br>_每次点击成本_ | 每次点击介质时产生的平均成本。<br>**计算**：总金额`spent`除以`clicks` | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
 | **[!UICONTROL 支出]** | 在指定时间段内与单个媒体相关的预算支出金额。 | 在短时间内高支出量可能表示使用迅速，这可能导致资源提前耗尽。 根据关键绩效指标跟踪支出金额，以帮助监控总体投资回报。 |
 | **[!UICONTROL 用于这些广告]** | 使用此媒体的广告数量。 | |
-| **[!UICONTROL 属性]** | 已检测到并已应用于此媒体的属性列表。 | |
+| **属性** | 此媒体中存在的固有功能列表。 | 有助于识别与受众产生最大共鸣的创意元素。 |

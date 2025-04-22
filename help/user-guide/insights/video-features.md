@@ -4,7 +4,7 @@ description: 了解GenStudio for Performance Marketing中使用的属性类别�
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -44,9 +44,9 @@ GenStudio for Performance Marketing中的音频检测涉及分析视频的音频
 | 类别 | 描述 | 示例 |
 | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | 音频心情 | 确定音轨的整体情绪音调或氛围，如`calm`、`upbeat`或`tense`。 | `Energetic`，`Happy`，`Emotional Ambient/atmospheric`，`Relaxing`，`Dramatic`，`Expressive/characterful`，`Intense`，`Slow`，`Neutral` |
-| 音频类型 | 为视频添加一个或多个音频类型的标记，如`music`或`speech`。 | `Music`，`Speech`，`Silence`，`Special effects`，`Ambience` |
+| 音频类型 | 为视频添加一个或多个音频内容类型的标记，例如`music`或`speech`。 | `Music`，`Speech`，`Silence`，`Special effects`，`Ambience` |
 | 类别 | 将视频分类为一个或多个广义内容类别。 | `Entertainment`、`Sports`、`Music`、`Gaming`、`Howto tutorials`、`Fashion and style`、`Film and animation`、`Science and technology`、`Autos and vehicles`、`Pets and animals`、`People and blogs`、`News and politics`、`Social causes and activism`、`Travel and events`、`Education`、`Sales and offers` |
-| 音乐类别 | 当音乐出现在视频中时，音乐类型的广泛分类。 这有助于识别音乐的一般类型，如`contemporary`或`traditional`样式。 | `Contemporary/pop music`，`Traditional/folk-based music`，`Instrumental/orchestral music`，`Rock music`，`Acoustic/unplugged music`，`Specialised/occasional music`，`Experimental/unique music` |
+| 音乐类别 | 当音乐出现在视频中时，音乐类型的广泛分类。 流派有助于识别音乐的一般类型，如`contemporary`或`traditional`样式。 | `Contemporary/pop music`，`Traditional/folk-based music`，`Instrumental/orchestral music`，`Rock music`，`Acoustic/unplugged music`，`Specialised/occasional music`，`Experimental/unique music` |
 | 音乐流派 | 当视频中存在音乐时音乐风格的特定分类，它提供了更详细的音乐标识，如`electronic`或`jazz`。 | `electronic`，`hip-hop`，`dance`，`novelty`，`rock`，`world`，`reggae`，`pop`，`film`，`jazz`，`background`，`latin` |
 | 对象 | 标识视频中显示的一个或多个项目、实体和元素。 | 值太多，但某些示例包括：`backpack`、`book`、`hawk`、`glasses`、`fish`、`pencil`、`mountain bike`、`soap` |
 | 方向 | 视频相对于其宽度和高度的对齐方式。 检测它是否比高（横向）宽、比宽（纵向）高或宽高相等（正方形）。 | `landscape`、`portrait`、`square` |
