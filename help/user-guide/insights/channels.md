@@ -4,7 +4,7 @@ description: 有关Adobe GenStudio for Performance Marketing中营销活动的�
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 _[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 选择表上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;可删除所有筛选器。
 
 ![渠道筛选器和表](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 
@@ -44,12 +46,12 @@ _[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组
 
 下表提供了“渠道”视图中关键数字营销量度的定义和见解。 每个量度都包含一个与渠道相关的简短定义、量度的计算方式以及一个或多个见解，以帮助了解其重要性及其对营销活动的影响。
 
-| 量度 | 定义 | Insight |
+| 量度 | 定义 | insight |
 | ----------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 元营销活动名称]** | 连接的渠道帐户的营销活动名称列表。 营销活动状态可以是`Active`、`Paused`、`Deleted`或`Archived`。 按状态和目标过滤营销活动。 | 单击任何关键量度的列标题可对表进行排序。 |
 | **[!UICONTROL 启动项]** | 营销活动发布或发布到市场的日期。 | 高展示次数计数可能表示广告达到了预期受众。 |
-| **[!UICONTROL 展示次数]** | 每次在渠道中加载内容时进行的计数，不考虑交互或查看。 | 高展示次数计数可指示广泛的可见性，但要获得真正的性能洞察，请将其与其他参与度量度一起考虑。 |
-| **[!UICONTROL 次点击]** | 用户在广告营销活动中与可点击元素（例如链接或行动号召按钮）交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
+| **[!UICONTROL 展示次数]** | 每次在渠道中加载内容时进行的计数，不考虑交互或查看。 | 高展示次数计数可指示广泛的可见性，但要了解insight的真正性能，请将其与其他参与度量度一起考虑。 |
+| **[!UICONTROL 次点击]** | 用户在广告营销活动中与可点击元素(例如链接或call-to-action按钮)交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
 | **[!UICONTROL CTR ]**<br>_点进率_ | 导致渠道内促销活动点击的展示次数百分比(%)。<br>**计算**： （`clicks`除以`impressions`） x 100 = % | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 广告营销活动的每1000次广告展示的费用。 <br>**计算**：（总金额`spent`除以`impressions`） x 1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
 | **[!UICONTROL CPC ]**<br>_每次点击成本_ | 与广告营销活动中的每次点击关联的平均成本。<br>**计算**：总金额`spent`除以`clicks` = $ | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |

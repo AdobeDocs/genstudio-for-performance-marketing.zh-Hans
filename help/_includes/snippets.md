@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,9 @@ ht-degree: 0%
 >[!TIP]
 >
 >通过[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)丰富您关于此主题的技能。
+
+## 关于空表的提示 {#empty-table}
+
+>[!TIP]
+>
+>是否看到`No results found`消息？ 通过修改选择、清除所有过滤器或扩大日期范围来调整过滤器。
