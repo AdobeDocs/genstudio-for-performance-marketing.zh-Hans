@@ -4,9 +4,9 @@ description: 了解如何评估Adobe GenStudio for Performance Marketing中特�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,20 @@ ht-degree: 0%
 
 _[!UICONTROL 属性]_&#x200B;表是使用[!UICONTROL 属性]名称组织的。 您可以使用&#x200B;**[!UICONTROL 图像]**&#x200B;按钮和&#x200B;**[!UICONTROL 视频]**&#x200B;按钮在列表类型之间切换。 单击表格右侧上方的设置(cog)图标可切换可查看列。
 
-表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 选择表上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;可删除所有筛选器。
-
 ![属性筛选器和表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 {{empty-table}}
+
+## 筛选器属性
+
+表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 请参阅[筛选媒体](/help/user-guide/insights/media.md#filter-media)以了解促销活动和广告的关键字筛选器。
+
+
+>[!NOTE]
+>
+>应用的筛选器在[!DNL Insights]中的所有视图中持续存在。 选择广告表或图库上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;以删除所有选定的筛选条件。
+
+### 下载表结果
 
 {{$include /help/_includes/download-insights.md}}
 

@@ -4,9 +4,9 @@ description: 有关Adobe GenStudio for Performance Marketing中营销活动的�
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,21 @@ ht-degree: 0%
 
 {{connect-insights}}
 
-_[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 选择表上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;可删除所有筛选器。
+_[!UICONTROL 渠道]_&#x200B;表是使用基于渠道的广告营销活动来组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。
 
 ![渠道筛选器和表](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
+当您选择某个促销活动时，[[!UICONTROL 广告]选项卡](ads.md)将打开一个与该促销活动关联的广告名称列表，通过该列表，您可以识别哪些广告促成了促销活动的整体成功。
+
 {{empty-table}}
 
-{{$include /help/_includes/download-insights.md}}
+## 过滤渠道
 
-当您选择某个促销活动时，[[!UICONTROL 广告]选项卡](ads.md)将打开一个与该促销活动关联的广告名称列表，通过该列表，您可以识别哪些广告促成了促销活动的整体成功。
+表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 应用的筛选器在[!DNL Insights]中的所有视图中持续存在。 选择广告表或图库上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;以删除所有选定的筛选条件。
+
+### 下载表结果
+
+{{$include /help/_includes/download-insights.md}}
 
 ## 目标
 
