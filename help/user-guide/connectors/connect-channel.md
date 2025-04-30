@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
+source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -59,12 +59,32 @@ _[!UICONTROL Google Campaign Manager 360帐户]_&#x200B;视图列出了`Account 
 
 ### 元广告连接
 
+When you connect your _Meta Business_ profile to GenStudio for Performance Marketing, it ensures seamless access to advertising data for your business Pages, Meta Ads accounts, and other Meta assets.
+
 >[!BEGINSHADEBOX]
 
 **先决条件**：
 
-- Facebook/元广告帐户
-- 访问具有`View performance`权限级别的元广告帐户，以访问报告和查看广告
+- Facebook/Meta登录，可访问所有元服务，例如元广告帐户和Facebook商业个人资料
+- 访问具有`View performance`权限级别的元广告帐户，以访问报告和查看广告，包括以下内容
+   - 与[!DNL Insights]一起使用所需的权限：
+
+      - `pages_show_list`
+      - `ads_read`
+      - `ads_management`
+      - `pages_read_engagement`
+
+   - 与[!DNL Activate]一起使用所需的权限：
+
+      - `ads_management`
+      - `ads_read`
+      - `business_management`
+      - `instagram_basic`
+      - `instagram_content_publish`
+      - `pages_manage_ads`
+      - `pages_manage_posts`
+      - `pages_show_list`
+
 - 删除浏览器中的所有弹出窗口阻止程序
 
 >[!ENDSHADEBOX]
@@ -77,19 +97,26 @@ _[!UICONTROL Google Campaign Manager 360帐户]_&#x200B;视图列出了`Account 
 
    您可能需要删除弹出窗口阻止程序，然后使用&#x200B;**[!UICONTROL 刷新]**&#x200B;重试。
 
-1. 按照Facebook身份验证说明操作。
+1. 按照Facebook身份验证说明进行操作，验证帐户信息，然后单击&#x200B;**[!UICONTROL 继续为……]**
 
-1. 在&#x200B;_[!UICONTROL Facebook企业登录]_&#x200B;弹出窗口(Meta到Adobe符号)中，逐步完成以下选择。
+1. In _[!UICONTROL Facebook Login for Business]_ (Meta to Adobe symbol), step through the following selections to grant GenStudio for Performance Marketing access:
 
-   - 验证帐户信息，然后单击&#x200B;**[!UICONTROL 继续作为]**
-   - 授予对选定页面的访问权限，然后单击&#x200B;**[!UICONTROL 继续]**
-   - 向选定的企业授予访问权限，然后单击&#x200B;**[!UICONTROL 继续]**
-   - 选择加入一个或多个Instagram帐户并单击&#x200B;**[!UICONTROL 继续]**
+   - Select one or more Meta Business profiles and click **[!UICONTROL Continue]**
+   - Select one or more Meta Pages and click **[!UICONTROL Continue]**
+   - Select one or more Instagram accounts and click **[!UICONTROL Continue]**
    - 查看选择并单击&#x200B;**[!UICONTROL 保存]**
 
-1. 在&#x200B;_[!UICONTROL 元广告]_&#x200B;视图中，选择一个或多个帐户并单击&#x200B;**[!UICONTROL 选择]**。
+1. 收到帐户已连接的验证后，单击&#x200B;**[!UICONTROL 获得]**。
 
-_[!UICONTROL 元广告帐户]_&#x200B;视图列出了`Account name`、`Added by`、`Date added`和`Status`。 使用&#x200B;**[!UICONTROL 添加帐户]**&#x200B;向列表中添加更多帐户。
+   此步骤可确保GenStudio for Performance Marketing获得对所有广告、元数据和量度的访问权限，以实现最佳性能。
+
+1. 在&#x200B;_[!UICONTROL 元广告]_&#x200B;中，选择要包含在[!DNL Insights]中的一个或多个帐户，然后单击&#x200B;**[!UICONTROL 选择]**。
+
+1. 收到&#x200B;_连接的平台_&#x200B;确认后，请单击&#x200B;**[!UICONTROL 查看帐户]**。
+
+   _[!UICONTROL 元广告帐户]_&#x200B;视图列出了`Account name`、`Added by`、`Date added`和`Status`。
+
+使用&#x200B;**[!UICONTROL 添加帐户]**&#x200B;向列表中添加更多帐户。 当您添加链接到同一元业务配置文件的帐户时，授权流程可能会略有不同。 You select only the new Meta Ads accounts during the connection process.
 
 ## 数据摄取
 
