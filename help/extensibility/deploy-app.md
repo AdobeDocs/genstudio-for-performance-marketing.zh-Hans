@@ -3,7 +3,7 @@ title: 部署您的App Builder应用程序
 description: 部署适用于GenStudio for Performance Marketing的App Builder应用程序或加载项。
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 部署您的应用程序
 
 运行应用程序可在部署加载项行为之前提供加载项行为的初步快照。 此信息有助于调试。 您可以强制构建和部署已部署的应用程序，而无需重新提交它以供审批。
-
 
 **要运行应用程序**：
 
