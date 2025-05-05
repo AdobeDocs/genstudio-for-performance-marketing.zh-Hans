@@ -16,7 +16,7 @@ ht-degree: 0%
 
 通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
 
 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
 
@@ -50,7 +50,7 @@ GenStudio for Performance Marketing可识别模板中的某些[元素](use-templ
 | `{{cta}}` | 行动号召<br>查看[行动号召](#calls-to-action) | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
 | `{{image}}` | 图像 — 从[!DNL Content]中选择 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
 | `{{on_image_text}}` | 在图像文本上<br>请参阅[在图像文本上](#on-image-text)。 | 元广告<br>LinkedIn广告 |
-| `{{link}}` | 对映像<br>的行动号召，请参阅映像](#link-on-image)上的[链接。 | 电子邮件 |
+| `{{link}}` | 对映像<br>的行动号召，请参阅映像[&#128279;](#link-on-image)上的链接。 | 电子邮件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 

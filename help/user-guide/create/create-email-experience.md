@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **要选择电子邮件模板**：
 
-1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 电子邮件]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 电子邮件]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的电子邮件模板。
 1. 单击以选择电子邮件模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -132,6 +132,6 @@ ht-degree: 0%
 
 1. **要发布您的新电子邮件体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
 1. **要导出您的新电子邮件体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
-   1. 选择格式（CSV 和图像或仅限 HTML），然后单击“导出&#x200B;]**”。**[!UICONTROL 
+   1. 选择格式（CSV 和图像或仅限 HTML），然后单击“导出&#x200B;**”。**
 
 有关详细信息，请参阅 [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) 。

@@ -59,7 +59,7 @@ GenStudio for Performance Marketing指南帮助创作AI个性化您的资源组�
 
 ### 结构化提示
 
-对于多节电子邮件，您可以构建提示以提供特定于节的说明，以便为电子邮件中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板](/help/user-guide/content/customize-template.md#sections-or-groups)中的[节名称，以便生成的内容可以插入到相应的内容占位符中。
+对于多节电子邮件，您可以构建提示以提供特定于节的说明，以便为电子邮件中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板[&#128279;](/help/user-guide/content/customize-template.md#sections-or-groups)中的节名称，以便生成的内容可以插入到相应的内容占位符中。
 
 例如，您可以在第一部分中指示GenStudio for Performance Marketing为推广新产品的电子邮件生成内容，并在第二部分中详细介绍可节省成本的好处。
 

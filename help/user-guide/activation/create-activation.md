@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 激活工作流
 
-_[!DNL Activate]_支持以创意形式激活特定于渠道的格式的广告体验，例如Meta或Google Campaign Manager 360广告体验。
+_[!DNL Activate]_&#x200B;支持以创意形式激活特定于渠道的格式的广告体验，例如Meta或Google Campaign Manager 360广告体验。
 
 GenStudio for Performance Marketing体验是一种营销活动组件（如广告），它通过付费广告渠道或电子邮件为特定受众准备作为创意。 创意包含三个主要组成部分：
 
@@ -36,11 +36,11 @@ GenStudio for Performance Marketing体验是一种营销活动组件（如广告
 
   >[!TIP]
   >
-  >您可以直接从&#x200B;_[!DNL Content]_体验库中选择批准的广告体验，以准备作为Google Campaign Manager 360创意内容。 从_[!DNL Content]_&#x200B;图库中选择体验后，您便无法编辑资产或将其添加到创意内容。
+  >您可以直接从&#x200B;_[!DNL Content]_&#x200B;体验库中选择批准的广告体验，以准备作为Google Campaign Manager 360创意内容。 从&#x200B;_[!DNL Content]_&#x200B;图库中选择体验后，您便无法编辑资产或将其添加到创意内容。
 
 * **查看您的体验并将其发布到Target频道**。 在创作设置期间使用&#x200B;_预览_&#x200B;面板可在最终激活前评估您选择的广告版面和文本元素。 最终的发布前审核将在目标渠道的广告管理应用程序中进行。 例如，在GenStudio for Performance Marketing中激活元广告体验后，您必须登录到元广告管理器，查看您的创意，然后选择其特定属性，才能发布该体验。
 
-一旦创意内容在其目标付费媒体频道上线，_[!DNL Insights]_就可以跟踪和分析其性能数据。
+一旦创意内容在其目标付费媒体频道上线，_[!DNL Insights]_&#x200B;就可以跟踪和分析其性能数据。
 
 ## 支持的渠道
 

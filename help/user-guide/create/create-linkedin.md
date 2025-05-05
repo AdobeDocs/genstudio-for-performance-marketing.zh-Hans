@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 创建LinkedIn体验
 
-本教程演示如何使用[GenStudio进行绩效营销[[!DNL Create]](/help/user-guide/create/overview.md)（左侧导航区域中的画笔图标）生成符合品牌指南的LinkedIn体验](/help/user-guide/create/meta-experiences.md)。
+本教程演示如何使用[&#128279;](/help/user-guide/create/meta-experiences.md)GenStudio进行绩效营销[[!DNL Create]](/help/user-guide/create/overview.md)（左侧导航区域中的画笔图标）生成符合品牌指南的LinkedIn体验。
 
-在开始生成LinkedIn广告之前，请务必[在GenStudio中添加效果营销指南](/help/user-guide/guidelines/add-guidelines.md)，并学习创建提示](/help/user-guide/effective-prompts.md)的[基础知识。
+在开始生成LinkedIn广告之前，请务必[在GenStudio中添加效果营销指南](/help/user-guide/guidelines/add-guidelines.md)，并学习创建提示[&#128279;](/help/user-guide/effective-prompts.md)的基础知识。
 
 ## 选择模板
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ## 提交生成反馈
 
-要[提交有关生成输出质量的反馈](/help/user-guide/create/manage-variants.md#generation-feedback)，请单击选项图标（三个点），然后选择“良好输出&#x200B;]**”或**[!UICONTROL “**[!UICONTROL 差输出]**”。
+要[提交有关生成输出质量的反馈](/help/user-guide/create/manage-variants.md#generation-feedback)，请单击选项图标（三个点），然后选择“良好输出&#x200B;**”或**“**[!UICONTROL 差输出]**”。
 
 ## 验证内容检查对齐方式
 
@@ -123,8 +123,8 @@ ht-degree: 0%
 
 要使生成的LinkedIn广告可供当前和将来使用，请将其发布到 [!UICONTROL 内容] 并导出以用于营销活动。
 
-1. **要发布新体验**，请单击顶部工具栏中或审批流程中的“发布&#x200B;]**”。**[!UICONTROL 
-1. **要导出新体验**，请单击顶部工具栏中的“导出&#x200B;]**”。**[!UICONTROL 
+1. **要发布新体验**，请单击顶部工具栏中或审批流程中的“发布&#x200B;**”。**
+1. **要导出新体验**，请单击顶部工具栏中的“导出&#x200B;**”。**
    1. 选择格式 — JPG、PNG或GIF — 并单击&#x200B;**[!UICONTROL 导出]**。
 
 有关详细信息，请参阅[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

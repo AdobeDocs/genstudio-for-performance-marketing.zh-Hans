@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 连接付费媒体帐户
 
-_[!DNL Data connectors]_支持GenStudio for Performance Marketing与您的付费媒体网络帐户之间的无缝集成。 通过连接到第三方渠道帐户，您可以交换关键数据，例如[[!DNL Insights]](/help/user-guide/insights/overview.md)中的促销活动绩效指标，并且可以通过[[!DNL Activate]](/help/user-guide/activation/overview.md)投放新的广告位置。 通过此集成，GenStudio for Performance Marketing可以管理您的媒体和广告，同时从您的活跃营销活动中接收有价值的见解，包括展示次数、点击次数和转化次数。
+_[!DNL Data connectors]_&#x200B;支持GenStudio for Performance Marketing与您的付费媒体网络帐户之间的无缝集成。 通过连接到第三方渠道帐户，您可以交换关键数据，例如[[!DNL Insights]](/help/user-guide/insights/overview.md)中的促销活动绩效指标，并且可以通过[[!DNL Activate]](/help/user-guide/activation/overview.md)投放新的广告位置。 通过此集成，GenStudio for Performance Marketing可以管理您的媒体和广告，同时从您的活跃营销活动中接收有价值的见解，包括展示次数、点击次数和转化次数。
 
 **连接到付费媒体帐户**：
 

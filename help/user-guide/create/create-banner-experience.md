@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **选择横幅模板**：
 
-1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 横幅]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 横幅]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的横幅模板。
 1. 在&#x200B;_选择模板_&#x200B;视图中，单击横幅模板。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
@@ -123,7 +123,7 @@ When revising and preparing email experiences, you can toggle between previews f
 要使生成的横幅可供当前和将来使用，请将其发布到[!UICONTROL 内容]并导出以用于您的营销活动。
 
 1. **要发布新的横幅体验**，请单击顶部工具栏中或审批流程中的&#x200B;**[!UICONTROL Publish]**。
-   1. 选择“_[!UICONTROL [!DNL Campaigns]]_”，并根据需要添加_[!UICONTROL &#x200B;更多详细信息&#x200B;]_。
+   1. 选择“_[!UICONTROL [!DNL Campaigns]]_”，并根据需要添加&#x200B;_[!UICONTROL &#x200B;更多详细信息&#x200B;]_。
    1. 单击&#x200B;**[!UICONTROL 发布]**。
 
       ![发布横幅](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

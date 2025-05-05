@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 步骤4：配置资源可见性
 
-在&#x200B;_[!DNL AEM Assets Content Hub]_配置选项中，查看筛选条件、资产详细信息、搜索和品牌推广的每组配置选项。
+在&#x200B;_[!DNL AEM Assets Content Hub]_&#x200B;配置选项中，查看筛选条件、资产详细信息、搜索和品牌推广的每组配置选项。
 
 请参阅&#x200B;_Content Hub_&#x200B;文档中的[配置AEM as a Cloud Service用户界面](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)。
 

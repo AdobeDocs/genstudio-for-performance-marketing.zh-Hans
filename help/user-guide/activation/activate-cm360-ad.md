@@ -13,7 +13,7 @@ ht-degree: 0%
 
 通过Adobe GenStudio for Performance Marketing，GenStudio系统管理员和编辑人员可以将广告创意发布到Google Campaign Manager 360平台。
 
-您可以从&#x200B;_[!DNL Content]_图库或_[!DNL Activate]_&#x200B;主页启动发布Google Campaign Manager 360广告体验。
+您可以从&#x200B;_[!DNL Content]_&#x200B;图库或&#x200B;_[!DNL Activate]_&#x200B;主页启动发布Google Campaign Manager 360广告体验。
 
 ## 步骤1：设置Google Campaign Manager 360帐户
 
@@ -29,11 +29,11 @@ GenStudio系统管理员必须先将您的Google Campaign Manager 360帐户连�
 
 ## 步骤3：为您的创意选择内容
 
-您可以从&#x200B;_[!DNL Content]_体验库或_[!DNL Activate]_&#x200B;主页启动发布流程。 无法编辑已批准的体验。 每个体验只能包含一个资源。
+您可以从&#x200B;_[!DNL Content]_&#x200B;体验库或&#x200B;_[!DNL Activate]_&#x200B;主页启动发布流程。 无法编辑已批准的体验。 每个体验只能包含一个资源。
 
 **选择体验**：
 
-1. 使用&#x200B;_[!DNL Content]_图库的搜索和筛选工具识别要激活的体验，然后单击&#x200B;**[!UICONTROL 激活]**。 (或者，您可以通过单击Google Campaign Manager 360产品卡上的&#x200B;**[!UICONTROL 新建]**，从_[!DNL Activate]_&#x200B;中选择体验。)
+1. 使用&#x200B;_[!DNL Content]_&#x200B;图库的搜索和筛选工具识别要激活的体验，然后单击&#x200B;**[!UICONTROL 激活]**。 (或者，您可以通过单击Google Campaign Manager 360产品卡上的&#x200B;**[!UICONTROL 新建]**，从&#x200B;_[!DNL Activate]_&#x200B;中选择体验。)
 
    Google Campaign Manager 360 _Creative设置_&#x200B;页面随即会为此体验打开。 所选体验中已预填充了您无法修改的详细信息。
 
@@ -59,7 +59,7 @@ GenStudio系统管理员必须先将您的Google Campaign Manager 360帐户连�
 
 _审阅_&#x200B;页面提供了在发布之前查看您的广告体验的最终机会。
 
-如果您从&#x200B;_[!DNL Activate]_启动此激活，则可以单击_ Creative设置&#x200B;_标签旁边的&#x200B;**[!UICONTROL 编辑部分]**以进行更改。 您还可以单击右上角的&#x200B;**[!UICONTROL 返回]**以返回_ Creative设置&#x200B;_页面。 您无法编辑体验内容。
+如果您从&#x200B;_[!DNL Activate]_&#x200B;启动此激活，则可以单击_ Creative设置&#x200B;_标签旁边的&#x200B;**[!UICONTROL 编辑部分]**&#x200B;以进行更改。 您还可以单击右上角的&#x200B;**[!UICONTROL 返回]**&#x200B;以返回_ Creative设置&#x200B;_页面。 您无法编辑体验内容。
 
 ## 步骤6：完成广告体验的发布
 

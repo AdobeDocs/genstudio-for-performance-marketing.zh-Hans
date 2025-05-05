@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 生成图像
 
-使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （画笔图标），您可以生成&#x200B;_[!DNL On-brand images]_生成的资源，这些资源从所选图像中获得灵感，捕捉其视觉效果和整体美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （画笔图标），您可以生成&#x200B;_[!DNL On-brand images]_&#x200B;生成的资源，这些资源从所选图像中获得灵感，捕捉其视觉效果和整体美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 若要设计引人注目的有效图像，建议您[将准则添加到GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)，并查看[编写提示的基础知识](/help/user-guide/effective-prompts.md)。
 
 ## 图像类型
 
-_[!DNL On-brand images]_是生成的资产，从选定的图像获得灵感，捕捉其视觉效果和整体美感。 这些图像是使用[!DNL Content]中已有的图像以及精心编制的指导设计的提示创建的。 它们严格遵循品牌指南和在生成过程中选择的参数。
+_[!DNL On-brand images]_&#x200B;是生成的资产，从选定的图像获得灵感，捕捉其视觉效果和整体美感。 这些图像是使用[!DNL Content]中已有的图像以及精心编制的指导设计的提示创建的。 它们严格遵循品牌指南和在生成过程中选择的参数。
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->合并了设置的准则、参数和[精心编制的提示](/help/user-guide/effective-prompts.md)，以提供引人注目的图像资产。
 
@@ -37,7 +37,7 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->合并了设置的�
 
 **选择参考图像**：
 
-1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 品牌上图像]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 品牌上图像]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定图像。
 
    ![选择参考图像](/help/assets/select-img.png){width="400" zoomable="yes"}

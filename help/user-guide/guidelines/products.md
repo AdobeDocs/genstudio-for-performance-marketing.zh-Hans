@@ -19,7 +19,7 @@ GenStudio for Performance Marketing中的[!DNL Products]利用对产品规格、
 **要查看或修改产品**：
 
 1. 在左侧导航区域中，单击&#x200B;**[!UICONTROL 产品]**。
-1. 要[查看单个详细信息或修改产品](add-guidelines.md#manage-products)，请单击&#x200B;_[!DNL Products]_操作菜单，然后选择&#x200B;**[!UICONTROL 打开]**。
+1. 要[查看单个详细信息或修改产品](add-guidelines.md#manage-products)，请单击&#x200B;_[!DNL Products]_&#x200B;操作菜单，然后选择&#x200B;**[!UICONTROL 打开]**。
 1. 通过单击进入指南类别文本字段来修订产品指南。
 
 请参阅[添加准则](add-guidelines.md)，了解如何在GenStudio for Performance Marketing中添加或修改产品。
