@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 配置Adobe GenStudio for Performance Marketing
 
-Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中执行初始配置任务。 从Admin Console中，Adobe系统管理员可以访问GenStudio产品配置文件，并将可用的产品许可证分配给用户。
+Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html#Overview)中执行初始配置任务。 从Admin Console中，Adobe系统管理员可以访问GenStudio产品配置文件，并将可用的产品许可证分配给用户。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
 **访问GenStudio产品配置文件**
 
-1. 单击欢迎电子邮件中的&#x200B;**开始使用**&#x200B;链接以导航到[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)。
+1. 单击欢迎电子邮件中的&#x200B;**开始使用**&#x200B;链接以导航到[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html#Overview)。
 
 1. 使用您的Adobe ID登录到Admin Console。
 
@@ -62,7 +62,7 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
 您可以单独添加用户或导入多个用户的帐户信息：
 
-* [单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
+* [单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html#add-users)
 
 * [管理多个用户/批量CSV上传](https://helpx.adobe.com/cn//enterprise/using/bulk-upload-users.html)
 

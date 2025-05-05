@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 分配[!DNL Brand]权限
 
-默认情况下，GenStudio系统管理员可以创建并编辑[!DNL Brands]。 内容编辑者和协作者角色具有编辑和创建权限，但可能不需要任何系统管理权限。 要授予内容编辑者和协作者这些与[!DNL Brand]相关的权限，Adobe系统管理员必须在Adobe Admin Console中执行一些其他配置任务。 请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)。
+默认情况下，GenStudio系统管理员可以创建并编辑[!DNL Brands]。 内容编辑者和协作者角色具有编辑和创建权限，但可能不需要任何系统管理权限。 要授予内容编辑者和协作者这些与[!DNL Brand]相关的权限，Adobe系统管理员必须在Adobe Admin Console中执行一些其他配置任务。 请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html#Overview)。
 
 添加用户和用户组是所有具有通过Admin Console管理的权限的Adobe产品所共有的基本任务。 有关用户管理和添加用户和用户组的过程的概述，请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[Adobe Admin Console用户](https://helpx.adobe.com/cn/enterprise/using/users.html)。
 
@@ -89,7 +89,7 @@ _项目_&#x200B;提供了一个存储位置，选定的用户可以在该位置�
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。_邀请加入项目_&#x200B;弹出窗口打开。
 
-请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[管理项目](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)。
+请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[管理项目](https://helpx.adobe.com/cn/enterprise/using/projects-in-business-storage.html)。
 
 ## 步骤5：邀请用户组加入项目
 

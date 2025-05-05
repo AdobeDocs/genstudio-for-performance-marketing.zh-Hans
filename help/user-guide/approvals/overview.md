@@ -54,7 +54,7 @@ _草稿_&#x200B;是未经过审阅和批准过程的资产或体验的初步版�
 
 GenStudio for Performance Marketing产品内通知会实时更新审批者和内容编辑器，以更新资源状态更改和`@mention`备注。 通知支持在多个审阅、编辑和批准周期中快速迭代。
 
-内容编辑者和批准者可以注册以在Slack中接收这些通知。 请参阅[在Experience Cloud中订阅服务](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)。
+内容编辑者和批准者可以注册以在Slack中接收这些通知。 请参阅[在Experience Cloud中订阅服务](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences#slack)。
 
 批准参与者执行的操作会触发自动产品内通知和电子邮件通知。 开始审批流程时，指定的审批者会收到电子邮件和产品内通知。 每当审批者添加`@mention`评论或做出决定时，您就会与产品内通知和电子邮件通知保持同步。 通知包括指向内容草稿的链接。
 

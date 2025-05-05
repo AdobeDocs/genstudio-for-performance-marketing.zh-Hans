@@ -104,9 +104,9 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->合并了设置的�
 
    出现&#x200B;_Powered by Adobe Express_&#x200B;窗口。
 
-1. 执行图像编辑，如[裁剪图像](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html)、[删除对象](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)以及应用效果。
+1. 执行图像编辑，如[裁剪图像](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/crop-images.html)、[删除对象](https://helpx.adobe.com/cn/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)以及应用效果。
 
-   请参阅[Adobe Express文档](https://helpx.adobe.com/express/user-guide.html)，了解如何使用Adobe Express在GenStudio for Performance Marketing中修改图像。
+   请参阅[Adobe Express文档](https://helpx.adobe.com/cn/express/user-guide.html)，了解如何使用Adobe Express在GenStudio for Performance Marketing中修改图像。
 
 1. 单击&#x200B;_[!UICONTROL 应用更改]_&#x200B;以保存您的编辑。
 1. 根据需要继续编辑单个图像变体，并应用更改以保存进度。
