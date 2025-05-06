@@ -56,7 +56,7 @@ ht-degree: 0%
 
 **要使用促销活动过滤器优化广告表**：
 
-1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 广告]**视图。
+1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 广告]**&#x200B;视图。
 
    ![广告筛选器和表](/help/assets/insights-ads-filter.png "带有筛选列表的广告视图"){zoomable="yes"}
 
