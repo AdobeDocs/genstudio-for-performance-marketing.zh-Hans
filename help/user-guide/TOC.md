@@ -5,10 +5,10 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 291b287fec24acaa7b6be6bd663d918842764bd9
+source-git-commit: 2b4563bfa1738462039ebc6303dbb8ef30019d6a
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 21%
+source-wordcount: '211'
+ht-degree: 20%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 21%
    + [优化激活](activation/troubleshooting.md)
 + 见解 {#insights}
    + [见解概述](insights/overview.md)
+   + [分析筛选器](insights/filter-views.md)
    + [渠道](insights/channels.md)
    + [广告和广告投放](insights/ads.md)
    + [媒体](insights/media.md)

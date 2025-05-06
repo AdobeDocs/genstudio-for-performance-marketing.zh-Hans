@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 >
 >通过[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)丰富您关于此主题的技能。
 
-## 关于空表的提示 {#empty-table}
+## 有关筛选表的提示 {#filter-table}
 
 >[!TIP]
 >
->是否看到`No results found`消息？ 通过修改选择、清除所有过滤器或扩大日期范围来调整过滤器。
+>是否看到太多结果或`No results found`消息？ 通过修改选择、清除所有筛选器或调整日期范围来调整筛选器。 请参阅[Insights视图的筛选器](/help/user-guide/insights/filter-views.md)，了解动态和通用的筛选器功能。

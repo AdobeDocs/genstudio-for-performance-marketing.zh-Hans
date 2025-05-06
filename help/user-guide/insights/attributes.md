@@ -4,9 +4,9 @@ description: 了解如何评估Adobe GenStudio for Performance Marketing中特�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,7 @@ _[!UICONTROL 属性]_&#x200B;表是使用[!UICONTROL 属性]名称组织的。 �
 
 ![属性筛选器和表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
-{{empty-table}}
-
-## 筛选器属性
-
-表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个列表中进行选择。 请参阅[筛选媒体](/help/user-guide/insights/media.md#filter-media)以了解促销活动和广告的关键字筛选器。
-
-
->[!NOTE]
->
->应用的筛选器在[!DNL Insights]中的所有视图中持续存在。 选择广告表或图库上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;以删除所有选定的筛选条件。
-
-### 下载表结果
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## 属性详细信息
 
@@ -74,8 +61,8 @@ GenStudio for Performance Marketing使用Adobe的AI和机器学习功能来研�
 | **[!UICONTROL #个视频]** | 具有此属性的视频数。 | “属性”表中的计数可能与“属性详细信息”视图中的计数不同。 如果渠道源(如Meta和GenStudio)使用的摘要计算略有不同，则会出现这种差异。 |
 | **[!UICONTROL 展示次数]** | 每次在渠道中加载具有此属性的图像或视频时的计数，而不考虑交互或查看。 | 高展示次数计数可能表示广泛的可见性，但为了深入了解真实性能，请考虑将其与其他参与量度关联起来。 |
 | **[!UICONTROL 次点击]** | 用户与此属性对应的图像或视频交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
-| **[!UICONTROL CTR &#x200B;]**<br>_点进率_ | 导致点击具有此属性的图像或视频的展示次数百分比(%)。<br>**计算**：`clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
-| **[!UICONTROL CPM &#x200B;]**<br>_每千成本_ | 具有此属性的图像或视频的每1,000次广告展示次数成本。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
-| **[!UICONTROL CPA &#x200B;]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本。<br>**计算**：总金额`spent`除以已完成的客户操作数 | 帮助确定可导致客户采取重要行动的属性。 |
-| **[!UICONTROL CPC &#x200B;]**<br>_每次点击成本_ | 与此属性相关的每次点击图像或视频的平均成本。<br>**计算**：总金额`spent`除以`clicks` | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
+| **[!UICONTROL CTR ]**<br>_点进率_ | 导致点击具有此属性的图像或视频的展示次数百分比(%)。<br>**计算**：`clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
+| **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此属性的图像或视频的每1,000次广告展示次数成本。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
+| **[!UICONTROL CPA ]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本。<br>**计算**：总金额`spent`除以已完成的客户操作数 | 帮助确定可导致客户采取重要行动的属性。 |
+| **[!UICONTROL CPC ]**<br>_每次点击成本_ | 与此属性相关的每次点击图像或视频的平均成本。<br>**计算**：总金额`spent`除以`clicks` | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
 | **[!UICONTROL 支出]** | 与指定时间段内的属性相关的预算支出金额。 | 在短时间内高支出量可能表示使用迅速，这可能导致资源提前耗尽。 根据关键绩效指标跟踪支出金额，以帮助监控总体投资回报。 |
