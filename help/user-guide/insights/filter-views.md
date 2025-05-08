@@ -3,9 +3,10 @@ title: 过滤分析视图
 description: 了解如何将增强的过滤器功能与Insights结合使用。
 level: Intermediate
 feature: Reporting and Insights
-source-git-commit: 656395e517fcb334b64865dcdbde09d8d982dc0a
+exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
+source-git-commit: 04bc6f911394d0f4c324abc347ce125203011960
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## 筛选基础知识
 
-[!DNL Insights]中的每个视图都提供一个筛选器选项列表。 表格左上方的筛选器（漏斗）图标可打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。 无论您查看的是表还是图库，应用的筛选器都会显示在表或图库上方的&#x200B;**[!UICONTROL 筛选依据]**&#x200B;列表中。 默认情况下，会选择渠道和帐户。
+[!DNL Insights]中的每个视图都提供一个筛选器选项列表。 左侧的筛选器（漏斗）切换打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。 无论您查看的是表还是图库，应用的筛选器都会显示在表或图库上方的&#x200B;**[!UICONTROL 筛选依据]**&#x200B;列表中。 默认情况下，会选择渠道和帐户。
 
 ![筛选依据](/help/assets/insights-filter-by.png "筛选依据"){width=600 zoomable="yes"}
 
@@ -24,9 +25,9 @@ ht-degree: 0%
 
 ### 搜索字段
 
-单击搜索（放大镜）图标，使用搜索词在表格或图库中查找特定项目。 例如，在[!UICONTROL 广告]表中输入术语`pink`将筛选结果，以仅显示名称中使用术语`pink`的广告。
+单击搜索（放大镜）图标可键入搜索词以查找表或图库中的特定项目。 例如，在[!UICONTROL 广告]表中输入术语`Gear`将筛选结果，以仅显示名称中使用术语`Gear`的广告。
 
-![搜索字段示例](/help/assets/insights-search.png "搜索粉红色的广告"){width=600 zoomable="yes"}
+![搜索字段示例](/help/assets/insights-search.png "搜索名称中带有齿轮的广告"){width=600 zoomable="yes"}
 
 ### 日期范围
 
@@ -52,15 +53,15 @@ ht-degree: 0%
 - 内容类型首字母缩略词： `EB`、`CHT`或`DSP`
 - 优惠代码或缩写： `OFFER2023`，`PROMO`
 
-随着时间的推移，营销活动和广告的列表呈指数级增长。 请考虑以下方案以使用&#x200B;_[!UICONTROL 促销活动]_&#x200B;筛选器来细化[!UICONTROL 广告]表。
+随着时间的推移，您的营销活动和广告列表可能会呈指数级增长。 请考虑以下方案以使用&#x200B;_[!UICONTROL 促销活动]_&#x200B;筛选器来细化[!UICONTROL 广告]表。
 
 **要使用促销活动过滤器优化广告表**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 广告]**&#x200B;视图。
+1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 广告]**视图。
 
-   ![广告筛选器和表](/help/assets/insights-ads-filter.png "带有筛选列表的广告视图"){zoomable="yes"}
+   ![广告筛选器和表](/help/assets/insights-ads-filter.png "带有筛选菜单的广告视图"){zoomable="yes"}
 
-1. 单击表格左上方的筛选器（漏斗）图标以打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。
+1. 单击表左上方的筛选器（漏斗）切换可打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。
 
 1. 验证是否选择了正确的`Filter by`渠道和帐户。
 
@@ -70,11 +71,17 @@ ht-degree: 0%
 
 1. 在&#x200B;_[!UICONTROL 选择营销活动]_&#x200B;搜索字段中，输入用逗号分隔的关键字。
 
-   - 根据需要使用任意数量的关键字来优化列表。 以下示例查找名称中包含`evergreen`、`ROI`和`Meta`的营销活动：
+   使用关键字通过逻辑和精确的筛选来优化搜索。
 
-     ![关键字搜索](/help/assets/insights-select-campaigns-keywords.png "输入关键字以搜索促销活动名称"){width=500}
+   - 要查找同时包含`adventure` **和** `ready`的促销活动名称，请输入两个用逗号分隔的关键字：
 
-   - 可添加另一组关键字以扩大搜索范围。 通过使用多组关键字，您可以包含与第一组关键字或第二组关键字匹配的促销活动。 例如，您可以搜索标记为`evergreen`和`web`且标记为&#x200B;_或_&#x200B;且标记为`photoshop`和`roi`的营销活动：
+     ![搜索所有关键字](/help/assets/insights-select-campaigns-and.png "搜索同时包含两个关键字的促销活动名称"){width=500}
+
+   - 要查找包含`adventure` **或** `ready`的促销活动名称，请分别输入每个关键字：
+
+     ![搜索关键字](/help/assets/insights-select-campaigns-or.png "搜索至少包含一个关键字的促销活动名称"){width=500}
+
+   - 要执行高级搜索，请组合多组关键字。 例如，搜索具有`adventure`和`apparel` **OR** `sun`和`gear`的促销活动名称：
 
      ![使用多组关键字搜索](/help/assets/insights-advanced-or.png "使用多组关键字搜索促销活动名称"){width=500}
 
@@ -82,7 +89,7 @@ ht-degree: 0%
 
    ![营销活动列表](/help/assets/insights-select-campaigns-list.png "选择要包含的营销活动")
 
-您选择的营销活动现在显示在广告表或图库上方的&#x200B;_[!UICONTROL 筛选依据]_&#x200B;列表中。 您可以专注于链接到所选营销活动的广告。 在此示例中，过滤的结果包括28个广告，从而为分析提供了更有针对性的视图。
+您选择的营销活动现在显示在广告表或图库上方的&#x200B;_[!UICONTROL 筛选依据]_&#x200B;列表中。 您可以专注于链接到所选营销活动的广告。 在本例中，过滤的结果包括6个广告，提供了更具针对性的分析视图。
 
 ![按营销活动过滤的表](/help/assets/insights-filter-by-campaigns.png "具有营销活动过滤器的表"){zoomable="yes"}
 

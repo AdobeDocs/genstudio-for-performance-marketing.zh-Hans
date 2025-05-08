@@ -3,7 +3,7 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
+source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 1%
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 ## [!DNL Content]图库
 
-图库会根据所选视图显示已批准资产、体验或模板的清单。 表格左上方的筛选器（漏斗）图标会打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个类别中进行选择，以筛选图库中显示的内容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;视图中，单击搜索（放大镜）图标以使用关键字查找资源。
+图库会根据所选视图显示已批准资产、体验或模板的清单。 表格左上方的筛选器（漏斗）切换可打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单，您可以从多个类别中进行选择，以筛选图库中显示的内容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;视图中，单击搜索（放大镜）图标以使用关键字查找资源。
 
 下面显示了[!UICONTROL Assets]图库中搜索词`space`的搜索：
 
@@ -36,7 +36,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 **要搜索要重复使用的内容，请执行以下操作：**
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL Assets]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL Assets]**部分。
 
 1. 从&#x200B;**[!UICONTROL 位置]**&#x200B;列表中选择一个资源存储库，或验证您所查看的资源存储库是否正确。 `GenStudio assets`是默认存储库。
 
@@ -96,7 +96,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要添加一个或多个资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，单击&#x200B;**[!UICONTROL 添加资源]**。
+1. 在&#x200B;_[!DNL Content]_中，单击&#x200B;**[!UICONTROL 添加资源]**。
 
 1. 在&#x200B;_添加批准的资产_&#x200B;视图中，将一个或多个文件拖放到放置空间中。 或者，您也可以使用&#x200B;**[!UICONTROL 浏览]**&#x200B;从本地文件中选择，或者从Dropbox或Microsoft OneDrive导入文件。
 
@@ -120,7 +120,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要下载资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个资源或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个资源或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 下载]**&#x200B;图标（向下箭头）。
 
@@ -130,7 +130,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要删除资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 删除]** （垃圾桶）。
 
@@ -142,7 +142,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要导出体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个体验。 单击某个体验将打开详细信息视图，或者单击快捷菜单(`...`)。
+1. 在&#x200B;_[!DNL Content]_中，选择一个体验。 单击某个体验将打开详细信息视图，或者单击快捷菜单(`...`)。
 
 1. 单击&#x200B;**[!UICONTROL 导出以进行激活]** （带有指向箭头的框）。
 
@@ -170,7 +170,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **使用Express**&#x200B;编辑资源：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个图像资源。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 在Adobe Express中编辑]**&#x200B;图标。
 
