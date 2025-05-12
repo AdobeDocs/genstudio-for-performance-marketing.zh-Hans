@@ -1,20 +1,20 @@
 ---
-title: 连接付费媒体
-description: 连接渠道帐户，以通过Adobe GenStudio for Performance Marketing激活和监控您的广告和媒体。
+title: 连接付费媒体帐户
+description: 连接付费媒体帐户以使用Adobe GenStudio for Performance Marketing激活和监控您的广告和媒体。
 level: Intermediate
 role: Admin, Data Engineer
-feature: Reporting and Insights
+feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
+source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # 连接付费媒体帐户
 
-_[!DNL Data connectors]_&#x200B;支持GenStudio for Performance Marketing与您的付费媒体网络帐户之间的无缝集成。 通过连接到第三方渠道帐户，您可以交换关键数据，例如[[!DNL Insights]](/help/user-guide/insights/overview.md)中的促销活动绩效指标，并且可以通过[[!DNL Activate]](/help/user-guide/activation/overview.md)投放新的广告位置。 通过此集成，GenStudio for Performance Marketing可以管理您的媒体和广告，同时从您的活跃营销活动中接收有价值的见解，包括展示次数、点击次数和转化次数。
+_付费媒体帐户_&#x200B;是指第三方广告平台上的帐户，企业可在该平台上管理和执行付费广告营销活动。 这些帐户用于通过付费渠道（如社交媒体平台和显示网络）推广产品、服务或品牌。 通过将付费媒体帐户连接到GenStudio for Performance Marketing，您可以简化数据交换，在[Insights](/help/user-guide/insights/overview.md)中监视促销活动效果，并通过[激活](/help/user-guide/activation/overview.md)提供新的广告投放。
 
 **连接到付费媒体帐户**：
 
@@ -26,97 +26,14 @@ _[!DNL Data connectors]_&#x200B;支持GenStudio for Performance Marketing与您�
 
    或者，如果存在已连接的帐户，您可以单击&#x200B;_已连接的帐户_&#x200B;以查看帐户名称、详细信息和状态的列表。
 
-1. 查看您选择的[连接器类型](#connector-types)，查看先决条件，并继续执行连接步骤。
+1. 请参阅以下所选连接器类型，以查看先决条件并继续执行连接步骤：
+
+   - [Google Campaign Manager 360](google-cm360.md)
+   - [元广告](meta-ads.md)
 
 ## 付费媒体连接
 
 GenStudio for Performance Marketing支持使用各种连接器类型与您的首选营销平台集成。 每种连接器类型都有特定的先决条件和设置步骤，需要完成这些步骤才能成功连接。
-
-### Google Campaign Manager 360连接
-
->[!BEGINSHADEBOX]
-
-**先决条件**：
-
-- Google Campaign Manager 360帐户
-- 删除浏览器中的所有弹出窗口阻止程序
-
->[!ENDSHADEBOX]
-
-**要连接Google Campaign Manager 360帐户**：
-
-1. 在&#x200B;_Data Connectors_&#x200B;部分中，单击&#x200B;_Google Campaign Manager 360_&#x200B;卡片上的&#x200B;**[!UICONTROL 连接]**。
-
-1. 登录到您的Google Campaign Manager 360帐户。
-
-   您可能需要删除弹出窗口阻止程序，然后使用&#x200B;**[!UICONTROL 刷新]**&#x200B;重试。
-
-1. 阅读条款和条件，然后单击&#x200B;**[!UICONTROL 允许]**&#x200B;授予访问权限。
-
-1. 在&#x200B;_[!UICONTROL Google促销活动管理器360]_&#x200B;视图中，选择一个或多个广告商并单击&#x200B;**[!UICONTROL 选择]**。
-
-_[!UICONTROL Google Campaign Manager 360帐户]_&#x200B;视图列出了`Account name`、`Added by`、`Date added`和`Status`。 使用&#x200B;**[!UICONTROL 添加帐户]**&#x200B;向列表中添加更多帐户。
-
-### 元广告连接
-
-When you connect your _Meta Business_ profile to GenStudio for Performance Marketing, it ensures seamless access to advertising data for your business Pages, Meta Ads accounts, and other Meta assets.
-
->[!BEGINSHADEBOX]
-
-**先决条件**：
-
-- Facebook/Meta登录，可访问所有元服务，例如元广告帐户和Facebook商业个人资料
-- 访问具有`View performance`权限级别的元广告帐户，以访问报告和查看广告，包括以下内容
-   - 与[!DNL Insights]一起使用所需的权限：
-
-      - `pages_show_list`
-      - `ads_read`
-      - `ads_management`
-      - `pages_read_engagement`
-
-   - 与[!DNL Activate]一起使用所需的权限：
-
-      - `ads_management`
-      - `ads_read`
-      - `business_management`
-      - `instagram_basic`
-      - `instagram_content_publish`
-      - `pages_manage_ads`
-      - `pages_manage_posts`
-      - `pages_show_list`
-
-- 删除浏览器中的所有弹出窗口阻止程序
-
->[!ENDSHADEBOX]
-
-**要连接元广告帐户**：
-
-1. 在&#x200B;_Data Connectors_&#x200B;部分中，单击&#x200B;_中继广告_&#x200B;卡上的&#x200B;**[!UICONTROL 连接]**。
-
-1. 登录到您的Facebook帐户。
-
-   您可能需要删除弹出窗口阻止程序，然后使用&#x200B;**[!UICONTROL 刷新]**&#x200B;重试。
-
-1. 按照Facebook身份验证说明进行操作，验证帐户信息，然后单击&#x200B;**[!UICONTROL 继续为……]**
-
-1. In _[!UICONTROL Facebook Login for Business]_ (Meta to Adobe symbol), step through the following selections to grant GenStudio for Performance Marketing access:
-
-   - Select one or more Meta Business profiles and click **[!UICONTROL Continue]**
-   - Select one or more Meta Pages and click **[!UICONTROL Continue]**
-   - Select one or more Instagram accounts and click **[!UICONTROL Continue]**
-   - 查看选择并单击&#x200B;**[!UICONTROL 保存]**
-
-1. 收到帐户已连接的验证后，单击&#x200B;**[!UICONTROL 获得]**。
-
-   此步骤可确保GenStudio for Performance Marketing获得对所有广告、元数据和量度的访问权限，以实现最佳性能。
-
-1. 在&#x200B;_[!UICONTROL 元广告]_&#x200B;中，选择要包含在[!DNL Insights]中的一个或多个帐户，然后单击&#x200B;**[!UICONTROL 选择]**。
-
-1. 收到&#x200B;_连接的平台_&#x200B;确认后，请单击&#x200B;**[!UICONTROL 查看帐户]**。
-
-   _[!UICONTROL 元广告帐户]_&#x200B;视图列出了`Account name`、`Added by`、`Date added`和`Status`。
-
-使用&#x200B;**[!UICONTROL 添加帐户]**&#x200B;向列表中添加更多帐户。 当您添加链接到同一元业务配置文件的帐户时，授权流程可能会略有不同。 You select only the new Meta Ads accounts during the connection process.
 
 ## 数据摄取
 

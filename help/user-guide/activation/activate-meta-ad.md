@@ -3,9 +3,9 @@ title: 激活元广告
 description: 了解如何激活元广告体验。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1354'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Adobe GenStudio for Performance Marketing支持将元广告或创意内容激活
 
 在您的组织可以激活体验之前，GenStudio系统管理员需要将您的元帐户连接到GenStudio for Performance Marketing。 通过这种连接，数据可以在GenStudio和外部营销工具（如Meta）之间流动，从而启用激活流程。
 
-请参阅[连接到元(Facebook)帐户](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
+查看[连接到元广告](/help/user-guide/connectors/meta-ads.md)。
 
 同步完成后，您可以查看添加的帐户。 大量数据需要更长的时间才能同步。
 
@@ -62,21 +62,21 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 **从内容上载资产**：
 
-_[!DNL Content]_&#x200B;为您的组织的已批准资产和体验提供一个中心视图。 您可以使用&#x200B;**[!UICONTROL 搜索]**（放大镜）和_&#x200B;筛选器&#x200B;_菜单选项来聚焦[_[!DNL Content]_&#x200B;图库](/help/user-guide/content/manage-assets.md)显示的资产清单。
+_[!DNL Content]_为您的组织的已批准资产和体验提供一个中心视图。 您可以使用&#x200B;**[!UICONTROL 搜索]**（放大镜）和_&#x200B;筛选器&#x200B;_菜单选项来聚焦[_[!DNL Content]_&#x200B;图库](/help/user-guide/content/manage-assets.md)显示的资产清单。
 
 1. 从&#x200B;_[!DNL Activate]_，单击元广告拼贴上的&#x200B;**[!UICONTROL 新建]**。 将打开_ Creative设置&#x200B;_视图。
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择&#x200B;**[!UICONTROL 从内容中选择]**。 _选择内容_&#x200B;视图打开，显示您搜索或筛选的图像资源库。
 
-1. 使用&#x200B;_[!DNL Content]_&#x200B;图库的搜索和筛选工具选择至少一个要上载的资产。
+1. 使用&#x200B;_[!DNL Content]_图库的搜索和筛选工具选择至少一个要上载的资产。
 
 1. 单击&#x200B;**[!UICONTROL 使用]**&#x200B;将所选资源包含在您的创意中。 _Creative设置_&#x200B;窗口在&#x200B;_Media_&#x200B;区域的默认纵横比中包含该资源。 _预览_&#x200B;面板在广告投放中预览支持此宽高比的资源。
 
-如果上传不成功，则会打开一条信息性错误消息，其中包含&#x200B;_[!DNL Content]_&#x200B;中资产的链接。
+如果上传不成功，则会打开一条信息性错误消息，其中包含&#x200B;_[!DNL Content]_中资产的链接。
 
 **要上传外部资源**：
 
-您可以从Microsoft OneDrive或Dropbox上传最多6个位于&#x200B;_[!DNL Content]_&#x200B;图库外部的静态图像。
+您可以从Microsoft OneDrive或Dropbox上传最多6个位于&#x200B;_[!DNL Content]_图库外部的静态图像。
 
 1. 从&#x200B;_[!DNL Activate]_，单击元磁贴上的&#x200B;**[!UICONTROL 新建]**。 将打开_ Creative设置&#x200B;_窗口。
 
@@ -88,7 +88,7 @@ _[!DNL Content]_&#x200B;为您的组织的已批准资产和体验提供一个�
 
 1. （可选）若要从设备上传资源，请单击&#x200B;**[!UICONTROL 浏览]**，然后选择&#x200B;_浏览文件_&#x200B;或&#x200B;_浏览文件夹_&#x200B;以标识要上传的资源。
 
-1. 在&#x200B;_添加详细信息_&#x200B;区域，将信息性详细信息添加到您上传的资产，以便在&#x200B;_[!DNL Content]_&#x200B;中进行搜索和筛选。 这些详细信息将另存为元数据。
+1. 在&#x200B;_添加详细信息_&#x200B;区域，将信息性详细信息添加到您上传的资产，以便在&#x200B;_[!DNL Content]_中进行搜索和筛选。 这些详细信息将另存为元数据。
 
 1. 上传资源并分配详细信息后，单击右下方的&#x200B;**[!UICONTROL 添加Assets]**。
 

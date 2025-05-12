@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
+source-git-commit: b24ec61c6c8b5e359364d23d0e152b3a5b72dacf
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **选择元广告模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 元广告]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 元广告]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的元广告模板。
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -148,4 +148,4 @@ ht-degree: 0%
 
 您可以将GenStudio for Performance Marketing连接到Meta ，以接收高级分析和内容性能分析。
 
-查看[元广告连接](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
+查看[元广告连接](/help/user-guide/connectors/meta-ads.md)。

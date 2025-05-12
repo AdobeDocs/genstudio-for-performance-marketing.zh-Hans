@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)通过�
 - AEP连接：以`GS Insights`为前缀的数据流
 - AEP连接： GS Insights帐户
 
-在删除AEP中的任何数据组件之前，请参阅&#x200B;_Customer Journey Analytics_&#x200B;指南中的[删除含义](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/deletion)。
+在删除AEP中的任何数据组件之前，请参阅&#x200B;_Customer Journey Analytics_&#x200B;指南中的[删除含义](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion)。
 
 >[!ENDSHADEBOX]
 
@@ -47,4 +47,4 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)通过�
 
 GenStudio for Performance Marketing会将渠道数据保留13个月。 此保留策略包括在初始连接期间摄取的6个月的数据，从而确保全面的历史数据分析和报告。
 
-请参阅[连接渠道广告帐户](/help/user-guide/connectors/connect-channel.md)。
+请参阅[连接付费媒体帐户](/help/user-guide/connectors/connect-channel.md)。
