@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -48,6 +48,8 @@ ht-degree: 0%
 - 使用简洁且响应式的HTML和内联CSS
 - 使用Adobe或Google字体
 - **不**&#x200B;使用JavaScript
+
+{{note-css-effects}}
 
 在使用每种模板类型时，请考虑以下提示和限制以确保最佳性能和兼容性：
 
