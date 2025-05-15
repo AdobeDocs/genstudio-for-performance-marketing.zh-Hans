@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **选择LinkedIn模板**：
 
-1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL LinkedIn]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定模板。
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
