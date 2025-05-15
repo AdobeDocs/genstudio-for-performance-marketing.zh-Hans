@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
+source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2300'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,18 @@ ht-degree: 0%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.04.10 {#latest}
+## 2025.05.15 {#latest}
+
+### 修复和增强功能
+
+* 启用了[将替代（替代）文本](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)添加到单个变体的图像的功能。
+* 添加了[新元宽高比](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 横向1.19:1（1080像素宽度）。
+* 现在，您可以选择多个体验进行导出或下载。 请参阅[导出体验](/help/user-guide/content/manage-assets.md#export-experiences)。
+<!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
+
+## 早期发行说明
+
++++2025.05.15版注释
 
 ### 修复和增强功能
 
@@ -23,8 +34,6 @@ ht-degree: 0%
 * 启用了以下功能：[查看和选择体验的单个图层](/help/user-guide/create/manage-variants.md#view-layers)（可编辑文本字段或可编辑图像）以突出显示它们以进行修订，如重新生成内容或裁切图像。
 * 添加了[新模板字段](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，用于在体验中添加其他文本以吸引受众关注并突出显示营销消息。
 * 添加了对[将广告体验](/help/user-guide/activation/overview.md)从GenStudio for Performance Marketing发布到Google Campaign Manager 360的支持。 激活在发布到Google Campaign Manager 360广告商之前支持详细的Campaign Manager 360广告预览。 通过激活发布的广告一经上线，就会自动提取到分析中，使用户能够跟踪和报告广告效果。
-
-## 早期发行说明
 
 +++2025.03.13版注释
 
@@ -67,7 +76,7 @@ ht-degree: 0%
 * 添加了将链接[添加到变体中的图像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 已将[内容检查](/help/user-guide/guidelines/brand-validation.md)和审核和批准功能移至新的右侧操作栏，以最大化画布上的空间并改善用户体验。
 * 简化了[上传或手动添加品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引入了在画布上的变体[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中添加或交换图像资产的功能。
+* 引入了在画布上的变体](/help/user-guide/create/manage-variants.md#swap-image)中[添加或交换图像资产的功能。
 * 通过将渠道类别[划分到自有媒体、付费媒体和内容部分，改进了创建主页](/help/user-guide/create/overview.md)上的用户体验和可见性。
 * 改进了[!DNL Insights]表和图库视图中的筛选。
 

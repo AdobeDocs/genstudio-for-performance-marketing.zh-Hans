@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
 
 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
 
@@ -47,10 +47,10 @@ GenStudio for Performance Marketing可识别模板中的某些[元素](use-templ
 | `{{sub_headline}}` | 副标题 | 电子邮件<br>横幅和显示广告 |
 | `{{introductory_text}}` | 介绍性文本 | LinkedIn广告 |
 | `{{body}}` | 正文 | 电子邮件<br>元广告<br>横幅和显示广告 |
-| `{{cta}}` | 行动号召<br>查看[行动号召](#calls-to-action) | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
+| `{{cta}}` | call to action<br>查看[行动号召](#calls-to-action) | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
 | `{{image}}` | 图像 — 从[!DNL Content]中选择 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
 | `{{on_image_text}}` | 在图像文本上<br>请参阅[在图像文本上](#on-image-text)。 | 元广告<br>LinkedIn广告 |
-| `{{link}}` | 对映像<br>的行动号召，请参阅映像[&#128279;](#link-on-image)上的链接。 | 电子邮件 |
+| `{{link}}` | 映像<br>上的Call to action请参阅[映像](#link-on-image)上的链接。 | 电子邮件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -95,7 +95,7 @@ GenStudio for Performance Marketing在以下模板中自动生成某些字段：
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-GenStudio for Performance Marketing也可以提供各种行动号召短语。 请参阅[修改行动要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。
+GenStudio for Performance Marketing也可以提供各种行动号召短语。 请参阅[修订Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)。
 
 ### 图像上的链接
 
@@ -110,6 +110,27 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 - `{{link}}`是实际URL的占位符。
 - `src="image-source.jpg"`应替换为实际图像源URL。
 - `{{imageDescription}}`是用户定义的字段名称，它为图像的替换文本提供占位符，这对于辅助功能和SEO很有用。
+
+### 替换文本
+
+使用用户定义的字段名称作为占位符为图像生成替换文本(HTML `alt="text"`属性)描述。 以下`{{imageDescription}}`占位符与同一`<img>`标记中的`{{image}}`字段一起使用，确保图像及其描述之间的关系持续存在。
+
+```html
+<img src="{{image}}" alt="{{imageDescription}}">
+```
+
+在此示例中：
+
+- `{{image}}`是图像源URL的占位符。
+- `{{imageDescription}}`是替换文本的占位符，该占位符为辅助功能和SEO目的提供图像的描述。
+
+### 在图像文本上
+
+`{{ on_image_text }}`占位符用于指定直接置于体验中图像上的短消息文本叠加，这些短消息具有影响力。
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
+```
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -151,22 +172,14 @@ At this time, you cannot select the brand logo for the template upload. The foll
 </tbody>
 ```
 
-## 在图像文本上
-
-`{{ on_image_text }}`占位符用于指定直接置于体验中图像上的短消息文本叠加，这些短消息具有影响力。
-
-```html
-<div class="image-text">{{ on_image_text }}</div>
-```
-
 ## 区域或组
 
 _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
 
-在字段名称中使用您选择的前缀来指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（`headline`、`body`、`image`或`cta`）。
+在字段名称中使用您选择的前缀来指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（如`headline`、`body`、`image`或`cta`）。
 
-- _正确_ (??)： `pod1_body`
-- _不正确_ (❌)： `pod1_link`
+- _正确_ (👍)： `pod1_body`
+- _不正确_ (❌)： `pod1body`
 
 每个部分只能使用每种字段类型中的一种。 例如，以下字段属于`pod1`部分：
 
@@ -177,9 +190,10 @@ _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要�
 
 由于此规则，无法嵌套这些部分。
 
-每种模板类型（如电子邮件或元广告）都包含特定于渠道的部分使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
+每种模板类型（如电子邮件或元广告）都包含特定于渠道的部分使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
 
 例如，电子邮件模板最多可包含三个部分；因此，您可以包含三个标题部分和正文部分：
+
 
 - `pre_header`
 - `pod1_headline`
@@ -192,7 +206,9 @@ _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要�
 
 GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系比`pod2_body`更密切。
 
-请参阅[结构化提示](/help/user-guide/effective-prompts.md#structured-prompts)，了解如何在多节电子邮件中制作为每个节生成不同内容的提示。
+>[!TIP]
+>
+>请参阅[结构化提示](/help/user-guide/effective-prompts.md#structured-prompts)，了解如何在多节电子邮件中制作为每个节生成不同内容的提示。
 
 ## 模板预览
 

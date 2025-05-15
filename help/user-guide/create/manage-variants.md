@@ -3,9 +3,9 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
+source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
    使用修订后的文本更新变体。
 
-## 修订行动号召
+## 修订Call to action
 
 生成一组变体后，您可以修订call-to-action (CTA)文本和链接。
 
@@ -155,7 +155,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -163,7 +163,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 添加图像链接
 
-与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[&#128279;](/help/user-guide/content/customize-template.md#content-placeholders)的内容占位符才能启用此功能。
+与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接](/help/user-guide/content/customize-template.md#content-placeholders)的[内容占位符才能启用此功能。
 
 **在变体中添加图像链接**：
 
@@ -176,6 +176,25 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 在文本字段中添加链接，然后单击&#x200B;**[!UICONTROL 应用]**。
 
    定义的链接将应用于变量集中的所有图像。
+
+## 为图像添加替换文本
+
+在创建过程中添加内容（图像）时，可以为每个包含的图像定义替换文本。 向图像添加替换文本可改善辅助功能、搜索引擎优化和用户体验。
+
+要启用替换文本功能，请[在模板中添加内容占位符](/help/user-guide/content/customize-template.md#alternative-text)。
+
+**要向生成的变体中的图像添加替换文本**：
+
+1. 生成一组变体后，单击单个变体中的图像。
+1. 单击&#x200B;**[!UICONTROL 替换文本]**&#x200B;按钮（图像和纸张的图标）。
+1. 要手动添加替换文本，请执行以下操作：
+   1. 单击文本框并添加替换文本。
+   1. 单击&#x200B;**[!UICONTROL 应用]**。
+1. 要为图像生成替换文本，请执行以下操作：
+   1. 将文本字段留空并单击&#x200B;**[!UICONTROL 生成]**。
+   1. 如果您对初始结果不满意，请再次单击&#x200B;**[!UICONTROL 生成]**。
+   1. 单击&#x200B;**[!UICONTROL 应用]**。
+1. 对变体集中的每个图像重复此操作。
 
 ## 设备预览
 

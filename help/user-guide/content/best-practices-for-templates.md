@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -107,8 +107,9 @@ ht-degree: 0%
 **支持的宽高比**：
 
 - 正方形1:1（1080 x 1080像素）
-- 垂直4:5（1080 x 1350像素）
+- 纵向4:5（1080 x 1350像素）
 - 文章9:16 （1080 x 1920像素）
+- 横向：1.91:1（1080像素宽度）
 - 自定义图像大小： （最小图像宽度50 x 50像素）
 
 **可识别的字段名称**：
@@ -137,17 +138,17 @@ ht-degree: 0%
 
 **支持的维度**：
 
-- 垂直：（像素）
+- 宽x高（像素）
+- 垂直：
    - 300 x 600
    - 160 x 600&#x200B;
-- 水平： （像素）
+- 水平：
    - 300 x 250
    - 728 x 90
    - 336 x 280
    - 320 x 50
    - 970 x 250&#x200B;
-- 自定义： （像素）
-   - 50 x 50至2000 x 2000
+- 自定义：50 x 50至2000 x 2000
 
 **可识别的字段名称**：
 

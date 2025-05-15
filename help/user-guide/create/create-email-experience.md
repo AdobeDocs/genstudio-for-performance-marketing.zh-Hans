@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **要选择电子邮件模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 电子邮件]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 电子邮件]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的电子邮件模板。
 1. 单击以选择电子邮件模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
 
-如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 如果需要，您可以更改它们。
+如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 您可以根据需要更改它们。
 
 **要添加参数和资源**：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **输入提示**：
 
-1. 在 _“描述要生成的体验”_ 提示框中输入提示。
+1. 在&#x200B;_“描述您要生成的体验”_&#x200B;提示框中输入提示。
 1. 单击&#x200B;**[!UICONTROL 生成]**。
 
 默认情况下，将生成四个变体（全部由提示、指南和您添加的内容提供），并显示在画布中。
@@ -85,10 +85,11 @@ ht-degree: 0%
 
 * **要[编辑电子邮件草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
 * **要[手动编辑电子邮件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意可编辑的文本字段（如主题行、标题或正文）并根据需要进行编辑
-* **要[更改或选择“行动号召”](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，请单击“call-to-action”按钮，然后选择&#x200B;_[!UICONTROL 重新发语]_&#x200B;或&#x200B;_[!UICONTROL 添加链接]_。
+* **要[更改或选择Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，请单击“call-to-action”按钮，然后选择&#x200B;_[!UICONTROL 重新短语]_&#x200B;或&#x200B;_[!UICONTROL 添加链接]_。
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
 * **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 * **要[添加指向变体中的图像的链接](/help/user-guide/create/manage-variants.md#add-image-link)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击链接图标。
+* **要[为变体中的图像添加替换文本](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，请单击图像资源并使用&#x200B;_替换文本_&#x200B;选项为每个图像手动添加或生成替换文本。
 * **要[删除电子邮件](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击以选择电子邮件标题（例如，“电子邮件1/4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
 
 ## 提交生成反馈
@@ -132,6 +133,6 @@ ht-degree: 0%
 
 1. **要发布您的新电子邮件体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
 1. **要导出您的新电子邮件体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
-   1. 选择格式（CSV 和图像或仅限 HTML），然后单击“导出&#x200B;**”。**
+   1. 选择格式(仅限CSV和图像或HTML)，然后单击&#x200B;**[!UICONTROL 导出]**。
 
-有关详细信息，请参阅 [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) 。
+有关详细信息，请参阅[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

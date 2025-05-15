@@ -3,9 +3,9 @@ title: 管理资源和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
+source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1489'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 **要搜索要重复使用的内容，请执行以下操作：**
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL Assets]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL Assets]**部分。
 
 1. 从&#x200B;**[!UICONTROL 位置]**&#x200B;列表中选择一个资源存储库，或验证您所查看的资源存储库是否正确。 `GenStudio assets`是默认存储库。
 
@@ -83,7 +83,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 | [查看详细信息](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [创建体验](/help/user-guide/create/overview.md) |        |             | ✓ |
 | 在Adobe Express中[编辑](#edit-in-express) | ✓ |             |           |
-| [导出以进行激活](#export-for-activation) |        | ✓ |           |
+| [导出体验](#export-experiences) |        | ✓ |           |
 | [刷新](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [下载](#download-assets) | ✓ |             | ✓ |
 | [删除](#delete-assets) | ✓ | ✓ | ✓ |
@@ -96,7 +96,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要添加一个或多个资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，单击&#x200B;**[!UICONTROL 添加资源]**。
+1. 在&#x200B;_[!DNL Content]_中，单击&#x200B;**[!UICONTROL 添加资源]**。
 
 1. 在&#x200B;_添加批准的资产_&#x200B;视图中，将一个或多个文件拖放到放置空间中。 或者，您也可以使用&#x200B;**[!UICONTROL 浏览]**&#x200B;从本地文件中选择，或者从Dropbox或Microsoft OneDrive导入文件。
 
@@ -120,7 +120,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要下载资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个资源或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个资源或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 下载]**&#x200B;图标（向下箭头）。
 
@@ -130,28 +130,34 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要删除资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 删除]** （垃圾桶）。
 
 1. 在&#x200B;_删除资产_&#x200B;弹出窗口中，验证该资产并单击&#x200B;**[!UICONTROL 删除]**。
 
-## 导出以供激活
+## 导出体验
 
-您可以采用与目标渠道兼容的格式导出已批准的体验以供激活。
+您可以选择一个或多个已批准的体验，以使用与目标渠道兼容的格式下载。 使用导出日期命名下载的文件： `2025-06-15-export.zip`。 解压缩文件时，每个渠道类型都会有一个文件夹，其中包含以所选格式导出的资产。 每个导出的资源都会保留其原始资源名称作为文件名。
 
-**要导出体验**：
+**要导出或下载体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个体验。 单击某个体验将打开详细信息视图，或者单击快捷菜单(`...`)。
+1. 在&#x200B;_[!DNL Content]_中，选择一个或多个体验。
 
-1. 单击&#x200B;**[!UICONTROL 导出以进行激活]** （带有指向箭头的框）。
+   此时将显示一个横幅，左侧显示所选体验数量，右侧显示用于[!UICONTROL 激活]、[!UICONTROL 下载]或[!UICONTROL 删除]的选项。
 
-1. 在&#x200B;_导出以供激活_&#x200B;弹出窗口中，选择一种可用格式：
+1. （可选）如果您选择激活，系统可能会要求您选择一个平台，然后继续执行[!DNL Activate]工作流。 请参阅[激活](/help/user-guide/activation/overview.md)。
 
-   - 电子邮件： `HTML`，`CSV`
+1. 单击&#x200B;**[!UICONTROL “下载”。]**
+
+1. 在&#x200B;_下载_&#x200B;弹出窗口中，从可用格式中选择。
+
+   如果您从不同的渠道中选择了多个体验，则有机会为每个渠道类型选择格式。
+
+   - 电子邮件，LinkedIn： `HTML`，`CSV`
    - 元、横幅和显示广告： `HTML`、`JPEG`、`PNG`
 
-请参阅[激活](/help/user-guide/activation/overview.md)。
+   ![下载体验](/help/assets/content-bulk-export.png "下载多个体验"){width=350}
 
 ## 在Express中编辑
 
@@ -170,7 +176,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **使用Express**&#x200B;编辑资源：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个图像资源。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 在Adobe Express中编辑]**&#x200B;图标。
 
