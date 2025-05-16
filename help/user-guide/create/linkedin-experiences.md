@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功�
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,8 @@ LinkedIn体验的可编辑部分包括：
 * 标题
 * 介绍性文本
 * 描述
-* 行动动员(CTA)
+* call to action (CTA)
 * 图像
-* 品牌徽标
 
 查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。
 
@@ -41,7 +40,7 @@ LinkedIn体验的可编辑部分包括：
 LinkedIn体验的每个字段和部分都按照以下顺序逐步加载：
 
 1. 所有变体的主文本
-1. 行动号召和相关URL
+1. call-to-action和相关联的URL
 1. 头条
 1. 图像上文本
 1. 品牌验证
