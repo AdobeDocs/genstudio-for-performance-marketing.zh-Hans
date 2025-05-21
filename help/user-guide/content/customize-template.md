@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
+source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
 
 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 GenStudio for Performance Marketing可识别模板中的某些[元素](use-templates.md#template-elements)，但必须使用[可识别的字段名](#recognized-field-names)来识别它们。
 
-在HTML模板的head或body中，可以使用[!DNL Handlebars]语法插入内容占位符，在其中需要GenStudio for Performance Marketing使用实际内容填充模板。 GenStudio for Performance Marketing根据[识别的&#x200B;_字段_&#x200B;名称](#recognized-field-names)来识别和解释内容占位符。
+在HTML模板的head或body中，可以使用[!DNL Handlebars]语法插入内容占位符，在其中需要GenStudio for Performance Marketing使用实际内容填充模板。 GenStudio for Performance Marketing根据[识别的&#x200B;_字段_&#x200B;名称](#recognized-field-names)来识别和解释这些占位符。 每个字段名称都与特定规则和行为相关联，这些规则和行为可确定如何生成内容并将其插入到模板中。
 
 例如，您可以使用带有[!DNL Handlebars]语法的`{{headline}}`来指示电子邮件的标题应放在何处。 GenStudio可识别此字段，根据您的准则和提示标准生成相关标题，并将标题插入此位置：
 
@@ -38,7 +38,7 @@ GenStudio for Performance Marketing可识别模板中的某些[元素](use-templ
 
 ### 可识别的字段名称
 
-下表列出了GenStudio for Performance Marketing识别用于将占位符添加到模板的字段名称。 在需要GenStudio for Performance Marketing生成特定类型内容的模板中，使用[!DNL Handlebars]语法添加这些字段名称。
+下表列出了GenStudio for Performance Marketing识别用于将占位符添加到模板的字段名称。 每个字段都遵循特定的渠道准则、LLM说明和基于角色的规则。 在需要GenStudio for Performance Marketing生成特定类型内容的模板中，使用[!DNL Handlebars]语法添加这些字段名称。
 
 | 字段 | 角色 | 渠道模板 |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
@@ -174,9 +174,12 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ## 区域或组
 
-_节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
+当您将字段分组为两组或三组时，您可以在营销电子邮件模板中使用分区。 _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
 
-在字段名称中使用您选择的前缀来指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（如`headline`、`body`、`image`或`cta`）。
+
+使用您选择的组名作为前缀以指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（如`headline`、`body`、`image`或`cta`）。
+
+语法： `groupname_fieldname`
 
 - _正确_ (👍)： `pod1_body`
 - _不正确_ (❌)： `pod1body`
@@ -190,10 +193,9 @@ _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要�
 
 由于此规则，无法嵌套这些部分。
 
-每种模板类型（如电子邮件或元广告）都包含特定于渠道的部分使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
+每种模板类型（如电子邮件或元广告）都包含特定于渠道的部分使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
 
 例如，电子邮件模板最多可包含三个部分；因此，您可以包含三个标题部分和正文部分：
-
 
 - `pre_header`
 - `pod1_headline`

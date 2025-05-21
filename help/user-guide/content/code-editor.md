@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,18 @@ _[!UICONTROL 检查检测到的字段]_&#x200B;窗格显示GenStudio for Perform
 ![更正无效模板](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
 
 _[!UICONTROL 检查检测到的字段]_&#x200B;窗格更新以反映您所做的更改。 在您满意这些字段正确且填写完毕后，请单击&#x200B;**[!UICONTROL 下一步]**&#x200B;继续[上载模板](/help/user-guide/content/use-templates.md#add-a-template)。
+
+## 常见模板问题和解决方案
+
+| **错误** | **描述** | **解决方案** |
+|-----------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| 未能分析 | 无法将模板内容解析为有效的Handlebars。 | 检查您的模板中是否存在HTML和Handlebars语法错误，并更正它们以确保[内容占位符](/help/user-guide/content/customize-template.md#content-placeholders)的格式有效。 |
+| 未分配组 | 多组电子邮件模板中的图像字段未分配给任何组。 | 检查节前缀的使用是否一致。 每个[节](/help/user-guide/content/customize-template.md#sections-or-groups)只能使用每个字段类型(`headline`、`body`、`image` `cta`)中的一个。 将`image`字段分配给模板中的有效组。 |
+| 缺少图像 | 缺少所需的图像字段。 | 某些模板类型（如元、显示或横幅广告）只需要一个`image`字段。 将所需的`image`字段添加到您的模板。 |
+| 单个组无效 | 电子邮件模板只包含一个组，该组无效。 | 基本电子邮件模板包含一组模板元素，这些元素不需要[节或组](/help/user-guide/content/customize-template.md#sections-or-groups)中定义的组命名约定。 通过删除任何组命名语法，将模板调整为零部分。 |
+| 无字段 | 模板不包含任何字段。 | 在需要GenStudio for Performance Marketing生成特定类型内容的模板中，使用Handlebars语法添加[可识别的字段名称](/help/user-guide/content/customize-template.md#recognized-field-names)。 |
+| 缺少所需的属性 | 缺少某些必需的元数据属性。 | 每种模板类型都有基于渠道准则的要求和限制。 例如，Meta需要宽高比，而显示广告需要尺寸。 [遵循特定于渠道的模板准则](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。 |
+| 使用的保留名称 | 正在使用禁止或保留的字段名称。 | 某些[字段名称](/help/user-guide/content/customize-template.md#recognized-field-names)（如`subject`或`introductory_text`）已保留。 重命名使用保留名称或禁止名称的字段。 |
+| 字段过多 | 字段数超过全局限制(20)。 | 删除不必要的字段，以确保总数不超过20。 |
+| 组过多 | 组的数量超出了渠道允许的最大值。 | Meta、display和LinkedIn模板不允许有多个部分。 定义两个或三个部分时，电子邮件需要组命名。 减少模板中的组数以满足[渠道的要求](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。 |
+| 不支持的字段 | 模板正在使用渠道不支持的字段。 | 根据[可识别的字段名称](/help/user-guide/content/customize-template.md#recognized-field-names)替换或删除不支持的字段。 |

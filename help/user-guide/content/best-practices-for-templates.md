@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ ht-degree: 0%
 
 **约束**：
 
-- [节](customize-template.md#sections-or-groups)的使用：
-   - 基本模板（仅一个部分）可以生成一组模板元素。
-   - 一个复杂的模板（多个部分）最多可生成三组模板元素。
+- 营销电子邮件可以包含0、2或3 [部分](customize-template.md#sections-or-groups)：
+   - 基本模板（零部分）可以生成一组不需要组命名约定的模板元素。
+   - 一个复杂的模板（多个部分）最多可以生成三组模板元素，这要求您遵循组命名约定： (`groupname_fieldname`)
 - 模板中允许的最大字段数为20
 - HTML文件最大大小为102 KB
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 对于电子邮件，`subject`字段会自动包含在内。 对以下字段使用内容占位符：
 
-- `pre_header`
+- `pre_header` （未启用RTF文本）
 - `headline`
 - `sub_headline`
 - `body`
@@ -103,8 +103,11 @@ ht-degree: 0%
 
 - [节](customize-template.md#sections-or-groups)的使用：
    - 只能使用一个部分，生成一组模板元素。
+- 仅需要一个图像字段。
 
 **支持的宽高比**：
+
+必须设置宽高比：
 
 - 正方形1:1（1080 x 1080像素）
 - 纵向4:5（1080 x 1350像素）
@@ -135,10 +138,11 @@ ht-degree: 0%
 
 - [节](customize-template.md#sections-or-groups)的使用：
    - 只能使用一个部分，生成一组模板元素。
+- 仅需要一个图像字段。
 
 **支持的维度**：
 
-- 宽x高（像素）
+- 必须设置宽度x高度（像素）
 - 垂直：
    - 300 x 600
    - 160 x 600&#x200B;
@@ -171,6 +175,7 @@ ht-degree: 0%
 
 - [节](customize-template.md#sections-or-groups)的使用：
    - 只能使用一个部分，生成一组模板元素。
+- 仅需要一个图像字段。
 - 最大图像大小5 MB
 - 最大标题70个字符
 - 介绍性文本的最大长度为150个字符
