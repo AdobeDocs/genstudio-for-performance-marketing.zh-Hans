@@ -3,9 +3,9 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
+source-git-commit: 654adf4f774b5e4915a67e0c0c3e5d07268d1a89
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 更改宽高比
 
-您可以快速更改元广告的长宽比以适应所需的广告大小。
+您可以快速更改元广告的长宽比以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1的方形图像可能会裁切侧边，从而可能剪切重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
 
 可用的大小/长宽比包括：
 
@@ -155,7 +155,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -163,7 +163,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 添加图像链接
 
-与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[&#128279;](/help/user-guide/content/customize-template.md#content-placeholders)的内容占位符才能启用此功能。
+与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接](/help/user-guide/content/customize-template.md#content-placeholders)的[内容占位符才能启用此功能。
 
 **在变体中添加图像链接**：
 
