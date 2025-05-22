@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
+source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 早期发行说明
 
-+++2025.05.15版注释
++++2025.04.15版注释
 
 ### 修复和增强功能
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 * 添加了将链接[添加到变体中的图像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 已将[内容检查](/help/user-guide/guidelines/brand-validation.md)和审核和批准功能移至新的右侧操作栏，以最大化画布上的空间并改善用户体验。
 * 简化了[上传或手动添加品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引入了在画布上的变体[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中添加或交换图像资产的功能。
+* 引入了在画布上的变体](/help/user-guide/create/manage-variants.md#swap-image)中[添加或交换图像资产的功能。
 * 通过将渠道类别[划分到自有媒体、付费媒体和内容部分，改进了创建主页](/help/user-guide/create/overview.md)上的用户体验和可见性。
 * 改进了[!DNL Insights]表和图库视图中的筛选。
 
