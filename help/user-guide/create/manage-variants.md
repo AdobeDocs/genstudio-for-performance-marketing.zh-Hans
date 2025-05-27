@@ -3,9 +3,9 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 3060aa0a75dd39fe5b73f246d57666e8a62fd42b
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -156,7 +156,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 添加图像链接
 
-与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[&#128279;](/help/user-guide/content/customize-template.md#content-placeholders)的内容占位符才能启用此功能。
+与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接](/help/user-guide/content/customize-template.md#content-placeholders)的[内容占位符才能启用此功能。
 
 **在变体中添加图像链接**：
 
@@ -211,7 +211,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
    已删除变体。
 
-## 按变量进行品牌验证
+## 品牌验证
 
 使用&#x200B;_内容检查_&#x200B;面板维护一致的品牌标识、[ADA辅助功能标准、平台准则](/help/user-guide/guidelines/overview.md#content-checks)以及变体的一致性。
 
