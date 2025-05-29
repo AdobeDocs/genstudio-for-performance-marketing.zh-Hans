@@ -5,9 +5,9 @@ level: Beginner
 feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: a7b1665f9d735dad9f33aa4f92c56088ae85a625
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1123'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 **Adobe系统管理员**&#x200B;在Adobe Admin Console中拥有超级用户权限并执行所有用户管理任务，例如添加或删除用户。 此系统管理员角色不提供GenStudio for Performance Marketing应用程序中的权限，因此解释了为何Adobe系统管理员不需要GenStudio的许可证。 Adobe系统管理员通常使用Admin Console在GenStudio部署中添加和删除用户帐户，并从单个用户或用户组分配或删除权利或权限。
 
-**GenStudio系统管理员**&#x200B;是GenStudio for Performance Marketing中的超级用户，但没有在Adobe Admin Console中执行任务的权限。 此系统管理员角色需要GenStudio产品许可证，并且它对应于[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超级用户。 GenStudio系统管理员完全有权使用GenStudio for Performance Marketing功能，包括[!DNL Brands]、[!DNL Persona]和[!DNL Product]创建、删除、更新和发布。 [Adobe GenStudio for Performance Marketing产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)介绍GenStudio用户角色与产品许可证的关系。
+**GenStudio系统管理员**&#x200B;是GenStudio for Performance Marketing中的超级用户，但没有在Adobe Admin Console中执行任务的权限。 此系统管理员角色需要GenStudio产品许可证，并且它对应于[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超级用户。 GenStudio系统管理员完全有权使用GenStudio for Performance Marketing功能，包括[!DNL Brands]、[!DNL Persona]和[!DNL Product]创建、删除、更新和发布。 [Adobe GenStudio for Performance Marketing产品说明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)介绍GenStudio用户角色与产品许可证的关系。
 
-请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[管理角色](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html#enterprise)。
+请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)。
 
 ## 权利
 
@@ -63,12 +63,10 @@ _编辑者_&#x200B;或内容创建者具有创建GenStudio for Performance Marke
 | [!DNL Content] | 是 | 是 | 是 | 是 |
 | [!DNL Create] | 是 | 是 | 是 | 是 |
 | [!DNL Insights] | 只能配置连接器 |    |     | 是 |
-| [!DNL Personas] | 是 | 是* | 是* | 是 |
-| [!DNL Products] | 是 | 是* | 是* | 是 |
+| [!DNL Personas] | 是 | 是 | 是 | 是 |
+| [!DNL Products] | 是 | 是 | 是 | 是 |
 | [!DNL Reviews and approvals] | 是 | 是 | 是 | 是 |
 | [!DNL Templates] | 否 | 否 | 否 | 是 |
-
-编辑者可以编辑和删除他们创建的[!DNL Personas]和[!DNL Products]。
 
 GenStudio系统管理员可以向编辑者提供编辑和删除[!DNL Brand]的权限。
 
