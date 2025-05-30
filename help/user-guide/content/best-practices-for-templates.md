@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
+source-git-commit: adf987b016825861b5522b44b61263000eb63859
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,13 @@ ht-degree: 0%
 
 ## 配置渠道准则
 
-在使用GenStudio for Performance Marketing中的模板之前，为每个品牌配置渠道准则。 渠道指南直接影响使用模板时生成的内容类型。 例如，您可以对电子邮件正文设置字符限制。
+定义明确的渠道准则对于确保生成的内容与品牌的要求和目标保持一致至关重要。 渠道准则允许您为模板中使用的元素（如色调、长度和样式）指定规则。 例如，您可以为正文设置最大字符数或要求使用特定的call-to-action样式。 通过提前设置这些准则，您无需在每个AI提示中写出详细说明，从而简化内容生成过程并确保电子邮件的一致性。
+
+查看并定义模板中所有关键字段的品牌的[渠道准则](/help/user-guide/guidelines/brands.md#channel-guidelines)。 如果您未定义准则，则应用[默认渠道准则](/help/user-guide/guidelines/brands.md#default-channel-guidelines)，这可能不能完全反映您的品牌要求。
 
 ![正文规范](/help/assets/channel-email-body.png)
 
-请参阅[渠道准则](/help/user-guide/guidelines/brands.md#channel-guidelines)。
+了解[品牌、产品和角色准则](/help/user-guide/guidelines/overview.md)如何影响生成的内容，以及如何根据您的营销目标定制内容。
 
 ## 遵循特定于渠道的模板准则
 
@@ -51,165 +53,9 @@ ht-degree: 0%
 
 {{note-css-effects}}
 
-在使用每种模板类型时，请考虑以下提示和限制以确保最佳性能和兼容性：
+使用每种模板类型时，请参阅其他提示和限制以确保最佳性能和兼容性：
 
->[!BEGINTABS]
-
->[!TAB 电子邮件]
-
-在自定义电子邮件模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
-
-- 使用Adobe或Google字体
-- 使用简洁且响应式的HTML和内联CSS
-- **不**&#x200B;使用JavaScript
-- 请&#x200B;**不**&#x200B;在正文或容器中使用固定宽度
-- 请&#x200B;**不**&#x200B;对图像使用base64编码，因为它会显着增加模板大小
-
-**约束**：
-
-- 营销电子邮件可以包含0、2或3 [部分](customize-template.md#sections-or-groups)：
-   - 基本模板（零部分）可以生成一组不需要组命名约定的模板元素。
-   - 一个复杂的模板（多个部分）最多可以生成三组模板元素，这要求您遵循组命名约定： (`groupname_fieldname`)
-- 模板中允许的最大字段数为20
-- HTML文件最大大小为102 KB
-
-**可识别的字段名称**：
-
-对于电子邮件，`subject`字段会自动包含在内。 对以下字段使用内容占位符：
-
-- `pre_header` （未启用RTF文本）
-- `headline`
-- `sub_headline`
-- `body`
-- `cta`
-- `image` (从Content JPEG、PNG或GIF中选择)
-
-请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
-
->[!TAB 元广告]
-
-在自定义元广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
-
-- 对列布局使用360像素宽度
-- 图像的最低分辨率为1080 x 1080像素
-- 请&#x200B;**不**&#x200B;使用相对字体大小
-- 请&#x200B;**不**&#x200B;定义视区
-- **不**&#x200B;使用JavaScript
-- 请&#x200B;**不**&#x200B;覆盖CSS中的HTML元素
-- 使用`<img>`标记而不是`background-image`
-- 使用蒙版提高背景图像上的文本可读性
-
-**约束**：
-
-- [节](customize-template.md#sections-or-groups)的使用：
-   - 只能使用一个部分，生成一组模板元素。
-- 仅需要一个图像字段。
-
-**支持的宽高比**：
-
-必须设置宽高比：
-
-- 正方形1:1（1080 x 1080像素）
-- 纵向4:5（1080 x 1350像素）
-- 文章9:16 （1080 x 1920像素）
-- 横向：1.91:1（1080像素宽度）
-- 自定义图像大小： （最小图像宽度50 x 50像素）
-
-**可识别的字段名称**：
-
-对于元广告，`headline`、`body`和`CTA`字段是自动生成的。 对以下字段使用内容占位符：
-
-- `image` (从Content JPEG、PNG或GIF中选择)
-- `on_image_text`
-
-请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
-
->[!TAB 横幅和显示广告]
-
-在自定义横幅和显示广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
-
-- 使用Adobe或Google字体
-- 准备以超薄尺寸完美显示的资产
-- **不**&#x200B;使用嵌入或编码的背景图像
-- 使用上载到GenStudio for Performance Marketing内容存储库的背景图像（`image`字段）
-- **不**&#x200B;使用JavaScript
-
-**约束**：
-
-- [节](customize-template.md#sections-or-groups)的使用：
-   - 只能使用一个部分，生成一组模板元素。
-- 仅需要一个图像字段。
-
-**支持的维度**：
-
-- 必须设置宽度x高度（像素）
-- 垂直：
-   - 300 x 600
-   - 160 x 600&#x200B;
-- 水平：
-   - 300 x 250
-   - 728 x 90
-   - 336 x 280
-   - 320 x 50
-   - 970 x 250&#x200B;
-- 自定义：50 x 50至2000 x 2000
-
-**可识别的字段名称**：
-
-对于横幅广告和显示广告，会自动生成`CTA`字段。 对以下字段使用内容占位符：
-
-- `headline`
-- `sub_headline`
-- `body`
-- `image` (从Content JPEG、PNG或GIF中选择)
-
-请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
-
->[!TAB LinkedIn广告]
-
-[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
-
-在自定义LinkedIn广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
-
-**约束**：
-
-- [节](customize-template.md#sections-or-groups)的使用：
-   - 只能使用一个部分，生成一组模板元素。
-- 仅需要一个图像字段。
-- 最大图像大小5 MB
-- 最大标题70个字符
-- 介绍性文本的最大长度为150个字符
-
-**支持的宽高比**：
-
-- 方形1:1
-   - 桌面或移动设备
-   - 最小值：360 x 360像素
-   - 最大：4320 x 4320像素
-- 水平1.91:1
-   - 桌面
-   - 最小值：640 x 360像素
-   - 最大：7680 x 4320像素
-- 垂直1:1.91
-   - 移动设备
-   - 最小值：360 x 640像素
-   - 最大：2430 x 4320像素
-- 垂直2.3
-   - 移动设备
-   - 最小值：360 x 640像素
-   - 最大：2430 x 4320像素
-- 垂直4.5（推荐）
-   - 移动设备
-   - 最小值：360 x 640像素
-   - 最大：2430 x 4320像素
-
-**可识别的字段名称**：
-
-对于LinkedIn广告，`headline`、`introductory_text`和`CTA`字段是自动生成的。 对以下字段使用内容占位符：
-
-- `image` (从Content JPEG、PNG或GIF中选择)
-- `on_image_text`
-
-请参阅[内容占位符](customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
-
->[!ENDTABS]
+- [电子邮件](/help/user-guide/templates/email-template.md)
+- [显示广告和横幅广告](/help/user-guide/templates/display-template.md)
+- [LinkedIn](/help/user-guide/templates/linkedin-template.md)
+- [元广告](/help/user-guide/templates/meta-template.md)

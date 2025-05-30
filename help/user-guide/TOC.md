@@ -5,10 +5,10 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
+source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 19%
+source-wordcount: '237'
+ht-degree: 18%
 
 ---
 
@@ -61,12 +61,18 @@ ht-degree: 19%
    + [管理资源和体验](content/manage-assets.md)
    + [连接AEM存储库](content/connect-aem-repo.md)
    + [资源详细信息](content/asset-details.md)
-   + 模板 {#templates}
-      + [使用模板](content/use-templates.md)
-      + [自定义模板](content/customize-template.md)
-      + [模板代码编辑器](content/code-editor.md)
-      + [创建可访问的模板](content/accessibility-for-templates.md)
-      + [模板的最佳实践](content/best-practices-for-templates.md)
++ 模板 {#templates}
+   + [使用模板](content/use-templates.md)
+   + [入门模板](templates/starter-templates.md)
+   + [自定义模板](content/customize-template.md)
+   + [模板代码编辑器](content/code-editor.md)
+   + [创建可访问的模板](content/accessibility-for-templates.md)
+   + [模板的最佳实践](content/best-practices-for-templates.md)
+   + 渠道最佳实践 {#channel-best-practice}
+      + [显示广告指南](templates/display-template.md)
+      + [电子邮件指南](templates/email-template.md)
+      + [LinkedIn广告指南](templates/linkedin-template.md)
+      + [元广告指南](templates/meta-template.md)
 + 营销活动 {#campaigns}
    + [促销活动概述](campaigns/overview.md)
    + [创建营销活动](campaigns/create-campaign.md)

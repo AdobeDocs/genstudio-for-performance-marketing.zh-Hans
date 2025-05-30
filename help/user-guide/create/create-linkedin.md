@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ## 选择模板
 
-要生成新的LinkedIn体验，您需要使用模板为内容提供框架。 有关支持的LinkedIn长宽比的信息，请参阅[模板的最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+要生成新的LinkedIn体验，您需要使用模板为内容提供框架。 有关支持的LinkedIn长宽比的信息，请参阅[LinkedIn模板准则](/help/user-guide/templates/linkedin-template.md)。
 
 **选择LinkedIn模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL LinkedIn]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定模板。
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 

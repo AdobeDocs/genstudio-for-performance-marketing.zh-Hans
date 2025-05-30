@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## 选择模板
 
-要开始生成新的元广告体验，请使用可用的模板为您的内容提供框架。 有关支持的元广告长宽比的信息，请参阅[模板最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+要开始生成新的元广告体验，请使用可用的模板为您的内容提供框架。 有关支持的元广告长宽比的信息，请参阅[元广告模板准则](/help/user-guide/templates/meta-template.md)。
 
 **选择元广告模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 元广告]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 元广告]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的元广告模板。
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 

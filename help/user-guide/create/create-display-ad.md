@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## 选择模板
 
-要创建显示广告体验，请使用可用的模板为您的内容提供框架。 有关支持的显示广告维度的信息，请参阅[模板的最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+要创建显示广告体验，请使用可用的模板为您的内容提供框架。 有关支持的显示广告维度的信息，请参阅[显示广告模板准则](/help/user-guide/templates/display-template.md)。
 
 **选择显示广告模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 显示广告]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 显示广告]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的显示广告模板。
 1. 在&#x200B;_选择模板_&#x200B;视图中，单击显示广告模板。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
@@ -127,7 +127,7 @@ When revising and preparing email experiences, you can toggle between previews f
 若要使生成的显示广告可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
 
 1. **要发布您的新显示广告体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
-   1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_&#x200B;并添加&#x200B;_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
+   1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_并添加_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
    1. 单击&#x200B;**[!UICONTROL 发布]**。
 
       ![发布显示广告](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

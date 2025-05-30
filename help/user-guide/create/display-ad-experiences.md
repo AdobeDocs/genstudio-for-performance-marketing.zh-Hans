@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 在生成显示广告体验时，将会创建四个变体并将其显示在画布中。
 
-请参阅[遵循特定于渠道的模板准则](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以了解有关支持的维度、可识别的字段名称等的信息。
+请参阅[显示广告模板准则](/help/user-guide/templates/display-template.md)，以了解有关支持的维度、可识别的字段名称等的信息。
 
 显示广告体验的可编辑部分包括：
 
 * 标题
 * 副标题
 * 正文
-* 行动动员(CTA)
+* call to action (CTA)
 * 图像
 
 查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。
