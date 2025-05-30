@@ -39,7 +39,7 @@ GenStudio for Performance Marketing通过Azure OpenAI使用GPT系列第三方LLM
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_是[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中定义的单位，用于量化GenStudio for Performance Marketing中创作AI功能的使用。
+_[!DNL Generative Actions]_&#x200B;是[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中定义的单位，用于量化GenStudio for Performance Marketing中创作AI功能的使用。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
