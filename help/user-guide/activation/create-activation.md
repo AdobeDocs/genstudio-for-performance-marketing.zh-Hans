@@ -3,7 +3,7 @@ title: 激活工作流
 description: 了解广告体验的激活工作流。
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: 46453d7cf1901312001aa3b304be9d0832a46079
+source-git-commit: c622b86ae2977026207edb8919102620ef582d39
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 激活工作流
 
-_[!DNL Activate]_&#x200B;支持以特定于渠道的格式(如Meta或Google Campaign Manager 360广告体验)激活广告体验。
+_[!DNL Activate]_支持以特定于渠道的格式(如Meta或Google Campaign Manager 360广告体验)激活广告体验。
 
 GenStudio for Performance Marketing体验是一种营销活动组件（如广告），它准备为付费广告渠道或电子邮件上的特定受众提供广告体验。 激活体验包含三个主要组件：
 
@@ -34,17 +34,17 @@ GenStudio for Performance Marketing体验是一种营销活动组件（如广告
 
 1. **准备激活体验**。 您可以通过两种方式准备激活体验：
 
-   * 直接从&#x200B;_[!DNL Content]_&#x200B;激活具有预定义设置的已批准体验。 这种将一个或多个广告体验激活到单个渠道的简化方式。 从&#x200B;_[!DNL Content]_&#x200B;图库中选择体验后，便无法编辑资产或将其添加到广告体验。 从&#x200B;_[!DNL Content]_&#x200B;激活适用于Meta和Google Campaign Manager 360广告体验。
+   * 直接从&#x200B;_[!DNL Content]_激活具有预定义设置的已批准体验。 这种将一个或多个广告体验激活到单个渠道的简化方式。 从_[!DNL Content]_&#x200B;图库中选择体验后，便无法编辑资产或将其添加到广告体验。 从&#x200B;_[!DNL Content]_激活适用于Meta和Google Campaign Manager 360广告体验。
 
-   * 通过从&#x200B;_[!DNL Content]_&#x200B;中选择可视化资产、添加文本元素并选择长宽比，组合您的广告体验。 此方法涉及更多步骤，但提供了更大的创意灵活性。 准备工作包括以适合您特定广告投放的宽高比选择媒体资产，并将文本分配给行动号召元素和正文。 您可以添加信息性元数据，帮助用户在激活后搜索体验。 每个广告渠道投放都为投放中包含的可视资源指定有效的长宽比。
+   * 通过从&#x200B;_[!DNL Content]_中选择可视化资产、添加文本元素并选择长宽比，组合您的广告体验。 此方法涉及更多步骤，但提供了更大的创意灵活性。 准备工作包括以适合您特定广告投放的宽高比选择媒体资产，并将文本分配给行动号召元素和正文。 您可以添加信息性元数据，帮助用户在激活后搜索体验。 每个广告渠道投放都为投放中包含的可视资源指定有效的长宽比。
 
 1. **查看您的体验并将其发布到Target频道**。 在体验设置期间使用&#x200B;_预览_&#x200B;面板，以在最终激活之前评估您选择的广告投放位置和文本元素。 最终的发布前审核将在目标渠道的广告管理应用程序中进行。 例如，在GenStudio for Performance Marketing中激活元广告体验后，您必须登录到元广告管理器，查看您的广告体验，然后选择其特定属性，才能发布该体验。
 
-一旦广告体验在其目标付费媒体频道上线，_[!DNL Insights]_&#x200B;就可以跟踪和分析其性能数据。
+一旦广告体验在其目标付费媒体频道上线，_[!DNL Insights]_就可以跟踪和分析其性能数据。
 
 ## 支持的渠道
 
 每个付费媒体渠道都有一个独特的激活工作流。 为激活指南选择付费渠道：
 
-* [元](activate-meta-ad.md)
-* [Google Campaign Manager 360](activate-cm360-ad.md)
+* [元](/help/user-guide/activation/activate-meta-ad.md)
+* [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)
