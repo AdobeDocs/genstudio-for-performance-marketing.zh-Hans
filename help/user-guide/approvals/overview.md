@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此功能也作为与Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md)的[集成提供。 此集成在GenStudio for Performance Marketing画布中提供验证功能。 通过Workfront Proof集成，GenStudio for Performance Marketing获得更加结构化、透明和协作的审核流程，帮助团队更自信、更明确地从草稿走向最终。
+> 此功能也作为与Adobe Workfront Proof[&#128279;](/help/user-guide/approvals/proof-integration.md)的集成提供。 此集成在GenStudio for Performance Marketing画布中提供验证功能。 通过Workfront Proof集成，GenStudio for Performance Marketing获得更加结构化、透明和协作的审核流程，帮助团队更自信、更明确地从草稿走向最终。
 
 ## 审核和批准工作流的优势
 
