@@ -3,16 +3,16 @@ title: 发布批准的内容
 description: 了解如何使用Adobe GenStudio for Performance Marketing发布批准的内容。
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 # 发布批准的内容
 
-创建与品牌一致的已批准内容的最后一个步骤是使用适当的元数据将其保存到[!DNL Content]。 您（内容编辑者或创建者）可以通过发布或保存已批准的资产到[!DNL Content]来完成它。
+创建与品牌一致的已批准内容的最后一个步骤是使用适当的元数据将其保存到[!DNL Content]。 您（内容编辑者或创建者）可以通过将已批准的资产发布到[!DNL Content]来完成该资产。
 
 当所有指定的批准者批准草稿时，草稿状态将更改为&#x200B;**已批准**。 Adobe GenStudio for Performance Marketing在编辑器的画布上显示&#x200B;_已批准的可发布_&#x200B;弹出变体。
 
@@ -34,9 +34,11 @@ ht-degree: 0%
 
 ## 发布后
 
-所有GenStudio for Performance Marketing用户都可以在[!DNL Content]中访问已批准的资源或体验。 资产详细信息面板可识别资产的上传和审批历史记录。 这些属性标识保存的内容：
+所有GenStudio for Performance Marketing用户都可以在[!DNL Content]中访问已批准的资源或体验。 _资产详细信息_&#x200B;面板标识资产的上传和审批历史记录。 这些属性标识保存的内容：
 
 * **[!UICONTROL 创建者]**：标识上传资源或体验的GenStudio用户。
 * **[!UICONTROL 审批历史记录]**：标识审批日期和时间以及审批者。
 
 将草稿资源或体验保存到[!DNL Content]后，草稿URL无效。
+
+如果您已启用Workfront Proof集成，则在发布资源或体验后会保存验证评论和版本。
