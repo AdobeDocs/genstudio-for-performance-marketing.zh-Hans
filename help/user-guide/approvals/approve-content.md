@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 批准内容
 
-审批者在需要审阅和审批时会收到产品内通知、电子邮件，如果启用，还会收到Slack通知。 通知会提供一个指向显示所审核内容的画布的链接。 有关管理通知的信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
+审批者在需要审阅和审批时会收到产品内通知、电子邮件，如果启用，还会收到Slack通知。 通知会提供一个指向显示所审核内容的画布的链接。 有关管理通知的信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。
 
 如果内容草稿符合贵组织的标准和您的期望，您就可以批准该草稿了。
 
