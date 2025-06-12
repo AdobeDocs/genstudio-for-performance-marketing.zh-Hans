@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 元体验
 
-借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的元体验](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]使内容创建者能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和精心编制的提示[来快速[创建元广告体验](/help/user-guide/create/create-meta-ad.md)。](/help/user-guide/effective-prompts.md)
+借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的元体验](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]使内容创建者能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和精心编制的提示[&#128279;](/help/user-guide/effective-prompts.md)来快速[创建元广告体验](/help/user-guide/create/create-meta-ad.md)。
 
 在生成元体验时，会在画布中创建和显示四个变量。 GenStudio for Performance Marketing支持[标准和自定义大小的元广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 

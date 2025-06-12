@@ -27,7 +27,7 @@ GenStudio for Performance Marketing [!DNL Activate]提供了一个中心位置�
 
 * [创建激活](create-activation.md)。 在推送到付费渠道之前，您可以通过选择可视资产、分配文本和定义元数据来制作广告体验。
 
-* [管理激活](manage-activations.md)。 _[!DNL Activate]_提供所有已激活体验的概述。 您还可以查看各个激活的详细信息。
+* [管理激活](manage-activations.md)。 _[!DNL Activate]_&#x200B;提供所有已激活体验的概述。 您还可以查看各个激活的详细信息。
 
 ## 激活功能
 

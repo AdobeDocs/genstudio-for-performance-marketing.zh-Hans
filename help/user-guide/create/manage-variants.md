@@ -47,7 +47,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 
 1. 生成变体集后，双击变体中的可编辑文本。
 1. 输入新文本。
-1. 要设置文本格式，请突出显示适用的文本，然后单击**[!UICONTROL 设置文本格式**]。
+1. 要设置文本格式，请突出显示适用的文本，然后单击&#x200B;**[!UICONTROL 设置文本格式**]。
 
    将任意（或全部！）可用格式选项应用于文本。
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -204,7 +204,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 添加图像链接
 
-与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接](/help/user-guide/content/customize-template.md#content-placeholders)的[内容占位符才能启用此功能。
+与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[&#128279;](/help/user-guide/content/customize-template.md#content-placeholders)的内容占位符才能启用此功能。
 
 **在变体中添加图像链接**：
 
