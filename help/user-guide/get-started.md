@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 7495891b58d7830453ba81048df3373820823136
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ GenStudio for Performance Marketing使用有关您的品牌和市场的信息来
 
 ### 步骤1：添加准则
 
-设置组织品牌标识的关键构建块是内容编辑者和协作者工作的重要先决条件。 [准则](/help/user-guide/guidelines/overview.md)捕获品牌特征，如徽标、语调和调色板。 您可以上传[[!DNL Brands] 指南](/help/user-guide/guidelines/brands.md)文档或手动输入品牌信息。 [[!DNL Personas] 准则](/help/user-guide/guidelines/personas.md)和[[!DNL Products] 准则](/help/user-guide/guidelines/products.md)也很重要。 GenStudio for Performance Marketing的底层创作AI功能使用这些准则来建立引导内容生成的护栏。
+品牌[准则](/help/user-guide/guidelines/overview.md)捕获品牌特征。 GenStudio for Performance Marketing的底层创作AI功能使用这些准则来建立引导内容生成的护栏。 您可以上传[[!DNL Brands] 指南](/help/user-guide/guidelines/brands.md)文档或手动输入品牌信息。
+
+在建立组织[品牌标识](/help/user-guide/guidelines/brands.md)的基本元素之前，内容编辑者和协作者无法开始工作。 这些品牌组件包括：
+
+* 无形因素，如语气
+* 有形资产，如徽标、调色板和排版规则。
+
+在创建准则之前，请了解GenStudio for Performance Marketing如何定义[品牌组件](/help/user-guide/guidelines/brands.md)
 
 #### 准备您的准则文档
 

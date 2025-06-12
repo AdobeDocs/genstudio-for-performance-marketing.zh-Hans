@@ -6,18 +6,16 @@ badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功�
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: c34576c93550eff6f15b31416e7a41ec36339fe5
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
 # LinkedIn体验
 
-使用Adobe GenStudio for Performance Marketing，您可以利用创作AI高效[创建强大的LinkedIn体验](/help/user-guide/create/create-linkedin.md)。
-
-[!DNL Create]使内容创建者和营销人员能够采用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[说明性提示](/help/user-guide/effective-prompts.md)来[生成遵守品牌的LinkedIn体验](/help/user-guide/create/create-email-experience.md)。
+使用Adobe GenStudio for Performance Marketing，您可以利用创作AI高效[创建强大的LinkedIn体验](/help/user-guide/create/create-linkedin.md)。 [!DNL Create]使内容创建者和营销人员能够采用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[说明性提示](/help/user-guide/effective-prompts.md)来[生成遵守品牌的LinkedIn体验](/help/user-guide/create/create-email-experience.md)。
 
 在生成LinkedIn体验时，会在画布中创建并显示四个变体。
 
@@ -27,7 +25,7 @@ LinkedIn体验的可编辑部分包括：
 * 介绍性文本
 * 描述
 * call to action (CTA)
-* 图像
+* 图像/视频
 
 查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。
 

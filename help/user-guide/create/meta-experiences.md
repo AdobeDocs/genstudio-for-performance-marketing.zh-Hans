@@ -5,18 +5,18 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # 元体验
 
-借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的元体验](/help/user-guide/create/create-meta-ad.md)。
+借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的元体验](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]使内容创建者能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和精心编制的提示[来快速[创建元广告体验](/help/user-guide/create/create-meta-ad.md)。](/help/user-guide/effective-prompts.md)
 
-[!DNL Create]使内容创建者能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和精心编制的提示[&#128279;](/help/user-guide/effective-prompts.md)来快速[创建元广告体验](/help/user-guide/create/create-meta-ad.md)。
+在生成元体验时，会在画布中创建和显示四个变量。 GenStudio for Performance Marketing支持[标准和自定义大小的元广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 在生成元体验时，会在画布中创建和显示四个变量。
 
@@ -28,13 +28,9 @@ GenStudio for Performance Marketing支持[标准和自定义大小的元广告](
 * 正文
 * call to action (CTA)
 * 图像上文本
-* 图像
+* 图像/视频
 
 查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。
-
-<!-- ## Meta ad capabilities
-
-Content creators and marketers can produce brand-consistent Meta ad experiences in GenStudio for Performance Marketing. -->
 
 ## 元广告渠道
 

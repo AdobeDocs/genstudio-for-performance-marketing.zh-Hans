@@ -3,9 +3,9 @@ title: 创建无障碍模板
 description: 在Adobe GenStudio for Performance Marketing中构建模板，这些模板能够吸引更多受众并提供最佳体验。
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,11 @@ Adobe致力于为所有受众提供最佳体验。 请参阅Adobe上的[辅助�
 ```
 
 ![创意拼贴、书籍、拿着巨铅笔的男人、计算机](/help/assets/card-create-assets.png){width="400"}
+
+在自定义模板时，为`alt`和`aria-label`属性使用内容占位符：
+
+- [替换文本](/help/user-guide/content/customize-template.md#alternative-text)
+- [辅助功能标签](/help/user-guide/content/customize-template.md#accessibility-label)
 
 ## 字体
 

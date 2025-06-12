@@ -3,7 +3,8 @@ title: Adobe GenStudio for Performance Marketing Campaigns
 description: 了解如何创建和管理利用创作AI资源和体验的数字营销活动。
 feature: Campaign Planning, Campaign Brief
 badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
-source-git-commit: edbeb7f0d08e2215a23f15cfeff77a5217cd264b
+exl-id: b7c4194f-fa61-4739-acd6-7acbdd98e9b2
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
@@ -16,12 +17,11 @@ GenStudio for Performance Marketing营销活动定义关键的数字营销活动
 
 促销活动的关键元素存储在促销活动对象中，这将为所有标记为相同唯一促销活动名称的资源和体验创建一个共享上下文。 此标签在整个GenStudio for Performance Marketing中标识营销活动。
 
-GenStudio系统管理员和Genstudio编辑人员可以创建营销活动。
+GenStudio系统管理员和GenStudio编辑人员可以创建营销活动。
 
 ## 定义营销活动详细信息
 
 {{$include /help/_includes/campaign-details.md}}
-
 
 **要输入促销活动详细信息**，请执行以下操作：
 

@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2667'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,45 @@ ht-degree: 0%
 
 此发行信息详细介绍了GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.05.15 {#latest}
+## 2025.06 {#latest}
+
+### 可用的入门模板
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+[入门模板](/help/user-guide/templates/starter-templates.md)提供了一种快速启动创作过程的方法。 您现在可以从Meta或LinkedIn广告启动模板中进行选择。
+
+### 生成性扩展AI功能
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+现在，在GenStudio for Performance Marketing [!DNL Create]中，您可以使用[生成扩展AI功能](/help/user-guide/create/manage-variants.md#use-generative-expand)来扩展图像的尺寸，并添加生成内容以适合付费媒体变体的广告模板。
+
+### 将视频添加到广告
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+除了图像内容之外，您现在还可以将视频添加到[LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos)和[Meta](/help/user-guide/create/create-meta-ad.md#manage-videos)广告。 选择并将视频添加到变体时，请直接在GenStudio for Performance Marketing中查看自动播放视频预览。
+
+### 修复和增强功能
+
+* 添加了对[将广告体验](/help/user-guide/activation/activate-linkedin-ad.md)从GenStudio for Performance Marketing发布到LinkedIn营销活动管理器的支持。 [!DNL Activate]在发布到LinkedIn营销活动管理器之前支持详细的LinkedIn广告预览。
+
+* [Workfront Proof集成](/help/user-guide/approvals/overview.md)为GenStudio for Performance Marketing带来了校对的强大审核和审批功能。 在GenStudio for Performance Marketing中审阅的内容会同步到Workfront Proof，并且审阅评论和状态会保留。
+
+* 添加了通过添加辅助功能标签(Aria-labels) [为您的变体中的图像和call-to-action链接](/help/user-guide/create/manage-variants.md#add-accessibility-labels)提供可访问名称的功能。
+
+* 以非英语添加或修订[品牌指南](/help/user-guide/guidelines/brands.md)时，GenStudio for Performance Marketing会以相同的语言显示这些指南。
+
+* 在手动添加[!DNL Brand]或通过手动提取文档创建[!DNL Brand]之后，您可以[更改或添加品牌缩略图图像](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)，以确保每个品牌都可以轻松地在您的[!DNL Brands]列表中区分。
+
+* 您现在可以在生成的变体中[对文本](/help/user-guide/create/manage-variants.md#manually-edit-text)使用富文本编辑格式。 尝试使用变体文本的各种格式选项，例如颜色、大小、列表等。
+
+* 现在，您可以在平台设置期间通过克隆现有广告集来[创建新的广告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 元广告集定义特定广告的时间、渠道详细信息和受众。 元营销活动可以包含多个广告集，但一个广告集仅与一个营销活动关联。
+
+## 早期发行说明
+
++++2025.05.15版注释
 
 ### 修复和增强功能
 
@@ -24,7 +62,7 @@ ht-degree: 0%
 * 现在，您可以选择多个体验进行导出或下载。 请参阅[导出体验](/help/user-guide/content/manage-assets.md#export-experiences)。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
-## 早期发行说明
++++
 
 +++2025.04.15版注释
 
@@ -34,6 +72,8 @@ ht-degree: 0%
 * 启用了以下功能：[查看和选择体验的单个图层](/help/user-guide/create/manage-variants.md#view-layers)（可编辑文本字段或可编辑图像）以突出显示它们以进行修订，如重新生成内容或裁切图像。
 * 添加了[新模板字段](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，用于在体验中添加其他文本以吸引受众关注并突出显示营销消息。
 * 添加了对[将广告体验](/help/user-guide/activation/overview.md)从GenStudio for Performance Marketing发布到Google Campaign Manager 360的支持。 激活在发布到Google Campaign Manager 360广告商之前支持详细的Campaign Manager 360广告预览。 通过激活发布的广告一经上线，就会自动提取到分析中，使用户能够跟踪和报告广告效果。
+
++++
 
 +++2025.03.13版注释
 
@@ -76,7 +116,7 @@ ht-degree: 0%
 * 添加了将链接[添加到变体中的图像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 已将[内容检查](/help/user-guide/guidelines/brand-validation.md)和审核和批准功能移至新的右侧操作栏，以最大化画布上的空间并改善用户体验。
 * 简化了[上传或手动添加品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引入了在画布上的变体[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中添加或交换图像资产的功能。
+* 引入了在画布上的变体](/help/user-guide/create/manage-variants.md#swap-image)中[添加或交换图像资产的功能。
 * 通过将渠道类别[划分到自有媒体、付费媒体和内容部分，改进了创建主页](/help/user-guide/create/overview.md)上的用户体验和可见性。
 * 改进了[!DNL Insights]表和图库视图中的筛选。
 

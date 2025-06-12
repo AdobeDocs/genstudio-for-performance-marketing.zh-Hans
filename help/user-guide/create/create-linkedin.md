@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,15 @@ ht-degree: 0%
 
 要生成新的LinkedIn体验，您需要使用模板为内容提供框架。 有关支持的LinkedIn长宽比的信息，请参阅[LinkedIn模板准则](/help/user-guide/templates/linkedin-template.md)。
 
+您可以从自定义模板列表中进行选择，也可以选择起始模板。
+
 **选择LinkedIn模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL LinkedIn]**。
-1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定模板。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL LinkedIn]**。
+1. 选择&#x200B;**[!UICONTROL 自定义模板]**&#x200B;浏览上载的模板，或选择&#x200B;**[!UICONTROL 入门模板]**&#x200B;浏览预建模板。
+
+   如果您计划将视频资产添加到元变体，则必须选择起始模板。 它们预加载了系统定义的内容区域，从而方便了视频的使用。
+
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
    此操作将打开画布，它是内容创建的中心中心。
@@ -45,14 +50,16 @@ ht-degree: 0%
 
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容以影响内容生成：
-   * 单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;以从[!DNL Content]存储库中选择资源（图像），筛选并选择一个或多个图像。
+1. 添加要在体验&#x200B;*和*&#x200B;中使用的内容（图像或视频），以通过单击&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;来影响内容生成。 或者，将图像拖放到&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;部分以上传一个或多个新资产。
 
-     ![选择视觉内容](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
+   使用过滤器搜索内容并选择一个或多个图像。
 
-     若要使用已连接[!DNL AEM Assets Content Hub]存储库中的资源，请从&#x200B;_位置_&#x200B;下拉菜单中选择一个存储库。 筛选并选择一个或多个图像。
+   如果您使用的模板包含用于视频的部分，则将预先选择和过滤视频内容(.mp4)。 将鼠标悬停在视频上以查看自动播放的预览。
 
-   * 或者，将资产拖放到&#x200B;**[!UICONTROL 从内容中选择]**&#x200B;部分以上传一个或多个新资产。
+   ![选择视觉内容](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
+
+   若要使用已连接[!DNL AEM Assets Content Hub]存储库中的资源，请从&#x200B;_位置_&#x200B;下拉菜单中选择一个存储库。 筛选并选择一个或多个图像。
+
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
 添加完参数后，您可以通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示抽屉。
@@ -68,6 +75,8 @@ ht-degree: 0%
 1. 在&#x200B;_“描述您要生成的体验”_&#x200B;提示框中输入提示。
 1. 单击&#x200B;**[!UICONTROL 生成]**。
 
+   请参阅[管理视频](#manage-videos)，了解如何生成和管理视频。
+
 默认情况下，将生成四个变体（全部由提示、指南和您添加的内容提供），并显示在画布中。
 
 生成的内容会以渐进方式加载 — 在生成LinkedIn体验的每个部分时，这些部分都会显示在画布中。 请参阅[LinkedIn体验](/help/user-guide/create/linkedin-experiences.md#progressive-loading)，了解如何在画布中加载这些更改。
@@ -81,10 +90,21 @@ ht-degree: 0%
 * **要[编辑LinkedIn广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
 * **要[手动编辑LinkedIn广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意广告部分（如主题行、标题或正文）并根据需要进行编辑。
 * **要更改或选择行动号召**，请单击call-to-action按钮，然后从可用按钮文本选项中进行选择。 在&#x200B;_链接_&#x200B;中，输入call-to-action文本的URL。
+* **要在变体中[应用文本格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击变体的图像上文本，然后单击&#x200B;**[!UICONTROL 设置文本格式]**。
 * **要[重新生成变体](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的部分，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者在_[!UICONTROL 生成新文本_部分]中输入新提示，然后单击&#x200B;**[!UICONTROL 生成]**。
+* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板**，请单击图像，单击“编辑”****（铅笔图标），然后&#x200B;**[!UICONTROL 展开]**。 ](/help/user-guide/create/manage-variants.md#use-generative-expand)调整图像以适合所需的纵横比和模板。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。
+* **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
+* **要[在变体中添加或交换资产（图像或视频）](/help/user-guide/create/manage-variants.md#swap-image)**，请单击资产（或资产区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 * **要[为变体中的图像添加替换文本](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，请单击图像资源并使用&#x200B;_替换文本_&#x200B;选项为每个图像手动添加或生成替换文本。
+* **要[将辅助功能标签](/help/user-guide/create/manage-variants.md#add-accessibility-labels)添加到您的变体**，请单击图像或call-to-action链接，然后提供简要说明该链接或按钮的作用。
 * **要[删除LinkedIn广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击变体的选项菜单，然后单击&#x200B;**[!UICONTROL 删除变体]**。
+
+### 管理视频
+
+将鼠标悬停在每个视频上以查看循环的自动播放。
+
+在生成期间，视频将被重新帧化以适合所选的长宽比。 通过单击&#x200B;**[!UICONTROL 重新设置视频帧]**&#x200B;并将其切换为关闭状态，还原为原始的非重新设置视频帧。
 
 ## 提交生成反馈
 
@@ -100,7 +120,7 @@ ht-degree: 0%
 
    ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. [手动修订变体](#revise-generated-variants)以确保您的变体与执行的内容检查紧密一致。
+1. [手动修订变体](#revise-generated-linkedin-ads)以确保您的变体与随后完成的内容检查紧密一致。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 

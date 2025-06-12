@@ -3,9 +3,9 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,27 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 
 ## 手动编辑文本
 
-您可以编辑生成的变体中的文本字段。 通过尝试不同的短语和短语，优化面向受众的文本。 例如，您可以手动修订变体中的文本以预览具有选定图像的标题的外观。
+您可以编辑生成的变体中的文本字段。 通过尝试不同的短语和措辞并应用格式，优化面向受众的文本。 例如，您可以粗体和右对齐变体的文本，以适应图像的布局。
+
+可用的文本格式包括：
+
+* 粗体、斜体和下划线
+* 左、中和右对齐
+* 项目符号和有序列表
+* 文本颜色
+* 文本大小
+* 链接
+
+文本格式选项将因渠道而异（元数据、电子邮件等）
 
 **若要在生成的变量中手动编辑文本**：
 
 1. 生成变体集后，双击变体中的可编辑文本。
 1. 输入新文本。
+1. 要设置文本格式，请突出显示适用的文本，然后单击**[!UICONTROL 设置文本格式**]。
+
+   将任意（或全部！）可用格式选项应用于文本。
+
 1. 单击文本字段以保存它。
 
 ## 查看图层
@@ -101,16 +116,49 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 裁切资源
 
-您可以在单个生成的变量中手动裁切和重新定位图像资源。
+您可以使用裁切工具手动裁切和重新定位单个生成变量中的图像资源。
 
 **若要裁切和重新定位变量中的图像**：
 
-1. 生成一组变体后，将鼠标悬停在变体中的图像上。
-1. 单击图像左角显示的裁切图标。
+1. 生成一组变体后，将鼠标悬停在变体上并单击其中的图像。
+1. 单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标）。
+1. 单击&#x200B;**[!UICONTROL 裁切]**。
 1. 调整图像边界框并将图像拖到所需位置。
 1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;可将裁切应用于单个图像，或单击&#x200B;**[!UICONTROL 应用于所有图像]**&#x200B;可应用于变体中的所有图像。
 
    裁剪的图像将保存并对变体可见。
+
+## 使用生成扩展
+
+使用生成性展开展开展开图像并添加生成性内容。 “创作”展开允许您将不合适的图像转换为横幅、中继广告、LinkedIn广告或显示广告模板的最合适纵横比。
+
+此生成性扩展功能与裁切工具配对，可让您以各种纵横比完全控制付费媒体渠道的资源。
+
+**要使用生成展开使您的图像适合您的渠道模板**：
+
+1. 生成一组变体后，将鼠标悬停在变体上并单击其中的图像。
+1. 单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标）。
+1. 单击&#x200B;**[!UICONTROL 展开]**。
+
+   该图像将在&#x200B;_编辑图像_&#x200B;画布视图中打开，其边框与工作模板的长宽比相匹配。
+
+1. 将图像四处移动以获得理想的位置。
+1. _可选_&#x200B;在提示框中添加一个提示，该提示提供有关您希望如何展开映像的详细信息。
+
+   例如，如果你把一件格子衬衫挂在晾衣绳上，放在一处露营地的火上面，你可以加上“在山里露营时，身着爆裂火焰的雾山”。
+
+   使用创成展开之前：
+
+   ![在生成性展开之前](/help/assets/before-genexpand.png){width="300" zoomable="yes"}
+
+   使用生成性展开后：
+
+   生成性展开后![](/help/assets/after-genexpand.png){width="300" zoomable="yes"}
+
+1. 单击&#x200B;**[!UICONTROL 生成]**。
+1. 点进并选择生成的选项，或单击&#x200B;**[!UICONTROL 更多]**（加号图标）以获取生成的选项列表。
+1. 单击&#x200B;**[!UICONTROL 保留]**&#x200B;以保存生成性展开结果。
+1. 若要将该结果应用于单个图像，请单击&#x200B;**[!UICONTROL 应用]**。 单击&#x200B;**[!UICONTROL 应用到所有图像]**&#x200B;以将结果应用到变体集中的所有相关图像。
 
 ## 更改宽高比
 
@@ -148,7 +196,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -156,7 +204,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 添加图像链接
 
-与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[&#128279;](/help/user-guide/content/customize-template.md#content-placeholders)的内容占位符才能启用此功能。
+与在生成的变体中添加或交换图像类似，您可以添加指向图像的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接](/help/user-guide/content/customize-template.md#content-placeholders)的[内容占位符才能启用此功能。
 
 **在变体中添加图像链接**：
 
@@ -188,6 +236,19 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
    1. 如果您对初始结果不满意，请再次单击&#x200B;**[!UICONTROL 生成]**。
    1. 单击&#x200B;**[!UICONTROL 应用]**。
 1. 对变体集中的每个图像重复此操作。
+
+## 添加辅助功能标签
+
+通过添加辅助功能标签(Aria-labels)，为变体中的图像和call-to-action链接提供可访问的名称。 辅助功能标签是对可见文本的补充，可帮助用户了解链接或按钮的用途。
+
+**要将辅助功能标签添加到变体中的图像或call-to-action链接**：
+
+1. 生成一组变体后，单击变体中的图像或call-to-action 。
+1. 单击&#x200B;**[!UICONTROL ARIA-label]**&#x200B;按钮。
+1. 单击进入文本框并添加简要说明，说明链接或按钮的作用。 例如，您可以使用“在WKND的官方站点上购物”作为call to action按钮链接。
+1. 单击&#x200B;**[!UICONTROL 应用]**。
+
+要启用辅助功能标签功能，请在模板中添加内容占位符[。](/help/user-guide/content/customize-template.md)
 
 ## 设备预览
 

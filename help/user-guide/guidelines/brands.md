@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] 是一系列全面的品牌资产，包括营销文案、图像、体验等，可用于指导创建品牌一致的内容。
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,13 @@ GenStudio for Performance Marketing使用来自您的[!DNL Brand]的丰富品牌
 
 已删除的[!DNL Brands]将存档30天，可以在此期间恢复。
 
-## [!DNL Brands]指南
+## 品牌指南
 
 准则为GenStudio for Performance Marketing提供了您特定于品牌的方法、语调、视觉感受等的清晰描述。
+
+>[!NOTE]
+>
+>如果您上载使用非英语编写的品牌指南，或者使用非英语手动创建品牌，则GenStudio for Performance Marketing会以同一语言显示这些指南。
 
 某些从[平台指南和ADA辅助功能标准](/help/user-guide/guidelines/overview.md#compliance)中抽象出来的渠道指南已预填充为默认值。
 
@@ -137,7 +141,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ### 徽标
 
-[!DNL Brand]徽标用作表示公司标识、值和产品的视觉符号。 您可以为JPG、JPEG、SVG或PNG格式的[!DNL Brand]上传一个或多个徽标（每个文件不超过1GB）。 可以在创建[!DNL Brand]期间或从单个&#x200B;_[!DNL Brands]视图_&#x200B;中添加徽标。
+[!DNL Brand]徽标用作表示公司标识、值和产品的视觉符号。 您可以为JPG、JPEG、SVG或PNG格式的[!DNL Brand]上传一个或多个徽标（每个文件不超过1GB）。 可以在创建[!DNL Brand]期间或从单个&#x200B;_[!DNL Brands]视图_&#x200B;中添加徽标。 徽标可用作特定[!DNL Brand]的缩略图图像。
 
 每个上传的徽标在徽标拼贴中包含以下详细信息：
 
@@ -145,7 +149,13 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 - 文件大小
 - 解决方法
 
-从颜色的操作菜单（三个点）中，您可以&#x200B;**[!UICONTROL 下载]**、**[!UICONTROL 重命名]**&#x200B;或&#x200B;**[!UICONTROL 删除]**&#x200B;颜色。
+从徽标的操作菜单（三个圆点）中，您可以[查看详细信息并管理](/help/user-guide/guidelines/add-guidelines.md#manage-brands)单个徽标：
+
+- **[!UICONTROL 查看详细信息]**
+- **[!UICONTROL 下载]**
+- [**[!UICONTROL 用作品牌缩略图]**](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)
+- **[!UICONTROL 重命名]**
+- **[!UICONTROL 删除]**
 
 ### 颜色
 

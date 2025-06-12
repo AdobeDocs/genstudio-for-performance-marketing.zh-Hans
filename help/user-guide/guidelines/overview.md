@@ -4,7 +4,7 @@ description: 将 [!DNL Brands], [!DNL Products], and [!DNL Personas] 添加到Ge
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: f08e92fd8d71fb8e918d8c8167d1e62ed86e35cb
+source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -37,7 +37,7 @@ GenStudio for Performance Marketing准则：
 * 定义品牌标识的复杂性
 * 为离散元素（如徽标和字体、像素间距以及细微的消息传递准则）创建基本信息存储库，创作AI使用这些信息存储库创建内容
 * 确保您定义的品牌标识会通知创建每个内容
-* 作为品牌标识框架运行，通过每个生成的或[验证的内容](#brand-validation)对其进行检查
+* 作为品牌标识框架运行，通过每个生成的或[验证的内容](#content-checks)对其进行检查
 * 为生成的变体实施ADA可访问性和平台准则
 
 通过将品牌、产品和角色数据整合到GenStudio for Performance Marketing中，您可以提高AI生成内容的质量，从而确保全面且量身定制的品牌标识。
@@ -47,7 +47,7 @@ GenStudio for Performance Marketing准则：
 [!DNL Brands]、[!DNL Products]和[!DNL Personas]准则启用了两个主要用例，以确保任何生成的内容都符合品牌所需的呈现方式：
 
 * 在[[!DNL Create]](/help/user-guide/create/overview.md)或[内容](/help/user-guide/content/overview.md)中生成&#x200B;**内容**
-* [**品牌验证**](#brand-validation)，在内容创建过程中进行
+* [**品牌验证**](#content-checks)，在内容创建过程中进行
 
 ## 内容检查
 
@@ -63,5 +63,5 @@ Adobe GenStudio for Performance Marketing集成了外部平台指导和ADA无障
 
 这些累积的符合性检查包括：
 
-* **ADA辅助功能** — 对于确保开发兼容的内容和数字体验以满足能力不一的用户需求至关重要。 这些功能可确保与Web无障碍功能保持一致，并为所有用户提供公平的访问权限。 GenStudio for Performance Marketing当前引用ADA A级Copy（文本）辅助功能标准。
+* **ADA辅助功能** — 对于确保开发兼容的内容和数字体验以满足能力不一的用户需求至关重要。 这些功能可确保与Web无障碍功能保持一致，并为所有用户提供公平的访问权限。 GenStudio for Performance Marketing当前引用ADA级别AA复制（文本）辅助功能标准。
 * **平台合规性**：对于遵守每个平台的特定准则（如Meta或LinkedIn）以及遵循行业最佳实践至关重要。 这些是系统中存在的默认准则，已在[[!DNL Brand] 准则](/help/user-guide/guidelines/brands.md#brands-guidelines)中预填充。

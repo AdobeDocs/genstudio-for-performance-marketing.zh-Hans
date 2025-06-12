@@ -4,9 +4,10 @@ description: 在Adobe GenStudio for Performance Marketing中使用显示广告�
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -27,12 +28,16 @@ ht-degree: 1%
 
 ## 可识别的字段名称
 
-对于横幅和显示广告，GenStudio for Performance Marketing会自动生成`cta`字段。 在自定义模板时，为以下必填字段使用内容占位符：
+在自定义横幅或显示广告模板时，请为以下必填字段使用内容占位符：
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` (必需，从Content JPEG、PNG或GIF中选择)
+
+GenStudio for Performance Marketing会自动生成以下字段。 您不必为以下内容应用内容占位符：
+
+- `cta`
 
 请参阅[内容占位符](/help/user-guide/content/customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 

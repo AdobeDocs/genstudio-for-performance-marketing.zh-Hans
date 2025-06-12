@@ -5,16 +5,16 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
+source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
 
 # 使用模板
 
-GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板_&#x200B;快速生成一致的品牌营销内容。 模板通过提供包括预配置布局和设计元素的起点，显着减少了生成新内容所需的时间和精力。
+GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板_&#x200B;快速生成一致的品牌营销内容。 模板通过提供包括预配置布局和设计元素的起点，显着减少了生成新内容所需的时间和精力。 若要开始，请在[!DNL Content]中上传自定义模板，或在[!DNL Create]中使用起始模板。 [入门模板](/help/user-guide/templates/starter-templates.md)提供了从标准设计开始的快速方法，而自定义模板允许您使用独特的设计和布局。
 
 虽然GenStudio for Performance Marketing不支持在应用程序中直接创建模板，但您可以使用流行的设计工具(如Adobe InDesign、Illustrator或Express)轻松设计和准备模板。 设计完成后，您可以对其进行调整以用于GenStudio for Performance Marketing。 可按照以下步骤开始使用模板：
 
@@ -38,7 +38,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 | **页眉** | 电子邮件 | 收件人打开电子邮件时看到的电子邮件顶部设置了提示音并为包含的内容提供了上下文。 |
 | **标题** | 元广告、横幅和显示广告、LinkedIn | 收件人看到的第一个内容应具有吸引人的吸引力。 |
 | **副标题** | 电子邮件、横幅和显示广告 | 支持标题的次要文本元素。 它通常简洁，旨在补充主标题，进一步吸引读者关注内容。 |
-| **介绍性文本** | LinkedIn | 主消息传送核心消息，类似于正文。 它最多可包含150个字符，包括空格、最多四个表情符号和标点。 |
+| **介绍性文本** | LinkedIn | 主消息传送核心消息，类似于正文副本。 它最多可包含150个字符，包括空格、最多四个表情符号和标点。 |
 | **正文** | 电子邮件、元广告、横幅和显示广告 | 广告的主文本传达核心消息。 它应具有吸引力、信息性和说服力，以鼓励受众采取所需的行动。 |
 | **行动号召 (CTA)** | 电子邮件、元广告、横幅和显示广告、LinkedIn | call-to-action按钮使用短语和链接来鼓励收件人采取特定操作，例如单击链接或进行购买。 |
 | **图像** | 电子邮件、元广告、横幅和显示广告、LinkedIn | 增强视觉吸引力，分解文本并支持消息。 图像应高品质且抢眼。 |
@@ -59,7 +59,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 管理模板
 
-_[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
+_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
 
 ### 搜索模板
 
@@ -82,7 +82,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **添加模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
 1. 单击&#x200B;**[!UICONTROL 添加模板]**。
 
@@ -96,7 +96,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
    >[!TIP]
    >
-   >如果模板不正确，请单击“上一步”**&#x200B;**&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/content/code-editor.md)进行简单的更正。
+   >如果模板不正确，请单击“上一步”****&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/content/code-editor.md)进行简单的更正。
 
 1. 对模板预览感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -117,7 +117,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **刷新模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
 1. 单击模板可查看完整视图和详细信息列表。
 
@@ -129,7 +129,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **要使用模板创建体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
 1. 单击模板可查看完整视图和详细信息列表。
 
@@ -148,7 +148,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 >[!BEGINSHADEBOX]
 
-**前提条件**
+**先决条件**
 
 - 应用程序(AJO、Marketo)和GenStudio for Performance Marketing必须属于同一个IMS组织才能进行集成
 - 用户必须具有“协作者”角色（最低级别）或更高版本

@@ -5,10 +5,10 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: ecb6a410e26339ca295dad10e0c8dda2d73ae5a4
+source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 18%
+source-wordcount: '240'
+ht-degree: 19%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 18%
    + [连接付费媒体](connectors/connect-channel.md)
    + 付费媒体帐户 {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
+      + [LinkedIn](connectors/linkedin-ads.md)
       + [元广告](connectors/meta-ads.md)
 + 准则 {#guidelines}
    + [指南概述](guidelines/overview.md)
@@ -61,7 +62,7 @@ ht-degree: 18%
    + [内容概述](content/overview.md)
    + [管理资源和体验](content/manage-assets.md)
    + [连接AEM存储库](content/connect-aem-repo.md)
-   + [资源详细信息](content/asset-details.md)
+   + [资产详细信息](content/asset-details.md)
 + 模板 {#templates}
    + [使用模板](content/use-templates.md)
    + [入门模板](templates/starter-templates.md)
@@ -85,6 +86,7 @@ ht-degree: 18%
    + [优化激活](activation/troubleshooting.md)
    + 付费媒体广告 {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
+      + [LinkedIn](activation/activate-linkedin-ad.md)
       + [元](activation/activate-meta-ad.md)
 + 见解 {#insights}
    + [见解概述](insights/overview.md)

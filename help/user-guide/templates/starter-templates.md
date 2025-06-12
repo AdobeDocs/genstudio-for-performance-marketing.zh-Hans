@@ -3,12 +3,12 @@ title: 为GenStudio for Performance Marketing准备电子邮件模板
 description: 了解如何准备电子邮件模板以用于Adobe GenStudio for Performance Marketing。
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 _入门模板_&#x200B;是预定义的模板选项，旨在帮助您快速开始使用GenStudio for Performance Marketing并了解如何创建有效媒体。 在[!DNL Create]中，选择媒体类型。 如果有入门模板，请切换到&#x200B;**[!UICONTROL 入门模板]**&#x200B;选项卡以浏览并选择适合您需求的模板。
 
 ![入门模板选项卡](/help/assets/starter-templates.png "选择模板选项卡"){width="350"}
-
-## 选择正确的纵横比
 
 为广告选择适当的纵横比，这对于最大程度地发挥影响并确保内容在不同平台和投放位置之间正确显示非常重要。 选择纵横比时，请考虑以下事项：
 
