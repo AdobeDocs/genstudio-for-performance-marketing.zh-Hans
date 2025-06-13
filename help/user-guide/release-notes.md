@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,8 @@ ht-degree: 0%
 * 您现在可以在生成的变体中[对文本](/help/user-guide/create/manage-variants.md#manually-edit-text)使用富文本编辑格式。 尝试使用变体文本的各种格式选项，例如颜色、大小、列表等。
 
 * 现在，您可以在平台设置期间通过克隆现有广告集来[创建新的广告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 元广告集定义特定广告的时间、渠道详细信息和受众。 元营销活动可以包含多个广告集，但一个广告集仅与一个营销活动关联。
+
+* 您现在可以导出营销活动详细信息，以便在Word或PDF中作为营销活动摘要从外部访问。 选择一个营销活动，然后单击&#x200B;**[!UICONTROL 导出]**（右上角）。
 
 ## 早期发行说明
 
@@ -116,7 +118,7 @@ ht-degree: 0%
 * 添加了将链接[添加到变体中的图像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 已将[内容检查](/help/user-guide/guidelines/brand-validation.md)和审核和批准功能移至新的右侧操作栏，以最大化画布上的空间并改善用户体验。
 * 简化了[上传或手动添加品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引入了在画布上的变体[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中添加或交换图像资产的功能。
+* 引入了在画布上的变体](/help/user-guide/create/manage-variants.md#swap-image)中[添加或交换图像资产的功能。
 * 通过将渠道类别[划分到自有媒体、付费媒体和内容部分，改进了创建主页](/help/user-guide/create/overview.md)上的用户体验和可见性。
 * 改进了[!DNL Insights]表和图库视图中的筛选。
 
