@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: adf987b016825861b5522b44b61263000eb63859
+source-git-commit: e2b2e3b541c4d07530b9e725fceebabccbf6c84d
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 {{note-css-effects}}
 
-使用每种模板类型时，请参阅其他提示和限制以确保最佳性能和兼容性：
+在使用每种模板类型时查看更多提示和限制以确保最佳性能：
 
 - [电子邮件](/help/user-guide/templates/email-template.md)
 - [显示广告和横幅广告](/help/user-guide/templates/display-template.md)
