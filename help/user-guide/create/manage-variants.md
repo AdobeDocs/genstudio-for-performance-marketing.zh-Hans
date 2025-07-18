@@ -3,9 +3,9 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 * 文本大小
 * 链接
 
-文本格式选项将因渠道而异（元数据、电子邮件等）
+文本格式选项因渠道而异（元数据、电子邮件等）
 
 **若要在生成的变量中手动编辑文本**：
 
 1. 生成变体集后，双击变体中的可编辑文本。
 1. 输入新文本。
-1. 要设置文本格式，请突出显示适用的文本，然后单击&#x200B;**[!UICONTROL 设置文本格式**]。
+1. 要设置文本格式，请突出显示适用的文本，然后单击**[!UICONTROL 设置文本格式**]。
 
    将任意（或全部！）可用格式选项应用于文本。
 
@@ -162,7 +162,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 更改宽高比
 
-您可以快速更改元广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1的方形图像可能会裁切侧边，从而可能剪切重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
+您可以快速更改元广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1方形图像可能会裁切侧边，从而可能切断重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 **要更改生成的元广告的长宽比**：
 
-1. 生成一组变体后，选择画布左侧的长宽比调整大小图标（指向框角的箭头）。
+1. 生成一组变体后，单击画布左侧的&#x200B;**[!UICONTROL 宽高比调整大小]**（指向框角的箭头）。
 
    当前用于广告的长宽比显示在&#x200B;_[!UICONTROL 调整大小]_&#x200B;窗口的顶部。
 
@@ -184,7 +184,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
    [!DNL Create]根据新的选定纵横比构建每个变体的副本。 所有变体（包括初始长宽比中的变体）都会显示在画布中。
 
-   例如，如果您最初以1:1的长宽比生成四个变体，然后将长宽比更改为4:5，则画布上现在提供了&#x200B;_8_&#x200B;个总变体。
+   例如，如果您最初以1:1纵横比生成四个变体，然后将纵横比更改为4:5，则画布上现在提供了&#x200B;_8_&#x200B;个总变体。
 
 ## 交换图像
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
