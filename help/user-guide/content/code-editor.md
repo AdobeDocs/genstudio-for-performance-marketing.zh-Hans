@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
+source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,24 @@ _[!UICONTROL 检查检测到的字段]_&#x200B;窗格显示GenStudio for Perform
 
 如果您发现列表中缺少字段，请搜索模板代码并找到缺失字段的位置。 使用Handlebars语法和[可识别的字段名](/help/user-guide/content/customize-template.md#recognized-field-names)插入正确的占位符。 使用代码编辑器底部显示的“查找和替换”表单来搜索代码中的特定字符串。 (Windows `CTRL`+`F`或macOS `CMD`+`F`)
 
-### 进行更正
+## 调整变量的角色
+
+您可以在模板结构检查期间通过下拉菜单为基于文本的字段角色（例如，`headline`、`sub_headline`、`body`、`cta`、`on_image_text`、`custom`）选择和更改字段角色。 在模板编辑过程中会保留字段角色选择，以便不会丢失自定义项，从而提高工作流的效率。
+
+>[!NOTE]
+>
+>无法调整图像变量的角色。
+
+![多角色字段选择](/help/assets/multirole-dropdown-field.png "多角色字段选择"){width="600" zoomable="yes"}
+
+要为变量分配角色，请执行以下操作：
+
+1. 在&#x200B;_[!UICONTROL 检查检测到的字段]_&#x200B;窗格中找到变量。 这些变量会被自动发现。
+2. 查看分配给每个变量的角色。 虽然会自动分配角色，但可以使用模板中任何变量的下拉菜单进行调整。
+3. 通过从下拉菜单中选择新角色来调整角色。
+4. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续。
+
+## 进行更正
 
 如果您的模板中存在错误，您可能会看到一则`Template is invalid`消息，其中包含问题的简短说明。 在以下示例中，消息指示`_image`字段不符合多面板模板中建立的字段命名约定。 该消息进一步建议您需要使用正确的前缀更新字段名称。 在模板代码编辑器中查找`_image`字段，并按照建议更新名称。
 
