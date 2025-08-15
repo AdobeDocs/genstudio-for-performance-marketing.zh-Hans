@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
+source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,60 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.07.25 {#latest}
+## 2025.08.15 {#latest}
+
+### 文本属性的分析
+
+Adobe GenStudio中的“文本属性分析”可分析广告文案中使用的情绪色调、说服技术和叙述风格。 营销活动上线后，GenStudio会跟踪这些文本属性与CTR、CPA、CPC、展示次数和支出等关键绩效指标的关联情况。
+
+这当前仅适用于英文广告。 有关详细信息，请参阅[文本功能](/help/user-guide/insights/text-features.md)。
+
+### 分析模板改进
+
+* 广告预览卡片现在包含用于文本的“查看更多”选项。
+* 广告页面石砌卡的新模板。
+
+### 通过品牌验证生成多语言内容
+
+提示抽屉中新的语言选择器支持创建多语言内容，从而让区域营销人员能够为其本地受众开发品牌上内容。 此功能当前支持12种语言。
+
+### 模板上的视频资产支持
+
+* 可以在元模板和LinkedIn模板中添加视频资产。
+
+### 激活体验改进
+
+* 用于保存激活草稿的新功能。
+* 用于重试失败的激活的新功能。
+
+### 在多个文本字段中使用相同的角色
+
+对于复杂的客户模板，现在支持角色相同的多个文本字段（例如，“正文”、“cta”、“图像文本”等）。
+
+在[有关模板代码编辑器的指南](/help/user-guide/content/code-editor.md)中浏览详细信息。
+
+### 支持全新Clio 4 Standard和Clio 4 Ultra图像生成机型
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+Adobe GenStudio for Performance Marketing现在支持最新的Firefly Image Model 4套件，其中包括两个强大的变体：
+
+**Clio 4 Standard**：针对速度和简洁性进行了优化，非常适合于生成插图、图标、基本对象照片和单主题肖像，满足90%的日常创意需求。
+
+**Clio 4 Ultra**：优先考虑照片真实感和精确度，在呈现人体肖像、中等大小的群组和复杂场景方面表现出色，适合高端创意任务。
+
+有关使用这些新图像生成模型的详细信息，请参阅[生成资源](/help/user-guide/create/generate-assets.md)。
+
+### 电子邮件的现成翻译
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译功能，允许营销人员在全球范围内高效地扩展其电子邮件促销活动。 此功能允许您获取已获批准的电子邮件体验，并使用Azure Open AI翻译服务将其翻译为多种目标语言。
+
+
+## 早期发行说明
+
++++2025.07.25版注释
 
 ### 兼容的资产过滤器
 
@@ -45,8 +98,7 @@ ht-degree: 0%
 
 模板选择现在对于元广告是可选的，允许用户创建广告，而无需在媒体顶部使用文本和徽标。 此增强功能允许使用其他媒体类型，例如动画GIF和视频，这些媒体类型可能不需要文本叠加或徽标放置。
 
-
-## 早期发行说明
++++
 
 +++2025.06.15版注释
 
