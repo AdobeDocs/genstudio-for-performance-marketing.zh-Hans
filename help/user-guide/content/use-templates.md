@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
+source-git-commit: 2f15dc05f65ec216c7d242ffb3e14a83c76f3000
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 0%
@@ -59,7 +59,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 管理模板
 
-_[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
+_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
 
 ### 搜索模板
 
@@ -72,7 +72,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 下面显示了按渠道类型（如电子邮件、显示广告、元广告和LinkedIn广告）过滤的内容。
 
-![内容模板列表](/help/assets/content-templates-filter.png "搜索LinkedIn模板"){width="650" zoomable="yes"}
+![内容模板列表](/help/assets/content-templates-filter.png "搜索LinkedIn模板"){width="650"}
 
 在为自有或付费媒体选择模板时，模板搜索功能在[!UICONTROL 创建]期间可用。 如果某些过滤器选项不可见，则表示存储库中没有符合相应元数据条件的模板。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
 
@@ -82,34 +82,34 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **添加模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
-1. 单击&#x200B;**[!UICONTROL 添加模板]**。
+2. 单击&#x200B;**[!UICONTROL 添加模板]**。
 
-1. 在&#x200B;_[!UICONTROL 添加批准的模板]_&#x200B;窗格中，浏览HTML模板文件或将HTML模板文件拖放到放置空间。 单击&#x200B;**[!UICONTROL 下一步]**。
+3. 在&#x200B;_[!UICONTROL 添加批准的模板]_&#x200B;窗格中，浏览HTML模板文件或将HTML模板文件拖放到放置空间。 单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在&#x200B;_[!UICONTROL 检查检测到的字段]_&#x200B;窗格中，查看这些字段。 验证您使用的模板是否正确，以及所有详细信息是否均按预期显示。
+4. 在&#x200B;_[!UICONTROL 检查检测到的字段]_&#x200B;窗格中，查看这些字段。 验证您使用的模板是否正确，以及所有详细信息是否均按预期显示。
 
    电子邮件模板的示例预览：
 
-   ![检测到预览字段](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+   ![检测到预览字段](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
-   >如果模板不正确，请单击“上一步”**&#x200B;**&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/content/code-editor.md)进行简单的更正。
+   >如果模板不正确，请单击“上一步”****&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/content/code-editor.md)进行简单的更正。
 
-1. 对模板预览感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。
+5. 对模板预览感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在&#x200B;_[!UICONTROL 提供模板详细信息并上传]_&#x200B;中，命名您的模板并选择&#x200B;**[!UICONTROL 渠道]**&#x200B;类型。
+6. 在&#x200B;_[!UICONTROL 提供模板详细信息并上传]_&#x200B;中，命名您的模板并选择&#x200B;**[!UICONTROL 渠道]**&#x200B;类型。
 
    模板名称和渠道类型为必填项。 其他要求可能包括：
 
    - **Meta**：需要宽高比
    - **横幅和显示广告**：需要维度
 
-1. 添加尽可能多的详细信息，以改进搜索和筛选中的模板识别。
+7. 添加尽可能多的详细信息，以改进搜索和筛选中的模板识别。
 
-1. 单击&#x200B;**[!UICONTROL 完成]**。
+8. 单击&#x200B;**[!UICONTROL 完成]**。
 
 ### 刷新模板
 
@@ -117,11 +117,11 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **刷新模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
-1. 单击模板可查看完整视图和详细信息列表。
+2. 单击模板可查看完整视图和详细信息列表。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 刷新]**（循环箭头）以刷新模板中使用的所有资源。
+3. 单击右上角的&#x200B;**[!UICONTROL 刷新]**（循环箭头）以刷新模板中使用的所有资源。
 
 ### 使用模板创建体验
 
@@ -129,13 +129,13 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **要使用模板创建体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
-1. 单击模板可查看完整视图和详细信息列表。
+2. 单击模板可查看完整视图和详细信息列表。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 创建体验]** （画笔）以使用该模板。
+3. 单击右上角的&#x200B;**[!UICONTROL 创建体验]** （画笔）以使用该模板。
 
-1. 继续[创建](/help/user-guide/create/overview.md#create-use-cases)体验。
+4. 继续[创建](/help/user-guide/create/overview.md#create-use-cases)体验。
 
 ## AJO和Marketo中的模板
 

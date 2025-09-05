@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
+source-git-commit: f9fec89a522f3c82367516b79dbc79db5a106bbf
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 _[!UICONTROL 检查检测到的字段]_&#x200B;窗格显示GenStudio for Performance Marketing可在您的模板中识别的字段列表。 查看列表，然后您可以滚动HTML代码以查看模板的结构。
 
-![代码编辑器视图](/help/assets/template-detected-fields.png "检查检测到的字段"){width="600" zoomable="yes"}
+![代码编辑器视图](/help/assets/template-detected-fields.png "检查检测到的字段"){width="600"}
 
 如果您发现列表中缺少字段，请搜索模板代码并找到缺失字段的位置。 使用Handlebars语法和[可识别的字段名](/help/user-guide/content/customize-template.md#recognized-field-names)插入正确的占位符。 使用代码编辑器底部显示的“查找和替换”表单来搜索代码中的特定字符串。 (Windows `CTRL`+`F`或macOS `CMD`+`F`)
 
@@ -36,7 +36,7 @@ _[!UICONTROL 检查检测到的字段]_&#x200B;窗格显示GenStudio for Perform
 >
 >无法调整图像变量的角色。
 
-![多角色字段选择](/help/assets/multirole-dropdown-field.png "多角色字段选择"){width="600" zoomable="yes"}
+![多角色字段选择](/help/assets/multirole-dropdown-field.png "多角色字段选择"){width="600"}
 
 要为变量分配角色，请执行以下操作：
 
@@ -49,7 +49,7 @@ _[!UICONTROL 检查检测到的字段]_&#x200B;窗格显示GenStudio for Perform
 
 如果您的模板中存在错误，您可能会看到一则`Template is invalid`消息，其中包含问题的简短说明。 在以下示例中，消息指示`_image`字段不符合多面板模板中建立的字段命名约定。 该消息进一步建议您需要使用正确的前缀更新字段名称。 在模板代码编辑器中查找`_image`字段，并按照建议更新名称。
 
-![更正无效模板](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
+![更正无效模板](/help/assets/animation/template-code-editor.gif){width="600"}
 
 _[!UICONTROL 检查检测到的字段]_&#x200B;窗格更新以反映您所做的更改。 在您满意这些字段正确且填写完毕后，请单击&#x200B;**[!UICONTROL 下一步]**&#x200B;继续[上载模板](/help/user-guide/content/use-templates.md#add-a-template)。
 
