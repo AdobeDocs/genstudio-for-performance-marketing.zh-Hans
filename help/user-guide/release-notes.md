@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
+source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
 workflow-type: tm+mt
-source-wordcount: '3411'
+source-wordcount: '3502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.08.15 {#latest}
+## 2025.09.11 {#latest}
+
+### 适用于付费媒体的创新型扩展AI功能
+
+新的GenExpand功能可让营销人员动态调整其创意资产，以支持跨付费媒体渠道（如Meta、LinkedIn、显示广告和横幅）的不同宽高比。 当图像与预期纵横比不匹配时（如将窄图像添加到宽布局），可以使用GenExpand修改图像以适应。
+
+此功能简化了直接在GenStudio for Performance Marketing中编辑图像和调整大小的过程。 有关详细信息，请参阅[生成扩展AI功能](/help/user-guide/create/manage-variants.md#use-generative-expand)。
+
+## 早期发行说明
+
++++2025.08.15版注释
 
 ### 文本属性的分析
 
@@ -65,8 +75,7 @@ Adobe GenStudio for Performance Marketing现在支持最新的Firefly Image Mode
 
 Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译功能，允许营销人员在全球范围内高效地扩展其电子邮件促销活动。 此功能允许您获取已获批准的电子邮件体验，并使用Azure Open AI翻译服务将其翻译为多种目标语言。
 
-
-## 早期发行说明
++++
 
 +++2025.07.25版注释
 
