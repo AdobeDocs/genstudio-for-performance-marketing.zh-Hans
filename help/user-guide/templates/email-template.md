@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -44,21 +44,22 @@ GenStudio for Performance Marketing会自动生成以下字段。 未启用富�
 
 ## 多节电子邮件
 
-_节_&#x200B;允许您将内容组织到不同的组中，这支持更复杂的布局。 在Genstudio for Performance Marketing中，您可以使用组命名约定定义每个节。 请参阅[自定义模板节](/help/user-guide/content/customize-template.md#sections-or-groups)。
+_节_&#x200B;允许您将内容组织为不同的组，从而支持更复杂的布局。 在GenStudio for Performance Marketing中，您可以使用组命名约定定义每个部分。 请参阅[自定义模板节](/help/user-guide/content/customize-template.md#sections-or-groups)。
 
 多节模板可以包含0、2或3节：
 
 - 基本模板（零部分）可以生成一组不需要组命名约定的模板元素。
-- 一个复杂的模板（多个部分）最多可以生成三组模板元素，这要求您遵循组命名约定： (`groupname_fieldname`)
+- 一个复杂的模板（多个部分）最多可以生成三组模板元素，这需要您遵守组命名约定： `<groupname_fieldname>`。
+- 使用多个部分时，不会填充在部分之外任何保持独立的元素。
 
-两个部分的示例字段名称：
+以下是两个部分中使用组命名约定的字段名称示例：
 
-- `pod1_headline`，`pod1_body`，`pod1_cta`
-- `pod2_headline`, `pod2_body`, `pod2_cta`
+- 在第1部分：`pod1_headline`，`pod1_body`，`pod1_cta`
+- 在第2部分中：`pod2_headline`，`pod2_body`，`pod2_cta`
 
 ## 模板示例
 
-+++示例：带一个部分的电子邮件模板
++++示例：电子邮件模板包含一个部分
 
 以下是具有一个部分的HTML电子邮件模板的基本示例。 `<head>`包含用于样式设置的简单内联CSS，`<body>`使用内容占位符（如`pre_header`、`headline`、`sub_headline`、`body`、`cta`和`image`）以及链接和。 这些占位符允许GenStudio for Performance Marketing在电子邮件生成期间插入动态内容。
 
@@ -107,9 +108,9 @@ _节_&#x200B;允许您将内容组织到不同的组中，这支持更复杂的�
 
 +++
 
-+++示例：具有多个部分的电子邮件模板
++++示例：具有多个分区的电子邮件模板
 
-以下是上述示例中的相同HTML模板，但添加了两个部分。 标头包含用于设置组样式的内联CSS。 正文使用两个组，其中[个内容占位符](#content-placeholders)使用前缀。
+以下是上述示例中的相同HTML模板，但添加了另外两个部分。 标头包含用于设置组样式的内联CSS。 正文使用两个组，其中[个内容占位符](#content-placeholders)使用前缀。
 
 ```html
 <!DOCTYPE html>
@@ -151,8 +152,6 @@ _节_&#x200B;允许您将内容组织到不同的组中，这支持更复杂的�
     </head>
     <body>{{pre_header}}
         <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
