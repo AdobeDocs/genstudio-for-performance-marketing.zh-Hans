@@ -4,7 +4,7 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
+source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
 workflow-type: tm+mt
 source-wordcount: '3502'
 ht-degree: 0%
@@ -195,7 +195,7 @@ Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译
 
 ### 可扩展性
 
-新的GenStudio for Performance Marketing [可扩展性框架](/help/extensibility/overview.md)为组织提供了工具，使它们可以将自己的声明合规性协议纳入内容创建工作流并通过插件或可扩展应用程序进行验证。
+新的GenStudio for Performance Marketing [可扩展性框架](/help/extensibility/setup.md)为组织提供了工具，使它们可以将自己的声明合规性协议纳入内容创建工作流并通过插件或可扩展应用程序进行验证。
 
 ### 模板
 
@@ -446,7 +446,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 此发行版本引入了Adobe GenStudio for Performance Marketing，这是一个基于人工智能的创新型应用程序，可加快营销活动的规划、开发和分析。 GenStudio for Performance Marketing使营销团队能够为广告、电子邮件和营销活动创建基于品牌的多渠道内容，同时提供实时见解以优化内容性能。
 
-### 功能
+### 特性
 
 主要产品功能包括：
 
