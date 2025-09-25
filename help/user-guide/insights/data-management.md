@@ -39,7 +39,7 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)通过�
 - AEP连接：以`GS Insights`为前缀的数据流
 - AEP连接： GS Insights帐户
 
-在删除AEP中的任何数据组件之前，请参阅[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion)指南中的&#x200B;_删除含义_。
+在删除AEP中的任何数据组件之前，请参阅[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/deletion)指南中的&#x200B;_删除含义_。
 
 >[!ENDSHADEBOX]
 

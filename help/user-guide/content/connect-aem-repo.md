@@ -39,20 +39,20 @@ ht-degree: 0%
 
 在[!DNL Admin Console]中，将GenStudio for Performance Marketing用户或用户组添加到[!DNL AEM Assets Content Hub]产品配置文件。 如果内容查看者无权访问与[!DNL AEM Assets Content Hub]存储库相同的组织，则他们可能会在查看和批准内容时遇到困难。
 
-- [板载 [!DNL Content Hub] 管理员](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [板载 [!DNL Content Hub] 用户](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [板载 [!DNL Content Hub] 管理员](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [板载 [!DNL Content Hub] 用户](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## 步骤3：批准资源
 
 批准资源以在[!DNL AEM Assets Content Hub]中使用，这使其在GenStudio for Performance Marketing中可用。
 
-请参阅[Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)文档中的&#x200B;_批准AEM as a Cloud Service_&#x200B;中的资源。
+请参阅[Experience Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)文档中的&#x200B;_批准AEM as a Cloud Service_&#x200B;中的资源。
 
 ## 步骤4：配置资源可见性
 
 在&#x200B;_[!DNL AEM Assets Content Hub]_&#x200B;配置选项中，查看筛选条件、资产详细信息、搜索和品牌推广的每组配置选项。
 
-请参阅[Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)文档中的&#x200B;_配置AEM as a Cloud Service用户界面_。
+请参阅[Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)文档中的&#x200B;_配置AEM as a Cloud Service用户界面_。
 
 ## 步骤5：验证连接
 
