@@ -1,26 +1,26 @@
 ---
-title: 元体验
-description: 了解Adobe GenStudio for Performance Marketing中的Meta体验的所有信息。
+title: Meta体验
+description: 全面了解Adobe GenStudio for Performance Marketing中的Meta体验。
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
-# 元体验
+# Meta体验
 
-借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的元体验](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]使内容创建者能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和精心编制的提示[&#128279;](/help/user-guide/effective-prompts.md)来快速[创建元广告体验](/help/user-guide/create/create-meta-ad.md)。
+借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的Meta体验](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]使内容创建者能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[精心编制的提示](/help/user-guide/effective-prompts.md)来快速[创建Meta广告体验](/help/user-guide/create/create-meta-ad.md)。
 
-在生成元体验时，会在画布中创建和显示四个变量。 GenStudio for Performance Marketing支持[标准和自定义大小的元广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+在生成Meta体验时，会在画布中创建并显示四个变体。 GenStudio for Performance Marketing支持[标准和自定义大小的Meta广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
-在生成元体验时，会在画布中创建和显示四个变量。
+在生成Meta体验时，会在画布中创建和显示四个变体。
 
-GenStudio for Performance Marketing支持[标准和自定义大小的元广告](/help/user-guide/templates/meta-template.md)。
+GenStudio for Performance Marketing支持[标准和自定义大小的Meta广告](/help/user-guide/templates/meta-template.md)。
 
 电子邮件体验的可编辑部分包括：
 
@@ -32,11 +32,11 @@ GenStudio for Performance Marketing支持[标准和自定义大小的元广告](
 
 查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。
 
-## 元广告渠道
+## Meta广告渠道
 
-创建元广告体验时，您可以为Facebook和Instagram渠道生成变体。 在Facebook和Instagram广告之间来回切换以预览每个渠道的变体。
+创建Meta广告体验时，您可以为Facebook和Instagram渠道生成变体。 在Facebook和Instagram广告之间来回切换以预览每个渠道的变体。
 
-请参阅[选择元广告频道](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel)。
+请参阅[选择Meta广告频道](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel)。
 
 ## 渐进式加载
 
@@ -44,7 +44,7 @@ GenStudio for Performance Marketing支持[标准和自定义大小的元广告](
 
 单击&#x200B;**[!UICONTROL 生成]**&#x200B;后，画布底部会显示一个加载指示器，用于更新生成进度。
 
-元广告体验的每个字段和部分都按照以下顺序逐步加载：
+Meta广告体验的每个字段和部分都按照以下顺序逐步加载：
 
 1. 所有变体的主文本
 1. 行动呼吁和相关联的URL

@@ -4,7 +4,7 @@ description: 了解如何将增强的过滤器功能与Insights结合使用。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: 04bc6f911394d0f4c324abc347ce125203011960
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 筛选基础知识
 
-[!DNL Insights]中的每个视图都提供一个筛选器选项列表。 左侧的筛选器（漏斗）切换打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。 无论您查看的是表还是图库，应用的筛选器都会显示在表或图库上方的&#x200B;**[!UICONTROL 筛选依据]**&#x200B;列表中。 默认情况下，会选择渠道和帐户。
+[!DNL Insights]中的每个视图都提供一个筛选器选项列表。 左侧的筛选器(funnel)切换可打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。 无论您查看的是表还是图库，应用的筛选器都会显示在表或图库上方的&#x200B;**[!UICONTROL 筛选依据]**&#x200B;列表中。 默认情况下，会选择渠道和帐户。
 
 ![筛选依据](/help/assets/insights-filter-by.png "筛选依据"){width=600 zoomable="yes"}
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ### 搜索字段
 
-单击搜索（放大镜）图标可键入搜索词以查找表或图库中的特定项目。 例如，在[!UICONTROL 广告]表中输入术语`Gear`将筛选结果，以仅显示名称中使用术语`Gear`的广告。
+单击搜索（放大镜）图标可键入搜索词以查找表或图库中的特定项目。 例如，在`Gear`广告[!UICONTROL 表中输入术语]将筛选结果，以仅显示名称中使用术语`Gear`的广告。
 
 ![搜索字段示例](/help/assets/insights-search.png "搜索名称中带有齿轮的广告"){width=600 zoomable="yes"}
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 **要使用促销活动过滤器优化广告表**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 广告]**&#x200B;视图。
+1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 广告]**视图。
 
    ![广告筛选器和表](/help/assets/insights-ads-filter.png "带有筛选菜单的广告视图"){zoomable="yes"}
 
-1. 单击表左上方的筛选器（漏斗）切换可打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。
+1. 单击表左上方的筛选器(funnel)切换可打开&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单。
 
 1. 验证是否选择了正确的`Filter by`渠道和帐户。
 

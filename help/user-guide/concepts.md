@@ -4,7 +4,7 @@ description: 了解Adobe GenStudio for Performance Marketing概念和术语。
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 概念
 
-GenStudio for Performance Marketing是一款独立的企业产品，它体现了Adobe的内容供应链以简化营销活动。 大规模构建经品牌批准的个性化内容、监控效果和快速适应不断变化的市场具有挑战性。 GenStudio for Performance Marketing将Creative Cloud和Experience Cloud整合到一个应用程序中，该应用程序利用创作AI作为企业营销团队的绩效倍增器。
+GenStudio for Performance Marketing是一个独立的企业产品，它体现了Adobe的内容supply chain以简化营销活动。 大规模构建经品牌批准的个性化内容、监控效果和快速适应不断变化的市场具有挑战性。 GenStudio for Performance Marketing将Creative Cloud和Experience Cloud整合到一个应用程序中，该应用程序利用创作AI作为企业营销团队的绩效倍增器。
 
 借助GenStudio for Performance Marketing，您可以：
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing通过Azure OpenAI使用GPT系列第三方LLM
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_&#x200B;是[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中定义的单位，用于量化GenStudio for Performance Marketing中创作AI功能的使用。
+_[!DNL Generative Actions]_是[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中定义的单位，用于量化GenStudio for Performance Marketing中创作AI功能的使用。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### 费率
 
-如[GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所述，您收到了[!DNL Generative Actions]的默认分配。
+如[!DNL Generative Actions]GenStudio for Performance Marketing产品描述[中所述，您收到了](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)的默认分配。
 
 >[!NOTE]
 >
->使用率可能有所不同。 计划可能会发生更改。 有关更新的速率信息，请参阅[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
+>使用率可能有所不同。 计划可能会发生更改。 有关更新的速率信息，请参阅[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
 
 以下函数以指定的速率使用[!DNL Generative Actions]。
 
@@ -91,7 +91,7 @@ GenStudio for Performance Marketing纳入了缓解计划，以防止根据Adobe�
 
 ## 内容生命周期
 
-对于以更快的速度在多个渠道中获得高质量体验的需求很高。 GenStudio for Performance Marketing将内容供应链简化为营销人员组织良好的工作流程。 GenStudio for Performance Marketing在生命周期的每个阶段都利用Adobe技术。
+对于以更快的速度在多个渠道中获得高质量体验的需求很高。 GenStudio for Performance Marketing将内容supply chain简化为营销人员组织良好的工作流程。 GenStudio for Performance Marketing在生命周期的每个阶段都利用Adobe技术。
 
 <table style="table-layout:auto">
 

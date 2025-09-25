@@ -1,9 +1,9 @@
 ---
-title: Adobe GenStudio for Performance Marketing中的品牌验证
+title: Adobe GenStudio for Performance Marketing中的Brand Validation
 description: 了解内置品牌验证系统在GenStudio for Performance Marketing中的工作方式。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -27,7 +27,7 @@ GenStudio for Performance Marketing从多个方面执行品牌验证和其他内
 
 _内容检查_&#x200B;摘要显示：
 
-* 通过验证的[准则](overview.md)与测试的准则数之比，计算出[[!DNL Brand]](brands.md)的符合性百分比
+* 通过验证的[[!DNL Brand]](brands.md)准则[与测试的准则数之比，计算出](overview.md)的符合性百分比
 * 平台准则的`Pass`或`Fail`结果，如Meta或LinkedIn
 * ADA辅助功能标准的`Pass`或`Fail`结果
 
@@ -39,13 +39,13 @@ _内容检查_&#x200B;摘要显示：
 
 ## 内容检查面板
 
-从右操作栏&#x200B;_或_&#x200B;单击&#x200B;[_内容检查_&#x200B;摘要图标](#content-check-summary)时，_内容检查_&#x200B;面板将在画布右侧打开。 此面板提供了详细的品牌验证、平台指南和无障碍标准信息，并说明了改进的机会。
+从右操作栏&#x200B;_或_&#x200B;单击&#x200B;_内容检查_&#x200B;摘要图标&#x200B;[_时，_&#x200B;内容检查](#content-check-summary)面板将在画布右侧打开。 此面板提供了详细的品牌验证、平台指南和无障碍标准信息，并说明了改进的机会。
 
 ![内容检查面板](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 _内容检查_&#x200B;面板显示图像和变体部分的验证和[合规性信息](/help/user-guide/guidelines/overview.md#compliance)：
 
-* [!DNL Brand]的&#x200B;_内容检查_&#x200B;摘要信息、平台准则和辅助功能标准的表示形式
+* _的_&#x200B;内容检查[!DNL Brand]摘要信息、平台准则和辅助功能标准的表示形式
 * _需要审核_&#x200B;部分，其中显示失败准则的数量以及有关每个需要修订的准则的详细信息
 * _通过_&#x200B;部分，显示通过的准则数以及每个通过准则的详细信息
 
@@ -56,7 +56,7 @@ _内容检查_&#x200B;面板显示图像和变体部分的验证和[合规性信
 在&#x200B;_内容检查_&#x200B;面板中，您可以切换执行了哪些准则和可访问性标准检查。 单击面板顶部的&#x200B;_内容类型_&#x200B;图标（级别图标）可打开或关闭：
 
 * **[!DNL Brand]** — 执行与[!DNL Brand]准则相关的检查
-* **平台准则** — 执行与特定于渠道的平台（如Meta）相关的检查
+* **平台准则** — 执行与特定于渠道的平台(如Meta)相关的检查
 * **辅助功能** — 执行与ADA辅助功能标准相关的检查
 
 要&#x200B;**为要执行的检查设置内容类型**，请单击关闭或打开可用类型，然后单击&#x200B;**应用**。

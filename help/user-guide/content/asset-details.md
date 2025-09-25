@@ -3,7 +3,7 @@ title: 资源详细信息
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 **要查看资源详细信息**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
@@ -56,7 +56,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 **要编辑用户定义的元数据**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
@@ -87,13 +87,13 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 ## 生成上下文
 
-[!UICONTROL 生成上下文]部分显示用于生成体验的信息，例如[!DNL Create]进程期间使用的`Prompt`。 此洞察信息可帮助您构建更加成功的变体。
+[!UICONTROL 生成上下文]部分显示用于生成体验的信息，例如`Prompt`进程期间使用的[!DNL Create]。 此insight可以帮助您构建更加成功的变体。
 
 信息可能包括：
 
-- 在[!DNL Create]进程期间选择的`Brand`、`Product`和`Persona`参数
+- 在`Brand`进程期间选择的`Product`、`Persona`和[!DNL Create]参数
 - 电子邮件体验的`Subject line`和`Preheader`
-- 元广告的`Headline`和`Body`
+- 用于Meta广告的`Headline`和`Body`
 
 ## 历史记录
 

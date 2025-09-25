@@ -3,7 +3,7 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 管理变体
 
-Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增强生成的变体 — [电子邮件](/help/user-guide/create/email-experiences.md)、[元广告](/help/user-guide/create/meta-experiences.md)等 — 以用于数字营销计划。
+Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增强生成的变体 — [电子邮件](/help/user-guide/create/email-experiences.md)、[Meta广告](/help/user-guide/create/meta-experiences.md)等 — 以用于数字营销计划。
 
 在[创建体验](/help/user-guide/create/overview.md)时，您可以单独或批量修改生成的变体的内容和资产。 通过在单个微观级别管理变体，您可以管理生成的每个内容片段。
 
@@ -20,7 +20,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 
 生成的变体草稿有一个默认名称显示在画布顶部。 默认草稿名称使用以下约定，包括渠道类型、生成日期和时间。
 
-*示例*：“Meta：无标题的草稿 — 09.5.24， 9:56 AM”
+*示例*：“Meta：无标题草稿 — 09.5.24， 9:56 AM”
 
 **要更改默认名称**：
 
@@ -41,13 +41,13 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 * 文本大小
 * 链接
 
-文本格式选项因渠道而异（元数据、电子邮件等）
+文本格式选项因渠道而异(Meta、电子邮件等)
 
 **若要在生成的变量中手动编辑文本**：
 
 1. 生成变体集后，双击变体中的可编辑文本。
 1. 输入新文本。
-1. 要设置文本格式，请突出显示适用的文本，然后单击&#x200B;**[!UICONTROL 设置文本格式**]。
+1. 要设置文本格式，请突出显示适用的文本，然后单击**[!UICONTROL 设置文本格式**]。
 
    将任意（或全部！）可用格式选项应用于文本。
 
@@ -69,7 +69,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 
 GenStudio for Performance Marketing具有内置功能，可重新生成生成的变体的各个部分。 您可以重新短语、缩短或加长文本，或者添加新的提示来生成新内容。
 
-例如，您可以重新生成一个元广告变体的标题部分，以查看它在特定背景资源中的外观。 您可以&#x200B;_[!UICONTROL 重新短语]_、_[!UICONTROL 缩短]_、_[!UICONTROL 加长]_&#x200B;节的内容，或者&#x200B;_[!UICONTROL 生成新文本]_&#x200B;以添加新提示。
+例如，您可以重新生成一个Meta广告变体的标题部分，以查看它在特定后台资源中的外观。 您可以&#x200B;_[!UICONTROL 重新短语]_、_[!UICONTROL 缩短]_、_[!UICONTROL 加长]_&#x200B;节的内容，或者&#x200B;_[!UICONTROL 生成新文本]_&#x200B;以添加新提示。
 
 ![重新生成节](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -130,7 +130,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 使用生成扩展
 
-使用生成性展开展开展开图像并添加生成性内容。 “创作”展开允许您将不合适的图像转换为横幅、中继广告、LinkedIn广告或显示广告模板的最合适纵横比。
+使用生成性展开展开展开图像并添加生成性内容。 “创作”展开允许您将不合适的图像转换为横幅、Meta广告、LinkedIn广告或显示广告模板最合适的纵横比。
 
 此生成性扩展功能与裁切工具配对，可让您以各种纵横比完全控制付费媒体渠道的资源。
 
@@ -162,13 +162,13 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 更改宽高比
 
-您可以快速更改元广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1方形图像可能会裁切侧边，从而可能切断重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
+您可以快速更改Meta广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1方形图像可能会裁切侧边，从而可能切断重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
 
 >[!NOTE]
 >
 >根据可用的模板，可以使用各种长宽比和大小。
 
-**要更改生成的元广告的长宽比**：
+**要更改生成的Meta广告的长宽比**：
 
 1. 生成一组变体后，单击画布左侧的&#x200B;**[!UICONTROL 宽高比调整大小]**（指向框角的箭头）。
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 

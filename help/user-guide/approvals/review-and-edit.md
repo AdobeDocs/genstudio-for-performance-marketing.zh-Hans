@@ -1,9 +1,9 @@
 ---
-title: 审阅和编辑内容
+title: 查看和编辑内容
 description: 了解如何使用Adobe GenStudio for Performance Marketing迭代查看和编辑内容。
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 8aa55fba08fa438ae2320c1159aa3c27877ee778
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 使用Workfront Proof查看内容
 
-[!DNL Proofing Viewer]为批注验证和跟踪更改提供了[可靠的标记工具](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)。 您还可以比较两个版本的Proof。
+[!DNL Proofing Viewer]为批注验证和跟踪更改提供了[可靠的标记工具](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)。 您还可以比较两个版本的Proof。
 
 **查看内容**：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 比较验证
 
-从[!DNL Proofing Viewer]，您可以[比较校对版本](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
+从[!DNL Proofing Viewer]，您可以[比较校对版本](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
 
 **要比较校样**：
 
@@ -94,4 +94,4 @@ ht-degree: 0%
 
    验证并排显示，较新版本位于左侧。
 
-Workfront Proof提供了多种用于比较验证的工具，包括自动比较工具。 请参阅[使用比较工具](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。
+Workfront Proof提供了多种用于比较验证的工具，包括自动比较工具。 请参阅[使用比较工具](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。

@@ -3,7 +3,7 @@ title: 管理激活
 description: 了解如何使用Adobe GenStudio for Performance Marketing管理激活的体验。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 属性 | 值 |
 |------------------|---------------------------------------------------------------------------------------------|
-| 体验名称 | GenStudio for Performance Marketing中体验的名称<br>此名称标识&#x200B;_[!DNL Content]_&#x200B;中的体验 |
+| 体验名称 | GenStudio for Performance Marketing中体验的名称<br>此名称标识&#x200B;_[!DNL Content]_中的体验 |
 | 广告名称 | 广告渠道中的广告名称 |
 | 发布日期 | 广告体验成功发布的日期<br>使用月日 — 年格式 |
 | 发布者 | 激活体验的GenStudio for Performance Marketing用户的名称 |
@@ -40,7 +40,7 @@ ht-degree: 0%
 从&#x200B;_激活的体验_&#x200B;视图中，单击激活。 只读&#x200B;_激活详细信息_&#x200B;视图捕获已激活体验的定义详细信息，包括失败的激活。 此视图包含从GenStudio for Performance Marketing和广告渠道派生的信息。
 
 * **发布时间和日期**：广告渠道管理器中的发布时间和日期
-* **广告ID**：付费渠道分配的ID，用于跟踪。 单击此字段旁边的&#x200B;**[!UICONTROL 打开]**&#x200B;按钮以在元广告管理器中查看发布的广告
+* **广告ID**：付费渠道分配的ID，用于跟踪。 单击此字段旁边的&#x200B;**[!UICONTROL 打开]**&#x200B;按钮以在Meta广告管理器中查看已发布的广告
 * **体验详细信息**：在GenStudio for Performance Marketing激活工作流期间分配的所选图像资源、文本和元数据
 * **渠道设置**：用于激活广告体验的付费渠道帐户
 

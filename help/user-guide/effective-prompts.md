@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 在GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)中，您可以在提示抽屉中使用&#x200B;**[!UICONTROL 提示条件]** （[_参数_](/help/user-guide/create/overview.md#parameters)&#x200B;和提示）通过选择添加详细信息以改进AI解释。
 
-对于[电子邮件](/help/user-guide/create/email-experiences.md)，提示条件可能包括在&#x200B;_参数_&#x200B;中添加[准则](/help/user-guide/guidelines/overview.md)、上传要在电子邮件变体中使用的资源以及说明性提示。 对于[元广告](/help/user-guide/create/create-meta-ad.md)，提示条件可能包括&#x200B;_参数_&#x200B;中的品牌指南、选择或上传现有资产、与图像或资产相关的设置（如长宽比）以及提示。 实际功率以[配置准则](/help/user-guide/guidelines/add-guidelines.md)开始。
+对于[电子邮件](/help/user-guide/create/email-experiences.md)，提示条件可能包括在[参数](/help/user-guide/guidelines/overview.md)中添加&#x200B;_准则_、上传要在电子邮件变体中使用的资源以及说明性提示。 对于[Meta广告](/help/user-guide/create/create-meta-ad.md)，提示条件可能包括&#x200B;_参数_&#x200B;中的品牌指南、现有资源的选择或上传、与图像或资源相关的设置（如长宽比）以及提示。 实际功率以[配置准则](/help/user-guide/guidelines/add-guidelines.md)开始。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ GenStudio for Performance Marketing指南帮助创作AI个性化您的资源组�
 
 ### 结构化提示
 
-对于多节电子邮件，您可以构建提示以提供特定于节的说明，以便为电子邮件中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板[&#128279;](/help/user-guide/content/customize-template.md#sections-or-groups)中的节名称，以便生成的内容可以插入到相应的内容占位符中。
+对于多节电子邮件，您可以构建提示以提供特定于节的说明，以便为电子邮件中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板[中的](/help/user-guide/content/customize-template.md#sections-or-groups)节名称，以便生成的内容可以插入到相应的内容占位符中。
 
 例如，您可以在第一部分中指示GenStudio for Performance Marketing为推广新产品的电子邮件生成内容，并在第二部分中详细介绍可节省成本的好处。
 
@@ -79,7 +79,7 @@ GenStudio for Performance Marketing指南帮助创作AI个性化您的资源组�
 - 首先引用常规用户提示，然后引用特定于部分的指令。
 - 使用冒号、连字符、逗号或其他分隔(`,:;#$!~|@=-%&*^_`)作为节名引用和指令之间的分隔。 例如，您可以使用以下内容作为特定节的提示指令： `Pod1; Describe how to easily edit text and swap images.`
 
-下面是一个示例提示，它阐明了建议的提示结构，并利用一个电子邮件模板，该模板在`Pod1`、`Pod2`和`Pod3`中使用了标识词`Pod`。
+下面是一个示例提示，它阐明了建议的提示结构，并利用一个电子邮件模板，该模板在`Pod`、`Pod1`和`Pod2`中使用了标识词`Pod3`。
 
 ```properties
 Create an exciting multi-pod email focusing on Creative Cloud and its powerful generative AI capabilities.
@@ -99,7 +99,7 @@ Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they ca
 
 提示是一个反复的过程。 如果结果不符合您的预期，请查看您的提示并进行一些更改或添加更多详细信息。 或者，您可以粘贴营销活动简介中的各个部分。 您甚至可以请求GenStudio for Performance Marketing避免使用某些单词、元素或主题。
 
-## 最佳实践
+## 最佳做法
 
 制作有效提示的一些简单最佳实践：
 

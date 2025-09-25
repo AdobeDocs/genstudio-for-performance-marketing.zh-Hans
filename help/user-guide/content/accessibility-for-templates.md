@@ -3,9 +3,9 @@ title: 创建无障碍模板
 description: 在Adobe GenStudio for Performance Marketing中构建模板，这些模板能够吸引更多受众并提供最佳体验。
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe致力于为所有受众提供最佳体验。 请参阅Adobe上的[辅助�
 在文本和背景之间提供相应的对比度。 避免使用在深色背景上生成深色文本，而在浅色背景上生成浅色文本的字体颜色。 考虑对比度准则以获得最佳比例：
 
 - 文本的文本和图像：对比度至少为4.5:1
-- 大型文本和图像大型文本：对比度至少为3:1
+- 大型文本的大型文本和图像：对比度至少为3:1
 
 ## 链接目的（仅限链接）
 

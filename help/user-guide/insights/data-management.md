@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)通过�
 - AEP连接：以`GS Insights`为前缀的数据流
 - AEP连接： GS Insights帐户
 
-在删除AEP中的任何数据组件之前，请参阅&#x200B;_Customer Journey Analytics_&#x200B;指南中的[删除含义](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/deletion)。
+在删除AEP中的任何数据组件之前，请参阅[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion)指南中的&#x200B;_删除含义_。
 
 >[!ENDSHADEBOX]
 

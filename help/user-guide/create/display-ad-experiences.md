@@ -1,11 +1,11 @@
 ---
-title: 显示广告体验
+title: 展示广告体验
 description: 了解Adobe GenStudio for Performance Marketing中的显示广告体验。
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 借助Adobe GenStudio for Performance Marketing，您可以使用创作AI简化[成功展示广告体验](/help/user-guide/create/create-display-ad.md)的创建。
 
-[!DNL Create]使现代营销人员能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资产和[精心编制的提示符](/help/user-guide/effective-prompts.md)来[生成品牌一致的显示广告体验](/help/user-guide/create/create-display-ad.md)。
+[!DNL Create]使现代营销人员能够使用[指南](/help/user-guide/create/create-display-ad.md)、图像资产和[精心编制的提示符](/help/user-guide/guidelines/overview.md)来[生成品牌一致的显示广告体验](/help/user-guide/effective-prompts.md)。
 
 在生成显示广告体验时，将会创建四个变体并将其显示在画布中。
 

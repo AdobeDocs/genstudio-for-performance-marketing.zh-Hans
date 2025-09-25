@@ -1,10 +1,10 @@
 ---
 title: Adobe GenStudio for Performance Marketing Beta发行说明
-description: 了解 Adobe GenStudio 性能营销的最新功能和增强功能。
+description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增强功能。
 hidefromtoc: true
 hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: ad532813338a7506483c2ab5892a61d7dc4785d4
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 * 整个产品的过滤功能已得到增强。 在[!DNL Insights]中按年龄和性别进行筛选的问题已得到解决。 <!-- GS-1198 -->
 
-* 您可以使用Adobe Express直接编辑图像资源(JPG或PNG)。 内容编辑人员可以使用&#x200B;_[!UICONTROL 由Adobe Express提供支持的]_&#x200B;画布删除背景、应用创新型填充、调整效果和裁切图像，而无需离开GenStudio for Performance Marketing。<!-- GS-4615 -->
+* 您可以使用Adobe Express直接编辑图像资源(JPG或PNG)。 内容编辑人员可以使用&#x200B;_[!UICONTROL 由Adobe Express提供支持]_&#x200B;画布删除背景、应用创新型填充、调整效果和裁切图像，而无需离开GenStudio for Performance Marketing。<!-- GS-4615 -->
 
 * 改善了渐进式加载已生成的变体、已生成的电子邮件和上下文消息传送的体验。<!-- GS-4651 3062-->
 
@@ -35,13 +35,13 @@ ht-degree: 2%
 
 * [!DNL Create]画布现在按预期呈现模板中的自定义字体。<!-- GS-3415 -->
 
-* 现在，在元广告导出期间应用正确的字体。<!-- GS-5875 -->
+* 现在，在Meta广告导出期间会应用正确的字体。<!-- GS-5875 -->
 
 * 解决了模板上传问题，该问题会导致成功上传，但产品界面中缺乏可见性。<!-- GS-4815 5650-->
 
-* 用户现在可以在调整元广告大小后手动裁切元广告。<!-- GS-5871 -->
+* 用户现在可以在调整Meta广告的大小后手动裁切这些广告。<!-- GS-5871 -->
 
-* 当用户还登录到Facebook时，他们不再需要再次登录渠道元广告帐户。<!-- GS-3009 -->
+* 当用户还登录到Facebook时，他们不再需要再次登录渠道Meta广告帐户。<!-- GS-3009 -->
 
 * 现在，资源和体验的画布视图在内容创建、审查和审批过程中保持一致。<!-- GS-5877 -->
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 * 基于浏览器的拼写检查现在可在[!DNL Create]画布中按预期工作。<!-- GS-5760 -->
 
-* 现在当选择&#x200B;**[!UICONTROL 导出为PNG]**&#x200B;时，显示广告导出为PNG文件。 以前，在选择了PNGJPEG时，会将展示广告导出为格式。<!-- GS-5545 -->
+* 现在当选择&#x200B;**[!UICONTROL 导出为PNG]**&#x200B;时，显示广告导出为PNG文件。 以前，在选择PNG格式时，显示广告导出为JPEG。<!-- GS-5545 -->
 
 * **[!UICONTROL 手动裁切]**&#x200B;按钮和&#x200B;**[!UICONTROL 生成]**&#x200B;按钮之间的填充已增加。 以前，**[!UICONTROL 手动裁切]**&#x200B;按钮被部分遮蔽。<!-- GS-6084 -->
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 * 现在会持续加载闪光效果，直到图像再生完成。 <!-- GS-5811 -->
 
-* 用户编辑生成的电子邮件、元广告或显示广告后，品牌验证得分不再失效。 以前，此分数是隐藏的。<!-- GS-5379 -->
+* 用户编辑生成的电子邮件、Meta广告或展示广告后，品牌验证得分不再失效。 以前，此分数是隐藏的。<!-- GS-5379 -->
 
 * 现在，在导出体验期间，可以按预期使用附加到其`body`元素的CSS样式的模板。<!-- GS-5947 -->
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 * 改进了文本编辑期间的画布性能。 <!-- GS-5118 -->
 
-* 在[!DNL Create]电子邮件或元广告画布上的字符串之间添加了缺少的空格。<!-- GS-5019 -->
+* 在[!DNL Create]电子邮件或Meta广告画布上的字符串之间添加了缺少的空格。<!-- GS-5019 -->
 
 * 在Express中进行编辑后，编辑人员现在可以保存名称中包含特殊字符的文件。<!-- GS-6131 -->
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 此版本包括对整个产品界面的本地化改进，包括以下界面区域：
 
-* [!DNL Create]提示菜单中的&#x200B;**[!UICONTROL 了解详情]**&#x200B;选项目标的URL。<!-- GS-5029 -->
+* **[!UICONTROL 提示菜单中的]**&#x200B;了解详情[!DNL Create]选项目标的URL。<!-- GS-5029 -->
 
 * [!DNL Insights] > [!DNL Experience]搜索输入字段旁边的数字格式。<!-- GS-4494 -->
 

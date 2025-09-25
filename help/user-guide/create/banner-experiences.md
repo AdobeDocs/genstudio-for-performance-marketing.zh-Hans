@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功�
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing使您能够利用创作AI来增强[成功创建横幅体验](/help/user-guide/create/create-banner-experience.md)。
 
-[!DNL Create]使现代营销人员能够利用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[精心编制的提示](/help/user-guide/effective-prompts.md)，来[制作具有凝聚力的横幅体验](/help/user-guide/create/create-banner-experience.md)。
+[!DNL Create]使现代营销人员能够利用[指南](/help/user-guide/create/create-banner-experience.md)、图像资源和[精心编制的提示](/help/user-guide/guidelines/overview.md)，来[制作具有凝聚力的横幅体验](/help/user-guide/effective-prompts.md)。
 
 在生成横幅体验时，会在画布中创建和显示四个变体。
 
@@ -28,7 +28,7 @@ Adobe GenStudio for Performance Marketing使您能够利用创作AI来增强[成
 * 标题
 * 副标题
 * 正文
-* 行动动员(CTA)
+* call to action (CTA)
 * 图像
 
 查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。

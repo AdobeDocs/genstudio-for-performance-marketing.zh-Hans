@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 ## 多节电子邮件
 
-电子邮件体验可以包含多个部分，允许完全自定义以符合您的品牌和目标。 [为每个部分](/help/user-guide/create/create-email-experience.md#add-parameters)选择 [!DNL Products] 和可视化资产，并使用[结构化提示](/help/user-guide/effective-prompts.md#structured-prompts)制作独特的内容。 每个部分都支持一个可视资产。
+电子邮件体验可以包含多个部分，允许完全自定义以符合您的品牌和目标。 [为每个部分 [!DNL Products] 选择](/help/user-guide/create/create-email-experience.md#add-parameters)和可视化资产，并使用[结构化提示](/help/user-guide/effective-prompts.md#structured-prompts)制作独特的内容。 每个部分都支持一个可视资产。
 
 请参阅[自定义包含节](/help/user-guide/content/customize-template.md#sections-or-groups)的模板，了解如何创建多节模板。
 

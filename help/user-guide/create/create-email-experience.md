@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 创建电子邮件体验
 
-本教程演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成品牌[电子邮件体验](/help/user-guide/create/email-experiences.md)（左侧导航区域中的画笔图标）。
+本教程演示如何使用GenStudio for Performance Marketing [生成品牌](/help/user-guide/create/email-experiences.md)电子邮件体验[[!DNL Create]](/help/user-guide/create/overview.md)（左侧导航区域中的画笔图标）。
 
 若要创建有效的电子邮件体验，建议您[将准则添加到GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)中，并在开始之前[复习构建提示的基础知识](/help/user-guide/effective-prompts.md)。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **要选择电子邮件模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 电子邮件]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 电子邮件]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的电子邮件模板。
 1. 单击以选择电子邮件模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
+在提示抽屉中添加[参数](/help/user-guide/guidelines/overview.md)中的&#x200B;_准则_&#x200B;和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
 
 如果您使用具有预定义准则（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，则这些准则适用于您的变体。 您可以根据需要更改它们。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
    >[!NOTE]
-   >如果您的电子邮件模板有多个分区，请为&#x200B;_多分区电子邮件_&#x200B;中的每个电子邮件分区选择[!DNL Products]和内容（可视资产）。 多节电子邮件支持每节一个可视资产。 您只能从[!DNL Content]向多节电子邮件添加可视资产，而不能从本地源拖放或上传资产。
+   >如果您的电子邮件模板有多个分区，请为[!DNL Products]多分区电子邮件&#x200B;_中的每个电子邮件分区选择_&#x200B;和内容（可视资产）。 多节电子邮件支持每节一个可视资产。 您只能从[!DNL Content]向多节电子邮件添加可视资产，而不能从本地源拖放或上传资产。
    >![为每个电子邮件部分添加内容和参数](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 添加完参数后，您可以通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示抽屉。

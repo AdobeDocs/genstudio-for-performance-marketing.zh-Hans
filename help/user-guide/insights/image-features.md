@@ -1,10 +1,10 @@
 ---
-title: 图像特征
+title: 图像功能
 description: 了解GenStudio for Performance Marketing中使用的属性类别的图像功能。
 level: Intermediate
 feature: Reporting and Insights, Image Attributes, Generative AI
 exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
-source-git-commit: e3534ace3679e512cce6a137aadd4c483b5a868a
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 确定&#x200B;_图像样式_&#x200B;是识别其他图像特征的基础。 AI可以应用适当的分析技术并识别相关特征，从而更全面地了解图像。 每种风格都具有独特的视觉特性，这些特性会影响图像感知和分析的方式。
 
-如果图像样式被识别为`photograph`，则AI将分析`camera settings`、`camera proximity`和`Photography genres`的其他特征。 这些特征特定于照片，可让您更深入地了解图像的构成和质量。 查看Adobe的&#x200B;_学习摄影_&#x200B;中的[28种摄影样式](https://www.adobe.com/creativecloud/photography/discover/types-of-photography.html)并了解流行类型的摄影和基础术语。
+如果图像样式被识别为`photograph`，则AI将分析`camera settings`、`camera proximity`和`Photography genres`的其他特征。 这些特征特定于照片，可让您更深入地了解图像的构成和质量。 查看Adobe的[学习摄影](https://www.adobe.com/creativecloud/photography/discover/types-of-photography.html)中的&#x200B;_28种摄影样式_&#x200B;并了解流行类型的摄影和基础术语。
 
 如果图像样式被识别为`sketch`或`digital cartoon`，则可能涉及一组不同的特征。 这种分层方法可确保分析在语境上准确并且针对被检查的特定图像类型量身定制。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 **要查看特定属性类别中的图像**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 属性]**&#x200B;视图。
+1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 属性]**视图。
 
 1. 通过选择&#x200B;**[!UICONTROL 图像]**&#x200B;更改表视图。
 

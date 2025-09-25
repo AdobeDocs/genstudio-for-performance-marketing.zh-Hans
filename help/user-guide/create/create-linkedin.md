@@ -1,5 +1,5 @@
 ---
-title: 创建LinkedIn体验
+title: 创建LinkIn体验
 description: 了解如何使用Adobe GenStudio for Performance Marketing创建符合品牌要求的LinkedIn体验。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 创建LinkedIn体验
 
-本教程演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成符合品牌指南的[LinkedIn体验](/help/user-guide/create/meta-experiences.md)（左侧导航区域中的画笔图标）。
+本教程演示如何使用GenStudio for Performance Marketing [生成符合品牌指南的](/help/user-guide/create/meta-experiences.md)LinkedIn体验[[!DNL Create]](/help/user-guide/create/overview.md)（左侧导航区域中的画笔图标）。
 
 在开始生成LinkedIn广告之前，请务必在GenStudio for Performance Marketing中[添加准则](/help/user-guide/guidelines/add-guidelines.md)并了解[创建提示符](/help/user-guide/effective-prompts.md)的基础知识。
 
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 **选择LinkedIn模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL LinkedIn]**。
 1. 选择&#x200B;**[!UICONTROL 自定义模板]**&#x200B;浏览上载的模板，或选择&#x200B;**[!UICONTROL 入门模板]**&#x200B;浏览预建模板。
 
-   如果您计划将视频资产添加到元变体，则必须选择起始模板。 它们预加载了系统定义的内容区域，从而方便了视频的使用。
+   如果计划将视频资源添加到Meta变体，则必须选择入门模板。 它们预加载了系统定义的内容区域，从而方便了视频的使用。
 
 1. 单击以选择模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产可增强内容生成过程，是准备生成LinkedIn体验的关键步骤。
+在提示抽屉中添加[参数](/help/user-guide/guidelines/overview.md)中的&#x200B;_准则_&#x200B;和资产可增强内容生成过程，是准备生成LinkedIn体验的关键步骤。
 
 **要添加参数和资源**：
 
@@ -89,10 +89,10 @@ ht-degree: 0%
 
 * **要[编辑LinkedIn广告草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题并输入新标题。
 * **要[手动编辑LinkedIn广告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击任意广告部分（如主题行、标题或正文）并根据需要进行编辑。
-* **要更改或选择行动号召**，请单击call-to-action按钮，然后从可用按钮文本选项中进行选择。 在&#x200B;_链接_&#x200B;中，输入call-to-action文本的URL。
+* **要更改或选择call to action**，请单击“call-to-action”按钮，然后从可用按钮文本选项中进行选择。 在&#x200B;_链接_&#x200B;中，输入call-to-action文本的URL。
 * **要在变体中[应用文本格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击变体的图像上文本，然后单击&#x200B;**[!UICONTROL 设置文本格式]**。
 * **要[重新生成变体](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的部分，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者在_[!UICONTROL 生成新文本_部分]中输入新提示，然后单击&#x200B;**[!UICONTROL 生成]**。
-* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板**，请单击图像，单击“编辑”**&#x200B;**（铅笔图标），然后&#x200B;**[!UICONTROL 展开]**。 ](/help/user-guide/create/manage-variants.md#use-generative-expand)调整图像以适合所需的纵横比和模板。
+* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板](/help/user-guide/create/manage-variants.md#use-generative-expand)，请单击图像，单击“编辑”****[!UICONTROL （铅笔图标），然后]**&#x200B;展开&#x200B;**[!UICONTROL 。]**&#x200B;调整图像以适合所需的纵横比和模板。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请将鼠标悬停在图像上，单击显示的裁切图标，然后调整图像大小和位置。
 * **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
 * **要[在变体中添加或交换资产（图像或视频）](/help/user-guide/create/manage-variants.md#swap-image)**，请单击资产（或资产区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
@@ -130,13 +130,13 @@ ht-degree: 0%
 
 **要获得审阅和批准**：
 
-1. [启动审批请求](/help/user-guide/approvals/request-review.md)以请求[审批草拟的元广告体验](/help/user-guide/approvals/approve-content.md)。
+1. [启动审批请求](/help/user-guide/approvals/request-review.md)以请求[审批草拟的Meta广告体验](/help/user-guide/approvals/approve-content.md)。
 
    ![发送草稿以供审阅和审批](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [在审阅过程中删除或添加审阅人](/help/user-guide/approvals/review-and-edit.md#manage-approvals)。
 1. [访问内容以供审阅](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)并查看修订请求。
-1. 编辑每个审阅评论的草稿并[发布您的元广告体验](#publish-and-export-experience)。
+1. 编辑每个审核评论的草稿并[发布您的Meta广告体验](#publish-and-export-experience)。
 
 有关详细信息，请参阅[审核和批准](/help/user-guide/approvals/overview.md)。
 

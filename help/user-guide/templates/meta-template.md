@@ -1,22 +1,22 @@
 ---
-title: 元广告模板准则
-description: 将元广告模板与Adobe GenStudio for Performance Marketing结合使用时，请遵循最佳实践。
+title: Meta广告模板准则
+description: 将Meta广告模板与Adobe GenStudio for Performance Marketing结合使用时，请遵循最佳实践。
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: d9d774f727b69b18af6114965fdb8ffb450f797b
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-# 元广告模板准则
+# Meta广告模板准则
 
-元广告模板可帮助您跨元平台创建视觉上一致且有效的广告。 通过遵循推荐的设计实践并使用支持的字段，您可以确保模板已针对GenStudio for Performance Marketing进行了优化。 本指南介绍如何构建、自定义和准备元广告模板，以实现无缝集成和高成效的结果。
+Meta广告模板可帮助您跨Meta平台创建视觉上一致且有效的广告。 通过遵循推荐的设计实践并使用支持的字段，您可以确保模板已针对GenStudio for Performance Marketing进行了优化。 本指南介绍如何构建、自定义和准备Meta广告模板，以实现无缝集成和高成效的结果。
 
-在自定义元广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
+在自定义Meta广告模板以用于GenStudio for Performance Marketing时，请遵循以下设计最佳实践：
 
 - 对列布局使用360像素宽度
 - 图像的最低分辨率为1080 x 1080像素
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 可识别的字段名称
 
-在自定义元广告模板时，请为以下必填字段应用内容占位符：
+在自定义Meta广告模板时，请为以下必填字段应用内容占位符：
 
 - `image` (必需，从Content JPEG、PNG或GIF中选择)
 - `on_image_text` （图像上显示的文本）
@@ -48,7 +48,7 @@ GenStudio for Performance Marketing会自动生成以下字段。 您不必为�
 
 | 宽高比 | 尺寸（像素） | 注释 |
 |------------------|----------------------------|-----------------------------------------------------------------------|
-| 方形1:1 | 1080 x 1080 | 对大多数元投放位置而言，此标准是推荐的，以实现广泛的兼容性。 |
+| 方形1:1 | 1080 x 1080 | 大多数Meta投放位置的标准；建议用于广泛兼容。 |
 | 纵向4:5 | 1080 x 1350 | 针对移动馈送进行了优化；提供了更多垂直空间。 |
 | 故事9:16 | 1080 x 1920 | 非常适合于故事和胶卷；填充整个移动设备屏幕。 |
 | 横向1.91:1 | 1080 x 566 | 最适合链接广告和新闻馈送投放；宽格式。 |
@@ -58,11 +58,11 @@ GenStudio for Performance Marketing会自动生成以下字段。 您不必为�
 
 ## 模板示例
 
-+++示例：元广告模板
++++示例：Meta广告模板
 
 <!-- Does this need to be a precise size? -->
 
-以下是元广告模板的基本示例。 标头包含用于样式化的内联CSS。 正文使用[内容占位符](#content-placeholders)（如`image`和`on_image_text`）来指示GenStudio for Performance Marketing可在何处生成内容。
+以下是Meta广告模板的基本示例。 标头包含用于样式化的内联CSS。 正文使用[内容占位符](#content-placeholders)（如`image`和`on_image_text`）来指示GenStudio for Performance Marketing可在何处生成内容。
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
