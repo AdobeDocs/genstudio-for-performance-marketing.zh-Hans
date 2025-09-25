@@ -23,7 +23,7 @@ GenStudio for Performance Marketing中的音频检测涉及分析视频的音频
 
 **要预览视频并聆听音频示例**，请执行以下操作：
 
-1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 属性]**视图。
+1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 属性]**&#x200B;视图。
 
 1. 通过选择&#x200B;**[!UICONTROL 视频]**&#x200B;更改表视图。
 

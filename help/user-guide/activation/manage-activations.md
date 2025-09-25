@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 属性 | 值 |
 |------------------|---------------------------------------------------------------------------------------------|
-| 体验名称 | GenStudio for Performance Marketing中体验的名称<br>此名称标识&#x200B;_[!DNL Content]_中的体验 |
+| 体验名称 | GenStudio for Performance Marketing中体验的名称<br>此名称标识&#x200B;_[!DNL Content]_&#x200B;中的体验 |
 | 广告名称 | 广告渠道中的广告名称 |
 | 发布日期 | 广告体验成功发布的日期<br>使用月日 — 年格式 |
 | 发布者 | 激活体验的GenStudio for Performance Marketing用户的名称 |

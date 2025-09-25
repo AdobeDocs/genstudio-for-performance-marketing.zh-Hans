@@ -30,7 +30,7 @@ GenStudio系统管理员必须先将您的Google Campaign Manager 360帐户连�
 
 ## 步骤3：为您的广告体验选择内容
 
-您可以从&#x200B;_[!DNL Content]_体验库或_[!DNL Activate]_&#x200B;主页启动发布流程。 无法编辑已批准的体验。 每个体验只能包含一个资源。
+您可以从&#x200B;_[!DNL Content]_&#x200B;体验库或&#x200B;_[!DNL Activate]_&#x200B;主页启动发布流程。 无法编辑已批准的体验。 每个体验只能包含一个资源。
 
 **要选择体验**：
 
@@ -40,7 +40,7 @@ GenStudio系统管理员必须先将您的Google Campaign Manager 360帐户连�
 
 1. （可选）单击&#x200B;**[!UICONTROL 添加体验]**&#x200B;以向此激活组添加体验。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**以确认您的Google Campaign Manager 360平台设置。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以确认您的Google Campaign Manager 360平台设置。
 _平台设置_&#x200B;视图打开。 此视图填充有从您配置的Google Campaign Manager 360帐户派生的选项。
 
 ## 步骤4：确认Google Campaign Manager 360平台设置
@@ -49,7 +49,7 @@ _平台设置_&#x200B;视图打开。 此视图填充有从您配置的Google Ca
 
    激活完成后，您的创意体验将会交付到Google Campaign Manager 360中的此广告商库。
 
-1. 向&#x200B;**[!UICONTROL Creative名称]**字段添加名称。 Google Campaign Manager 360通过此名称标识体验。
+1. 向&#x200B;**[!UICONTROL Creative名称]**&#x200B;字段添加名称。 Google Campaign Manager 360通过此名称标识体验。
 对每个选定的体验重复此操作。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以确认您的Google Campaign Manager 360设置。

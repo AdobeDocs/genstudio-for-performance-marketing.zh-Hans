@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 **要查看资源详细信息**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
@@ -56,7 +56,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 **要编辑用户定义的元数据**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
