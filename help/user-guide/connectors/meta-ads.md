@@ -6,9 +6,9 @@ role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: 40c7d2d40f1c4bea9794e706d8e1ce7bf92042e3
+source-git-commit: dce3d9bbf3ed2d26872b324c04ab7e78bbb034dc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,15 @@ ht-degree: 0%
 
 **先决条件**：
 
-- 可访问所有Meta服务的Facebook/Meta登录
-
+- 可以访问所有Meta服务的Facebook/Meta登录信息
 - _完全控制_ Meta商业Portfolio和广告帐户，包括：
-
    - 管理营销活动
    - 查看性能
    - 管理Creative中心模型
    - 高级分析
-
 - 在浏览器中禁用任何弹出窗口阻止程序
+- 在尝试连接之前，请在Meta Business Manager中验证任何Instagram帐户页面关联
+- 确认管理员对所有连接资产的访问权限
 
 >[!ENDSHADEBOX]
 
@@ -69,6 +68,16 @@ ht-degree: 0%
 
 使用&#x200B;**[!UICONTROL 添加帐户]**&#x200B;向列表中添加更多帐户。 当您添加链接到同一Meta商业用户档案的帐户时，授权流程可能会略有不同。 在连接过程中，您只能选择新的Meta Ads帐户。
 
+## 连接最佳实践
+
+要防止出现任何错误，请在设置连接时考虑以下最佳实践：
+
+- [ ]从为初始连接选择的资源最少（仅限单个页面）开始
+- [ ]仅在确认页面访问有效后添加Instagram帐户
+- [ ]确保Instagram帐户与Meta Business Manager中选定的Facebook页面正确关联
+- [ ]使用分阶段的方法：首先建立基本连接，然后展开资源
+- [ ]在尝试连接之前验证所有资源的管理员权限
+
 ## 断开Meta Ads集成并排除其故障
 
 有时GenStudio for Performance Marketing实例未正确连接到Meta广告帐户。 可能导致问题的常见设置包括：
@@ -91,3 +100,24 @@ ht-degree: 0%
 1. 出现提示时，确认删除。
 
 您现在可以重新连接Meta广告帐户、Instagram个人资料和Facebook页面。
+
+## Instagram帐户连接问题
+
+在连接设置期间选择Instagram帐户但未连接关联的Facebook页面时，可能会出现问题。 这可能会导致以下错误：
+
+- “无法连接到{Page_Name}”或一般连接失败。
+- 在Facebook登录业务流程期间连接超时。
+- 选择多个资源时静默失败。
+- 同时选择Instagram、页面和广告帐户时，连接失败。
+
+### 解决步骤：
+
+1. 导航至[Meta Business Manager](https://business.facebook.com) >集成>连接的应用程序。
+1. 移除现有的“Adobe GenStudio”集成（如果存在）。 单击&#x200B;**删除**。
+1. 请返回GenStudio并重试连接过程。
+1. 在初始连接期间仅选择目标Facebook页面。
+1. 请勿在首次连接尝试期间选择Instagram帐户。
+1. 在添加其他资产之前，请验证连接是否成功。
+1. 页面连接稳定后，请单独添加Instagram帐户。
+
+
