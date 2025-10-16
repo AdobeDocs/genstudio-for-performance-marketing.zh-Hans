@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
+source-git-commit: a294111abbe89030a7095458c4b08de18722230f
 workflow-type: tm+mt
-source-wordcount: '3502'
+source-wordcount: '3763'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,62 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.09.11 {#latest}
+## 2025.10.26 {#latest}
+
+### 适用于Photoshop和Figma的新GenStudio插件
+
+* 使用适用于Adobe Photoshop的新GenStudio插件和Figma设计工具，直接创建品牌广告和个性化广告。
+
+### 扩展的视频功能
+
+* 营销人员现在可以轻松地将介绍剪辑和介绍剪辑添加到具有预生成的品牌或消息的视频广告中。
+* 在整个视频长度中添加图像、文本和徽标叠加图
+
+### LinkedIn、Meta和TikTok的扩展见解
+
+* GenStudio Insights现在包括LinkedIn广告效果报表，使营销人员能够直接在平台中查看和分析其营销活动和广告的效果，以：
+   * LinkedIn广告
+   * Meta Ads
+   * TikTok Ads
+
+### Amazon Ads激活
+
+* GenStudio现在支持直接在Amazon Ads平台中激活显示广告。
+
+### Flashtalking激活
+
+* GenStudio现在支持将显示广告直接激活到Flashtalking (Innovid)广告投放平台。
+* 用户必须与激活工程团队协作，手动配置其Flashtalking API令牌。 未来版本中将添加自助令牌配置。
+
+### 与Adobe Campaign V8集成
+
+* GenStudio for Performance Marketing现在与Adobe Campaign V8集成，使营销人员能够无缝地利用AI支持的内容创建功能以及Campaign的高级编排功能。
+
+### 视频自动播放
+
+* 视频现在可以跨[!DNL Create]、[!DNL Content]和[!DNL Insights]模块自动播放，从而提供无缝的预览体验。
+
+### 第三方电子邮件模板导入
+
+* GenStudio for Performance Marketing现在支持通过可扩展性框架与第三方电子邮件设计系统无缝集成。 主要功能包括：
+
+   * 在内容创建期间自动从第三方电子邮件设计系统导入模板
+   * 将模板元数据与导入的模板一起引入
+   * 通过直接连接到第三方系统维护单一真实来源
+   * 为构建自定义集成提供的SDK和示例应用程序
+
+
+## 早期发行说明
+
++++2025.09.11版注释
 
 ### 适用于付费媒体的创新型扩展AI功能
 
-新的GenExpand功能可让营销人员动态调整其创意资产，以支持跨付费媒体渠道（如Meta、LinkedIn、显示广告和横幅）的不同宽高比。 当图像与预期纵横比不匹配时（如将窄图像添加到宽布局），可以使用GenExpand修改图像以适应。
+新的GenExpand功能可让营销人员动态调整其创意资源，以支持跨付费媒体渠道(如Meta、LinkedIn、显示广告和横幅)的不同宽高比。 当图像与预期纵横比不匹配时（如将窄图像添加到宽布局），可以使用GenExpand修改图像以适应。
 
 此功能简化了直接在GenStudio for Performance Marketing中编辑图像和调整大小的过程。 有关详细信息，请参阅[生成扩展AI功能](/help/user-guide/create/manage-variants.md#use-generative-expand)。
 
-## 早期发行说明
++++
 
 +++2025.08.15版注释
 
@@ -83,9 +130,9 @@ Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译
 
 [!DNL Insights]模块中的新筛选器会自动从广告预览中隐藏[不受支持的图像和视频资源](/help/user-guide/insights/ads.md#ad-formats)，从而消除视觉混乱和磁贴损坏。 此增强功能可确保用户仅看到实际可用且准备使用的媒体，从而创造更干净和更可靠的体验。 该过滤器与现有兼容性广告过滤器配合使用。
 
-### 元的多资产激活
+### Meta的多资产激活
 
-元广告的多纵横比图像激活允许广告商在单个广告创意下上传和激活多个不同纵横比的图像资产。 此功能使一个广告能够为各种元投放位置（如信息源、故事和胶卷）提供合适的创意内容。 广告商可以预览每个图像在投放位置之间的呈现方式，并在单个API调用中将所有版本发布到Meta。
+Meta广告的多纵横比图像激活允许广告商在单个广告创意下上传和激活多个不同纵横比的图像资源。 此功能使一个广告能够为各种元投放位置（如信息源、故事和胶卷）提供合适的创意内容。 广告商可以预览每个图像在投放位置之间的呈现方式，并在单个API调用中将所有版本发布到Meta。
 
 ### 变体中的富文本格式
 
@@ -101,11 +148,11 @@ Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译
 
 提示抽屉中新的语言选择器下拉菜单支持创建多语言内容，从而让区域营销人员能够为其本地受众开发品牌上内容。 此功能当前支持12种GA语言和5种Beta语言，语言列表为LLM提供定义的工作流和明确的语言指令，以实现更一致的输出。
 
-### 元广告的模板选择可选
+### 适用于Meta广告的可选模板选择
 
 [!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
 
-模板选择现在对于元广告是可选的，允许用户创建广告，而无需在媒体顶部使用文本和徽标。 此增强功能允许使用其他媒体类型，例如动画GIF和视频，这些媒体类型可能不需要文本叠加或徽标放置。
+模板选择现在对于Meta广告是可选的，允许用户创建广告，而无需在媒体顶部使用文本和徽标。 此增强功能允许使用其他媒体类型，例如动画GIF和视频，这些媒体类型可能不需要文本叠加或徽标放置。
 
 +++
 
@@ -154,7 +201,7 @@ Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译
 ### 修复和增强功能
 
 * 启用了[将替代（替代）文本](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)添加到单个变体的图像的功能。
-* 添加了[新元宽高比](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 横向1.19:1（1080像素宽度）。
+* 添加了[新的Meta宽高比](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 横向1.19:1（1080像素宽度）。
 * 现在，您可以选择多个体验进行导出或下载。 请参阅[导出体验](/help/user-guide/content/manage-assets.md#export-experiences)。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -173,9 +220,9 @@ Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译
 
 +++2025.03.13版注释
 
-### 激活元广告
+### 激活Meta广告
 
-营销人员现在可以将GenStudio for Performance Marketing中的[广告体验](/help/user-guide/activation/overview.md)发布到元广告管理器。 [!DNL Activate]支持部署前的详细元广告预览。 通过[!DNL Activate]发布的元广告一旦上线，就会自动提取到[!DNL Insights]中，使用户能够跟踪和报告广告效果。
+营销人员现在可以将GenStudio for Performance Marketing中的[广告体验](/help/user-guide/activation/overview.md)发布到元广告管理器。 [!DNL Activate]支持部署前的详细元广告预览。 通过[!DNL Activate]发布的Meta广告一旦上线即自动提取到[!DNL Insights]中，使用户能够跟踪和报告广告效果。
 
 ### 创建LinkedIn体验
 
@@ -191,7 +238,7 @@ Adobe GenStudio for Performance Marketing现在提供内置的电子邮件翻译
 
 ### 合规性
 
-作为品牌验证流程的一部分，[内容检查](/help/user-guide/guidelines/overview.md)中引入了[合规性标准](/help/user-guide/guidelines/brand-validation.md)。 这些检查将根据[!DNL Brand]指南、平台指南（如Meta）和ADA标准审查体验中的每个变体。 此过程全面总结了需要修订的准则和标准，以更好地满足合规性要求。
+作为品牌验证流程的一部分，[内容检查](/help/user-guide/guidelines/overview.md)中引入了[合规性标准](/help/user-guide/guidelines/brand-validation.md)。 这些检查将根据[!DNL Brand]指南、平台指南(如Meta)和ADA标准审查体验中的每个变体。 此过程全面总结了需要修订的准则和标准，以更好地满足合规性要求。
 
 ### 可扩展性
 
@@ -320,7 +367,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 * 现在，编辑者在创建显示广告时最多可以选择四个图像。<!-- GS-7189 -->
 
-* 现在，在其他浏览器中调整大小时，显示广告和元广告草稿会按预期加载。<!-- GS-7204 -->
+* 现在，在其他浏览器中调整大小时，显示广告和Meta广告草稿会按预期加载。<!-- GS-7204 -->
 
 * 未使用的模板字段不再显示在生成的内容中。 <!-- GS-5670 -->
 
@@ -400,11 +447,11 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 * 当用户点击离开时，[!DNL Create]提示抽屉现在会按预期关闭。<!-- GS-5254 -->
 
-* 元广告导出现在按预期包括选定的call-to-action标签。<!-- GS-6504 -->
+* Meta广告导出现在会按预期包含选定的call-to-action标签。<!-- GS-6504 -->
 
 * 品牌分数现在会按预期更新并保留在重新生成的体验中。<!-- GS-6535 -->
 
-* 元广告和显示广告的HTML导出不再包含包装器`div`和`chrome`元素。<!-- GS-7116 -->
+* Meta广告和显示广告的HTML导出不再包含包装器`div`和`chrome`元素。<!-- GS-7116 -->
 
 * 现已解决发布期间电子邮件草稿呈现问题。<!-- GS-6394 -->
 
@@ -414,11 +461,11 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 #### 图像再生
 
-* 调整多个元广告变体的大小现在可按预期工作。 以前，画布不显示重新生成的变体，而是保持空白。<!-- GS-7010 -->
+* 现在，可按预期调整多个Meta广告变体的大小。 以前，画布不显示重新生成的变体，而是保持空白。<!-- GS-7010 -->
 
 * 片段重新生成现在可以按预期方式用于调整大小的体验。<!-- GS-6836 -->
 
-* 在调整元广告图像大小后重新生成它们不再会导致错误。 以前，在重新生成之前调整图像大小会将渠道元数据从`meta`更改为`facebook`。<!-- GS-7042 -->
+* 在调整Meta广告图像的大小后重新生成这些图像不再会导致错误。 以前，在重新生成之前调整图像大小会将渠道元数据从`meta`更改为`facebook`。<!-- GS-7042 -->
 
 +++
 
