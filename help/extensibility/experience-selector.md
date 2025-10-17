@@ -2,7 +2,7 @@
 title: GenStudio Experience Selector MFE
 description: 了解并为GenStudio应用程序和加载项实施Experience Selector微前端。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: d6e580763d85df6d9d295d4e87501af4b022f57b
+source-git-commit: d9d6d3825cd953245049de119c66f54274f20fd9
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 6%
@@ -107,15 +107,15 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience-stage.adobe
 
 此存储库包含不同框架的工作示例：
 
-- [一个完整的React应用程序，用于演示与Vite生成系统](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)的集成。
+- [一个&#x200B;**完整的React应用程序**，演示与Vite生成系统](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)的集成。
 
-- [具有组合API集成的Vue 3应用程序](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)。
+- [具有组合API集成的&#x200B;**Vue 3应用程序**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)。
 
-- [两个vanilla JavaScript实施](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js)：
+- [两个&#x200B;**Vanilla JavaScript实施**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js)：
 
-- [此Vanilla ESM版本使用ES6模块和现代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
+   - [此&#x200B;**Vanilla ESM**&#x200B;版本使用ES6模块和现代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
 
-- [此Vanilla UMD版本使用通过脚本标记加载的UMD包](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)。
+   - [此&#x200B;**Vanilla UMD**&#x200B;版本使用通过脚本标记](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)加载的UMD捆绑包。
 
 ## 身份验证流程
 
