@@ -2,7 +2,7 @@
 title: GenStudio Experience Selector MFE
 description: 了解并为GenStudio应用程序和加载项实施Experience Selector微前端。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: e30e43bd8d226628b425c341d19195f7f860e560
+source-git-commit: 2d6453274d1bfeb35df2821e7e31eec1ca87b013
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 6%
@@ -28,13 +28,13 @@ MFE可通过两种不同的方法集成：
 ### ESM （ES模块） — 推荐
 
 ```javascript
-import { renderExperienceSelectorWithSUSI } from 'https://experience-stage.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/esm/standalone.js';
+import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/esm/standalone.js';
 ```
 
 ### UMD（通用模块定义）
 
 ```html
-<script src="https://experience-stage.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/umd/standalone.js"></script>
+<script src="https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/umd/standalone.js"></script>
 ```
 
 ## 配置属性
