@@ -3,9 +3,9 @@ title: Content Credentials组织版
 description: 了解如何在GenStudio for Performance Marketing中应用和查看Content Credentials。
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: b7e3d1c3b20149eee85670098ddd100b41e27f2c
+source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->此功能当前为测试版，仅适用于已被授予访问权限的组织。 如有兴趣，请联系您的Adobe客户团队代表进行注册。
+> 此功能当前为测试版，仅适用于已被授予访问权限的组织。 如有兴趣，请联系您的Adobe客户团队代表或[使用此链接申请注册](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
 
 ## Content Credentials入门
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 什么是Content Credentials？ 
 
-Content Credentials是一种持久的行业标准元数据类型，其中包含有关如何制作内容的详细信息以及有关创建者的身份信息。 当内容在线发布到支持平台时，或者使用诸如[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome浏览器扩展](https://helpx.adobe.com/cn/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)之类的工具时，可以查看Content Credentials。  
+Content Credentials是一种持久的行业标准元数据类型，其中包含有关如何制作内容的详细信息以及有关创建者的身份信息。 当内容在线发布到支持平台时，或者使用诸如[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome浏览器扩展](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)之类的工具时，可以查看Content Credentials。  
 
 应用Content Credentials有助于提高内容制作方式的透明度，并且可帮助您的用户将自己连接到其内容。
 
@@ -55,7 +55,7 @@ Content Credentials是一种持久的行业标准元数据类型，其中包含�
 
 缩略图右上角的Content Credential徽章表示“Brand signed”内容。
 
-![已导入具有凭据的资产](./images/import-discovery1.png){width="350"}
+![已导入具有凭据的资产](./images/import-discovery1.png)
 
 选择已签署的内容会显示详细的元数据：已发布的品牌、录制器、使用的工具、时间戳。
 
@@ -75,15 +75,15 @@ Content Credential徽章将显示在画布资源选择器中。
 
 在从草稿导出期间，修改后的资产会自动重新签名，并且新凭据将链接到原始凭据。
 
-![已导出资产的凭据数据](./images/edit-and-transformation1.png){width="300"}
+![已导出资产的凭据数据](./images/edit-and-transformation1.png){width="60%"}
 
 ### 审阅和批准
 
 在“审核并批准”预览中，将在右边栏中显示资产的凭据状态。
 
-![已批准资产上的凭据数据](./images/review-and-approve1.png){width="300"}
+![已批准资产上的凭据数据](./images/review-and-approve1.png){width="60%"}
 
-当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”**&#x200B;**&#x200B;时，已批准的体验将被重新签名。
+当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”****&#x200B;时，已批准的体验将被重新签名。
 
 ![已批准资产上的凭据数据](./images/review-and-approve2.png)
 
@@ -91,7 +91,7 @@ Content Credential徽章将显示在画布资源选择器中。
 
 在激活期间，体验选择器中会显示凭据状态。
 
-![已激活资产的凭据数据](./images/activate-export1.png){width="350"}
+![已激活资产的凭据数据](./images/activate-export1.png){width="60%"}
 
 导出的文件将嵌入符合C2PA的凭据。
 
