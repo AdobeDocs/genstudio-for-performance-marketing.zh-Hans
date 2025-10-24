@@ -5,9 +5,9 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
+source-git-commit: 48dae1e6ce14a7dc1f2cc5fbad60eefebe99bf4e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 19%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 19%
    + 付费媒体帐户 {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
       + [LinkedIn](connectors/linkedin-ads.md)
-      + [元广告](connectors/meta-ads.md)
+      + [Meta广告](connectors/meta-ads.md)
 + 准则 {#guidelines}
    + [指南概述](guidelines/overview.md)
    + [品牌](guidelines/brands.md)
@@ -40,13 +40,13 @@ ht-degree: 19%
 + 创建 {#create}
    + [[!DNL Create] 概述](create/overview.md)
    + [电子邮件体验](create/email-experiences.md)
-   + [元体验](create/meta-experiences.md)
+   + [Meta体验](create/meta-experiences.md)
    + [LinkedIn体验](create/linkedin-experiences.md)
    + [显示广告体验](create/display-ad-experiences.md)
    + [横幅体验](create/banner-experiences.md)
    + [管理变体](create/manage-variants.md)
    + [创建电子邮件体验](create/create-email-experience.md)
-   + [创建元广告体验](create/create-meta-ad.md)
+   + [创建Meta广告体验](create/create-meta-ad.md)
    + [创建LinkedIn体验](create/create-linkedin.md)
    + [创建显示广告体验](create/create-display-ad.md)
    + [创建横幅体验](create/create-banner-experience.md)
@@ -63,6 +63,7 @@ ht-degree: 19%
    + [管理资源和体验](content/manage-assets.md)
    + [连接AEM存储库](content/connect-aem-repo.md)
    + [资产详细信息](content/asset-details.md)
+   + [Content Credentials](content/content-credentials.md)
 + 模板 {#templates}
    + [使用模板](content/use-templates.md)
    + [入门模板](templates/starter-templates.md)
@@ -74,7 +75,7 @@ ht-degree: 19%
       + [显示广告指南](templates/display-template.md)
       + [电子邮件指南](templates/email-template.md)
       + [LinkedIn广告指南](templates/linkedin-template.md)
-      + [元广告指南](templates/meta-template.md)
+      + [Meta广告指南](templates/meta-template.md)
 + 营销活动 {#campaigns}
    + [促销活动概述](campaigns/overview.md)
    + [创建营销活动](campaigns/create-campaign.md)
@@ -87,7 +88,7 @@ ht-degree: 19%
    + 付费媒体广告 {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
       + [LinkedIn](activation/activate-linkedin-ad.md)
-      + [元](activation/activate-meta-ad.md)
+      + [Meta](activation/activate-meta-ad.md)
 + 见解 {#insights}
    + [见解概述](insights/overview.md)
    + [分析筛选器](insights/filter-views.md)
