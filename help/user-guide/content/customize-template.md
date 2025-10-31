@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
+source-git-commit: 730e8f89f466ab457670cefe98833f5f4732636c
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅[Handlebars语言指南 [!DNL Handlebars]中的](https://handlebarsjs.com/guide/#what-is-handlebars)什么是__以了解如何准备模板。
 
 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
 
@@ -30,7 +30,7 @@ GenStudio for Performance Marketing可识别模板中的某些内容类型或[�
 
 在HTML模板的head或body中，可以使用[!DNL Handlebars]语法插入内容占位符，在其中需要GenStudio for Performance Marketing使用实际内容填充模板。 GenStudio for Performance Marketing根据[识别的&#x200B;_字段_&#x200B;名称](#recognized-field-names)来识别和解释这些占位符。 每个字段名称都与特定规则和行为相关联，这些规则和行为可确定如何生成内容并将其插入到模板中。
 
-例如，您可以使用带有[!DNL Handlebars]语法的`{{headline}}`来指示电子邮件的标题应放在何处。 GenStudio可识别此字段，根据您的准则和提示标准生成相关标题，并将标题插入此位置：
+例如，您可以使用带有`{{headline}}`语法的[!DNL Handlebars]来指示电子邮件的标题应放在何处。 GenStudio可识别此字段，根据您的准则和提示标准生成相关标题，并将标题插入此位置：
 
 ```handlebars
 <div>{{headline}}</div>
@@ -43,13 +43,13 @@ GenStudio for Performance Marketing可识别模板中的某些内容类型或[�
 | 字段 | 角色 | 渠道模板 |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | 预编译标头 | 电子邮件 |
-| `{{headline}}` | 标题 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
+| `{{headline}}` | 标题 | 电子邮件<br>Meta广告<br>横幅和显示广告<br>LinkedIn广告 |
 | `{{sub_headline}}` | 副标题 | 电子邮件<br>横幅和显示广告 |
 | `{{introductory_text}}` | 介绍性文本 | LinkedIn广告 |
-| `{{body}}` | 正文 | 电子邮件<br>元广告<br>横幅和显示广告 |
-| `{{cta}}` | call to action<br>查看[行动号召](#calls-to-action) | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
-| `{{image}}` | 图像 — 从[!DNL Content]中选择 | 电子邮件<br>元广告<br>横幅和显示广告<br>LinkedIn广告 |
-| `{{on_image_text}}` | 在图像文本上<br>请参阅[在图像文本上](#on-image-text)。 | 元广告<br>LinkedIn广告 |
+| `{{body}}` | 正文 | 电子邮件<br>Meta广告<br>横幅和显示广告 |
+| `{{cta}}` | call to action<br>查看[行动号召](#calls-to-action) | 电子邮件<br>Meta广告<br>横幅和显示广告<br>LinkedIn广告 |
+| `{{image}}` | 图像 — 从[!DNL Content]中选择 | 电子邮件<br>Meta广告<br>横幅和显示广告<br>LinkedIn广告 |
+| `{{on_image_text}}` | 在图像文本上<br>请参阅[在图像文本上](#on-image-text)。 | Meta广告<br>LinkedIn广告 |
 | `{{link}}` | 映像<br>上的Call to action请参阅[映像](#link-on-image)上的链接。 | 电子邮件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
@@ -57,7 +57,7 @@ GenStudio for Performance Marketing可识别模板中的某些内容类型或[�
 GenStudio for Performance Marketing在以下模板中自动生成某些字段：
 
 - **电子邮件模板**&#x200B;不需要您识别`subject`字段
-- **元广告模板**&#x200B;不要求您识别`headline`、`body`和`CTA`字段
+- **Meta广告模板**&#x200B;不要求您识别`headline`、`body`和`CTA`字段
 - **横幅和显示广告模板**&#x200B;不需要您识别`CTA`字段
 - **LinkedIn广告模板**&#x200B;不要求您识别`headline`、`introductory_text`和`CTA`字段
 
@@ -73,7 +73,7 @@ GenStudio for Performance Marketing在以下模板中自动生成某些字段：
 
 ### 行动号召
 
-行动号召(CTA)包括短语和链接。 为了使&#x200B;_[!UICONTROL 重写]_&#x200B;和&#x200B;_[!UICONTROL 添加链接]_&#x200B;功能在变体生成过程中正常工作，您必须在模板中包含链接和短语的占位符。
+call to action (CTA)包含短语和链接。 为了使&#x200B;_[!UICONTROL 重写]_&#x200B;和&#x200B;_[!UICONTROL 添加链接]_&#x200B;功能在变体生成过程中正常工作，您必须在模板中包含链接和短语的占位符。
 
 使用下面的指南设置CTA占位符：
 
@@ -113,7 +113,7 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 
 ### 替换文本
 
-使用用户定义的字段名称作为占位符为图像生成替换文本(HTML `alt="text"`属性)描述。 以下`{{imageDescription}}`占位符与同一`<img>`标记中的`{{image}}`字段一起使用，确保图像及其描述之间的关系持续存在。
+使用用户定义的字段名称作为占位符为图像生成替换文本(HTML `alt="text"`属性)描述。 以下`{{imageDescription}}`占位符与同一`{{image}}`标记中的`<img>`字段一起使用，确保图像及其描述之间的关系持续存在。
 
 ```html
 <img src="{{image}}" alt="{{imageDescription}}">
@@ -213,7 +213,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 如果您的电子邮件模板需要多个内容区域（如多个选件或故事），则可以使用分区或组来组织这些区域。 _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
 
-使用您选择的组名作为前缀以指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（如`headline`、`body`、`image`或`cta`）。
+使用您选择的组名作为前缀以指示字段是部分或组的一部分。 在下划线(`headline`)之后使用字段名称（如`body`、`image`、`cta`或`_`）。
 
 语法： `groupname_fieldname`
 
@@ -229,7 +229,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 由于此规则，无法嵌套这些部分。
 
-每种模板类型（如电子邮件或元广告）都包含特定于渠道的部分使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](/help/user-guide/content/best-practices-for-templates.md)。
+每种模板类型(如电子邮件或Meta广告)都包含特定于渠道的区段使用限制。 请参阅[使用模板的最佳实践](/help/user-guide/content/best-practices-for-templates.md)主题中的&#x200B;_特定于渠道的指南_。
 
 例如，电子邮件模板最多可包含三个部分；因此，您可以包含三个标题部分和正文部分：
 
@@ -259,7 +259,7 @@ GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系�
 
 您可以使用内置帮助程序（执行特定操作的[!DNL Handlebars]模板语言中的特殊表达式）控制特殊内容的可见性。 例如，您可以添加一个条件语句，该语句可在保持预览链接干净的同时，将跟踪参数添加到导出模板中的链接。
 
-在呈现模板时设置`_genStudio.browser`值，在导出模板时设置`genStudio.export`值。 例如，当模板用于导出时，您可以决定在电子邮件顶部使用条件包装器包含某些内容：
+在呈现模板时设置`_genStudio.canvas`值，在导出模板时设置`genStudio.export`值。 例如，当模板用于导出时，您可以决定在电子邮件顶部使用条件包装器包含某些内容：
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -270,7 +270,7 @@ GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系�
 另一个示例可能是为了防止在GenStudio for Performance Marketing中预览模板时使用跟踪代码。 以下示例说明如何在保持预览链接整洁的同时向导出的模板中的链接添加跟踪参数：
 
 ```html
-<a class="button" {{#if _genStudio.browser }}
+<a class="button" {{#if _genStudio.canvas }}
    href="{{link}}"{{/if}}{{#if _genStudio.export }}
    href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
    target="_blank">{{cta}}</a>
@@ -278,7 +278,7 @@ GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系�
 
 ## 静态内容
 
-电子邮件和元模板通常链接到托管在其他域上的图像和CSS文件。 当GenStudio for Performance Marketing为模板预览或从中派生的体验生成缩略图时，它将验证内容源并嵌入副本以进行预览。
+电子邮件和Meta模板通常链接到托管在其他域上的图像和CSS文件。 当GenStudio for Performance Marketing为模板预览或从中派生的体验生成缩略图时，它将验证内容源并嵌入副本以进行预览。
 
 临时嵌入外部文件仅用于创建模板预览，这可确保预览准确反映内容在创建时显示的情况。 这些外部文件&#x200B;**不是**&#x200B;永久存储在GenStudio for Performance Marketing中。 创建模板预览后，GenStudio for Performance Marketing将继续引用模板中提供的原始源链接。
 
