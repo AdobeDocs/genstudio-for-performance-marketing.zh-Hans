@@ -3,7 +3,7 @@ title: Content Credentials组织版
 description: 了解如何在GenStudio for Performance Marketing中应用和查看Content Credentials。
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
+source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 什么是Content Credentials？ 
 
-Content Credentials是一种持久的行业标准元数据类型，其中包含有关如何制作内容的详细信息以及有关创建者的身份信息。 当内容在线发布到支持平台时，或者使用诸如[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome浏览器扩展](https://helpx.adobe.com/cn/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)之类的工具时，可以查看Content Credentials。  
+Content Credentials是一种持久的行业标准元数据类型，其中包含有关如何制作内容的详细信息以及有关创建者的身份信息。 当内容在线发布到支持平台时，或者使用诸如[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome浏览器扩展](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)之类的工具时，可以查看Content Credentials。  
 
 应用Content Credentials有助于提高内容制作方式的透明度，并且可帮助您的用户将自己连接到其内容。
 
@@ -61,7 +61,7 @@ Content Credentials是一种持久的行业标准元数据类型，其中包含�
 
 可按凭据状态筛选内容。
 
-![资产上的凭据数据](./images/import-discovery2.png)
+![资产上的凭据数据](./images/import-discovery2.jpg)
 
 ### 创建和选择
 
@@ -83,7 +83,7 @@ Content Credential徽章将显示在画布资源选择器中。
 
 ![已批准资产上的凭据数据](./images/review-and-approve1.png){width="60%"}
 
-当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”**&#x200B;**&#x200B;时，已批准的体验将被重新签名。
+当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”****&#x200B;时，已批准的体验将被重新签名。
 
 ![已批准资产上的凭据数据](./images/review-and-approve2.png)
 
