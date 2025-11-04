@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 3fe6e235b774cf5a99627d981230f96d5e51ac02
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,45 @@ ht-degree: 0%
 ![正文规范](/help/assets/channel-email-body.png)
 
 了解[品牌、产品和角色准则](/help/user-guide/guidelines/overview.md)如何影响生成的内容，以及如何根据您的营销目标定制内容。
+
+## 上传模板图像
+
+模板中使用的图像应来自内容存储库，并且需要正确上传以确保图像准确显示。
+
+当模板具有边缘到边缘（全出血）图像时，所选图像会自动调整大小以适合完整的模板尺寸。 但是，如果图像与模板长宽比不匹配，则会裁剪图像以适合模板尺寸，并且可能无法按预期显示。
+
+模板中包含的图像没有“自动调整”功能。
+
+要解决图像裁剪问题，用户必须定义在模板中将图像上传到内容存储库时要使用的图像的宽高比。 上传已批准的模板时：
+
+1. [继续模板上载过程](/help/user-guide/content/use-templates.md#add-a-template)，直到到达&#x200B;**[!UICONTROL 添加详细信息]**&#x200B;页面。
+
+2. 以&#x200B;**[!UICONTROL 广告宽度(px)]**&#x200B;和&#x200B;**[!UICONTROL 广告高度(px)]**&#x200B;定义要在模板中使用的图像的宽高比。 这将为显示图像的模板部分定义图像窗口。
+
+3. 在&#x200B;**[!UICONTROL 更多详细信息]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 图像大小]**&#x200B;下拉列表，然后选择&#x200B;_裁切为固定大小_。
+   ![裁切为固定大小](./images/crop-to-fixed-size.png "裁切为固定大小"){width="80%"}
+
+要在浏览器中确定图像的大小和纵横比，请执行以下操作：
+
+1. 检查图像。
+   - Windows/Linux：
+      - 按F12。
+   - macOS：
+      - 按Command + Option + I。
+
+1. 将鼠标悬停在图像上。
+
+1. 请注意纵横比。 使用此参数定义模板中图像的纵横比。
+
+如果上传期间未应用这些详细信息，则假定图像是模板的整个纵横比，并且与该纵横比不完全匹配的图像将显示为已裁剪。
+
+![在显示广告中裁切的图像](./images/cropped-display.png "图像裁切"){width="60%"}
+
+显示广告模板中的&#x200B;**❌裁剪的图像**
+
+![显示在显示广告中的图像](./images/full-fit.png "显示在显示广告中的图像"){width="60%"}
+
+**✅图像已完全显示**
 
 ## 遵循特定于渠道的模板准则
 
