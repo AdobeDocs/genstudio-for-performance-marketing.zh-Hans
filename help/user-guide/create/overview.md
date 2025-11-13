@@ -4,9 +4,9 @@ description: 在Adobe GenStudio for Performance Marketing [!DNL Create]中使用
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -22,81 +22,144 @@ GenStudio for Performance Marketing [!DNL Create]利用Adobe GenAI的强大功�
 通过[!DNL Create]，您可以为以下渠道生成内容：
 
 * [电子邮件](email-experiences.md)
-* [元广告](meta-experiences.md)
+* [Meta广告](meta-experiences.md)
 * [LinkedIn广告](linkedin-experiences.md)
 * [显示广告](display-ad-experiences.md)
 * [横幅](banner-experiences.md)
 * [图像](generate-assets.md)
 
-除了[指南](/help/user-guide/guidelines/overview.md)—[!DNL Brands]、[!DNL Products]和[!DNL Personas]—[内容](/help/user-guide/content/overview.md)、[营销活动](/help/user-guide/campaigns/overview.md)、[审阅和批准](/help/user-guide/approvals/overview.md)、[激活](/help/user-guide/activation/overview.md)和[分析](/help/user-guide/insights/overview.md)、[!DNL Create]之外，还有助于创建有效的品牌一致营销内容。
+除了[指南](/help/user-guide/guidelines/overview.md)、[内容](/help/user-guide/content/overview.md)、[促销活动](/help/user-guide/campaigns/overview.md)、[审核和批准](/help/user-guide/approvals/overview.md)、[激活](/help/user-guide/activation/overview.md)和[分析](/help/user-guide/insights/overview.md)之外，[!DNL Create]还有助于创建有效的品牌一致营销内容。
 
 编辑人员和系统管理员拥有[!DNL Create]的完全访问权限。 有关详细的角色访问信息，请参阅[用户角色和权限](/help/user-guide/user-roles.md)。
 
 ## [!DNL Create] 用例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="创建新内容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>创建电子邮件体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
-      <img alt="创建元广告体验" src="../../assets/icons/icon-addContent.png" width="35">
+
+      <img alt="创建Meta广告体验" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
-         <strong>创建元广告体验</strong>
+
+         <strong>创建Meta广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="创建LinkedIn广告体验" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>创建LinkedIn广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="创建显示广告体验" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>创建显示广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="创建横幅体验" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>创建横幅体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="创建图像" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>生成图像</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing使营销人员能够&#x200B;**创建新的营销内容**。 在此使用案例中，使用定义的[指南](/help/user-guide/guidelines/overview.md)和灵感图像来指导创建品牌一致的内容。
@@ -137,9 +200,9 @@ GenStudio for Performance Marketing针对每个变体执行[内容检查](/help/
 
 ### 草稿
 
-在[!DNL Create]的&#x200B;_最近访问_&#x200B;部分中，您可以访问和管理所有最近草稿。 查看并完成您以前的工作，准备将其发布到[[!DNL Content]](/help/user-guide/content/overview.md)或导出以供使用。 单击选项（三个圆点）图标以删除草稿。
+在&#x200B;_的_&#x200B;最近访问[!DNL Create]部分中，您可以访问和管理所有最近草稿。 查看并完成您以前的工作，准备将其发布到[[!DNL Content]](/help/user-guide/content/overview.md)或导出以供使用。 单击选项（三个圆点）图标以删除草稿。
 
-草稿会自动保存并显示在[!DNL Create]主页的&#x200B;_最近访问_&#x200B;部分中。 此部分中的每个草稿都显示一个状态，如&#x200B;_草稿_&#x200B;或&#x200B;_已批准_。
+草稿会自动保存并显示在&#x200B;_主页的_&#x200B;最近访问[!DNL Create]部分中。 此部分中的每个草稿都显示一个状态，如&#x200B;_草稿_&#x200B;或&#x200B;_已批准_。
 
 单击图库视图（网格）图标，以网格或表格视图显示&#x200B;_最近项目_。
 

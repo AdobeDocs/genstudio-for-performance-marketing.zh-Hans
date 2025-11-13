@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing中的Brand Validation
 description: 了解内置品牌验证系统在GenStudio for Performance Marketing中的工作方式。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -18,8 +18,9 @@ GenStudio for Performance Marketing从多个方面执行品牌验证和其他内
 
 * 已定义或默认的[!DNL Brand]准则
 * 平台准则
-<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * 美国残疾人法(ADA)标准
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
+
 
 ## 内容检查摘要
 

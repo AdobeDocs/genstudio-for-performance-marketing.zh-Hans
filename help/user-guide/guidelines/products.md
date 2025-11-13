@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Products]
 description: GenStudio for Performance Marketing [!DNL Products] 整合了产品的所有方面（图像、描述和价值主张），以创建相关内容来重点展示产品优势并保持产品消息的一致性。
 feature: Product Personalization, Variant Generation, Generative AI
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 GenStudio for Performance Marketing中的[!DNL Products]利用对产品规格、优势和差异因素的深入了解来生成有影响力的内容。
 
-[!DNL Products]包含特定产品的所有元素，如图像、描述和价值主张，以创建有凝聚力的品牌呈现。 利用Adobe的高级AI技术，GenStudio for Performance Marketing准则（[[!DNL Brands]、 [!DNL Products]和 [!DNL Personas]](/help/user-guide/guidelines/overview.md)）可协作生成引人注目的内容，这些内容展示您产品的优势，并确保所有消息传递的一致性。
+[!DNL Products]包含特定产品的所有元素，如图像、描述和价值主张，以创建有凝聚力的品牌呈现。 利用Adobe的高级AI技术GenStudio for Performance Marketing [准则](/help/user-guide/guidelines/overview.md) — 共同生成引人注目的内容，展示您产品的强项，并确保所有消息传递的一致性。
 
 **要查看或修改产品**：
 
 1. 在左侧导航区域中，单击&#x200B;**[!UICONTROL 产品]**。
-1. 要[查看单个详细信息或修改产品](add-guidelines.md#manage-products)，请单击&#x200B;_[!DNL Products]_&#x200B;操作菜单，然后选择&#x200B;**[!UICONTROL 打开]**。
+1. 要[查看单个详细信息或修改产品](add-guidelines.md#manage-products)，请单击&#x200B;_[!DNL Products]_操作菜单，然后选择&#x200B;**[!UICONTROL 打开]**。
 1. 通过单击进入指南类别文本字段来修订产品指南。
 
 请参阅[添加准则](add-guidelines.md)，了解如何在GenStudio for Performance Marketing中添加或修改产品。
@@ -34,7 +34,7 @@ GenStudio for Performance Marketing中的[!DNL Products]利用对产品规格、
 
 下表显示了[!DNL Products]指南的每个类别和相关示例。
 
-| 准则类别 | 描述 | 最佳实践 |
+| 准则类别 | 描述 | 最佳做法 |
 | ------------------| ----------------| :---------- |
 | 产品名称 | 是指企业向客户提供的服务、解决方案或有形商品 | 确保产品名称清晰且用户能够轻松了解产品选项&#x200B;<br><br>_示例_：“Photoshop”（SaaS公司）<br>“管理硕士”（教育机构）<br>“财富管理计划”（金融公司）<br>“Home Essentials装饰”（零售） |
 | 描述 | 简要而清晰的摘要，重点介绍产品及其用途 | 使用简洁的语言清晰地描述产品（1-2个句子），为潜在用户提供清晰的上下文。 不要包含详细的功能信息或规范。<br><br>_示例_：“产品XYZ是一种通用的、基于云的项目管理工具，旨在帮助团队组织任务、跟踪进度和无缝协作。 XYZ为小型企业和大型企业提供了简单易用的界面，以便从头到尾管理项目。” |
