@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
+source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
 workflow-type: tm+mt
-source-wordcount: '3763'
+source-wordcount: '4162'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,53 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.10.16 {#latest}
+## 2025.11.14 {#latest}
+
+### Real-Time CDP受众集成
+
+* GenStudio for Performance Marketing现在与Adobe Real-Time Customer Data Platform (RTCDP)集成，使营销人员能够直接在[!DNL Create]工作流中利用受众定义。
+* 通过在内容生成期间选择[!DNL Audience]参数，营销人员可以根据客户上下文创建个性化的创意和电子邮件副本，包括消息传递偏好设置、购买者区段、历程阶段和行为数据。
+
+### 展示广告的无痕见解
+
+* [!DNL Insights]现在包括Innovid（以前称为Flashtalking）作为显示广告渠道，使营销人员能够在统一的平台上与Meta、LinkedIn和TikTok一起分析营销活动效果。
+* 通过每天刷新数据并访问关键绩效指标（包括展示次数、点击次数和CTR），营销人员可以做出更快的优化决策，而无需在工具之间切换。
+
+### 付费媒体和电子邮件的现成翻译
+
+* 直接在GenStudio for Performance Marketing中将批准的付费媒体和电子邮件体验即时翻译为40多种语言。
+* 使用Azure Open AI翻译服务，团队可以将内容同时批量翻译为多种目标语言。
+
+### PDF导出体验
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+* 营销人员现在可以[将体验导出为PDF格式](/help/user-guide/content/manage-assets.md#export-experiences)，以供审阅、批准和存档。
+
+### Firefly Image Model 4上的自定义模型
+
+* GenStudio for Performance Marketing现在支持在Adobe Firefly Image Model 4[上训练的](/help/user-guide/create/generate-assets.md)自定义模型，通过改进的照片真实感和细节提供增强的品牌上图像生成功能。
+
+### Meta单个视频广告激活
+
+* 营销人员现在可以直接从Meta将带有单个视频资源的GenStudio for Performance Marketing广告[激活](/help/user-guide/activation/activate-meta-ad.md)到Meta广告管理器。 这使媒体购买者、性能营销人员和创意团队能够无缝发布视频广告体验，并维护与静态广告激活相同的简化工作流程。
+* 用户可以配置视频广告创意详细信息，预览视频的显示方式，并向Meta平台激活视频广告。
+
+### 适用于Meta促销活动的按操作类型划分的CPA
+
+* 针对Meta广告促销活动，通过灵活的转化跟踪[分析](/help/user-guide/insights/ads.md)每操作成本(CPA)。
+* 从多种操作类型（如购买、添加到购物车的事件、商机、视频查看或自定义转化）中进行选择（而不是单个固定量度），以在[!DNL Insights]中跨促销活动、广告、资源和属性计算和查看CPA。
+
+### 修复和增强功能
+
+* 添加了SDK扩展，该扩展允许客户连接到其自己的DAM，而不是在内容生成期间使用AEM Assets作为资产的默认值。
+* 用户现在可以应用[!DNL Brand]标记，以便按[!DNL Product]对[!DNL Persona]和[!DNL Brand]记录进行分组。
+* [!DNL Experience Translations]流已随付费媒体和电子邮件的新翻译功能一起优化。
+
+
+## 早期发行说明
+
++++2025.10.16版注释
 
 ### 适用于Photoshop和Figma的新GenStudio插件
 
@@ -59,8 +105,9 @@ ht-degree: 0%
    * 通过直接连接到第三方系统维护单一真实来源
    * 为构建自定义集成提供的SDK和示例应用程序
 
++++
 
-## 早期发行说明
+
 
 +++2025.09.11版注释
 
@@ -91,7 +138,7 @@ Adobe GenStudio中的“文本属性分析”可分析广告文案中使用的�
 
 ### 模板上的视频资产支持
 
-* 可以在元模板和LinkedIn模板中添加视频资产。
+* 可在Meta和LinkedIn模板中添加视频资源。
 
 ### 激活体验改进
 
@@ -190,7 +237,7 @@ Meta广告的多纵横比图像激活允许广告商在单个广告创意下上�
 
 * 您现在可以在生成的变体中[对文本](/help/user-guide/create/manage-variants.md#manually-edit-text)使用富文本编辑格式。 尝试使用变体文本的各种格式选项，例如颜色、大小、列表等。
 
-* 现在，您可以在平台设置期间通过克隆现有广告集来[创建新的广告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 元广告集定义特定广告的时间、渠道详细信息和受众。 元营销活动可以包含多个广告集，但一个广告集仅与一个营销活动关联。
+* 现在，您可以在平台设置期间通过克隆现有广告集来[创建新的广告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 元广告集定义特定广告的时间、渠道详细信息和受众。 Meta营销活动可以包含多个广告集，但一个广告集仅与一个营销活动关联。
 
 * 您现在可以导出营销活动详细信息，以便在Word或PDF中作为营销活动摘要从外部访问。 选择一个营销活动，然后单击&#x200B;**[!UICONTROL 导出]**（右上角）。
 
@@ -222,7 +269,7 @@ Meta广告的多纵横比图像激活允许广告商在单个广告创意下上�
 
 ### 激活Meta广告
 
-营销人员现在可以将GenStudio for Performance Marketing中的[广告体验](/help/user-guide/activation/overview.md)发布到元广告管理器。 [!DNL Activate]支持部署前的详细元广告预览。 通过[!DNL Activate]发布的Meta广告一旦上线即自动提取到[!DNL Insights]中，使用户能够跟踪和报告广告效果。
+营销人员现在可以将GenStudio for Performance Marketing中的[广告体验](/help/user-guide/activation/overview.md)发布到元广告管理器。 [!DNL Activate]支持部署前的详细Meta广告预览。 通过[!DNL Activate]发布的Meta广告一旦上线即自动提取到[!DNL Insights]中，使用户能够跟踪和报告广告效果。
 
 ### 创建LinkedIn体验
 
@@ -299,7 +346,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 * 内容编辑者现在可以编辑资产、体验和模板元数据。<!-- GS-4905 -->
 
-* 现在支持在元广告模板中自定义图像大小。<!-- GS-7512 -->
+* 现在支持Meta广告模板中的自定义图像大小。<!-- GS-7512 -->
 
 * 现在，在生成模板期间会预加载角色、品牌和产品选择。<!-- GS-8069 -->
 
@@ -307,13 +354,13 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 * [!DNL Brand]选择器下拉菜单现在对模板按预期工作。 以前，某些模板的选择器无法成功加载。<!-- GS-8908 -->
 
-* 现在，编辑者最多可以为单面板电子邮件和元广告选择四个图像。<!-- GS-2631 -->
+* 现在，编辑人员最多可以为单面板电子邮件和Meta广告选择四个图像。<!-- GS-2631 -->
 
 * 在编辑体验的元数据后，已批准体验的`Created by`字段的年份值现在与预期一致。<!-- GS-8344 -->
 
 * 内容编辑者现在可以从[!DNL Create]中成功选择模板。 以前，当编辑器选择模板时，应用程序会引发控制台错误。 <!-- GS-8798 -->
 
-* 解决了为元广告调整大小和重新生成操作的问题。<!-- GS-8900 -->
+* Meta广告的调整大小和重新生成操作问题已得到解决。<!-- GS-8900 -->
 
 * 现在，**[!UICONTROL 返回]**&#x200B;按钮会按预期将用户返回到上一页或[!DNL Create]登陆页面。<!-- GS-8622 -->
 
