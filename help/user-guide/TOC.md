@@ -91,8 +91,8 @@ ht-degree: 18%
       + [Meta](activation/activate-meta-ad.md)
       + [Amazon](activation/activate-amazon-ad.md)
       + [无](activation/activate-innovid-ad.md)
-+ 见解 {#insights}
-   + [见解概述](insights/overview.md)
++ 洞察 {#insights}
+   + [洞察概述](insights/overview.md)
    + [分析筛选器](insights/filter-views.md)
    + [渠道](insights/channels.md)
    + [广告和广告投放](insights/ads.md)
