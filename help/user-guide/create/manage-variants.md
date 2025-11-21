@@ -3,7 +3,7 @@ title: 管理变体
 description: 根据您的数字营销需求，自定义和增强生成的变体和资产。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 
 1. 生成变体集后，双击变体中的可编辑文本。
 1. 输入新文本。
-1. 要设置文本格式，请突出显示适用的文本，然后单击&#x200B;**[!UICONTROL 设置文本格式**]。
+1. 要设置文本格式，请突出显示适用的文本，然后单击**[!UICONTROL 设置文本格式**]。
 
    将任意（或全部！）可用格式选项应用于文本。
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -204,7 +204,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 添加链接
 
-您可以添加指向变体中的文本、图像和CTA按钮的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[的](/help/user-guide/content/customize-template.md#content-placeholders)内容占位符才能启用此功能。
+您可以添加指向变体中的文本、图像和CTA按钮的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[的](/help/user-guide/templates/customize-template.md#content-placeholders)内容占位符才能启用此功能。
 
 **在变体中添加链接**：
 
@@ -221,7 +221,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 在创建过程中添加内容（图像）时，可以为每个包含的图像定义替换文本。 向图像添加替换文本可改善辅助功能、搜索引擎优化和用户体验。
 
-要启用替换文本功能，请[在模板中添加内容占位符](/help/user-guide/content/customize-template.md#alternative-text)。
+要启用替换文本功能，请[在模板中添加内容占位符](/help/user-guide/templates/customize-template.md#alternative-text)。
 
 **要向生成的变体中的图像添加替换文本**：
 
@@ -247,7 +247,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击进入文本框并添加简要说明，说明链接或按钮的作用。 例如，您可以使用“在WKND的官方站点上购物”作为call to action按钮链接。
 1. 单击&#x200B;**[!UICONTROL 应用]**。
 
-要启用辅助功能标签功能，请在模板中添加内容占位符[。](/help/user-guide/content/customize-template.md)
+要启用辅助功能标签功能，请在模板中添加内容占位符[。](/help/user-guide/templates/customize-template.md)
 
 ## 设备预览
 

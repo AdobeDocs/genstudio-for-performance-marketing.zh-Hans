@@ -4,7 +4,7 @@ description: 了解如何在一个直观的门户中查找、编辑、重用和�
 level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 650a32a1bbb10c17ff25c5bbb36f12cead218dfc
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -13,63 +13,116 @@ ht-degree: 1%
 
 # Adobe GenStudio for Performance Marketing [!DNL Content]
 
-GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，用于存储、查找和共享所有品牌批准的资源、体验和模板。 您可以使用创作AI编辑和重新混合内容、洞察内容使用和情绪、刷新和重新调整现有资源的用途。
+GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，用于存储、查找和共享所有品牌批准的资源、体验和模板。 您可以编辑和重新混合内容，获得有关内容使用和情绪的insight，以及使用创作AI刷新和重新调整现有资源的用途。
 
 ## [!DNL Content] 用例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="magnifier" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search-content">
+
          <strong>查找内容</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="带加号的图像" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>添加资源</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="在Adobe Express中编辑" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>在Adobe Express中编辑资源</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/customize-template.md">
+
+      <a href="../templates/customize-template.md">
+
          <img alt="资产上的发光螺钉" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
-         <a href="../content/customize-template.md">
+
+         <a href="../templates/customize-template.md">
+
          <strong>自定义模板</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/use-templates.md">
+
+      <a href="../templates/use-templates.md">
+
          <img alt="带加号的资产上的发光螺钉" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
-         <a href="../content/use-templates.md#upload-a-template">
+
+         <a href="../templates/use-templates.md#upload-a-template">
+
          <strong>上载模板</strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## [!DNL Content]功能
@@ -86,4 +139,4 @@ GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，
 
 ### 使用模板
 
-模板可加快创建过程，以便您可以跨多个渠道生成一致的内容。 上传您的自定义模板，以用作具有预配置布局和设计元素的创建过程的起点。 了解[使用模板](use-templates.md)中的基本模板元素和过程。 并使用[自定义模板](customize-template.md)主题深入了解如何构建模板。
+模板可加快创建过程，以便您可以跨多个渠道生成一致的内容。 上传您的自定义模板，以用作具有预配置布局和设计元素的创建过程的起点。 了解[使用模板](../templates/use-templates.md)中的基本模板元素和过程。 并使用[自定义模板](../templates/customize-template.md)主题深入了解如何构建模板。

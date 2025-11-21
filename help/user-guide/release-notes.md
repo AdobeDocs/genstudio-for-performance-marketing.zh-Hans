@@ -4,7 +4,7 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '4162'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Adobe GenStudio中的“文本属性分析”可分析广告文案中使用的�
 
 对于复杂的客户模板，现在支持角色相同的多个文本字段（例如，“正文”、“cta”、“图像文本”等）。
 
-在[有关模板代码编辑器的指南](/help/user-guide/content/code-editor.md)中浏览详细信息。
+在[有关模板代码编辑器的指南](/help/user-guide/templates/code-editor.md)中浏览详细信息。
 
 ### 支持新的Firefly图像生成模型
 
@@ -248,7 +248,7 @@ Meta广告的多纵横比图像激活允许广告商在单个广告创意下上�
 ### 修复和增强功能
 
 * 启用了[将替代（替代）文本](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)添加到单个变体的图像的功能。
-* 添加了[新的Meta宽高比](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 横向1.19:1（1080像素宽度）。
+* 添加了[新的Meta宽高比](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 横向1.19:1（1080像素宽度）。
 * 现在，您可以选择多个体验进行导出或下载。 请参阅[导出体验](/help/user-guide/content/manage-assets.md#export-experiences)。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -258,9 +258,9 @@ Meta广告的多纵横比图像激活允许广告商在单个广告创意下上�
 
 ### 修复和增强功能
 
-* 新增模板过滤器选项！ 现在，您可以在&#x200B;_[!UICONTROL 和]_&#x200B;内容[!DNL Create] > _[!UICONTROL 模板]_&#x200B;中优化&#x200B;_[!UICONTROL 选择模板]_&#x200B;列表。 请参阅[搜索模板](/help/user-guide/content/use-templates.md#search-templates)。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
+* 新增模板过滤器选项！ 现在，您可以在&#x200B;_[!UICONTROL 和]_&#x200B;内容[!DNL Create] > _[!UICONTROL 模板]_&#x200B;中优化&#x200B;_[!UICONTROL 选择模板]_&#x200B;列表。 请参阅[搜索模板](/help/user-guide/templates/use-templates.md#search-templates)。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
 * 启用了以下功能：[查看和选择体验的单个图层](/help/user-guide/create/manage-variants.md#view-layers)（可编辑文本字段或可编辑图像）以突出显示它们以进行修订，如重新生成内容或裁切图像。
-* 添加了[新模板字段](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，用于在体验中添加其他文本以吸引受众关注并突出显示营销消息。
+* 添加了[新模板字段](/help/user-guide/templates/use-templates.md#template-elements) `sub-headline`，用于在体验中添加其他文本以吸引受众关注并突出显示营销消息。
 * 添加了对[将广告体验](/help/user-guide/activation/overview.md)从GenStudio for Performance Marketing发布到Google Campaign Manager 360的支持。 激活在发布到Google Campaign Manager 360广告商之前支持详细的Campaign Manager 360广告预览。 通过激活发布的广告一经上线，就会自动提取到分析中，使用户能够跟踪和报告广告效果。
 
 +++
@@ -275,13 +275,13 @@ Meta广告的多纵横比图像激活允许广告商在单个广告创意下上�
 
 [!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
 
-添加了对[创建LinkedIn体验](/help/user-guide/create/create-linkedin.md)的支持。 请参阅特定于渠道的指南中的[LinkedIn广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)选项卡。
+添加了对[创建LinkedIn体验](/help/user-guide/create/create-linkedin.md)的支持。 请参阅特定于渠道的指南中的[LinkedIn广告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)选项卡。
 
 ### 创建横幅体验
 
 [!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
 
-添加了对[创建横幅体验](/help/user-guide/create/create-banner-experience.md)的支持。 请参阅特定于渠道的指南中的[横幅](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)选项卡。
+添加了对[创建横幅体验](/help/user-guide/create/create-banner-experience.md)的支持。 请参阅特定于渠道的指南中的[横幅](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)选项卡。
 
 ### 合规性
 
@@ -293,12 +293,12 @@ Meta广告的多纵横比图像激活允许广告商在单个广告创意下上�
 
 ### 模板
 
-* **模板代码编辑器** — 新的[模板代码编辑器](/help/user-guide/content/code-editor.md)可帮助您验证和优化您的模板，以便在使用GenStudio for Performance Marketing生成新体验时获得最佳使用。
+* **模板代码编辑器** — 新的[模板代码编辑器](/help/user-guide/templates/code-editor.md)可帮助您验证和优化您的模板，以便在使用GenStudio for Performance Marketing生成新体验时获得最佳使用。
 
   ![代码编辑器视图](/help/assets/template-detected-fields.png "检查检测到的字段"){width="500" zoomable="yes"}
 
-* **图像上的链接** — 通过启用图像链接来自定义您的电子邮件模板。 请参阅[自定义模板：映像](/help/user-guide/content/customize-template.md#link-on-image)上的链接。
-* **AJO和Marketo模板** — 上传您在Adobe Journey Optimizer (AJO)或Marketo中创建的模板。 请参阅[使用AJO和Marketo中的模板](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo)。
+* **图像上的链接** — 通过启用图像链接来自定义您的电子邮件模板。 请参阅[自定义模板：映像](/help/user-guide/templates/customize-template.md#link-on-image)上的链接。
+* **AJO和Marketo模板** — 上传您在Adobe Journey Optimizer (AJO)或Marketo中创建的模板。 请参阅[使用AJO和Marketo中的模板](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)。
 
 ### 修复和增强功能
 
@@ -336,7 +336,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 ### 生成新的行动号召
 
-现在，您可以在管理变体时生成新的call-to-action (CTA)短语。 使用新的&#x200B;_重新短语_&#x200B;和&#x200B;_添加链接_&#x200B;选项来生成新短语并编辑CTA链接。 必须正确设置您的模板，这些新的CTA功能才能正常工作。 遵循&#x200B;_自定义模板_&#x200B;中的准则： [行动号召](/help/user-guide/content/customize-template.md#calls-to-action)。 有关管理变体中CTA的准则，请参阅[修订Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
+现在，您可以在管理变体时生成新的call-to-action (CTA)短语。 使用新的&#x200B;_重新短语_&#x200B;和&#x200B;_添加链接_&#x200B;选项来生成新短语并编辑CTA链接。 必须正确设置您的模板，这些新的CTA功能才能正常工作。 遵循&#x200B;_自定义模板_&#x200B;中的准则： [行动号召](/help/user-guide/templates/customize-template.md#calls-to-action)。 有关管理变体中CTA的准则，请参阅[修订Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
 
 ### 修复和增强功能
 
@@ -382,7 +382,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 * 图像上传期间显示广告体验中的图像尺寸。<!-- GS-7166 -->
 
-* 请参阅[模板最佳实践](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)中特定于渠道的准则。
+* 请参阅[模板最佳实践](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)中特定于渠道的准则。
 
 导出选项现在包括：
 
@@ -446,7 +446,7 @@ Beta项目提供了一种帮助制定产品开发并确定一般可用性准备�
 
 ### 新增功能
 
-添加了对显示托管在外部域上的静态内容的支持。 GenStudio for Performance Marketing验证模板中定义的内容源，并嵌入一个副本以生成模板预览。 查看[静态内容](/help/user-guide/content/customize-template.md#static-content)。<!-- GS-6107 -->
+添加了对显示托管在外部域上的静态内容的支持。 GenStudio for Performance Marketing验证模板中定义的内容源，并嵌入一个副本以生成模板预览。 查看[静态内容](/help/user-guide/templates/customize-template.md#static-content)。<!-- GS-6107 -->
 
 ### 修复和增强功能
 

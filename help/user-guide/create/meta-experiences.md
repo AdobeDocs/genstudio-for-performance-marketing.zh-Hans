@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 借助Adobe GenStudio for Performance Marketing，您可以使用创作AI来简化[创建高影响力的Meta体验](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]使内容创建者能够使用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[精心编制的提示](/help/user-guide/effective-prompts.md)来快速[创建Meta广告体验](/help/user-guide/create/create-meta-ad.md)。
 
-在生成Meta体验时，会在画布中创建并显示四个变体。 GenStudio for Performance Marketing支持[标准和自定义大小的Meta广告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+在生成Meta体验时，会在画布中创建并显示四个变体。 GenStudio for Performance Marketing支持[标准和自定义大小的Meta广告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 在生成Meta体验时，会在画布中创建和显示四个变体。
 
@@ -30,7 +30,7 @@ GenStudio for Performance Marketing支持[标准和自定义大小的Meta广告]
 * 图像上文本
 * 图像/视频
 
-查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。
+查看[模板元素](/help/user-guide/templates/use-templates.md#template-elements)。
 
 ## Meta广告渠道
 

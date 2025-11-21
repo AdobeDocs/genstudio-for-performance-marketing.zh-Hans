@@ -6,10 +6,10 @@ badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功�
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe GenStudio for Performance Marketing使您能够利用创作AI来增强[成
 
 在生成横幅体验时，会在画布中创建和显示四个变体。
 
-请参阅[遵循特定于渠道的模板准则](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以了解有关支持的维度、可识别的字段名称等的信息。
+请参阅[遵循特定于渠道的模板准则](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以了解有关支持的维度、可识别的字段名称等的信息。
 
 显示广告体验的可编辑部分包括：
 
@@ -31,7 +31,7 @@ Adobe GenStudio for Performance Marketing使您能够利用创作AI来增强[成
 * call to action (CTA)
 * 图像
 
-查看[模板元素](/help/user-guide/content/use-templates.md#template-elements)。
+查看[模板元素](/help/user-guide/templates/use-templates.md#template-elements)。
 
 <!-- ## Character counts
 

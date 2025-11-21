@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
-source-git-commit: 85cc8ee51bd6b934811583dc0a8460d6d7083a70
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing会自动生成以下字段。 您不必为�
 
 - `cta`
 
-请参阅[内容占位符](/help/user-guide/content/customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
+请参阅[内容占位符](/help/user-guide/templates/customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 
 ## 支持的维度
 

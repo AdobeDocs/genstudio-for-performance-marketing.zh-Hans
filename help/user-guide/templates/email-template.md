@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,11 +40,11 @@ GenStudio for Performance Marketing会自动生成以下字段。 未启用富�
 - `pre_header`
 - `subject`
 
-模板中允许的最大字段数为20。 请参阅[内容占位符](/help/user-guide/content/customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
+模板中允许的最大字段数为20。 请参阅[内容占位符](/help/user-guide/templates/customize-template.md#content-placeholders)以了解有关在模板中使用字段名的更多信息。
 
 ## 多节电子邮件
 
-_节_&#x200B;允许您将内容组织为不同的组，从而支持更复杂的布局。 在GenStudio for Performance Marketing中，您可以使用组命名约定定义每个部分。 请参阅[自定义模板节](/help/user-guide/content/customize-template.md#sections-or-groups)。
+_节_&#x200B;允许您将内容组织为不同的组，从而支持更复杂的布局。 在GenStudio for Performance Marketing中，您可以使用组命名约定定义每个部分。 请参阅[自定义模板节](/help/user-guide/templates/customize-template.md#sections-or-groups)。
 
 多节模板可以包含0、2或3节：
 

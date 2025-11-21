@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -59,7 +59,7 @@ GenStudio系统管理员可以通过手动输入或上传您组织的特定品�
 
 模板可加快内容创建。 模板包含已获批准的功能（如页眉和页脚），并已针对特定渠道进行了优化。 系统管理员通常为其组织上传和管理模板。 内容编辑器使用模板在组织品牌的既定范围内快速启动内容创建过程。
 
-请参阅[使用模板](/help/user-guide/content/use-templates.md)。
+请参阅[使用模板](/help/user-guide/templates/use-templates.md)。
 
 ### 步骤4：上传已批准的资产
 
