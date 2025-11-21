@@ -59,7 +59,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 管理模板
 
-_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
+_[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
 
 ### 搜索模板
 
@@ -82,7 +82,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
 **添加模板**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
 
 2. 单击&#x200B;**[!UICONTROL 添加模板]**。
 
@@ -96,7 +96,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
    >[!TIP]
    >
-   >如果模板不正确，请单击“上一步”****&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
+   >如果模板不正确，请单击“上一步”**&#x200B;**&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
 
 5. 对模板预览感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -117,7 +117,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
 **刷新模板**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 
@@ -129,7 +129,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
 **要使用模板创建体验**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 
