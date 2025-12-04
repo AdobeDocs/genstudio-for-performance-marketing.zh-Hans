@@ -1,11 +1,11 @@
 ---
 title: Adobe GenStudio for Performance Marketing中的Brand Validation
-description: 了解内置品牌验证系统在GenStudio for Performance Marketing中的工作方式。
+description: 了解GenStudio for Performance Marketing中的内置品牌验证系统。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
+source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing从多个方面执行品牌验证和其他内
 
 * 已定义或默认的[!DNL Brand]准则
 * 平台准则
-* [美国残疾人法案(ADA)标准](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
+* [辅助功能支持](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -87,13 +87,16 @@ _内容检查_&#x200B;面板显示图像和变体部分的验证和[合规性信
 
 1. 继续修订各个部分，以确保整个变体通过验证和可访问性检查。 使用画布中单个变体旁边的箭头浏览每个变体。
 
-## 美国残疾人法案(ADA)验证
+## 支持您的无障碍策略
 
-这些无障碍检查包含在《美国残疾人法案》(ADA)的法律合规性中：
+GenStudio for Performance Marketing包含的内容检查旨在帮助客户支持其自己的辅助功能最佳实践。
 
-[WCAG 1.1.1非文本内容](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) — 确保图像提供`<alt>`属性。
-[WCAG 1.4.3对比度（最小值）](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) — 确保生成的文本相对于背景具有4.5:1对比度。
-[WCAG 3.1.3异常词](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) — 识别以异常或受限方式使用的单词或短语，包括成语和行话。
-[WCAG 3.1.4缩写](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) — 用于识别缩写的扩展形式或含义的机制。
-[WCAG 3.1.5读取级别](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) — 确保内容在初中教育级别可读。
+此功能包括以下内容检查：
 
+* 图像提供`<alt>`属性。
+* 生成的文本相对于其背景具有4.5:1的对比度。
+* 避免以不寻常或受限制的方式使用的单词或短语，包括习语和行话。
+* 提供了缩写的扩展形式或含义。
+* 在初中教育阶段可阅读内容。
+
+我们鼓励客户将这些功能用作其更广泛的无障碍策略的一部分，但客户仍需自行对法律和无障碍合规性负责。
