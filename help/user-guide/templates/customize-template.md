@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 9f4cfd470590b2971c615a6437e6ae730cde5c18
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅[Handlebars语言指南 [!DNL Handlebars]中的](https://handlebarsjs.com/guide/#what-is-handlebars)什么是__以了解如何准备模板。
+接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅[Handlebars语言指南 [!DNL Handlebars]中的](https://handlebarsjs.com/guide/#what-is-handlebars)什么是__以了解如何准备模板。
 
 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
 
@@ -222,26 +222,18 @@ At this time, you cannot select the brand logo for the template upload. The foll
 - _正确_ (👍)： `pod1_body`
 - _不正确_ (❌)： `pod1body`
 
-每个部分只能使用每种字段类型中的一种。 例如，以下字段属于`pod1`部分：
+每个节只能使用一种字段类型。由于此规则，无法嵌套这些节。
+
+例如，以下字段属于`pod1`部分：
 
 - `pod1_headline`
 - `pod1_body`
 - `pod1_image`
 - `pod1_cta`
 
-由于此规则，无法嵌套这些部分。
+GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系比`pod2_body`更密切。
 
 每种模板类型(如电子邮件或Meta广告)都包含特定于渠道的区段使用限制。 请参阅[使用模板的最佳实践](/help/user-guide/templates/best-practices-for-templates.md)主题中的&#x200B;_特定于渠道的指南_。
-
-例如，电子邮件模板最多可包含三个部分；因此，您可以包含三个标题部分和正文部分：
-
-- `pre_header`
-- `pod1_headline`、`pod1_body`
-- `pod2_headline`、`pod2_body`
-- `pod3_headline`、`pod3_body`
-- `cta`
-
-GenStudio for Performance Marketing了解`pod1_headline`与`pod1_body`的关系比`pod2_body`更密切。
 
 >[!TIP]
 >

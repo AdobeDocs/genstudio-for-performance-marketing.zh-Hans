@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ GenStudio for Performance Marketing会自动生成以下字段。 未启用富�
 
 _节_&#x200B;允许您将内容组织为不同的组，从而支持更复杂的布局。 在GenStudio for Performance Marketing中，您可以使用组命名约定定义每个部分。 请参阅[自定义模板节](/help/user-guide/templates/customize-template.md#sections-or-groups)。
 
-多节模板可以包含0、2或3节：
+多节电子邮件模板最多可以包含10个节：
 
 - 基本模板（零部分）可以生成一组不需要组命名约定的模板元素。
-- 一个复杂的模板（多个部分）最多可以生成三组模板元素，这需要您遵守组命名约定： `<groupname_fieldname>`。
+- 复杂的模板（多个部分）可以生成模板元素集，这需要您遵循组命名约定： `<groupname_fieldname>`。
 - 使用多个部分时，不会填充在部分之外任何保持独立的元素。
 
 以下是两个部分中使用组命名约定的字段名称示例：
