@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
+source-git-commit: 0db148b99a78714020b0ad4d9c1f71e6ccc945b5
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **要选择电子邮件模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 电子邮件]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 电子邮件]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的电子邮件模板。
 1. 单击以选择电子邮件模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
 1. 在&#x200B;_参数_&#x200B;部分中，选择准则 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知内容创建。
 
-   ![选择角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![选择角色](/help/assets/persona-select-email.png){width="300" align="center"}
 
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
