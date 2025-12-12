@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
 workflow-type: tm+mt
-source-wordcount: '4162'
+source-wordcount: '4225'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,15 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.11.14 {#latest}
+## 2025.12.12 {#latest}
+
+### 模板徽标交换
+
+营销人员现在可以直接在[!DNL Create]工作流中的模板中动态交换徽标，而无需为不同的品牌徽标、子品牌或产品线构建多个模板变体。 此功能使创建者能够在内容创建时选择或交换适当的徽标，从而简化模板管理并降低生产开销。
+
+## 早期发行说明
+
++++2025.11.14版注释
 
 ### Real-Time CDP受众集成
 
@@ -58,6 +66,7 @@ ht-degree: 0%
 * 用户现在可以应用[!DNL Brand]标记，以便按[!DNL Product]对[!DNL Persona]和[!DNL Brand]记录进行分组。
 * [!DNL Experience Translations]流已随付费媒体和电子邮件的新翻译功能一起优化。
 
++++
 
 ## 早期发行说明
 
