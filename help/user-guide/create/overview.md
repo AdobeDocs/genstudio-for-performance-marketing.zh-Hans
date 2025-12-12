@@ -4,9 +4,9 @@ description: 在Adobe GenStudio for Performance Marketing [!DNL Create]中使用
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: c8b9e0b1b78195a648774d383c94ed9974fa8bcd
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -35,68 +35,131 @@ GenStudio for Performance Marketing [!DNL Create]利用Adobe GenAI的强大功�
 ## [!DNL Create] 用例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="创建新内容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>创建电子邮件体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="创建Meta广告体验" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>创建Meta广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="创建LinkedIn广告体验" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>创建LinkedIn广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="创建显示广告体验" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>创建显示广告体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="创建横幅体验" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>创建横幅体验</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="创建图像" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>生成图像</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing使营销人员能够&#x200B;**创建新的营销内容**。 在此使用案例中，使用定义的[指南](/help/user-guide/guidelines/overview.md)和灵感图像来指导创建品牌一致的内容。
@@ -113,11 +176,11 @@ GenStudio for Performance Marketing使营销人员能够&#x200B;**创建新的�
 
 ### 参数
 
-在提示抽屉中，您可以添加&#x200B;_参数_（如[!DNL Brands]、[!DNL Products]以及[!DNL Personas]和[!DNL Content]）来塑造生成的体验。
+在提示抽屉中，您可以添加&#x200B;_参数_&#x200B;如[!DNL Brands]、[!DNL Products]和[!DNL Personas] （准则）以及[!DNL Content] （资产）来塑造生成的体验。
 
-这些添加的参数插入[准则](/help/user-guide/guidelines/overview.md)和[!DNL Content]为生成过程提供资产，确保自定义输出与品牌的综合标识一致。 向GenStudio for Performance Marketing添加准则并在内容生成期间使用这些准则可极大地促进创建合适的品牌内内容。
+这些添加的参数将[准则](/help/user-guide/guidelines/overview.md)和资产注入生成过程，确保内容已自定义以符合品牌的综合标识。 建议向GenStudio for Performance Marketing添加准则并在内容生成过程中使用，因为它们可以极大地增强合适品牌内内容的创建过程。
 
-内容 — 已上传或已添加的图像资产 — 在&#x200B;_中，参数_&#x200B;用于生成的变体并通知为变体生成的副本（文本）。 您可以上传资源，或选择[!DNL Content]或任何连接的AEM Content Hub存储库中已存在的资源。
+在&#x200B;_中上传或添加的图像资源内容参数_&#x200B;用于生成的变体并通知为变体生成的复制内容（文本）。 您可以上传资源，或选择[!DNL Content]或任何连接的AEM Content Hub存储库中已存在的资源。
 
 ### 提示
 
