@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
+source-git-commit: c7300b3f531947081253aaf719e099512b419539
 workflow-type: tm+mt
-source-wordcount: '4225'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,31 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2025.12.12 {#latest}
+## 2026.01 {#latest}
+
+### HTML画布提示面板重新设计
+
+[!DNL Create] HTML画布提示抽屉现在在电子邮件、显示广告和付费媒体广告中作为左侧面板出现，取代了以前的底部抽屉。 此更新保留相同的核心功能，同时改进工作区布局和在生成内容时的一致性。
+
+### 多面板电子邮件生成最多10个部分
+
+您现在可以创建在[!DNL Create]中最多包含10个pod/部分的电子邮件，这会扩展多面板电子邮件的生成，使其超过之前的1-3个pod限制。 此增强功能在一代流中实现了更丰富、更结构化的电子邮件布局，而无需跨多个传递将内容拼接在一起。
+
+### Content Credentials资源真实性
+
+[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
+
+GenStudio for Performance Marketing现在支持Content Credentials，允许团队在整个创建、查看和导出过程中对资源应用并保留真实性元数据。 凭据徽章和详细信息会在关键工作流中显示，以便组织可以在共享内容时验证来源并维护信任。
+
+## 早期发行说明
+
++++2025.12.12版注释
 
 ### 模板徽标交换
 
 营销人员现在可以直接在[!DNL Create]工作流中的模板中动态交换徽标，而无需为不同的品牌徽标、子品牌或产品线构建多个模板变体。 此功能使创建者能够在内容创建时选择或交换适当的徽标，从而简化模板管理并降低生产开销。
 
-## 早期发行说明
++++
 
 +++2025.11.14版注释
 
@@ -67,8 +85,6 @@ ht-degree: 0%
 * [!DNL Experience Translations]流已随付费媒体和电子邮件的新翻译功能一起优化。
 
 +++
-
-## 早期发行说明
 
 +++2025.10.16版注释
 
