@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **要选择电子邮件模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 电子邮件]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 电子邮件]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的电子邮件模板。
 1. 单击以选择电子邮件模板，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 单击&#x200B;_参数_&#x200B;图标以展开提示抽屉。
 1. 在&#x200B;_参数_&#x200B;部分中，选择准则 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知内容创建。
 
-   ![选择角色](/help/assets/persona-select-email2.png){width="300" align="center"}
+   ![选择角色](/help/assets/persona-select-email2.png){width="50%" align="center"}
 
    如果这些菜单中没有可用的品牌、角色或产品，请[将准则添加到您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
@@ -110,9 +110,9 @@ ht-degree: 0%
 
 1. 单击右侧操作栏中的&#x200B;_内容检查_&#x200B;面板图标以打开&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 查看&#x200B;*需要审核*&#x200B;和&#x200B;*通过*&#x200B;检查的摘要，以查看哪些部分和准则需要改进。
 
-   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){width="300"}
 
-1. [手动修订变体](#revise-generated-variants)以确保您的变体与执行的内容检查紧密一致。
+2. [手动修订变体](#revise-generated-variants)以确保您的变体与执行的内容检查紧密一致。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 
