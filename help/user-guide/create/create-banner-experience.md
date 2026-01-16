@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **选择横幅模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 横幅]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 横幅]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的横幅模板。
 1. 在&#x200B;_选择模板_&#x200B;视图中，单击横幅模板。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
@@ -36,6 +36,8 @@ ht-degree: 0%
 ## 添加参数
 
 将[准则](/help/user-guide/guidelines/overview.md)和资产合并到提示抽屉中的&#x200B;_参数_&#x200B;中可增强内容生成过程，并且是创建横幅体验的重要准备步骤。
+
+![在提示抽屉中输入参数](/help/assets/prompt-displayad2.png){width="300" align="center"}
 
 **要添加参数和资源**：
 
@@ -57,8 +59,6 @@ ht-degree: 0%
 ## 输入提示
 
 选择准则后，使用自然语言创建提示，以开始为新横幅体验生成内容。 要确保高质量的结果，必须制作详细且描述性的提示。
-
-![输入提示](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 请参阅[编写有效提示](/help/user-guide/effective-prompts.md)，了解有关编写提示的详细信息。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 * **要[将辅助功能标签](/help/user-guide/create/manage-variants.md#add-accessibility-labels)添加到您的变体**，请单击图像或call-to-action链接，然后提供简要说明该链接或按钮的作用。
 * **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请单击图像，单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标），然后单击&#x200B;**[!UICONTROL 裁切]**。 调整图像大小和放置。
-* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板](/help/user-guide/create/manage-variants.md#use-generative-expand)，请单击图像，单击“编辑”**&#x200B;**[!UICONTROL （铅笔图标），然后]**&#x200B;展开&#x200B;**[!UICONTROL 。]**&#x200B;调整图像以适合所需的纵横比和模板。
+* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板](/help/user-guide/create/manage-variants.md#use-generative-expand)，请单击图像，单击“编辑”****[!UICONTROL （铅笔图标），然后]**&#x200B;展开&#x200B;**[!UICONTROL 。]**&#x200B;调整图像以适合所需的纵横比和模板。
 
 <!-- # Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.
@@ -103,9 +103,9 @@ When revising and preparing email experiences, you can toggle between previews f
 
 1. 单击右侧操作栏中的&#x200B;_内容检查_&#x200B;面板图标以打开&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 查看&#x200B;_需要审核_&#x200B;和&#x200B;_通过_&#x200B;检查的摘要，以查看哪些部分和准则需要改进。
 
-   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){width="300"}
 
-1. [手动修订变体](#revise-generated-banners)以确保您的变体与执行的内容检查紧密一致。
+2. [手动修订变体](#revise-generated-banners)以确保您的变体与执行的内容检查紧密一致。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 
@@ -127,7 +127,7 @@ When revising and preparing email experiences, you can toggle between previews f
 若要使生成的横幅可用于当前和将来使用，请将其发布到[!UICONTROL Content]，并将其导出以用于您的营销活动。
 
 1. **要发布您的新横幅体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
-   1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_&#x200B;并添加&#x200B;_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
+   1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_并添加_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
    1. 单击&#x200B;**[!UICONTROL 发布]**。
 
       ![发布横幅](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

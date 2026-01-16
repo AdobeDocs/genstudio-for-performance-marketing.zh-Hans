@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 81923bf493ec6fa2ed1a2fa655a76b01d7c87bc7
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **选择显示广告模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL 显示广告]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL 显示广告]**。
 1. 使用&#x200B;_筛选器_&#x200B;旁边的搜索选项查找特定的显示广告模板。
 1. 在&#x200B;_选择模板_&#x200B;视图中，单击显示广告模板。
 1. 单击&#x200B;**[!UICONTROL 使用]**。
@@ -37,6 +37,8 @@ ht-degree: 0%
 在提示抽屉中添加[参数](/help/user-guide/guidelines/overview.md)中的&#x200B;_准则_&#x200B;和资产，会增加内容生成过程的开销，是生成显示广告体验的必要准备步骤。
 
 如果您使用具有预定义准则（如[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，这些准则适用于您的变体。 您可以根据需要更改它们。
+
+![在提示抽屉中输入参数](/help/assets/prompt-displayad2.png){width="300" align="center"}
 
 **要添加参数和资源**：
 
@@ -59,14 +61,12 @@ ht-degree: 0%
 
 选择准则后，使用自然语言制作提示，开始为新的显示广告体验生成内容。 为了提高生成的显示广告体验的质量，制作详细的描述性提示至关重要。
 
-![输入提示](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
-
 请参阅[编写有效提示](/help/user-guide/effective-prompts.md)，了解有关编写提示的详细信息。
 
 **输入提示**：
 
 1. 在&#x200B;_“描述您要生成的体验”_&#x200B;提示框中输入提示。
-1. 单击&#x200B;**[!UICONTROL 生成]**。
+2. 单击&#x200B;**[!UICONTROL 生成]**。
 
 默认情况下，将生成四个变体（以提示、指南和添加的内容为动力）并显示在画布中。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 * **要[将辅助功能标签](/help/user-guide/create/manage-variants.md#add-accessibility-labels)添加到您的变体**，请单击图像或call-to-action链接，然后提供简要说明该链接或按钮的作用。
 * **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请单击图像，单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标），然后单击&#x200B;**[!UICONTROL 裁切]**。 调整图像大小和放置。
-* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板](/help/user-guide/create/manage-variants.md#use-generative-expand)，请单击图像，单击“编辑”**&#x200B;**[!UICONTROL （铅笔图标），然后]**&#x200B;展开&#x200B;**[!UICONTROL 。]**&#x200B;调整图像以适合所需的纵横比和模板。
+* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板](/help/user-guide/create/manage-variants.md#use-generative-expand)，请单击图像，单击“编辑”****[!UICONTROL （铅笔图标），然后]**&#x200B;展开&#x200B;**[!UICONTROL 。]**&#x200B;调整图像以适合所需的纵横比和模板。
 
 <!-- # Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.
@@ -106,9 +106,9 @@ When revising and preparing email experiences, you can toggle between previews f
 
 1. 单击右侧操作栏中的&#x200B;_内容检查_&#x200B;面板图标以打开&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 查看&#x200B;*需要审核*&#x200B;和&#x200B;*通过*&#x200B;检查的摘要，以查看哪些部分和准则需要改进。
 
-   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_内容检查_&#x200B;面板](/help/assets/content-check-panel.png){width="300"}
 
-1. [手动修订变体](#revise-generated-variants)以确保您的变体与执行的内容检查紧密一致。
+2. [手动修订变体](#revise-generated-variants)以确保您的变体与执行的内容检查紧密一致。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 
@@ -130,7 +130,7 @@ When revising and preparing email experiences, you can toggle between previews f
 若要使生成的显示广告可用于当前和将来使用，请将其发布到[!UICONTROL 内容]并将其导出以用于您的营销活动。
 
 1. **要发布您的新显示广告体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
-   1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_&#x200B;并添加&#x200B;_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
+   1. 选择&#x200B;_[!UICONTROL [!DNL Campaigns]]_并添加_[!UICONTROL &#x200B;更多详细信息&#x200B;]_（如果需要）。
    1. 单击&#x200B;**[!UICONTROL 发布]**。
 
       ![发布显示广告](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
