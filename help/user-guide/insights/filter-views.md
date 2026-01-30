@@ -4,9 +4,9 @@ description: 了解如何将增强的过滤器功能与Insights结合使用。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 0eeb41597d547bf806b1728541ca85b598d2aa1c
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 **要使用促销活动过滤器优化广告表**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 广告]**&#x200B;视图。
+1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 广告]**视图。
 
    ![广告筛选器和表](/help/assets/insights-ads-filter.png "带有筛选菜单的广告视图"){zoomable="yes"}
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    ![营销活动列表](/help/assets/insights-select-campaigns-list.png "选择要包含的营销活动")
 
-您选择的营销活动现在显示在广告表或图库上方的&#x200B;_[!UICONTROL 筛选依据]_&#x200B;列表中。 您可以专注于链接到所选营销活动的广告。 在本例中，过滤的结果包括6个广告，提供了更具针对性的分析视图。
+您选择的营销活动现在显示在广告表或图库上方的&#x200B;_[!UICONTROL 筛选依据]_&#x200B;列表中。 您可以专注于链接到所选营销活动的广告。 在本例中，过滤的结果提供了更具针对性的分析视图。
 
 ![按营销活动过滤的表](/help/assets/insights-filter-by-campaigns.png "具有营销活动过滤器的表"){zoomable="yes"}
 
