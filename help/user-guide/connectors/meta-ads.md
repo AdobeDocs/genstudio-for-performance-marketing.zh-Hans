@@ -2,13 +2,13 @@
 title: 连接到Meta Ads
 description: 连接Meta Ads帐户以通过Adobe GenStudio for Performance Marketing激活和监控您的广告和媒体。
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: dce3d9bbf3ed2d26872b324c04ab7e78bbb034dc
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 设置]**。
 
-1. 在&#x200B;_Data Connectors_&#x200B;部分中，单击&#x200B;**[!UICONTROL Meta Ads]**&#x200B;卡上的&#x200B;_连接_。
+1. 在&#x200B;_Data Connectors_&#x200B;部分中，单击&#x200B;_Meta Ads_&#x200B;卡上的&#x200B;**[!UICONTROL 连接]**。
 
 1. 登录到您的Facebook帐户。
 

@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 71b46454fa6fe2037ea6b103c0dfeedad74b8919
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 使用正确的模板元素
 
-每种模板类型使用不同的元素来为特定于渠道的内容创建创建结构。 [熟悉模板的各个部分](use-templates.md#template-elements)并包含最适合您的内容和模板类型的元素。
+每种模板类型使用不同的元素来为特定于渠道的内容创建创建结构。[熟悉模板](use-templates.md#template-elements)的各个部分，并包含适合您的内容和模板类型的最佳元素。
 
 在自定义模板时，请使用字段名称来代替您需要GenStudio for Performance Marketing生成内容的这些元素。
 
@@ -37,14 +37,14 @@ ht-degree: 0%
 
 ## 在模板中使用占位符文本
 
-占位符文本有助于定义用户以后在模板中填充内容的语法或结构。 例如 {first_name}。{last_name}@email等 以定义电子邮件地址。 但是，一些常见分隔符已为GenStudio for Performance Marketing中的其他含义而保留：
+占位符文本有助于定义用户以后在模板中填充内容的语法或结构。 例如，{first_name}.{last_name}@email.等，用于定义电子邮件地址。 但是，一些常见分隔符已为GenStudio for Performance Marketing中的其他含义而保留：
 
-❌ &lt; > — 用于HTML标记。
-❌ {{ }}{{ }} — 用于Handlebar表达式。
+❌ `< >` — 正在用于HTML标记。
+❌ `{{ }}` — 用于Handlebar表达式。
 
 使用单括号（直括号或大括号）表示占位符文本，以避免与现有标记混淆。
 
-✅ {first_name} — 名字的占位符。
+✅ `{first_name}` — 名字的占位符。
 
 ## 配置渠道准则
 
