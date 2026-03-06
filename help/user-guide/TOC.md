@@ -1,14 +1,14 @@
 ---
 user-guide-title: Adobe GenStudio for Performance Marketing 用户指南
 breadcrumb-title: 用户指南
-user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能。了解如何快速创建品牌资产、生成变体并优化体验。
+user-guide-description: 探索 Adobe GenStudio for Performance Marketing 功能。 了解如何快速创建品牌资产、生成变体并优化体验。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 89f88d217d6afdf431519a5cd3803a9857fcd84d
+source-git-commit: 9cd03372041056483e94ae324124e791a8c8d7ba
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -107,5 +107,5 @@ ht-degree: 18%
    + [集成概述](integrations/overview.md)
    + [Photoshop插件](integrations/photoshop-plugin.md)
    + [Figma插件](integrations/figma-plugin.md)
-+ [GenStudio Academy — 隐藏](genstudioacademy.md)
-+ [测试Markdown — 隐藏](test-markdown.md)
++ [hide-from-tocGenStudio Academy — 隐藏](genstudioacademy.md)
++ [hide-from-toc测试Markdown — 隐藏](test-markdown.md)
