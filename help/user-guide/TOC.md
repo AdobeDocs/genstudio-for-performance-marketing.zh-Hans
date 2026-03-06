@@ -107,5 +107,5 @@ ht-degree: 19%
    + [集成概述](integrations/overview.md)
    + [Photoshop插件](integrations/photoshop-plugin.md)
    + [Figma插件](integrations/figma-plugin.md)
-+ {hide-from-toc}[GenStudio Academy — 隐藏](genstudioacademy.md)
-+ {hide-from-toc}[测试Markdown — 隐藏](test-markdown.md)
++ [hide-from-tocGenStudio Academy — 隐藏](genstudioacademy.md)
++ [hide-from-toc测试Markdown — 隐藏](test-markdown.md)
