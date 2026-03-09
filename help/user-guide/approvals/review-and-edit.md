@@ -3,9 +3,14 @@ title: 查看和编辑内容
 description: 了解如何使用Adobe GenStudio for Performance Marketing迭代查看和编辑内容。
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 694
 ht-degree: 0%
 
 ---
@@ -64,7 +69,7 @@ ht-degree: 0%
 
 ## 使用Workfront Proof查看内容
 
-[!DNL Proofing Viewer]为批注验证和跟踪更改提供了[可靠的标记工具](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)。 您还可以比较两个版本的Proof。
+[!DNL Proofing Viewer]为批注验证和跟踪更改提供了[可靠的标记工具](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)。 您还可以比较两个版本的Proof。
 
 **查看内容**：
 
@@ -82,9 +87,9 @@ ht-degree: 0%
 
    内容创建者将收到您评论的通知。
 
-### 比较验证
+### 比较校样
 
-从[!DNL Proofing Viewer]，您可以[比较校对版本](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
+从[!DNL Proofing Viewer]，您可以[比较校对版本](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
 
 **要比较校样**：
 
@@ -94,4 +99,4 @@ ht-degree: 0%
 
    验证并排显示，较新版本位于左侧。
 
-Workfront Proof提供了多种用于比较验证的工具，包括自动比较工具。 请参阅[使用比较工具](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。
+Workfront Proof提供了多种用于比较验证的工具，包括自动比较工具。 请参阅[使用比较工具](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。

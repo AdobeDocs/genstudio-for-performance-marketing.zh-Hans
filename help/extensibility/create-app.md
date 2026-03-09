@@ -3,9 +3,13 @@ title: 创建App Builder应用程序
 description: 开始构建应用程序或加载项以扩展GenStudio for Performance Marketing。
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-source-git-commit: 04a4f6432c5db87489e39f9396a7782c86441695
+TQID: https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -108,7 +112,7 @@ App Builder应用程序的关键组件包括这些内部版本和配置文件。
 
 在`AdditionalContextDialog.tsx`和`RightPanel.tsx`文件中定义您的加载项代码。 这两个文件定义用户访问加载项时的弹出窗口外观和行为。
 
-* `AdditionalContextDialog.tsx`：如果您计划使用&#x200B;_添加上下文_&#x200B;加载项，请定义此组件。 用户在&#x200B;_的提示抽屉中单击_&#x200B;加载项[!DNL Create]时与此组件交互。
+* `AdditionalContextDialog.tsx`：如果您计划使用&#x200B;_添加上下文_&#x200B;加载项，请定义此组件。 用户在[!DNL Create]的提示抽屉中单击&#x200B;_加载项_&#x200B;时与此组件交互。
 
 * `RightPanel.tsx`：如果您计划使用&#x200B;_右侧面板_&#x200B;加载项（体验验证），请定义此组件。 用户在[!DNL Create]体验草稿中单击右侧面板中的验证加载项时与此组件交互。
 

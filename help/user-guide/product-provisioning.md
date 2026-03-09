@@ -5,16 +5,21 @@ level: Beginner
 feature: Generative AI
 role: Admin
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+TQID: https://experienceleague.adobe.com/cAOdJx0J4GtlITBp0dd-gJqDwM55ynoZNfN2eYWd5SI
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 0%
+source-wordcount: 473
+ht-degree: 1%
 
 ---
 
 # 配置Adobe GenStudio for Performance Marketing
 
-Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html#Overview)中执行初始配置任务。 从Admin Console中，Adobe系统管理员可以访问GenStudio产品配置文件，并将可用的产品许可证分配给用户。
+Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中执行初始配置任务。 从Admin Console中，Adobe系统管理员可以访问GenStudio产品配置文件，并将可用的产品许可证分配给用户。
 
 >[!NOTE]
 >
@@ -30,7 +35,7 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/cn/enterpri
 
 **访问GenStudio产品配置文件**
 
-1. 单击欢迎电子邮件中的&#x200B;**开始使用**&#x200B;链接以导航到[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html#Overview)。
+1. 单击欢迎电子邮件中的&#x200B;**开始使用**&#x200B;链接以导航到[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)。
 
 1. 使用您的Adobe ID登录到Admin Console。
 
@@ -62,8 +67,8 @@ Adobe系统管理员在[Adobe Admin Console](https://helpx.adobe.com/cn/enterpri
 
 您可以单独添加用户或导入多个用户的帐户信息：
 
-* [单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html#add-users)
+* [单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
 
-* [管理多个用户/批量CSV上传](https://helpx.adobe.com/cn//enterprise/using/bulk-upload-users.html)
+* [管理多个用户/批量CSV上传](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)
 
 将用户载入组织的GenStudio for Performance Marketing后，GenStudio系统管理员即可[设置组织的品牌和媒体准则](get-started.md)。

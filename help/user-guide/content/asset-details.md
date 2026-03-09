@@ -1,16 +1,22 @@
 ---
-title: 资源详细信息
+title: 资源详情
 description: Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可搜索性和性能跟踪。
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/Hm7qcrP6VcXf6IqZ2pYybduNyjjV8kdWj571gcRpglI
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: 732
 ht-degree: 1%
 
 ---
 
-# 资源详细信息
+# 资产详情
 
 Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准的内容，以便进行可发现性和性能跟踪。
 
@@ -18,7 +24,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 **要查看资源详细信息**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
@@ -32,7 +38,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 >[!NOTE]
 >
->AEM存储库中的Assets显示不同的元数据。 请参阅[配置资源可见性](connect-aem-repo.md#step-4-configure-asset-visibility)以了解如何配置[!DNL AEM Assets Content Hub]资源详细信息。
+AEM存储库中的Assets显示不同的元数据。 请参阅[配置资源可见性](connect-aem-repo.md#step-4-configure-asset-visibility)以了解如何配置[!DNL AEM Assets Content Hub]资源详细信息。
 
 ## 系统元数据
 
@@ -56,7 +62,7 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 
 **要编辑用户定义的元数据**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，查看右侧的&#x200B;_[!UICONTROL 详细信息]_&#x200B;部分。
 
@@ -76,22 +82,22 @@ Adobe GenStudio for Performance Marketing使用丰富的元数据存储经批准
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已添加到GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已添加到GenStudio for Performance Marketing以供使用 |
 | 渠道 | 用于分发特定内容类型（如电子邮件、横幅和显示广告）的平台 |
-| [!UICONTROL 时间范围] | 使用资产的时间范围，如季度、季度、年份等。 示例：`Winter 2023` |
+| [!UICONTROL 时间范围] | 使用资产的时间范围，如季度、季度、年份等。示例： `Winter 2023` |
 | 区域 | 使用资产的区域。 示例： `North America`，`APAC`，`Italy` |
 | 语言 | 资源使用的语言。 示例：`Spanish` |
 | 关键字 | 用户定义的关键字用于进一步标识资源特征和用途 |
 
 >[!TIP]
 >
->单击&#x200B;**[!UICONTROL 编辑详细信息]** （铅笔）以编辑资源元数据。 例如，您可以更改资源名称或添加或删除关键字。
+单击&#x200B;**[!UICONTROL 编辑详细信息]** （铅笔）以编辑资源元数据。 例如，您可以更改资源名称或添加或删除关键字。
 
 ## 生成上下文
 
-[!UICONTROL 生成上下文]部分显示用于生成体验的信息，例如`Prompt`进程期间使用的[!DNL Create]。 此insight可以帮助您构建更加成功的变体。
+[!UICONTROL 生成上下文]部分显示用于生成体验的信息，例如[!DNL Create]进程期间使用的`Prompt`。 此insight可以帮助您构建更加成功的变体。
 
 信息可能包括：
 
-- 在`Brand`进程期间选择的`Product`、`Persona`和[!DNL Create]参数
+- 在[!DNL Create]进程期间选择的`Brand`、`Product`和`Persona`参数
 - 电子邮件体验的`Subject line`和`Preheader`
 - 用于Meta广告的`Headline`和`Body`
 

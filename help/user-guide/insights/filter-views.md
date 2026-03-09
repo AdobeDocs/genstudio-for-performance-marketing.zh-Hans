@@ -4,9 +4,16 @@ description: 了解如何将增强的过滤器功能与Insights结合使用。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: 0eeb41597d547bf806b1728541ca85b598d2aa1c
+TQID: https://experienceleague.adobe.com/67TI5R4hy9levkPkdXdQVCgLZl43YEq1oXV8kEEWWOs
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 855
 ht-degree: 0%
 
 ---
@@ -25,7 +32,7 @@ ht-degree: 0%
 
 ### 搜索字段
 
-单击搜索（放大镜）图标可键入搜索词以查找表或图库中的特定项目。 例如，在`Gear`广告[!UICONTROL 表中输入术语]将筛选结果，以仅显示名称中使用术语`Gear`的广告。
+单击搜索（放大镜）图标可键入搜索词以查找表或图库中的特定项目。 例如，在[!UICONTROL 广告]表中输入术语`Gear`将筛选结果，以仅显示名称中使用术语`Gear`的广告。
 
 ![搜索字段示例](/help/assets/insights-search.png "搜索名称中带有齿轮的广告"){width=600 zoomable="yes"}
 
@@ -57,7 +64,7 @@ ht-degree: 0%
 
 **要使用促销活动过滤器优化广告表**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 广告]**&#x200B;视图。
+1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 广告]**视图。
 
    ![广告筛选器和表](/help/assets/insights-ads-filter.png "带有筛选菜单的广告视图"){zoomable="yes"}
 

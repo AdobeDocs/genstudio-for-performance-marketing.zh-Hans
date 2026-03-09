@@ -6,16 +6,23 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9ac53f3fc88df095f4098693090dafb9416bda27
+TQID: https://experienceleague.adobe.com/ht5ZJBghEPMEL--WNyl5uam-Mb92dsgp-4g9jQ9aO-g
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: 1414
 ht-degree: 0%
 
 ---
 
 # 创建Meta广告体验
 
-本教程演示如何使用GenStudio for Performance Marketing [生成品牌](/help/user-guide/create/meta-experiences.md)Meta广告体验[[!DNL Create]](/help/user-guide/create/overview.md)（左侧导航区域中的画笔图标）。
+本教程演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成品牌[Meta广告体验](/help/user-guide/create/meta-experiences.md)（左侧导航区域中的画笔图标）。
 
 在开始生成Meta广告体验之前，务必要在GenStudio for Performance Marketing中[引入准则](/help/user-guide/guidelines/add-guidelines.md)，并熟悉[创建提示符](/help/user-guide/effective-prompts.md)的基础知识。
 
@@ -27,7 +34,7 @@ ht-degree: 0%
 
 **选择Meta广告模板**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，单击&#x200B;**[!UICONTROL Meta广告]**。
+1. 在&#x200B;_[!DNL Create]_中，单击&#x200B;**[!UICONTROL Meta广告]**。
 1. 选择&#x200B;**[!UICONTROL 自定义模板]**&#x200B;浏览上载的模板，或选择&#x200B;**[!UICONTROL 入门模板]**&#x200B;浏览预建模板。
 
    如果计划将视频资源添加到Meta变体，则必须选择入门模板。 它们预加载了系统定义的内容区域，从而方便了视频的使用。
@@ -38,7 +45,7 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示抽屉中添加[参数](/help/user-guide/guidelines/overview.md)中的&#x200B;_准则_&#x200B;和资产可增强内容生成过程，是准备生成Meta广告的关键步骤。
+在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产可增强内容生成过程，是准备生成Meta广告的关键步骤。
 
 如果您使用具有预定义准则（如[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，这些准则适用于您的变体。 您可以根据需要更改它们。
 
@@ -110,7 +117,7 @@ ht-degree: 0%
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
 * **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请单击图像，单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标），然后单击&#x200B;**[!UICONTROL 裁切]**。 调整图像大小和放置。
-* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板](/help/user-guide/create/manage-variants.md#use-generative-expand)，请单击图像，单击“编辑”**&#x200B;**[!UICONTROL （铅笔图标），然后]**&#x200B;展开&#x200B;**[!UICONTROL 。]**&#x200B;调整图像以适合所需的纵横比和模板。
+* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板**，请单击图像，单击“编辑”****（铅笔图标），然后&#x200B;**[!UICONTROL 展开]**。 ](/help/user-guide/create/manage-variants.md#use-generative-expand)调整图像以适合所需的纵横比和模板。
 * **要[为变体中的图像添加替换文本](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，请单击图像资源并使用&#x200B;_替换文本_&#x200B;选项为每个图像手动添加或生成替换文本。
 * **要[将辅助功能标签](/help/user-guide/create/manage-variants.md#add-accessibility-labels)添加到您的变体**，请单击图像或call-to-action链接，然后提供简要说明该链接或按钮的作用。
 * **要[删除Meta广告](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击变体的选项菜单，然后单击&#x200B;**[!UICONTROL 删除变体]**。

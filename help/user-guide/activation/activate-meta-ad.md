@@ -3,9 +3,15 @@ title: 激活Meta广告
 description: 了解如何激活Meta广告体验。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: 1931
 ht-degree: 1%
 
 ---
@@ -51,7 +57,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 * **直接从[!DNL Content]**&#x200B;激活。 选择具有预定义设置的已批准体验是启动对单个渠道的激活的最简化方式。
 
-* **从[!DNL Activate] > _体验设置_**&#x200B;收集您的广告体验。 您可以通过从[!DNL Content]中选择可视资产、添加文本元素以及选择长宽比来创建体验。 此方法包含更多步骤，但在创作创意体验时可提供更大的灵活性。
+* **从[!DNL Activate] > _体验设置_**收集您的广告体验。 您可以通过从[!DNL Content]中选择可视资产、添加文本元素以及选择长宽比来创建体验。 此方法包含更多步骤，但在创作创意体验时可提供更大的灵活性。
 
 ### 从内容激活已批准的体验
 
@@ -96,7 +102,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 **从内容上载资产**：
 
-[!DNL Content]为您的组织的已批准资产和体验提供一个中心视图。 您可以使用[[!DNL Content] 搜索](/help/user-guide/content/manage-assets.md)（放大镜）和&#x200B;**[!UICONTROL 筛选器]**&#x200B;菜单选项来聚焦&#x200B;_图库_&#x200B;显示的资产清单。
+[!DNL Content]为您的组织的已批准资产和体验提供一个中心视图。 您可以使用&#x200B;**[!UICONTROL 搜索]**（放大镜）和&#x200B;_筛选器_&#x200B;菜单选项来聚焦[[!DNL Content] 图库](/help/user-guide/content/manage-assets.md)显示的资产清单。
 
 1. 从[!DNL Activate]，单击渠道卡片上的&#x200B;**[!UICONTROL 新建]**。 将打开&#x200B;_体验设置_&#x200B;视图。
 
@@ -106,7 +112,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 1. 单击&#x200B;**[!UICONTROL 使用]**&#x200B;以将所选资源包含在您的广告体验中。 _体验设置_&#x200B;窗口在&#x200B;_媒体_&#x200B;区域的默认纵横比中包括资产。 _预览_&#x200B;面板在广告投放中预览支持此宽高比的资源。
 
-如果上传不成功，则会打开一条信息性错误消息，其中包含&#x200B;_[!DNL Content]_&#x200B;中资产的链接。
+如果上传不成功，则会打开一条信息性错误消息，其中包含&#x200B;_[!DNL Content]_中资产的链接。
 
 **要上传外部资源**：
 
@@ -122,7 +128,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 1. （可选）若要从设备上传资源，请单击&#x200B;**[!UICONTROL 浏览]**，然后选择&#x200B;_浏览文件_&#x200B;或&#x200B;_浏览文件夹_&#x200B;以标识要上传的资源。
 
-1. 在&#x200B;_添加详细信息_&#x200B;区域，将信息性详细信息添加到您上传的资产，以便在&#x200B;_[!DNL Content]_&#x200B;中进行搜索和筛选。 这些详细信息将另存为元数据。
+1. 在&#x200B;_添加详细信息_&#x200B;区域，将信息性详细信息添加到您上传的资产，以便在&#x200B;_[!DNL Content]_中进行搜索和筛选。 这些详细信息将另存为元数据。
 
 1. 上传资源并分配详细信息后，单击右下方的&#x200B;**[!UICONTROL 添加Assets]**。
 
@@ -152,7 +158,7 @@ GenStudio for Performance Marketing需要&#x200B;_主文本_&#x200B;和&#x200B;_
 | 营销活动 | 广告体验所属的所有GenStudio for Performance Marketing营销活动 |
 | 品牌 | 用户定义的或默认的准则，它允许用户建立品牌准则，以捕捉品牌标识的实质。 |
 | 产品 | 与您的组织关联并在GenStudio for Performance Marketing中标识的产品 |
-| 角色 | 与您的组织关联并在GenStudio for Performance Marketing中标识的角色 |
+| 用户画像 | 与您的组织关联并在GenStudio for Performance Marketing中标识的角色 |
 | 时间范围 | 广告体验有效的季度、季、年或其他组织定义的时间单位 |
 | 区域 | 在其中启动体验的地理区域 |
 | 语言 | 使用广告体验的语言 |
@@ -174,7 +180,7 @@ GenStudio for Performance Marketing需要&#x200B;_主文本_&#x200B;和&#x200B;_
 
 ### 创建新广告集
 
-您可以在平台设置期间通过克隆现有广告集来创建新的广告集。 元广告集定义特定广告的时间、渠道详细信息和受众。 元营销活动可以包含多个广告集，但一个广告集仅与一个营销活动关联。
+您可以在平台设置期间通过克隆现有广告集来创建新的广告集。 Meta广告集定义了特定广告的时间、渠道详细信息和受众。 Meta营销活动可以包含多个广告集，但一个广告集仅与一个营销活动关联。
 
 **创建新广告集**：
 
@@ -198,7 +204,7 @@ GenStudio for Performance Marketing需要&#x200B;_主文本_&#x200B;和&#x200B;_
 
 >[!NOTE]
 >
->如果广告集已成功创建，但无法保存广告集名称，则该广告集将以其默认名称（_原始广告集名称 — 副本_）保存在Meta广告管理器中。
+如果广告集已成功创建，但无法保存广告集名称，则该广告集将以其默认名称（_原始广告集名称 — 副本_）保存在Meta广告管理器中。
 
 ### 跟踪Id
 
@@ -208,7 +214,7 @@ GenStudio for Performance Marketing需要&#x200B;_主文本_&#x200B;和&#x200B;_
 
 ## 步骤5：预览和激活广告
 
-_审阅_&#x200B;页面将显示在&#x200B;_体验设置_&#x200B;中收集的广告体验，并提供查看和编辑体验的最终机会。 单击&#x200B;**[!UICONTROL 体验设置]**&#x200B;标签旁边的&#x200B;_编辑部分_&#x200B;以进行更改。 您还可以单击右上角的&#x200B;**[!UICONTROL 上一步]**&#x200B;以返回&#x200B;_体验设置_&#x200B;页面。
+_审阅_&#x200B;页面将显示在&#x200B;_体验设置_&#x200B;中收集的广告体验，并提供查看和编辑体验的最终机会。 单击&#x200B;_体验设置_&#x200B;标签旁边的&#x200B;**[!UICONTROL 编辑部分]**&#x200B;以进行更改。 您还可以单击右上角的&#x200B;**[!UICONTROL 上一步]**&#x200B;以返回&#x200B;_体验设置_&#x200B;页面。
 
 ### 步骤6：完成广告体验的激活
 
