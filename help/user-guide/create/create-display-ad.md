@@ -6,16 +6,37 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
+TQID: https://experienceleague.adobe.com/dxhIgRyUnAI-a-NZwQ7-0UbVzMJcQTHMzT1-d9skmIc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: 1143
 ht-degree: 0%
 
 ---
 
 # 创建显示广告体验
 
-本教程演示如何使用GenStudio for Performance Marketing [生成品牌](display-ad-experiences.md)显示广告体验[[!DNL Create]](/help/user-guide/create/overview.md)（左侧导航区域中的画笔图标）。
+本教程演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成品牌[显示广告体验](display-ad-experiences.md)（左侧导航区域中的画笔图标）。
 
 若要设计引人入胜的显示广告体验，建议您[将准则添加到GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)，并在开始之前查看[编写提示的基础知识](/help/user-guide/effective-prompts.md)。
 
@@ -34,7 +55,7 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示抽屉中添加[参数](/help/user-guide/guidelines/overview.md)中的&#x200B;_准则_&#x200B;和资产，会增加内容生成过程的开销，是生成显示广告体验的必要准备步骤。
+在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的开销，是生成显示广告体验的必要准备步骤。
 
 如果您使用具有预定义准则（如[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，这些准则适用于您的变体。 您可以根据需要更改它们。
 
@@ -88,7 +109,7 @@ ht-degree: 0%
 * **要[将辅助功能标签](/help/user-guide/create/manage-variants.md#add-accessibility-labels)添加到您的变体**，请单击图像或call-to-action链接，然后提供简要说明该链接或按钮的作用。
 * **要[更改广告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小和纵横比，请单击&#x200B;_[!UICONTROL 调整大小]_&#x200B;按钮（画布左侧带有按钮图标的框），然后选择要应用于所有变体的新大小和纵横比。 将复制变体并调整其大小。
 * **要[裁切或重新定位图像](/help/user-guide/create/manage-variants.md#crop-assets)**，请单击图像，单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标），然后单击&#x200B;**[!UICONTROL 裁切]**。 调整图像大小和放置。
-* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板](/help/user-guide/create/manage-variants.md#use-generative-expand)，请单击图像，单击“编辑”**&#x200B;**[!UICONTROL （铅笔图标），然后]**&#x200B;展开&#x200B;**[!UICONTROL 。]**&#x200B;调整图像以适合所需的纵横比和模板。
+* **要[使用“创成扩展”来调整图像大小并使图像适合您的工作模板**，请单击图像，单击“编辑”**&#x200B;**（铅笔图标），然后&#x200B;**[!UICONTROL 展开]**。 &#x200B;](/help/user-guide/create/manage-variants.md#use-generative-expand)调整图像以适合所需的纵横比和模板。
 
 <!-- # Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.

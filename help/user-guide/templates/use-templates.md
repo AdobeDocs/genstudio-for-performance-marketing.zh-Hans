@@ -5,16 +5,34 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: a18b4f89ffde43432885dc2c2e323eaf19361fc7
+TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: 1374
 ht-degree: 1%
 
 ---
 
 # 使用模板
 
-GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板_&#x200B;快速生成一致的品牌营销内容。 模板通过提供包括预配置布局和设计元素的起点，显着减少了生成新内容所需的时间和精力。 若要开始，请在[!DNL Content]中上传自定义模板，或在[!DNL Create]中使用起始模板。 [入门模板](/help/user-guide/templates/starter-templates.md)提供了从标准设计开始的快速方法，而自定义模板允许您使用独特的设计和布局。
+GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板_&#x200B;快速生成一致的品牌营销内容。 模板通过提供包括预配置布局和设计元素的起点，显着减少了生成新内容所需的时间和精力。 若要开始，请在[!DNL Content]中上传自定义模板，或在[!DNL Create]中使用起始模板。[入门模板](/help/user-guide/templates/starter-templates.md)提供了从标准设计开始的快速方法，而自定义模板允许您使用独特的设计和布局。
 
 虽然GenStudio for Performance Marketing不支持在应用程序中直接创建模板，但您可以使用流行的设计工具(如Adobe InDesign、Illustrator或Express)轻松设计和准备模板。 设计完成后，您可以对其进行调整以用于GenStudio for Performance Marketing。 可按照以下步骤开始使用模板：
 
@@ -113,7 +131,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 ### 刷新模板
 
-模板可能包括静态文件，如图标或徽标。 创建模板预览后未存储[静态内容](/help/user-guide/templates/customize-template.md#static-content)。 GenStudio for Performance Marketing将继续引用模板中提供的源链接。 使用刷新可更新模板预览，以显示这些资源的最新版本。
+模板可能包括静态文件，如图标或徽标。[创建模板预览后未存储静态内容](/help/user-guide/templates/customize-template.md#static-content)。 GenStudio for Performance Marketing将继续引用模板中提供的源链接。 使用刷新可更新模板预览，以显示这些资源的最新版本。
 
 **刷新模板**：
 
@@ -155,4 +173,4 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 >[!ENDSHADEBOX]
 
-接下来，[使用占位符自定义您的模板](/help/user-guide/templates/customize-template.md)，以指示GenStudio for Performance Marketing应在何处为您生成内容。 [将模板](#add-a-template)添加到[!DNL Content]存储库并验证模板。 使用代码编辑器进行任何较小的更正。
+接下来，[使用占位符自定义您的模板](/help/user-guide/templates/customize-template.md)，以指示GenStudio for Performance Marketing应在何处为您生成内容。[将模板](#add-a-template)添加到[!DNL Content]存储库并验证模板。 使用代码编辑器进行任何较小的更正。

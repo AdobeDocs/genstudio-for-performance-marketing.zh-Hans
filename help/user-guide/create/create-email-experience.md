@@ -6,16 +6,37 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
+TQID: https://experienceleague.adobe.com/RPeJQ02q9HXBSpn-uFqjzLCYbbzv5eNnFBXkFn9j5JI
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
 
 # 创建电子邮件体验
 
-本教程演示如何使用GenStudio for Performance Marketing [生成品牌](/help/user-guide/create/email-experiences.md)电子邮件体验[[!DNL Create]](/help/user-guide/create/overview.md)（左侧导航区域中的画笔图标）。
+本教程演示如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)生成品牌[电子邮件体验](/help/user-guide/create/email-experiences.md)（左侧导航区域中的画笔图标）。
 
 若要创建有效的电子邮件体验，建议您[将准则添加到GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)中，并在开始之前[复习构建提示的基础知识](/help/user-guide/effective-prompts.md)。
 
@@ -33,7 +54,7 @@ ht-degree: 0%
 
 ## 添加参数
 
-在提示抽屉中添加[参数](/help/user-guide/guidelines/overview.md)中的&#x200B;_准则_&#x200B;和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
+在提示抽屉中添加&#x200B;_参数_&#x200B;中的[准则](/help/user-guide/guidelines/overview.md)和资产，会增加内容生成过程的费用，是生成电子邮件体验的必要准备步骤。
 
 如果您使用具有预定义准则（如[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板，这些准则适用于您的变体。 您可以根据需要更改它们。
 
@@ -57,7 +78,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 使用]**。
 
    >[!NOTE]
-   >如果您的电子邮件模板有多个分区，请为[!DNL Products]多分区电子邮件&#x200B;_中的每个电子邮件分区选择_&#x200B;和内容（可视资产）。 多节电子邮件支持每节一个可视资产。 您只能从[!DNL Content]向多节电子邮件添加可视资产，而不能从本地源拖放或上传资产。
+   >如果您的电子邮件模板有多个分区，请为&#x200B;_多分区电子邮件_&#x200B;中的每个电子邮件分区选择[!DNL Products]和内容（可视资产）。 多节电子邮件支持每节一个可视资产。 您只能从[!DNL Content]向多节电子邮件添加可视资产，而不能从本地源拖放或上传资产。
    >![为每个电子邮件部分添加内容和参数](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 添加完参数后，您可以通过再次单击&#x200B;_参数_&#x200B;图标来折叠提示抽屉。

@@ -4,16 +4,36 @@ description: 了解集中式活动规划和活动摘要。
 feature: Campaign Planning, Campaign Brief
 badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"
 exl-id: bbf66552-5a42-48d4-9bcd-944cf643e513
-source-git-commit: 5059a4e98c272ed53ae12ffd83afacf833ac30f3
+TQID: https://experienceleague.adobe.com/rN-90ZUKxhVZkffdQMR6rYTyImjVhn35zxhJbYF5VK0
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
+  - id: bf1f49e6-dcda-4b68-a4d5-aeecf05031a6
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: 386
 ht-degree: 0%
 
 ---
 
 # Adobe GenStudio for Performance Marketing Campaigns
 
-GenStudio for Performance Marketing [!DNL Campaigns]可加快营销计划（或&#x200B;_营销活动_）的开发和部署。 [!DNL Campaigns]组件包括资源和体验，它们可用于由GenStudio for Performance Marketing的AI生成的工作流创建、审批和管理，包括符合品牌标准的图像和文本。
+GenStudio for Performance Marketing [!DNL Campaigns]可加快营销计划（或&#x200B;_营销活动_）的开发和部署。[!DNL Campaigns] 组件包括一些资源和体验，它们可用于GenStudio for Performance Marketing的人工智能生成工作流创建、批准和管理，包括符合品牌标准的图像和文本。
 
 [!DNL Campaigns]工作流提供：
 

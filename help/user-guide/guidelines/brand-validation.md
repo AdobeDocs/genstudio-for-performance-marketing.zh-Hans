@@ -3,9 +3,26 @@ title: Adobe GenStudio for Performance Marketing中的Brand Validation
 description: 了解GenStudio for Performance Marketing中的内置品牌验证系统。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
+TQID: https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 786
 ht-degree: 0%
 
 ---
@@ -28,7 +45,7 @@ GenStudio for Performance Marketing从多个方面执行品牌验证和其他内
 
 _内容检查_&#x200B;摘要显示：
 
-* 通过验证的[[!DNL Brand]](brands.md)准则[与测试的准则数之比，计算出](overview.md)的符合性百分比
+* 通过验证的[准则](overview.md)与测试的准则数之比，计算出[[!DNL Brand]](brands.md)的符合性百分比
 * 平台准则的`Pass`或`Fail`结果，如Meta或LinkedIn
 * ADA辅助功能标准的`Pass`或`Fail`结果
 
@@ -40,13 +57,13 @@ _内容检查_&#x200B;摘要显示：
 
 ## 内容检查面板
 
-从右操作栏&#x200B;_或_&#x200B;单击&#x200B;_内容检查_&#x200B;摘要图标&#x200B;[_时，_&#x200B;内容检查](#content-check-summary)面板将在画布右侧打开。 此面板提供了详细的品牌验证、平台指南和无障碍标准信息，并说明了改进的机会。
+从右操作栏&#x200B;_或_&#x200B;单击&#x200B;[_内容检查_&#x200B;摘要图标](#content-check-summary)时，_内容检查_&#x200B;面板将在画布右侧打开。 此面板提供了详细的品牌验证、平台指南和无障碍标准信息，并说明了改进的机会。
 
 ![内容检查面板](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 _内容检查_&#x200B;面板显示图像和变体部分的验证和[合规性信息](/help/user-guide/guidelines/overview.md#compliance)：
 
-* _的_&#x200B;内容检查[!DNL Brand]摘要信息、平台准则和辅助功能标准的表示形式
+* [!DNL Brand]的&#x200B;_内容检查_&#x200B;摘要信息、平台准则和辅助功能标准的表示形式
 * _需要审核_&#x200B;部分，其中显示失败准则的数量以及有关每个需要修订的准则的详细信息
 * _通过_&#x200B;部分，显示通过的准则数以及每个通过准则的详细信息
 
@@ -74,7 +91,7 @@ _内容检查_&#x200B;面板显示图像和变体部分的验证和[合规性信
 
    >[!NOTE]
    >
-   > _内容检查_&#x200B;面板中提到的&#x200B;_品牌声音_&#x200B;准则适用于整个变体，而不是单个部分。 将突出显示整个内容变体以便提出改进建议。
+   >_内容检查_&#x200B;面板中提到的&#x200B;_品牌声音_&#x200B;准则适用于整个变体，而不是单个部分。 将突出显示整个内容变体以便提出改进建议。
 
 1. 单击以修复当前不兼容的准则。
 1. 单击以展开并检查每个需要在可用部分（如&#x200B;_标题_、_颜色_&#x200B;和&#x200B;_品牌声音_）中审阅的检查。

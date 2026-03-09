@@ -3,9 +3,20 @@ title: 部署您的App Builder应用程序
 description: 部署适用于GenStudio for Performance Marketing的App Builder应用程序或加载项。
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: e783976dd035f64f5561a562471d4cc876162326
+TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: bfaa655b-e017-428d-80d0-09de2183b296
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: 447
 ht-degree: 0%
 
 ---
@@ -42,7 +53,7 @@ aio app run
 
 >[!NOTE]
 >
->强制构建和部署会覆盖现有部署。 **首先在测试环境中彻底测试您的应用程序**。
+>强制构建和部署会覆盖现有部署。**首先在测试环境中彻底测试您的应用程序**。
 
 ```bash
 aio app build --force-build

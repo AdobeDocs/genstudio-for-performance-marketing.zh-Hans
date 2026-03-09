@@ -3,10 +3,17 @@ title: 批准内容
 description: 了解如何使用Adobe GenStudio for Performance Marketing批准生成的内容。
 feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+TQID: https://experienceleague.adobe.com/-gEhuBGNiJb3BxrRvJKcZea87FCe5FERanIKGLBuO3U
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 1%
+source-wordcount: 202
+ht-degree: 5%
 
 ---
 
@@ -30,12 +37,12 @@ ht-degree: 1%
 
 **要决定内容**：
 
-1. 单击&#x200B;**[!UICONTROL 顶部的]**&#x200B;做出决定[!DNL Proofing Viewer]。
+1. 单击[!DNL Proofing Viewer]顶部的&#x200B;**[!UICONTROL 做出决定]**。
 
    _验证决定_&#x200B;弹出窗口打开，显示用于审批或发送反馈的选项。
 
 1. 选择&#x200B;**[!UICONTROL 已批准]**&#x200B;或&#x200B;**[!UICONTROL 已批准，但有更改]**。
 
-1. 单击&#x200B;**[!UICONTROL “提交”。]**
+1. 单击&#x200B;**[!UICONTROL 提交]**。
 
-草稿创建者将收到您批准的通知，并且您的工作已完成。 有关保存到[或](/help/user-guide/approvals/publish-content.md)发布[!DNL Content]的过程的概述，请参阅&#x200B;_发布内容_。
+草稿创建者将收到您批准的通知，并且您的工作已完成。 有关保存到[!DNL Content]或&#x200B;_发布_&#x200B;的过程的概述，请参阅[发布内容](/help/user-guide/approvals/publish-content.md)。

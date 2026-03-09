@@ -5,9 +5,30 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a4df9c81339a8fe5197200d58abc8b48df59da6f
+TQID: https://experienceleague.adobe.com/ZBEIHvBGmsFQ42jATObuO7IeANKc3CXCmhJ20p5-QCs
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: cec71013-cf14-4e28-b808-3d3060935bcb
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: 2499
 ht-degree: 0%
 
 ---
@@ -26,9 +47,9 @@ GenStudio for Performance Marketing允许您设置用户定义的准则，以确
 
 ## 添加品牌
 
-要添加[!DNL Brand]，[上载品牌指南](#upload-a-brand)或[通过选择指南并输入品牌详细信息手动创建品牌](#manually-add-brand)。 [将a [!DNL Brand]](#publish-brand)发布到[!DNL Content]以供将来生成内容使用。
+要添加[!DNL Brand]，[上载品牌指南](#upload-a-brand)或[通过选择指南并输入品牌详细信息手动创建品牌](#manually-add-brand)。[将a [!DNL Brand]](#publish-brand)发布到[!DNL Content]以使其可在将来生成内容时使用。
 
-在左侧导航区域中，单击&#x200B;**[!DNL Brands]**&#x200B;共享&#x200B;_列表中的_。
+在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Brands]**。
 
 GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
@@ -106,7 +127,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 1. 在&#x200B;_[!UICONTROL 更改缩略图]_&#x200B;中，更改上传的图像。
 1. 选择&#x200B;**[!UICONTROL 更新]**&#x200B;以将图像另存为[!DNL Brand]缩略图。
 
-您可以在[!DNL Brand]徽标[!UICONTROL 选项卡视图中选择]的现有[!DNL Brand]徽标。 单击以打开徽标，然后从操作菜单中选择&#x200B;**[!UICONTROL 用作品牌缩略图]**。
+您可以在[!UICONTROL 徽标]选项卡视图中选择[!DNL Brand]的现有[!DNL Brand]徽标。 单击以打开徽标，然后从操作菜单中选择&#x200B;**[!UICONTROL 用作品牌缩略图]**。
 
 ### 发布品牌
 
@@ -116,7 +137,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 >[!TIP]
 >
->如果只想查看您创建的品牌，请从&#x200B;**[!UICONTROL 过滤器(funnel图标)中选择]**&#x200B;由您创建[!DNL Brands]。
+>如果只想查看您创建的品牌，请从[!DNL Brands]过滤器(funnel图标)中选择&#x200B;**[!UICONTROL 由您创建]**。
 
 **要发布品牌草稿**：
 
@@ -130,7 +151,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;退出弹出窗口。
 
-[!DNL brand]在名称旁边显示绿色圆点和“已发布”，并且在&#x200B;**[!UICONTROL 发布[!DNL brand]]**&#x200B;按钮的位置上显示&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
+[!DNL brand]在名称旁边显示绿色圆点和“已发布”，并且在&#x200B;**[!UICONTROL 发布]**&#x200B;按钮的位置上显示&#x200B;**[!UICONTROL 编辑[!DNL brand]]**&#x200B;按钮。
 
 **要取消发布已发布的[!DNL brand]**，请单击该品牌以将其打开，然后单击操作菜单（三个圆点图标）中的&#x200B;**[!UICONTROL 取消发布]**。
 
@@ -142,7 +163,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 要&#x200B;**查看品牌信息**，请单击左侧导航区域中的&#x200B;**[!UICONTROL [!DNL Brands]]**，然后单击以打开现有品牌。
 
-**要在**&#x200B;视图中修改品牌[!DNL Brands]：
+**要在[!DNL Brands]视图中修改品牌**：
 
 1. 在&#x200B;**[!DNL Brands]**&#x200B;中，单击以打开定义的品牌。
 1. 要查看个人详细信息或修改指南，请单击顶部的[**[!UICONTROL 品牌语音指南]**](brands.md#brand-voice-guidelines)、[**[!UICONTROL 图像指南]**](brands.md#image-guidelines)、[**[!UICONTROL 渠道指南]**](brands.md#channel-guidelines)、[**[!UICONTROL 徽标]**](brands.md#logos)或[**[!DNL Colors]**](brands.md#colors)。
@@ -153,19 +174,19 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
    1. 选择&#x200B;**[!UICONTROL 重命名]**&#x200B;以重命名徽标。
    1. 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以删除徽标。
 1. 要重命名现有品牌，请在标题中单击并输入新标题。
-1. 要复制现有品牌，请从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;复制&#x200B;_[!DNL Brands]_。
+1. 要复制现有品牌，请从&#x200B;_[!DNL Brands]_&#x200B;操作菜单中选择&#x200B;**[!UICONTROL 复制]**。
    1. 在&#x200B;_复制品牌_&#x200B;弹出窗口中输入品牌名称，然后单击&#x200B;**[!UICONTROL 复制品牌]**。
 
       弹出窗口将确认该品牌已复制 — “已创建新品牌”。 重复的品牌最初处于&#x200B;_取消发布_&#x200B;模式。
 
    1. 自定义重复的品牌，然后[发布它](#publish-brand)使其可用。
-1. 要删除品牌，请从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;删除[!DNL Brands]。
+1. 要删除品牌，请从[!DNL Brands]操作菜单中选择&#x200B;**[!UICONTROL 删除]**。
 
 ## 添加[!DNL Personas]
 
 要添加角色，请[上传角色](#upload-a-persona)或[通过选择指南并输入角色详细信息手动创建角色](#manually-add-persona)。
 
-在左侧导航区域中，单击&#x200B;**[!DNL Personas]**&#x200B;共享&#x200B;_列表中的_。
+在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Personas]**。
 
 GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
@@ -204,7 +225,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
    您可以填充各种可选准则和图像来构建您的角色。
 
 1. 单击&#x200B;**[!UICONTROL 新角色名称]**&#x200B;并输入[!DNL Persona]的名称。
-1. 在[!DNL Persona]描述&#x200B;_部分中添加有关_&#x200B;的信息。
+1. 在&#x200B;_描述_&#x200B;部分中添加有关[!DNL Persona]的信息。
 
    ![添加[!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
 
@@ -227,15 +248,15 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 在&#x200B;_[!DNL Personas]_&#x200B;主页中，您可以&#x200B;**打开已创建的[!DNL Persona]**&#x200B;以进行编辑或审阅，或者&#x200B;**从列表中**&#x200B;删除角色：
 
-- 从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;打开[!DNL Personas]以修订和审阅现有角色。
-- 从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;删除[!DNL Personas]以&#x200B;**删除**&#x200B;角色。
-- 从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;重命名[!DNL Personas]以&#x200B;**重命名**&#x200B;角色。
+- 从[!DNL Personas]操作菜单中选择&#x200B;**[!UICONTROL 打开]**&#x200B;以修订和审阅现有角色。
+- 从[!DNL Personas]操作菜单中选择&#x200B;**[!UICONTROL 删除]**&#x200B;以&#x200B;**删除**&#x200B;角色。
+- 从[!DNL Personas]操作菜单中选择&#x200B;**[!UICONTROL 重命名]**&#x200B;以&#x200B;**重命名**&#x200B;角色。
 
 ## 添加[!DNL Products]
 
 要添加产品，请执行以下操作：
 
-1. 在左侧导航区域中，单击&#x200B;**[!DNL Products]**&#x200B;共享&#x200B;_列表中的_。
+1. 在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Products]**。
    GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){width="650" zoomable="yes"}
 1. 在&#x200B;_[!DNL Products]_&#x200B;面板中，选择&#x200B;**添加产品**。
 1. 选择[上传产品](#upload-a-product)或[通过选择指南并输入产品详细信息手动创建产品](#manually-add-product)。
@@ -277,7 +298,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
    您可以填充各种可选信息以构建产品。
 
 1. 单击&#x200B;**[!UICONTROL 新产品名称]**&#x200B;并输入[!DNL product]的名称。
-1. 在[!DNL product]描述&#x200B;_部分中添加有关_&#x200B;的信息。
+1. 在&#x200B;_描述_&#x200B;部分中添加有关[!DNL product]的信息。
 1. 单击&#x200B;_描述_&#x200B;并输入此[!DNL Product]的描述。
 1. 单击&#x200B;_价值主张_&#x200B;并输入价值主张详细信息以正确定位[!DNL Product]。
 1. 单击&#x200B;_消息首选项_&#x200B;并输入[!DNL product]的消息详细信息。
@@ -298,9 +319,9 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 在&#x200B;_[!DNL Products]_&#x200B;主页中，您可以&#x200B;**打开已创建的[!DNL Product]**&#x200B;以进行编辑或审阅，或者&#x200B;**从列表中**&#x200B;删除产品：
 
-- 从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;打开[!DNL Products]以修订和审阅现有产品。
-- 从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;删除[!DNL Products]以&#x200B;**删除**&#x200B;产品。
-- 从&#x200B;**[!UICONTROL 操作菜单中选择]**&#x200B;重命名[!DNL Products]以&#x200B;**重命名**&#x200B;产品。
+- 从[!DNL Products]操作菜单中选择&#x200B;**[!UICONTROL 打开]**&#x200B;以修订和审阅现有产品。
+- 从[!DNL Products]操作菜单中选择&#x200B;**[!UICONTROL 删除]**&#x200B;以&#x200B;**删除**&#x200B;产品。
+- 从[!DNL Products]操作菜单中选择&#x200B;**[!UICONTROL 重命名]**&#x200B;以&#x200B;**重命名**&#x200B;产品。
 
 ## 添加[!DNL Audiences]
 
@@ -310,7 +331,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 [!DNL Audiences]从Adobe Real-Time Customer Data Platform (RTCDP)提供目标客户区段，将精确的目标数据引入您的内容生成工作流程中。 GenStudio for Performance Marketing利用受众定义来帮助您创建与特定客户群体一致的定制营销内容。
 
-[!DNL Audiences]在[的&#x200B;_[!DNL Create]_&#x200B;工作流](../create/overview.md#templates)的参数窗格中显示为下拉列表。 当同时使用两个准则时，_[!DNL Audiences]_&#x200B;可以为&#x200B;_[!DNL Personas]_&#x200B;添加特殊性，但也可以有效地单独使用。
+[!DNL Audiences]在[&#x200B; _[!DNL Create]_&#x200B;工作流](../create/overview.md#templates)的参数窗格中显示为下拉列表。_[!DNL Audiences]_ 使用这两个准则时，可以为&#x200B;_[!DNL Personas]_&#x200B;增加特殊性，但也可以有效地单独使用。
 
 在新用户引导期间，会导入受众定义并将其转换为与GenStudio兼容的格式。 此过程通常需要几天才能完成。 请联系您的Adobe团队以启动它。
 
