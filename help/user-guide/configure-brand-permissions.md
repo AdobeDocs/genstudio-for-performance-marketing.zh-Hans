@@ -34,7 +34,7 @@ ht-degree: 4%
 
 观看本视频演练或执行以下步骤。
 
->[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475007?captions=chi_hans&learn=on&enablevpops)
 
 ## 第1步：创建用户组
 
