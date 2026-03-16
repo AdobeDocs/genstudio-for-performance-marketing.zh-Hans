@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 # GenStudio for Performance Marketing文档
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ## Adobe Open Source行为准则
 
-该项目采用了[Adobe Open Source行为准则](code-of-conduct.md)或[.NET Foundation行为准则](https://dotnetfoundation.org/about/policies/code-of-conduct)。 请参阅[参与](contributing.md)一文。
+该项目采用了[Adobe Open Source行为准则](code-of-conduct.md)或[.NET Foundation行为准则](https://dotnetfoundation.org/about/policies/code-of-conduct)。 请参阅[参与](contributing.md)页面。
 
 ### 次要更改
 
