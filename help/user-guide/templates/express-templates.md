@@ -4,7 +4,7 @@ description: 探索能够集成Adobe Express资源的GenStudio for Performance M
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 26d8f8a7f25679ced3fc3030a3e9d32b1ea554b0
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Express]中，可以使用应用程序中提供的现有启动程序模板[&#128279;](https://helpx.adobe.com/cn/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)创建新文档，也可以使用包含有用的品牌限制的[自定义模板创建](https://helpx.adobe.com/cn/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)新文档，例如：
 
-- 无法更改的[锁定的元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)
+- 无法更改的[锁定的元素](https://helpx.adobe.com/cn/express/web/invite-collaborate/object-locking.html)
 - 锁定限制可控制用户在需要时如何解锁元素
 
 已在[!DNL Adobe Express]中的模板上设置的锁定设置也将在[!DNL GenStudio for Performance Marketing]中应用。 使用[说明 [!DNL Adobe Express] 创建具有品牌限制的自定义模板](https://helpx.adobe.com/cn/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 ### 模板锁定限制
 
-模板可以包含从[!DNL Express]结转的[锁定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)，并控制某些功能的更改方式。 这些设置由模板遵循，也可以在模板上更改：
+模板可以包含从[!DNL Express]结转的[锁定元素](https://helpx.adobe.com/cn/express/web/invite-collaborate/object-locking.html)，并控制某些功能的更改方式。 这些设置由模板遵循，也可以在模板上更改：
 
 1. 在模板上选择一个锁定的元素。
 1. 单击选定元素左上角的锁定图标。
@@ -243,3 +243,4 @@ ht-degree: 0%
 ## 审阅并批准
 
 编辑和调整变体后，通过[审阅和批准工作流](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/overview)批准并发布您的内容。
+
