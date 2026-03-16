@@ -19,12 +19,12 @@ ht-degree: 0%
 
 ## 关于[!DNL Adobe Express]中的模板
 
-在[!DNL Adobe Express]中，可以使用应用程序中提供的现有启动程序模板[&#128279;](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)创建新文档，也可以使用包含有用的品牌限制的[自定义模板创建](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)新文档，例如：
+在[!DNL Adobe Express]中，可以使用应用程序中提供的现有启动程序模板[&#128279;](https://helpx.adobe.com/cn/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)创建新文档，也可以使用包含有用的品牌限制的[自定义模板创建](https://helpx.adobe.com/cn/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)新文档，例如：
 
-- 无法更改的[锁定的元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)
+- 无法更改的[锁定的元素](https://helpx.adobe.com/cn/express/web/invite-collaborate/object-locking.html)
 - 锁定限制可控制用户在需要时如何解锁元素
 
-已在[!DNL Adobe Express]中的模板上设置的锁定设置也将在[!DNL GenStudio for Performance Marketing]中应用。 使用[说明 [!DNL Adobe Express] 创建具有品牌限制的自定义模板](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
+已在[!DNL Adobe Express]中的模板上设置的锁定设置也将在[!DNL GenStudio for Performance Marketing]中应用。 使用[说明 [!DNL Adobe Express] 创建具有品牌限制的自定义模板](https://helpx.adobe.com/cn/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
 
 要在Express模板中使用自定义字体，管理员必须首先在Admin Console中接受“自定义字体”资格鉴定选件，该选件包含在Express许可证权利中。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 ## 关于变体和[!DNL Experiences]及[!DNL Adobe Express]模板
 
-[!DNL Express]模板提供了许多在[管理其他变体](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)时您将熟悉的功能。 但是，有一些功能强大的添加项可简化来自[!DNL Express]的内容的任何工作流。 本节介绍[!DNL Adobe Express]实现特有的功能。
+[!DNL Express]模板提供了许多在[管理其他变体](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)时您将熟悉的功能。 但是，有一些功能强大的添加项可简化来自[!DNL Express]的内容的任何工作流。 本节介绍[!DNL Adobe Express]实现特有的功能。
 
 ### 自动生成多个大小
 
-在 [!DNL Express][&#128279;](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html)中为一个资产创建了多个页面后，这些页面将转移到从该资产创建的任何模板中。 Express页面将在[!DNL GenStudio for Performance Marketing]中生成不同大小的创意内容。
+在 [!DNL Express][&#128279;](https://helpx.adobe.com/cn/express/web/arrange-layers-and-pages/add-pages.html)中为一个资产创建了多个页面后，这些页面将转移到从该资产创建的任何模板中。 Express页面将在[!DNL GenStudio for Performance Marketing]中生成不同大小的创意内容。
 
 当[!DNL Express]中的某个资源存在多个大小的内容时，可以在单个生成过程中为所有这些大小生成变体。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 ### 模板锁定限制
 
-模板可以包含从[!DNL Express]结转的[锁定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)，并控制某些功能的更改方式。 这些设置由模板遵循，也可以在模板上更改：
+模板可以包含从[!DNL Express]结转的[锁定元素](https://helpx.adobe.com/cn/express/web/invite-collaborate/object-locking.html)，并控制某些功能的更改方式。 这些设置由模板遵循，也可以在模板上更改：
 
 1. 在模板上选择一个锁定的元素。
 1. 单击选定元素左上角的锁定图标。
@@ -242,5 +242,5 @@ ht-degree: 0%
 
 ## 审阅并批准
 
-编辑和调整变体后，通过[审阅和批准工作流](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview)批准并发布您的内容。
+编辑和调整变体后，通过[审阅和批准工作流](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/overview)批准并发布您的内容。
 
