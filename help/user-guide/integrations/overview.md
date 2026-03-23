@@ -5,23 +5,14 @@ feature: Generative AI
 role: User
 exl-id: fe8c9811-2a23-4e13-bccf-784fcac5dfe9
 TQID: https://experienceleague.adobe.com/UWtgFkXSZTU8ejTDe9NhIQq0ku4ej5TILnj1Wv73jVI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a3045fbab1e26338bdfbed21f6a373d56719ee07
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 201
+source-wordcount: 195
 ht-degree: 0%
 
 ---
@@ -40,9 +31,8 @@ GenStudio for Performance Marketing Figma插件为Figma应用程序添加了一�
 
 在[Figma插件](figma-plugin.md)页面中了解有关Figma插件的更多信息。
 
-## Photoshop插件
+## GenStudio Photoshop
 
-GenStudio for Performance Marketing Photoshop插件在Adobe Photoshop中新增了一个面板，通过该面板，用户可以执行GenStudio for Performance Marketing操作，如生成品牌内内容。
+GenStudio Photoshop在Adobe Photoshop中新增了一个面板，通过该面板，用户可以执行GenStudio for Performance Marketing操作，如生成品牌内内容。
 
-在[Photoshop插件](photoshop-plugin.md)页面中了解有关Photoshop插件的更多信息。
-
+在[GenStudio Photoshop Photoshop](photoshop-plugin.md)页面中了解有关GenStudio的更多信息。
