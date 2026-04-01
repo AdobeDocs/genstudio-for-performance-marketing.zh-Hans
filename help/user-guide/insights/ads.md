@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
+source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1464
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 | LinkedIn | <ul><li>单个图像广告</li><li>单个视频广告</li><li>文章广告</li></ul> | <ul><li>轮播广告</li><li>文档广告</li><li>活动广告</li><li>思想领袖广告</li><li>潜在客户一般广告</li><li>关注者广告</li><li>对话广告</li><li>焦点广告</li><li>作业广告</li><li>内容广告</li><li>消息广告</li></ul> |
 | TikTok | <ul><li>单个图像广告</li><li>单个视频广告</li></ul> | <ul><li>馈送内广告（视频、Spark、轮播）</li><li>顶级知名度广告（TopView、品牌接管）</li><li>交互式广告（话题、标签挑战和品牌效应）</li><li>Commerce Ads（购物、目录、直播）</li><li>潜在客户和消息广告</li><li>难以分类，因为我们没有资源来确定广告类型</li></ul> |
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YouTube_AND_PARTNERS_AD</li></ul> | 付费媒体渠道不提供检索创意资产的权限，因此难以对广告类型进行准确分类。 |
-| 无病毒 | 不适用 | 由于没有资源来确定广告类型，因此难以分类。 |
+| 无病毒 | 不适用 | 付费媒体渠道不提供检索创意资产的权限，因此难以对广告类型进行准确分类。 |
 
 ### 广告投放
 
