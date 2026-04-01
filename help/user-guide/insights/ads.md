@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
 workflow-type: tm+mt
-source-wordcount: 1449
-ht-degree: 0%
+source-wordcount: 1457
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 | Meta | <ul><li>动态广告</li><li>链接广告</li><li>简单图像广告</li><li>简单视频广告</li><li>购买广告</li></ul> | <ul><li>Advantage+目录广告</li><li>轮播广告</li><li>Messenger广告</li><li>潜在客户广告</li><li>收藏集广告</li><li>呼叫广告</li><li>拥有的页面帖子广告</li><li>合作伙伴关系广告</li><li>灵活广告</li></ul> |
 | LinkedIn | <ul><li>单个图像广告</li><li>单个视频广告</li><li>文章广告</li></ul> | <ul><li>轮播广告</li><li>文档广告</li><li>活动广告</li><li>思想领袖广告</li><li>潜在客户一般广告</li><li>关注者广告</li><li>对话广告</li><li>焦点广告</li><li>作业广告</li><li>内容广告</li><li>消息广告</li></ul> |
 | TikTok | <ul><li>单个图像广告</li><li>单个视频广告</li></ul> | <ul><li>馈送内广告（视频、Spark、轮播）</li><li>顶级知名度广告（TopView、品牌接管）</li><li>交互式广告（话题、标签挑战和品牌效应）</li><li>Commerce Ads（购物、目录、直播）</li><li>潜在客户和消息广告</li><li>难以分类，因为我们没有资源来确定广告类型</li></ul> |
-| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YouTube_AND_PARTNERS_AD</li></ul> | 难以分类。 我们没有资源来确定广告类型。 |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YouTube_AND_PARTNERS_AD</li></ul> | 付费媒体渠道不提供检索创意资产的权限，因此难以对广告类型进行准确分类。 |
 | 无病毒 | 不适用 | 由于没有资源来确定广告类型，因此难以分类。 |
 
 ### 广告投放
@@ -99,11 +99,11 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 | 量度 | 定义 | insight |
 | ---------------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 广告名称]** | 连接的渠道帐户的广告列表。 通过选择营销活动过滤广告。 | 单击任意关键量度可对广告列表进行排序。 |
-| **[!UICONTROL 营销活动]** | 营销策划是指一组旨在实现特定目标的广告。 | 按促销活动筛选广告表时，促销活动所有广告的摘要量度可能与[!UICONTROL 渠道]视图中促销活动的摘要行不同。 如果渠道源(如Meta和GenStudio)使用的摘要计算略有不同，则会出现这种差异。 |
+| **[!UICONTROL 营销活动]** | 营销策划是指一组旨在实现特定目标的广告。 | 按促销活动筛选广告表时，促销活动所有广告的摘要量度可能与[!UICONTROL 渠道]视图中促销活动的摘要行不同。 如果渠道源（如Meta和GenStudio）使用的摘要计算略有不同，则会出现这种差异。 |
 | **[!UICONTROL 投放位置]** | 广告[投放位置](#ad-placements)的计数，广告在营销活动中出现的位置。 | 投放位置会增加受众范围。<p>显示零版面和零媒体的广告可能表示[不支持的广告类型](#unsupported-placements)。</p> |
-| **[!UICONTROL 媒体]** | 广告和广告投放中使用的资源数 | 广告表中的计数可能与广告详细信息视图中的计数不同。 如果渠道源(如Meta和GenStudio)使用的摘要计算略有不同，则会出现这种差异。 |
+| **[!UICONTROL 媒体]** | 广告和广告投放中使用的资源数 | 广告表中的计数可能与广告详细信息视图中的计数不同。 如果渠道源（如Meta和GenStudio）使用的摘要计算略有不同，则会出现这种差异。 |
 | **[!UICONTROL 展示次数]** | 每次广告投放或广告在渠道中加载时的计数，而不管交互或查看。 | 高展示次数计数可指示广泛的可见性，但为了了解insight的真正性能，请考虑将其与其他参与指标关联起来。 |
-| **[!UICONTROL 次点击]** | 用户在广告投放中与可点击元素(例如链接或call-to-action按钮)交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
+| **[!UICONTROL 次点击]** | 用户在广告投放中与可点击元素（例如链接或call-to-action按钮）交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
 | **[!UICONTROL CTR &#x200B;]**<br>_点进率_ | 促销活动中导致广告点击的展示次数百分比(%)。<br>**计算**： `clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
 | **[!UICONTROL CPM &#x200B;]**<br>_每千成本_ | 每1000次广告展示的平均成本。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
 | **[!UICONTROL CPA &#x200B;]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本。<br>**计算**：总金额`spent`除以客户操作完成数 | 用于监控可产生有价值的客户行动的广告支出。 |
