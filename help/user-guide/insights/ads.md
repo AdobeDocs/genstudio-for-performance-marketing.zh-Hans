@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
+source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 1%
@@ -124,3 +124,4 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 | **[!UICONTROL CPC &#x200B;]**<br>_每次点击成本_ | 在单个广告投放中每次点击关联的平均成本。<p>**计算**：总金额`spent`除以`clicks`<p>此量度有助于评估广告投放在生成点击次数方面的成本效益。 | CPC越低，表示广告投放正以更低的成本产生点击次数，这有利于实现投资回报的最大化。 |
 | **[!UICONTROL 支出]** | 投放单个广告所花费的金额，在整个广告所花费的总金额中所占的比例非常小。 此指标有助于跟踪每个广告投放的预算分配和支出效率。 | 监控支出有助于确保资源在不同的投放位置得到有效使用。 |
 | **属性** | 此广告投放位置中存在的固有功能列表。 | 属性有助于识别与受众产生最多共鸣的创意元素。 查看[类别](/help/user-guide/insights/attributes.md#categories)。 |
+
