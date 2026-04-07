@@ -5,26 +5,13 @@ level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
 TQID: https://experienceleague.adobe.com/TVvHSbmD8vvc4y9xmg4iPnT-eWKwjln5730LUdgUW0k
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 1%
@@ -104,10 +91,10 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 | **[!UICONTROL 媒体]** | 广告和广告投放中使用的资源数 | 广告表中的计数可能与广告详细信息视图中的计数不同。 如果渠道源（如Meta和GenStudio）使用的摘要计算略有不同，则会出现这种差异。 |
 | **[!UICONTROL 展示次数]** | 每次广告投放或广告在渠道中加载时的计数，而不管交互或查看。 | 高展示次数计数可指示广泛的可见性，但为了了解insight的真正性能，请考虑将其与其他参与指标关联起来。 |
 | **[!UICONTROL 次点击]** | 用户在广告投放中与可点击元素（例如链接或call-to-action按钮）交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
-| **[!UICONTROL CTR &#x200B;]**<br>_点进率_ | 促销活动中导致广告点击的展示次数百分比(%)。<br>**计算**： `clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
-| **[!UICONTROL CPM &#x200B;]**<br>_每千成本_ | 每1000次广告展示的平均成本。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
-| **[!UICONTROL CPA &#x200B;]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本。<br>**计算**：总金额`spent`除以客户操作完成数 | 用于监控可产生有价值的客户行动的广告支出。 |
-| **[!UICONTROL CPC &#x200B;]**<br>_每次点击成本_ | 与广告投放中每次点击关联的平均成本。<br>**计算**：总金额`spent`除以`clicks` | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
+| **[!UICONTROL CTR ]**<br>_点进率_ | 促销活动中导致广告点击的展示次数百分比(%)。<br>**计算**： `clicks`除以`impressions` | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
+| **[!UICONTROL CPM ]**<br>_每千成本_ | 每1000次广告展示的平均成本。<br>**计算**：总金额`spent`除以范围，然后乘以1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
+| **[!UICONTROL CPA ]**<br>_每个操作的成本_ | 完成特定客户操作（如购买或订阅）所花费的平均成本。<br>**计算**：总金额`spent`除以客户操作完成数 | 用于监控可产生有价值的客户行动的广告支出。 |
+| **[!UICONTROL CPC ]**<br>_每次点击成本_ | 与广告投放中每次点击关联的平均成本。<br>**计算**：总金额`spent`除以`clicks` | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
 | **[!UICONTROL 支出]** | 在给定时间段内投放此广告的营销活动预算支出金额。 | 在短时间内高支出量可能表示使用迅速，这可能导致资源提前耗尽。 根据关键绩效指标跟踪支出金额，以帮助监控总体投资回报。 |
 | **属性** | 此广告中存在的固有功能列表。 | 属性有助于识别与受众产生最多共鸣的创意元素。 查看[类别](/help/user-guide/insights/attributes.md#categories)。 |
 
@@ -119,8 +106,9 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 
 | 量度 | 定义 | insight |
 | ---------------------------- | ----------------------------- | --------------------------------- |
-| **[!UICONTROL CTR &#x200B;]**<br>_点进率_ | 单个广告投放导致点击的展示次数百分比(%)。<p>**计算**：`clicks`除以`impressions`<p>此量度可帮助确定广告投放在吸引受众方面的有效性。 | CTR高表明广告投放与受众相关且引人入胜，可导致更多互动。 |
-| **[!UICONTROL CPA &#x200B;]**<br>_每个操作的成本_ | 为实现所需的客户操作（如购买或订阅）而在单个广告投放上花费的平均成本。<p>**计算**：总金额`spent`除以已完成的客户操作数<p>此量度有助于评估广告投放在推动有价值的操作方面的成本效益。 | 较低的CPA意味着广告投放能够以较低的成本将受众互动转化为所需的操作。 |
-| **[!UICONTROL CPC &#x200B;]**<br>_每次点击成本_ | 在单个广告投放中每次点击关联的平均成本。<p>**计算**：总金额`spent`除以`clicks`<p>此量度有助于评估广告投放在生成点击次数方面的成本效益。 | CPC越低，表示广告投放正以更低的成本产生点击次数，这有利于实现投资回报的最大化。 |
+| **[!UICONTROL CTR ]**<br>_点进率_ | 单个广告投放导致点击的展示次数百分比(%)。<p>**计算**：`clicks`除以`impressions`<p>此量度可帮助确定广告投放在吸引受众方面的有效性。 | CTR高表明广告投放与受众相关且引人入胜，可导致更多互动。 |
+| **[!UICONTROL CPA ]**<br>_每个操作的成本_ | 为实现所需的客户操作（如购买或订阅）而在单个广告投放上花费的平均成本。<p>**计算**：总金额`spent`除以已完成的客户操作数<p>此量度有助于评估广告投放在推动有价值的操作方面的成本效益。 | 较低的CPA意味着广告投放能够以较低的成本将受众互动转化为所需的操作。 |
+| **[!UICONTROL CPC ]**<br>_每次点击成本_ | 在单个广告投放中每次点击关联的平均成本。<p>**计算**：总金额`spent`除以`clicks`<p>此量度有助于评估广告投放在生成点击次数方面的成本效益。 | CPC越低，表示广告投放正以更低的成本产生点击次数，这有利于实现投资回报的最大化。 |
 | **[!UICONTROL 支出]** | 投放单个广告所花费的金额，在整个广告所花费的总金额中所占的比例非常小。 此指标有助于跟踪每个广告投放的预算分配和支出效率。 | 监控支出有助于确保资源在不同的投放位置得到有效使用。 |
 | **属性** | 此广告投放位置中存在的固有功能列表。 | 属性有助于识别与受众产生最多共鸣的创意元素。 查看[类别](/help/user-guide/insights/attributes.md#categories)。 |
+
