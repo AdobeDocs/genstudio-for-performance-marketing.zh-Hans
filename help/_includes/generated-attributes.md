@@ -1,13 +1,10 @@
 ---
-title: 抱歉
-description: 这是测试
-source-git-commit: 0a1722df22906a64c6854ce0b6ffde21ea1d7cad
+source-git-commit: f597a73a3663a8e430800924e39a10e1b8765cd2
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
-
 # 生成的属性
 
 在[!DNL Content]中批准并存储资源和体验时，或从第三方渠道摄取广告投放时，GenStudio for Performance Marketing [会根据其固有功能生成标记](/help/user-guide/content/asset-details.md#generated-tags)。
