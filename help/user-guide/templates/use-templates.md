@@ -23,18 +23,18 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: 1374
+source-wordcount: 1410
 ht-degree: 1%
 
 ---
 
 # 使用模板
 
-GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板_&#x200B;快速生成一致的品牌营销内容。 模板通过提供包括预配置布局和设计元素的起点，显着减少了生成新内容所需的时间和精力。 若要开始，请在[!DNL Content]中上传自定义模板，或在[!DNL Create]中使用起始模板。[入门模板](/help/user-guide/templates/starter-templates.md)提供了从标准设计开始的快速方法，而自定义模板允许您使用独特的设计和布局。
+GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板_&#x200B;快速生成一致的品牌营销内容。 模板通过提供包括预配置布局和设计元素的起点，显着减少了生成新内容所需的时间和精力。 若要开始，请在[!DNL Content]中上传自定义模板，或在[!DNL Create]中使用起始模板。 [入门模板](/help/user-guide/templates/starter-templates.md)提供了从标准设计开始的快速方法，而自定义模板允许您使用独特的设计和布局。
 
-虽然GenStudio for Performance Marketing不支持在应用程序中直接创建模板，但您可以使用流行的设计工具(如Adobe InDesign、Illustrator或Express)轻松设计和准备模板。 设计完成后，您可以对其进行调整以用于GenStudio for Performance Marketing。 可按照以下步骤开始使用模板：
+虽然GenStudio for Performance Marketing不支持在应用程序中直接创建模板，但您可以使用流行的设计工具（如Adobe InDesign、Illustrator或Express）轻松设计和准备模板。 设计完成后，您可以对其进行调整以用于GenStudio for Performance Marketing。 可按照以下步骤开始使用模板：
 
 1. **设计模板**：使用首选设计工具创建[模板的可视布局，该模板包含元素](#template-elements)，例如页眉、标题、正文、CTA、图像和页脚。
 
@@ -88,7 +88,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 - **[!UICONTROL 创建者]**：限制&#x200B;_[!UICONTROL 模板]_&#x200B;列表仅显示您或特定人员创建的模板。
 - **[!UICONTROL 宽高比]**：限制&#x200B;_[!UICONTROL 模板]_&#x200B;列表以显示针对特定宽高比设计的模板。
 
-下面显示了按渠道类型(如电子邮件、展示广告、Meta广告和LinkedIn广告)过滤的内容。
+下面显示了按渠道类型（如电子邮件、展示广告、Meta广告和LinkedIn广告）过滤的内容。
 
 ![内容模板列表](/help/assets/content-templates-filter.png "搜索LinkedIn模板"){width="650"}
 
@@ -131,7 +131,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 ### 刷新模板
 
-模板可能包括静态文件，如图标或徽标。[创建模板预览后未存储静态内容](/help/user-guide/templates/customize-template.md#static-content)。 GenStudio for Performance Marketing将继续引用模板中提供的源链接。 使用刷新可更新模板预览，以显示这些资源的最新版本。
+模板可能包括静态文件，如图标或徽标。 创建模板预览后未存储[静态内容](/help/user-guide/templates/customize-template.md#static-content)。 GenStudio for Performance Marketing将继续引用模板中提供的源链接。 使用刷新可更新模板预览，以显示这些资源的最新版本。
 
 **刷新模板**：
 
@@ -159,6 +159,8 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 您可以上传在Adobe Journey Optimizer (AJO)或Marketo中创建的模板。 GenStudio for Performance Marketing会检测特定于应用程序的模式并忽略它们，从而保留原始表单以供在AJO或Marketo中继续使用。 您无需对原始AJO或Marketo语法进行任何更改。
 
+要在GenStudio中使用Journey Optimizer库中的AJO模板（在创建电子邮件体验时包括&#x200B;**[!UICONTROL AJO模板]**&#x200B;选项卡），您的组织必须从Adobe Exchange安装和配置[Journey Optimizer for GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md)应用程序。
+
 可识别的应用模式包括：
 
 - **AJO**： `{{profile.*}}`，`{{context.*}}`
@@ -173,4 +175,4 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 >[!ENDSHADEBOX]
 
-接下来，[使用占位符自定义您的模板](/help/user-guide/templates/customize-template.md)，以指示GenStudio for Performance Marketing应在何处为您生成内容。[将模板](#add-a-template)添加到[!DNL Content]存储库并验证模板。 使用代码编辑器进行任何较小的更正。
+接下来，[使用占位符自定义您的模板](/help/user-guide/templates/customize-template.md)，以指示GenStudio for Performance Marketing应在何处为您生成内容。 [将模板](#add-a-template)添加到[!DNL Content]存储库并验证模板。 使用代码编辑器进行任何较小的更正。
