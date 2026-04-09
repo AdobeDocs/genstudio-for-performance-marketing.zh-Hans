@@ -50,7 +50,7 @@ ht-degree: 0%
 1. 返回至[Adobe Exchange](https://exchange.adobe.com)。
 1. 选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL App Builder应用程序]**（或您的组织到托管应用程序的路径）。
 1. 为GenStudio **选择** Journey Optimizer，并确认该应用程序已获得&#x200B;**批准**。
-1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**以创建一个环境。
+1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**&#x200B;以创建一个环境。
    ![具有“已批准”状态的应用程序详细信息并添加环境](/help/extensibility/ajo-config-002.png){width="50%"}
 1. 在选定的环境中，选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 配置]**&#x200B;选项卡上，查找&#x200B;**[!UICONTROL AJO凭据]**。
