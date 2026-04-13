@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 hidefromtoc: true
 hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 51b4eea1a1de48edc52b7f740638c2a2989d9c19
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 * 整个产品的过滤功能已得到增强。 在[!DNL Insights]中按年龄和性别进行筛选的问题已得到解决。 <!-- GS-1198 -->
 
-* 您可以使用Adobe Express直接编辑图像资源(JPG或PNG)。 内容编辑人员可以使用&#x200B;_[!UICONTROL 由Adobe Express提供支持]_&#x200B;画布删除背景、应用创新型填充、调整效果和裁切图像，而无需离开GenStudio for Performance Marketing。<!-- GS-4615 -->
+* 您可以使用Adobe Express直接编辑图像资源（JPG或PNG）。 内容编辑人员可以使用&#x200B;_[!UICONTROL 由Adobe Express提供支持]_&#x200B;画布删除背景、应用创新型填充、调整效果和裁切图像，而无需离开GenStudio for Performance Marketing。<!-- GS-4615 -->
 
 * 改善了渐进式加载已生成的变体、已生成的电子邮件和上下文消息传送的体验。<!-- GS-4651 3062-->
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 此版本包括对整个产品界面的本地化改进，包括以下界面区域：
 
-* **[!UICONTROL 提示菜单中的]**&#x200B;了解详情[!DNL Create]选项目标的URL。<!-- GS-5029 -->
+* [!DNL Create]提示菜单中的&#x200B;**[!UICONTROL 了解详情]**&#x200B;选项目标的URL。<!-- GS-5029 -->
 
 * [!DNL Insights] > [!DNL Experience]搜索输入字段旁边的数字格式。<!-- GS-4494 -->
 
