@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### 创建工作流中的RTCDP受众
 
-[Adobe Real-Time Customer Data Platform (RTCDP)受众](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences)在[!DNL Create]工作流中可用，因此您可以在受众定义中与现有准则一起构建生成的体验。
+[Adobe Real-Time Customer Data Platform (RTCDP)受众](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences)在[!DNL Create]工作流中可用，因此您可以在受众定义中与现有准则一起构建生成的体验。
 
 ### 在[!DNL Insights]中没有显示渠道
 
