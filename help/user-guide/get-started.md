@@ -1,6 +1,6 @@
 ---
-title: Adobe GenStudio for Performance Marketing入门
-description: 了解如何开始使用GenStudio for Performance Marketing以生成品牌一致的营销内容并加快促销活动管理。
+title: Get Started with Adobe GenStudio for Performance Marketing
+description: Learn how to get started with GenStudio for Performance Marketing to generate brand-aligned marketing content and accelerate campaign management.
 level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 665
 ht-degree: 0%
 
 ---
@@ -37,57 +37,57 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing提供了一整套旨在简化内容创建、管理和分析的工具。 它在内容创建生命周期中注入了创作AI功能，这些功能可转变营销内容的创建、审阅、共享和分析方式。
 
-## 开始创建、共享和审核内容
+## Start creating, sharing, and reviewing content
 
-如果您不熟悉基于创作的人工智能工具，或只是对GenStudio for Performance Marketing的核心原则感兴趣，请参阅[概念](/help/user-guide/concepts.md)和[编写有效的提示](/help/user-guide/effective-prompts.md)。 您可以查看Adobe的在线学习平台[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，了解有关在创作过程中使用创作AI技术的信息。
+If you are new to generative AI-based tools or are simply curious about GenStudio for Performance Marketing&#39;s core principles, see [Concepts](/help/user-guide/concepts.md) and [Write effective prompts](/help/user-guide/effective-prompts.md). You can check out [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), Adobe&#39;s online learning platform about using generative AI technologies in the creative process.
 
-## 个性化GenStudio for Performance Marketing
+## Personalize GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing使用有关您的品牌和市场的信息来增强创建符合品牌规范的内容。 创作AI利用客户[角色](/help/user-guide/guidelines/personas.md)、[产品](/help/user-guide/guidelines/products.md)和[品牌指南](/help/user-guide/guidelines/overview.md)的描述来指导内容生成，以符合您组织的要求。
+GenStudio for Performance Marketing uses information about your brand and markets to enhance brand-compliant content creation. The generative AI leverages descriptions of customer [personas](/help/user-guide/guidelines/personas.md), [products](/help/user-guide/guidelines/products.md), and [brand guidelines](/help/user-guide/guidelines/overview.md) to guide content generation in alignment with your organization&#39;s requirements.
 
-系统管理员通过输入或上传特定于组织的信息来设置Adobe GenStudio for Performance Marketing。 这项准备工作可确保内容编辑者和协作者有效地使用创作AI功能创建和审查活动资产。 一旦Adobe系统管理员配置您组织的产品实例并分配GenStudio系统管理员权限，GenStudio系统管理员就可以使用准则准备产品的底层创作AI框架。
+System managers set up Adobe GenStudio for Performance Marketing by entering or uploading organization-specific information. 这项准备工作可确保内容编辑者和协作者有效地使用创作AI功能创建和审查活动资产。 Once an Adobe system administrator provisions your organization&#39;s product instance and assigns a GenStudio system manager permissions, the GenStudio system manager can prepare the product&#39;s underlying generative AI framework using guidelines.
 
-### 步骤1：添加准则
+### Step 1: Add guidelines
 
-品牌[准则](/help/user-guide/guidelines/overview.md)捕获品牌特征。 GenStudio for Performance Marketing的底层创作AI功能使用这些准则来建立引导内容生成的护栏。 您可以上传[[!DNL Brands] 指南](/help/user-guide/guidelines/brands.md)文档或手动输入品牌信息。
+Brand [guidelines](/help/user-guide/guidelines/overview.md) capture brand characteristics. GenStudio for Performance Marketing&#39;s underlying generative AI capabilities use these guidelines to establish guardrails that guide content generation. You can either upload [[!DNL Brands] guideline](/help/user-guide/guidelines/brands.md) documents or manually enter brand information.
 
-在建立组织[品牌标识](/help/user-guide/guidelines/brands.md)的基本元素之前，内容编辑者和协作者无法开始工作。 这些品牌组件包括：
+Content editors and collaborators cannot begin their work until the foundational elements of your organization&#39;s [brand identity](/help/user-guide/guidelines/brands.md) are established. These brand components include both:
 
-* 无形因素，如语气
-* 有形资产，如徽标、调色板和排版规则。
+* Intangible elements, such as tone of voice
+* Tangible assets, like logos, color palettes, and typography.
 
-在创建准则之前，请了解GenStudio for Performance Marketing如何定义[品牌组件](/help/user-guide/guidelines/brands.md)
+Before creating guidelines, learn about how GenStudio for Performance Marketing defines [brand components](/help/user-guide/guidelines/brands.md)
 
-#### 准备您的准则文档
+#### Prepare your guideline documents
 
-全面而重点明确的[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)和[[!DNL Personas]](/help/user-guide/guidelines/personas.md)准则定义了组织营销活动的核心方面。 GenStudio for Performance Marketing会从这些指南中提取信息，以开始构建您的品牌。 您可以上传准则文档，或在将信息手动输入到GenStudio for Performance Marketing中时查阅这些文档。 有关上载或输入此信息的指导，请参阅[添加准则](/help/user-guide/guidelines/overview.md)。
+Comprehensive and focused [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md), and [[!DNL Personas]](/help/user-guide/guidelines/personas.md) guidelines define core aspects of your organization&#39;s marketing campaigns. GenStudio for Performance Marketing extracts information from these guidelines to begin building your brand. You can upload guideline documents or consult them as you manually enter information into GenStudio for Performance Marketing. See [Add guidelines](/help/user-guide/guidelines/overview.md) for guidance on uploading or entering this information.
 
-#### 修订准则
+#### Revise guidelines
 
-GenStudio系统管理员可以通过手动输入或上传您组织的特定品牌要求来准备产品的基础创作AI框架。 虽然设置组织的品牌指南是一次性操作，但您可以根据组织的波动、增长和不断变化的市场环境来修订和增强这些指南。
+A GenStudio system manager can prepare the product&#39;s underlying generative AI framework by manually entering or uploading your organization&#39;s specific brand requirements. Although setting up an organization&#39;s brand guidelines is a one-time action, you may revise and enhance these guidelines based on your organization&#39;s volatility, growth, and changing market circumstances.
 
-### 步骤2：为GenStudio [!DNL Brands]设置Adobe Admin Console项目
+### Step 2: Set up an Adobe Admin Console project for GenStudio [!DNL Brands]
 
-系统管理员必须先完成其他设置任务，协作者才能编辑或创建[!DNL Brands]。 Adobe系统管理员在Adobe Admin Console中执行以下任务：
+System administrators must complete additional set-up tasks before collaborators can edit or create [!DNL Brands]. Adobe system administrators carry out these tasks in the Adobe Admin Console:
 
-* 创建一个新的用户组，该用户组包含所有需要编辑和创建[!DNL Brands]授权的用户。
+* Create a new user group that includes all users who need to edit and create [!DNL Brands] entitlements.
 
-* 在Adobe Admin Console中创建新项目。
+* Create a new project in the Adobe Admin Console.
 
-请参阅[分配品牌权限](configure-brand-permissions.md)。
+See [Assign Brand permissions](configure-brand-permissions.md).
 
-### 步骤3：上传模板
+### Step 3: Upload templates
 
-模板可加快内容创建。 模板包含已获批准的功能（如页眉和页脚），并已针对特定渠道进行了优化。 系统管理员通常为其组织上传和管理模板。 内容编辑器使用模板在组织品牌的既定范围内快速启动内容创建过程。
+Templates accelerate content creation. A template contains approved features, such as headers and footers, and is optimized for specific channels. System managers typically upload and manage templates for their organization. Content editors use templates to jump-start the content creation process within the established boundaries of the organizational brand.
 
-请参阅[使用模板](/help/user-guide/templates/use-templates.md)。
+See [Work with templates](/help/user-guide/templates/use-templates.md).
 
-### 步骤4：上传已批准的资产
+### Step 4: Upload approved assets
 
-[!DNL Content]中批准的资源可供所有GenStudio for Performance Marketing编辑者使用。 您可以使用资源填充[!DNL Content]，以供内容编辑者在创建新体验或资源时使用。
+Approved assets in [!DNL Content] are available to all GenStudio for Performance Marketing editors. You can populate [!DNL Content] with assets for content editors to use in creating new experiences or assets.
 
-请参阅[上传已批准的资产](/help/user-guide/content/manage-assets.md)。
+See [Upload approved assets](/help/user-guide/content/manage-assets.md).
 
-### 步骤5：连接到付费媒体帐户
+### Step 5: Connect to a paid media account
 
-在GenStudio for Performance Marketing与您的付费媒体帐户之间配置连接，以接收来自活跃营销活动、资源和体验的数据。 使用[!DNL Insights]分析渠道派生的数据。 请参阅[连接付费媒体帐户](/help/user-guide/connectors/connect-channel.md)。
+Configure a connection between GenStudio for Performance Marketing and your paid media accounts to receive data from active marketing campaigns, assets, and experiences. 使用Meta和LinkedIn时，使用[!DNL Insights]分析渠道派生的数据，包括&#x200B;**[!UICONTROL Insights 2.0]**&#x200B;跨渠道概述（[Insights概述](/help/user-guide/insights/overview.md#insights-20)）。 请参阅[连接付费媒体帐户](/help/user-guide/connectors/connect-channel.md)。
