@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. [ ]打开`help/user-guide/release-notes.md`并读取当前`## YYYY.MM {#latest}`块。 将&#x200B;**早期发行说明**&#x200B;视为&#x200B;**只读**&#x200B;上下文，除非您在步骤2中执行存档步骤。
 2. [ ]如果添加&#x200B;**新**&#x200B;月度版本：存档当前的最新版本（请参阅[存档先前的最新](#archive-previous-latest)）。
-3. [ ]仅添加或编辑&#x200B;**2}前`## YYYY.MM {#latest}`部分（最新月份在发布列表顶部）。**
+3. [ ]仅添加或编辑&#x200B;**2&rbrace;前`## YYYY.MM {#latest}`部分（最新月份在发布列表顶部）。**
 4. [ ]对于每个项目，应用[决策规则](#decision-rules)（功能`###`与&#x200B;**修复和增强功能**，是否为Beta徽章）。
 5. [ ]添加或验证最相关短语的文档链接（请参阅[reference.md](reference.md#documentation-linking)）。
 6. [ ]在完成前运行[质量检查](#quality-checks)。
