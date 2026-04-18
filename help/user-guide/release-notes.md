@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 45495ee2df117d6c9d87324fc1ac421387fd3032
+source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
 workflow-type: tm+mt
-source-wordcount: 4994
+source-wordcount: 4727
 ht-degree: 0%
 
 ---
@@ -52,35 +52,11 @@ ht-degree: 0%
 
 ## 2026.04.16 {#latest}
 
-### 新[!DNL Insights] 2.0概述
-
-[[!DNL Insights]](/help/user-guide/insights/overview.md)的2.0版本将&#x200B;**Meta**&#x200B;和&#x200B;**LinkedIn**&#x200B;的性能集中到一个工作区中。 跨渠道和特定于渠道的快照、贡献样式报表以及高性能和低性能的广告视图，让您更容易看到支出的效果。
-
-### 来自广告标记的[!DNL Insights]
-
-**来自广告标记的见解**&#x200B;将跟踪ID划分为可与性能一起分析的标记维度（如成本、参与度、转化率等），而无需将广告名称导出到电子表格。 体验中会显示更强和更弱的标记值，以便您的命名惯例成为您可以控制的内容，而不是您离线解码的内容。
-
 ### [!DNL Create]中的上下文感知推荐
 
 在[创建工作流](/help/user-guide/create/overview.md)中，**[!UICONTROL 从内容中选择]**&#x200B;现在会打开，并显示&#x200B;**[!UICONTROL 相关性]**&#x200B;排序，因此网格会在提示抽屉中反映[!DNL Brands]、[!DNL Products]、[!DNL Personas]和语言。
 
 或者，如果回访间隔应导致上下文适合，则切换到&#x200B;**[!UICONTROL 最近添加的]**。
-
-### HTML画布中的内容片段交换
-
-对于HTML画布上的[电子邮件体验](/help/user-guide/create/create-email-experience.md)，**在单个画布中使用三种槽类型组合电子邮件体验**：
-
-* 生成版块（AI生成的副本）
-* 内容片段插槽（通过内容审查程序MFE从连接的AEM存储库中选择的预批准内容片段）
-* 锁定的插槽（不可变字段，例如法律免责声明）
-
-这些内容片段同时存在于同一画布中，因此模块化、经批准的拷贝无需手动重建HTML。
-
-### 从URL创建[!DNL Brands]、[!DNL Products]和[!DNL Personas]
-
-从公共品牌URL开始创建[!DNL Brands]、[!DNL Products]或[!DNL Personas]，输出以品牌在线发布的内容为基础。
-
-品牌指南可在一个自动通道中生成。 产品和角色从您在创建完整详细信息之前确认的建议候选人开始。
 
 ### [!DNL Create]中的已连接电视(CTV)广告
 
@@ -91,12 +67,6 @@ ht-degree: 0%
 ### HTML5显示模板、变体和调整大小
 
 您可以&#x200B;**上传基于DOM的HTML5 zip文件以在[!DNL Create]中开发显示模板**，生成HTML5广告变体，并将创意大小调整为其他宽高比。 已完成的体验可以激活到[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)和[[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md)。
-
-### GenStudio中的Firefly Creative生产工作流
-
-[!BADGE Beta]{type=Informative tooltip="此功能当前位于Beta中，因此某些功能可能会受到限制或发生更改。"}
-
-**Firefly Creative Production**&#x200B;工作流可以从GenStudio for Performance Marketing发布和运行，因此营销人员可以在应用程序内执行生产运行、下载交付内容，并使用较少的工具跃点将完成的资源路由到[[!DNL Content]](/help/user-guide/content/overview.md)。
 
 ## 早期发行说明
 
