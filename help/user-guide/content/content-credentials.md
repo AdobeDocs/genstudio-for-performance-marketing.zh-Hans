@@ -93,13 +93,13 @@ Credential metadata is preserved as assets are selected for experiences to maint
 
 During exports from a draft, modified assets are automatically re-signed and the new credential links to the original.
 
-![Credential data on an exported asset](./images/edit-and-transformation1.png){width="60%"}
+![已导出资产的凭据数据](./images/edit-and-transformation1.png){width="60%"}
 
 ### Review and approval
 
 In the Review and Approve preview, credential status is displayed for assets on the right rail.
 
-![Credential data on an approved asset](./images/review-and-approve1.png){width="60%"}
+![已批准资产上的凭据数据](./images/review-and-approve1.png){width="60%"}
 
 当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”**&#x200B;**&#x200B;时，已批准的体验将被重新签名。
 
