@@ -6,29 +6,15 @@ role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
 TQID: https://experienceleague.adobe.com/ZBEIHvBGmsFQ42jATObuO7IeANKc3CXCmhJ20p5-QCs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: cec71013-cf14-4e28-b808-3d3060935bcb
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: afc6e550-6640-4eb4-a143-75ec86d23a66id: be495d08-ecd1-455f-951e-c22de504e667id: cec71013-cf14-4e28-b808-3d3060935bcbid: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e43c9569f3fc5a2353a6fc0e15189ac31f216050
 workflow-type: tm+mt
-source-wordcount: 3052
+source-wordcount: 3019
 ht-degree: 0%
 
 ---
@@ -44,26 +30,6 @@ GenStudio for Performance Marketing允许您设置用户定义的准则，以确
 从具有预定义渠道准则（如[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的模板创建变体时，这些准则适用于变体。 您可以根据需要更改它们。
 
 {{in-academy}}
-
-## 从URL添加时的指导
-
-当您选择从[!DNL GenStudio for Performance Marketing]中的URL添加[!DNL Brand]、[!DNL Product]或[!DNL Persona]时，请考虑以下信息。
-
-**基于URL的工作流的先决条件**：
-
-- 您有一个具有品牌管理器或更高权限的&#x200B;**活动[!DNL GenStudio for Performance Marketing]帐户**。
-- **URL可公开访问**。 受密码保护或登录控制的页面将产生有限的输出。
-- **为获得最佳结果，请使用品牌自己的网站URL**（主页或产品/类别页面），而不是retailer、经销商或聚合商。
-
-**URL类型及其预期输出**：
-
-| URL类型 | 期待完成的任务 |
-| --- | --- |
-| 品牌主页 | 您可获得完整的品牌指南，并且系统会显示广泛的产品和角色覆盖范围。 |
-| 产品类别页面 | 产品和角色的范围仅限于该页面上表示的类别。 |
-| 营销活动登陆页面 | 角色信号特别有用，但品牌输出可能反映活动而非完整品牌。 |
-| retailer或合作伙伴页面 | 系统将取消第三方内容的优先级，因此输出将受限。 |
-| 封闭/需要登录的页面 | 页面内容不可用，因此输出将比较保守。 |
 
 ## 添加品牌
 
@@ -87,7 +53,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 **要上载品牌文档**：
 
-1. 在&#x200B;_[!DNL Brands]_&#x200B;面板中，选择&#x200B;**[!UICONTROL 添加品牌]**&#x200B;按钮。
+1. 在&#x200B;_[!DNL Brands]_面板中，选择&#x200B;**[!UICONTROL 添加品牌]**按钮。
 1. 选择&#x200B;**[!UICONTROL 上传PDF]**，然后在&#x200B;_选择添加品牌的方式_&#x200B;弹出窗口中输入品牌名称。
 1. 选择&#x200B;**[!UICONTROL 继续]**。
 1. 浏览并将您的品牌指南文档附加或拖到&#x200B;_[!UICONTROL 添加您的品牌]_&#x200B;弹出窗口。
@@ -118,7 +84,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
    ![品牌](/help/assets/brands.png){width="600" zoomable="yes"}
 
-   - _何时使用此品牌_：单击“添加”**&#x200B;**（或单击文本字段以更改现有文本）并输入有关品牌的概述和使用信息。 单击&#x200B;**[!UICONTROL 保存更改]**。
+   - _何时使用此品牌_：单击“添加”****（或单击文本字段以更改现有文本）并输入有关品牌的概述和使用信息。 单击&#x200B;**[!UICONTROL 保存更改]**。
    - [_[!DNL Brand]语音准则&#x200B;_](brands.md#brand-voice-guidelines)：在每个准则字段中添加适用的信息。
 
      ![添加[!DNL Brand]语音准则](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
@@ -136,12 +102,12 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 ### 从URL创建品牌
 
-**先决条件：**&#x200B;请参阅[基于URL的工作流的先决条件](#prerequisites-for-url-based-workflows)。 有关不同URL对结果的影响，请参阅[URL类型和预期的输出](#url-types-and-expected-output)。
+**先决条件：**&#x200B;从URL添加时，请参阅[指南](#guidance-when-adding-from-a-url)。
 
 **从URL创建品牌：**
 
 1. 导航到GenStudio中的&#x200B;**[!DNL Brands]**，然后单击&#x200B;**[!UICONTROL +添加品牌]**&#x200B;按钮。
-1. 当系统提示&#x200B;_选择添加品牌的方式_&#x200B;时，请通过URL **选择**。
+1. 当系统提示&#x200B;_选择添加品牌的方式_&#x200B;时，请通过URL ]**选择**[!UICONTROL 。
 1. 在提供的字段中输入品牌的URL。
 1. 系统将阅读页面并自动生成品牌指南 — 此过程通常只需要不到一分钟的时间。
 1. 查看生成的品牌指南信息卡，并根据需要编辑任何字段。
@@ -166,7 +132,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 在发布[!DNL Brand]草稿之前，请单击所有准则部分以查看所有填充的信息。 根据需要更改品牌指南。
 
-在&#x200B;_[!DNL Brands]_&#x200B;中，任何草稿或已发布的[!DNL Brands]均显示为图块。 状态徽章 —_&#x200B;已发布&#x200B;_或_&#x200B;草稿&#x200B;_— 和上次修改品牌的时间显示在每个图块的底部。
+在&#x200B;_[!DNL Brands]_中，任何草稿或已发布的[!DNL Brands]均显示为图块。 状态徽章 —_&#x200B;已发布&#x200B;_或_&#x200B;草稿&#x200B;_— 和上次修改品牌的时间显示在每个图块的底部。
 
 >[!TIP]
 >
@@ -192,7 +158,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 ### 管理品牌
 
-在&#x200B;_[!DNL Brands]_&#x200B;主页中，您可以单击打开已创建的品牌以管理或发布该品牌。
+在&#x200B;_[!DNL Brands]_主页中，您可以单击打开已创建的品牌以管理或发布该品牌。
 
 要&#x200B;**查看品牌信息**，请单击左侧导航区域中的&#x200B;**[!UICONTROL [!DNL Brands]]**，然后单击以打开现有品牌。
 
@@ -207,7 +173,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
    1. 选择&#x200B;**[!UICONTROL 重命名]**&#x200B;以重命名徽标。
    1. 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以删除徽标。
 1. 要重命名现有品牌，请在标题中单击并输入新标题。
-1. 要复制现有品牌，请从&#x200B;_[!DNL Brands]_&#x200B;操作菜单中选择&#x200B;**[!UICONTROL 复制]**。
+1. 要复制现有品牌，请从&#x200B;_[!DNL Brands]_操作菜单中选择&#x200B;**[!UICONTROL 复制]**。
    1. 在&#x200B;_复制品牌_&#x200B;弹出窗口中输入品牌名称，然后单击&#x200B;**[!UICONTROL 复制品牌]**。
 
       弹出窗口将确认该品牌已复制 — “已创建新品牌”。 重复的品牌最初处于&#x200B;_取消发布_&#x200B;模式。
@@ -217,7 +183,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 ## 添加[!DNL Personas]
 
-要添加角色，请[上载角色](#upload-a-persona)、[手动创建角色](#manually-add-persona)或从URL [&#128279;](#adding-personas-from-url)添加角色。 手动上传文件或添加角色时，请选择指南并输入角色详细信息。
+要添加角色，请[上载角色](#upload-a-persona)、[手动创建角色](#manually-add-persona)或从URL ](#adding-personas-from-url)添加角色[。 手动上传文件或添加角色时，请选择指南并输入角色详细信息。
 
 在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Personas]**。
 
@@ -233,7 +199,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 请参阅[[!DNL Personas]](/help/user-guide/guidelines/personas.md)。
 
-1. 在&#x200B;_[!DNL Personas]_&#x200B;面板中，选择&#x200B;**[!UICONTROL 添加角色]**&#x200B;按钮。
+1. 在&#x200B;_[!DNL Personas]_面板中，选择&#x200B;**[!UICONTROL 添加角色]**按钮。
 1. 选择&#x200B;**[!UICONTROL 上载文件]**，然后在&#x200B;_选择添加角色的方式_&#x200B;弹出窗口中输入角色名称。
 1. 选择&#x200B;**[!UICONTROL 继续]**。
 1. 浏览并将您的角色指南文档附加或拖到&#x200B;_[!UICONTROL 添加您的角色]_&#x200B;弹出窗口。
@@ -273,18 +239,18 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 1. 要编辑封面图像，请将鼠标悬停在封面上，然后从操作菜单中选择&#x200B;**[!UICONTROL 编辑封面]**。
    1. 从&#x200B;_图库_&#x200B;选项卡&#x200B;_或_&#x200B;的图库中选择图像，然后在&#x200B;_上传_&#x200B;选项卡中上传新图像。
    1. 单击&#x200B;**[!UICONTROL 使用图像]**。
-   1. 若要重新定位封面图像，请单击“操作”菜单中的“重新定位”**&#x200B;**，将该图像拖到所需位置，然后单击“保存”**&#x200B;**。
+   1. 若要重新定位封面图像，请单击“操作”菜单中的“重新定位”****，将该图像拖到所需位置，然后单击“保存”****。
 
-   要查看您创建的[!DNL Personas]，请单击&#x200B;_角色_&#x200B;视图顶部附近的向后箭头，以导航回&#x200B;_[!DNL Personas]_&#x200B;主页。
+   要查看您创建的[!DNL Personas]，请单击&#x200B;_角色_&#x200B;视图顶部附近的向后箭头，以导航回&#x200B;_[!DNL Personas]_主页。
 
 ### 正在从URL添加[!DNL Personas]
 
-**先决条件：**&#x200B;请参阅[基于URL的工作流的先决条件](#prerequisites-for-url-based-workflows)。 有关不同URL对结果的影响，请参阅[URL类型和预期的输出](#url-types-and-expected-output)。
+**先决条件：**&#x200B;从URL添加时，请参阅[指南](#guidance-when-adding-from-a-url)。
 
 **从URL添加角色：**
 
 1. 导航到GenStudio中的&#x200B;**[!DNL Personas]**，然后单击&#x200B;**[!UICONTROL +添加角色]**&#x200B;按钮。
-1. 当系统提示&#x200B;_选择添加角色的方式_&#x200B;时，请通过URL **选择**。
+1. 当系统提示&#x200B;_选择添加角色的方式_&#x200B;时，请通过URL ]**选择**[!UICONTROL 。
 1. 在提供的字段中输入品牌的URL。
 1. 查看从页面中显示的受众区段列表。 移除不适用的区段，根据需要重命名并添加任何缺少的区段。
 1. 确认列表。 系统开始为每个已确认的区段生成完整的角色卡。
@@ -292,7 +258,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 ### 管理[!DNL Personas]
 
-在&#x200B;_[!DNL Personas]_&#x200B;主页中，您可以&#x200B;**打开已创建的[!DNL Persona]**&#x200B;以进行编辑或审阅，或者&#x200B;**从列表中**&#x200B;删除角色：
+在&#x200B;_[!DNL Personas]_主页中，您可以&#x200B;**打开已创建的[!DNL Persona]**以进行编辑或审阅，或者&#x200B;**从列表中**删除角色：
 
 - 从[!DNL Personas]操作菜单中选择&#x200B;**[!UICONTROL 打开]**&#x200B;以修订和审阅现有角色。
 - 从[!DNL Personas]操作菜单中选择&#x200B;**[!UICONTROL 删除]**&#x200B;以&#x200B;**删除**&#x200B;角色。
@@ -304,8 +270,8 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 1. 在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Products]**。
    GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){width="650" zoomable="yes"}
-1. 在&#x200B;_[!DNL Products]_&#x200B;面板中，选择&#x200B;**[!UICONTROL 添加产品]**。
-1. 选择[上传产品](#upload-a-product)、[手动创建产品](#manually-add-a-product)或从URL[&#128279;](#adding-products-from-url)添加产品。 手动上传文件或添加产品时，请选择指南并输入产品详细信息。
+1. 在&#x200B;_[!DNL Products]_面板中，选择&#x200B;**[!UICONTROL 添加产品]**。
+1. 选择[上传产品](#upload-a-product)、[手动创建产品](#manually-add-a-product)或从URL](#adding-products-from-url)添加产品[。 手动上传文件或添加产品时，请选择指南并输入产品详细信息。
 
 ![添加[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
@@ -357,18 +323,18 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
    1. 要编辑封面图像，请将鼠标悬停在封面上，然后从操作菜单中选择&#x200B;**[!UICONTROL 编辑封面]**。
    1. 从&#x200B;_图库_&#x200B;选项卡&#x200B;_或_&#x200B;的图库中选择图像，然后在&#x200B;_上传_&#x200B;选项卡中上传新图像。
    1. 单击&#x200B;**[!UICONTROL 使用图像]**。
-   1. 若要重新定位封面图像，请单击“操作”菜单中的“重新定位”**&#x200B;**，将该图像拖到所需位置，然后单击“保存”**&#x200B;**。
+   1. 若要重新定位封面图像，请单击“操作”菜单中的“重新定位”****，将该图像拖到所需位置，然后单击“保存”****。
 
-   要查看您创建的[!DNL Products]，请单击&#x200B;_产品_&#x200B;视图顶部附近的向后箭头，以导航回&#x200B;_[!DNL Products]_&#x200B;主页。
+   要查看您创建的[!DNL Products]，请单击&#x200B;_产品_&#x200B;视图顶部附近的向后箭头，以导航回&#x200B;_[!DNL Products]_主页。
 
 ### 从URL添加产品
 
-**先决条件：**&#x200B;请参阅[基于URL的工作流的先决条件](#prerequisites-for-url-based-workflows)。 有关不同URL对结果的影响，请参阅[URL类型和预期的输出](#url-types-and-expected-output)。
+**先决条件：**&#x200B;从URL添加时，请参阅[指南](#guidance-when-adding-from-a-url)。
 
 **从URL**&#x200B;添加[!DNL Products]
 
 1. 导航到GenStudio中的&#x200B;**[!DNL Products]**，然后单击“**[!UICONTROL +添加产品]**”按钮。
-1. 当系统提示&#x200B;_选择添加产品的方法_&#x200B;时，请通过URL **选择**。
+1. 当系统提示&#x200B;_选择添加产品的方法_&#x200B;时，请通过URL ]**选择**[!UICONTROL 。
 1. 输入URL。 使用品牌的主页查看广泛的产品列表或类别页面来限定结果的范围。
 1. 查看从页面中显示的产品列表。 移除不属于的项目，根据需要重命名，并添加任何缺少的产品。
 1. 确认列表。 系统开始为每个确认的产品生成完整的产品详细信息。
@@ -376,7 +342,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 ### 管理[!DNL Products]
 
-在&#x200B;_[!DNL Products]_&#x200B;主页中，您可以&#x200B;**打开已创建的[!DNL Product]**&#x200B;以进行编辑或审阅，或者&#x200B;**从列表中**&#x200B;删除产品：
+在&#x200B;_[!DNL Products]_主页中，您可以&#x200B;**打开已创建的[!DNL Product]**以进行编辑或审阅，或者&#x200B;**从列表中**删除产品：
 
 - 从[!DNL Products]操作菜单中选择&#x200B;**[!UICONTROL 打开]**&#x200B;以修订和审阅现有产品。
 - 从[!DNL Products]操作菜单中选择&#x200B;**[!UICONTROL 删除]**&#x200B;以&#x200B;**删除**&#x200B;产品。
@@ -386,11 +352,11 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 >[!NOTE]
 >
->[!DNL Audiences]功能需要Adobe团队的加入才能显示在GenStudio中。 如果&#x200B;_[!DNL Audiences]_&#x200B;未出现在模板参数中，请联系您的Adobe代表。
+>[!DNL Audiences]功能需要Adobe团队的加入才能显示在GenStudio中。 如果&#x200B;_[!DNL Audiences]_未出现在模板参数中，请联系您的Adobe代表。
 
 [!DNL Audiences]从Adobe Real-Time Customer Data Platform (RTCDP)提供目标客户区段，将精确的目标数据引入您的内容生成工作流程中。 GenStudio for Performance Marketing利用受众定义来帮助您创建与特定客户群体一致的定制营销内容。
 
-[!DNL Audiences]在[的&#x200B;_[!DNL Create]_&#x200B;工作流](../create/overview.md#templates)的参数窗格中显示为下拉列表。 当同时使用两个准则时，_[!DNL Audiences]_&#x200B;可以为&#x200B;_[!DNL Personas]_&#x200B;添加特殊性，但也可以有效地单独使用。
+[!DNL Audiences]在[的&#x200B;_[!DNL Create]_工作流](../create/overview.md#templates)的参数窗格中显示为下拉列表。 当同时使用两个准则时，_[!DNL Audiences]_&#x200B;可以为&#x200B;_[!DNL Personas]_添加特殊性，但也可以有效地单独使用。
 
 在新用户引导期间，会导入受众定义并将其转换为与GenStudio兼容的格式。 此过程通常需要几天才能完成。 请联系您的Adobe团队以启动它。
 
@@ -398,13 +364,33 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 - 组织对Adobe Real-Time Customer Data Platform的访问权限
 - 已在RTCDP沙盒中配置现有受众
-- _[!DNL Audience]_&#x200B;集成需要Adobe团队手动完成载入流程
+- _[!DNL Audience]_集成需要Adobe团队手动完成载入流程
 
 **要选择受众**：
 
-1. 在[工作流&#x200B;_[!DNL Create]_&#x200B;中](../create/overview.md#templates)，选择一个模板并单击&#x200B;**[!UICONTROL 使用]**&#x200B;按钮打开草稿。
-1. 在参数列表中，单击&#x200B;_[!UICONTROL 受众]_&#x200B;下拉菜单以查看所有可用受众。
+1. 在[工作流&#x200B;_[!DNL Create]_中](../create/overview.md#templates)，选择一个模板并单击&#x200B;**[!UICONTROL 使用]**按钮打开草稿。
+1. 在参数列表中，单击&#x200B;_[!UICONTROL 受众]_下拉菜单以查看所有可用受众。
    角色参数窗格中的![受众下拉列表](./audience-dropdown.png){width=450}
 1. 从列表中选择要分配的受众。 如果选择[!DNL Persona]，则系统会推荐与您选择的[!DNL Persona]相一致的推荐受众。
-1. 单击&#x200B;**[!UICONTROL 查看受众详细信息]**&#x200B;可查看为所选受众生成的扩展描述和消息首选项。 受众详细信息将指导内容生成，确保您的创意与Target区段的特定特性和偏好保持一致。
+1. 单击&#x200B;**[!UICONTROL 查看受众详细信息]**可查看为所选受众生成的扩展描述和消息首选项。 受众详细信息将指导内容生成，确保您的创意与Target区段的特定特性和偏好保持一致。
    ![受众详细信息窗格](./audience-details.png){width=450}
+
+## 从URL添加时的指导
+
+当您选择从[!DNL GenStudio for Performance Marketing]中的URL添加[!DNL Brand]、[!DNL Product]或[!DNL Persona]时，请考虑以下信息。
+
+**基于URL的工作流的先决条件**：
+
+- 您有一个具有品牌管理器或更高权限的&#x200B;**活动[!DNL GenStudio for Performance Marketing]帐户**。
+- **URL可公开访问**。 受密码保护或登录控制的页面将产生有限的输出。
+- **为获得最佳结果，请使用品牌自己的网站URL**（主页或产品/类别页面），而不是retailer、经销商或聚合商。
+
+**URL类型及其预期输出**：
+
+| URL类型 | 期待完成的任务 |
+| --- | --- |
+| 品牌主页 | 您可获得完整的品牌指南，并且系统会显示广泛的产品和角色覆盖范围。 |
+| 产品类别页面 | 产品和角色的范围仅限于该页面上表示的类别。 |
+| 营销活动登陆页面 | 角色信号特别有用，但品牌输出可能反映活动而非完整品牌。 |
+| retailer或合作伙伴页面 | 系统将取消第三方内容的优先级，因此输出将受限。 |
+| 封闭/需要登录的页面 | 页面内容不可用，因此输出将比较保守。 |
