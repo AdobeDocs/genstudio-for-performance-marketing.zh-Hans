@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: a8b4c6b395908dc6aada4c5be9fcc53d9776da50
 workflow-type: tm+mt
 source-wordcount: 2499
 ht-degree: 0%
@@ -47,7 +47,7 @@ GenStudio for Performance Marketing允许您设置用户定义的准则，以确
 
 ## 添加品牌
 
-要添加[!DNL Brand]，[上载品牌指南](#upload-a-brand)或[通过选择指南并输入品牌详细信息手动创建品牌](#manually-add-brand)。[将a [!DNL Brand]](#publish-brand)发布到[!DNL Content]以使其可在将来生成内容时使用。
+要添加[!DNL Brand]，[上载品牌指南](#upload-a-brand)或[通过选择指南并输入品牌详细信息手动创建品牌](#manually-add-brand)。 [将a [!DNL Brand]](#publish-brand)发布到[!DNL Content]以供将来生成内容使用。
 
 在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Brands]**。
 
@@ -61,7 +61,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 ### 上传品牌
 
-您可以将自己的品牌指南文档(最多三个PDF或DOC文件)上传到GenStudio for Performance Marketing以自动创建品牌。
+您可以将自己的品牌指南文档（最多三个PDF或DOC文件）上传到GenStudio for Performance Marketing以自动创建品牌。
 
 请参阅[[!DNL Brands]](/help/user-guide/guidelines/brands.md)。
 
@@ -137,7 +137,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 >[!TIP]
 >
->如果只想查看您创建的品牌，请从[!DNL Brands]过滤器(funnel图标)中选择&#x200B;**[!UICONTROL 由您创建]**。
+>如果只想查看您创建的品牌，请从[!DNL Brands]过滤器（funnel图标）中选择&#x200B;**[!UICONTROL 由您创建]**。
 
 **要发布品牌草稿**：
 
@@ -331,7 +331,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 [!DNL Audiences]从Adobe Real-Time Customer Data Platform (RTCDP)提供目标客户区段，将精确的目标数据引入您的内容生成工作流程中。 GenStudio for Performance Marketing利用受众定义来帮助您创建与特定客户群体一致的定制营销内容。
 
-[!DNL Audiences]在[&#x200B; _[!DNL Create]_&#x200B;工作流](../create/overview.md#templates)的参数窗格中显示为下拉列表。_[!DNL Audiences]_ 使用这两个准则时，可以为&#x200B;_[!DNL Personas]_&#x200B;增加特殊性，但也可以有效地单独使用。
+[!DNL Audiences]在[的&#x200B;_[!DNL Create]_&#x200B;工作流](../create/overview.md#templates)的参数窗格中显示为下拉列表。 当同时使用两个准则时，_[!DNL Audiences]_&#x200B;可以为&#x200B;_[!DNL Personas]_&#x200B;添加特殊性，但也可以有效地单独使用。
 
 在新用户引导期间，会导入受众定义并将其转换为与GenStudio兼容的格式。 此过程通常需要几天才能完成。 请联系您的Adobe团队以启动它。
 
