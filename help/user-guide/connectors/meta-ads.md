@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 875
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 按照Facebook身份验证说明进行操作，验证帐户信息，然后单击&#x200B;**[!UICONTROL 继续为……]**
 
-1. 在&#x200B;_[!UICONTROL Facebook企业登录]_ (Meta到Adobe符号)中，逐步完成以下选择以授予GenStudio for Performance Marketing访问权限：
+1. 在&#x200B;_[!UICONTROL Facebook企业登录]_ （Meta到Adobe符号）中，逐步完成以下选择以授予GenStudio for Performance Marketing访问权限：
 
    - 选择一个或多个Meta业务配置文件并单击&#x200B;**[!UICONTROL 继续]**
    - 选择一个或多个Meta页面并单击&#x200B;**[!UICONTROL 继续]**
@@ -88,6 +88,23 @@ ht-degree: 0%
    ![Meta帐户列表](/help/assets/meta/meta-accounts-list.png "连接的Meta帐户列表"){zoomable="yes"}
 
 使用&#x200B;**[!UICONTROL 添加帐户]**&#x200B;向列表中添加更多帐户。 当您添加链接到同一Meta商业用户档案的帐户时，授权流程可能会略有不同。 在连接过程中，您只能选择新的Meta Ads帐户。
+
+## 连接Instagram帐户
+
+>[!IMPORTANT]
+>
+>在激活Meta广告之前，请确保在Meta Business Manager中，您要使用的Instagram帐户已连接到载入期间选择的同一广告帐户。 如果缺少此连接，则在激活期间Instagram帐户可能不会显示在[!DNL GenStudio for Performance Marketing] _Instagram帐户_&#x200B;下拉菜单中。
+
+**在Meta Business Manager中验证或更新Instagram帐户连接**：
+
+1. 转到&#x200B;**[!UICONTROL 设置]**。
+1. 在&#x200B;_帐户_&#x200B;下，选择&#x200B;**[!UICONTROL Instagram帐户]**。
+1. 选择要使用的Instagram帐户。
+1. 单击&#x200B;**[!UICONTROL 连接的资产]**。
+1. 在&#x200B;_广告帐户_&#x200B;下，确认列出了载入期间使用的广告帐户。
+1. 如果未列出，请单击&#x200B;**[!UICONTROL 连接资产]**&#x200B;并添加正确的广告帐户。
+
+连接广告帐户后，返回到[!DNL GenStudio for Performance Marketing]并继续激活流程。
 
 ## 连接最佳实践
 
@@ -140,5 +157,3 @@ ht-degree: 0%
 1. 请勿在首次连接尝试期间选择Instagram帐户。
 1. 在添加其他资产之前，请验证连接是否成功。
 1. 页面连接稳定后，请单独添加Instagram帐户。
-
-

@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +53,9 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 ## 步骤2：连接到您的Meta帐户
 
-在您的组织能够激活体验之前，GenStudio系统管理员必须将您的Meta帐户连接到GenStudio for Performance Marketing。 通过此连接，数据可在GenStudio和外部营销工具(如Meta)之间流动，从而启用激活过程。
+在您的组织能够激活体验之前，GenStudio系统管理员必须将您的Meta帐户连接到GenStudio for Performance Marketing。 通过此连接，数据可在GenStudio和外部营销工具（如Meta）之间流动，从而启用激活过程。 请参阅[连接到Meta Ads](/help/user-guide/connectors/meta-ads.md)。
 
-请参阅[连接到Meta Ads](/help/user-guide/connectors/meta-ads.md)。
+要选择Instagram帐户，请确保在Meta Business Manager中[要使用的Instagram帐户连接到新用户引导期间选择的同一广告帐户](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)。 如果缺少此连接，则在激活期间Instagram帐户可能不会显示在[!DNL GenStudio for Performance Marketing] _Instagram帐户_&#x200B;下拉菜单中。
 
 同步完成后，您可以查看添加的帐户。 大量数据需要更长的时间才能同步。
 
@@ -96,7 +96,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
    _体验设置_&#x200B;页面提供了一个用于准备广告激活的中心位置。 准备广告包括以下三个任务：
 
 1. 为您的体验分配一个名称。 激活后，您可以使用此名称在&#x200B;_激活的体验_&#x200B;表中搜索此体验。
-1. 选择媒体资源。 您可以使用[!DNL Content]中的资源或上传外部资源(例如，从OneDrive或Dropbox)。
+1. 选择媒体资源。 您可以使用[!DNL Content]中的资源或上传外部资源（例如，从OneDrive或Dropbox）。
 1. [添加文本](#add-ad-text)。
 1. [添加元数据](#assign-metadata)。
 
