@@ -4,22 +4,14 @@ description: 了解如何激活Meta广告体验。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +45,9 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 ## 步骤2：连接到您的Meta帐户
 
-在您的组织能够激活体验之前，GenStudio系统管理员必须将您的Meta帐户连接到GenStudio for Performance Marketing。 通过此连接，数据可在GenStudio和外部营销工具(如Meta)之间流动，从而启用激活过程。
+在您的组织能够激活体验之前，GenStudio系统管理员必须将您的Meta帐户连接到GenStudio for Performance Marketing。 通过此连接，数据可在GenStudio和外部营销工具（如Meta）之间流动，从而启用激活过程。 请参阅[连接到Meta Ads](/help/user-guide/connectors/meta-ads.md)。
 
-请参阅[连接到Meta Ads](/help/user-guide/connectors/meta-ads.md)。
+要选择Instagram帐户，请确保在Meta Business Manager中[要使用的Instagram帐户连接到新用户引导期间选择的同一广告帐户](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)。 如果缺少此连接，则在激活期间Instagram帐户可能不会显示在[!DNL GenStudio for Performance Marketing] _Instagram帐户_&#x200B;下拉菜单中。
 
 同步完成后，您可以查看添加的帐户。 大量数据需要更长的时间才能同步。
 
@@ -65,7 +57,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 * **直接从[!DNL Content]**&#x200B;激活。 选择具有预定义设置的已批准体验是启动对单个渠道的激活的最简化方式。
 
-* **从[!DNL Activate] > _体验设置_**&#x200B;收集您的广告体验。 您可以通过从[!DNL Content]中选择可视资产、添加文本元素以及选择长宽比来创建体验。 此方法包含更多步骤，但在创作创意体验时可提供更大的灵活性。
+* **从[!DNL Activate] > _体验设置_**收集您的广告体验。 您可以通过从[!DNL Content]中选择可视资产、添加文本元素以及选择长宽比来创建体验。 此方法包含更多步骤，但在创作创意体验时可提供更大的灵活性。
 
 ### 从内容激活已批准的体验
 
@@ -96,7 +88,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
    _体验设置_&#x200B;页面提供了一个用于准备广告激活的中心位置。 准备广告包括以下三个任务：
 
 1. 为您的体验分配一个名称。 激活后，您可以使用此名称在&#x200B;_激活的体验_&#x200B;表中搜索此体验。
-1. 选择媒体资源。 您可以使用[!DNL Content]中的资源或上传外部资源(例如，从OneDrive或Dropbox)。
+1. 选择媒体资源。 您可以使用[!DNL Content]中的资源或上传外部资源（例如，从OneDrive或Dropbox）。
 1. [添加文本](#add-ad-text)。
 1. [添加元数据](#assign-metadata)。
 
@@ -120,7 +112,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 1. 单击&#x200B;**[!UICONTROL 使用]**&#x200B;以将所选资源包含在您的广告体验中。 _体验设置_&#x200B;窗口在&#x200B;_媒体_&#x200B;区域的默认纵横比中包括资产。 _预览_&#x200B;面板在广告投放中预览支持此宽高比的资源。
 
-如果上传不成功，则会打开一条信息性错误消息，其中包含&#x200B;_[!DNL Content]_&#x200B;中资产的链接。
+如果上传不成功，则会打开一条信息性错误消息，其中包含&#x200B;_[!DNL Content]_中资产的链接。
 
 **要上传外部资源**：
 
@@ -136,7 +128,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 1. （可选）若要从设备上传资源，请单击&#x200B;**[!UICONTROL 浏览]**，然后选择&#x200B;_浏览文件_&#x200B;或&#x200B;_浏览文件夹_&#x200B;以标识要上传的资源。
 
-1. 在&#x200B;_添加详细信息_&#x200B;区域，将信息性详细信息添加到您上传的资产，以便在&#x200B;_[!DNL Content]_&#x200B;中进行搜索和筛选。 这些详细信息将另存为元数据。
+1. 在&#x200B;_添加详细信息_&#x200B;区域，将信息性详细信息添加到您上传的资产，以便在&#x200B;_[!DNL Content]_中进行搜索和筛选。 这些详细信息将另存为元数据。
 
 1. 上传资源并分配详细信息后，单击右下方的&#x200B;**[!UICONTROL 添加Assets]**。
 
