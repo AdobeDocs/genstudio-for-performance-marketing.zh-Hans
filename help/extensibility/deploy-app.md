@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ aio app run
 
 >[!NOTE]
 >
->强制构建和部署会覆盖现有部署。**首先在测试环境中彻底测试您的应用程序**。
+>强制构建和部署会覆盖现有部署。 **首先在测试环境中彻底测试您的应用程序**。
 
 ```bash
 aio app build --force-build
@@ -111,6 +111,10 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 运行您选择的扩展以验证生成的内容。
 
 ![有效验证](./validation-valid.png){width="600" zoomable="yes"}
+
+如果出现错误，您可以使用此扩展以编程方式更新体验副本。 单击&#x200B;**[!UICONTROL 复制]**&#x200B;按钮会将建议的文本复制到剪贴板。 单击&#x200B;**[!UICONTROL 应用]**&#x200B;按钮可将文本应用到生成的体验中的特定文本框。
+
+![显示复制和应用按钮的验证错误](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### 查找DAM扩展
 
