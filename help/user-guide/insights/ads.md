@@ -24,24 +24,24 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
+source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1469
 ht-degree: 1%
 
 ---
 
-# 广告和广告投放概述
+# 广告标记和广告投放概述
 
-[!DNL Insights] _[!UICONTROL 广告]_&#x200B;视图显示连接的渠道广告帐户的广告列表。 _广告_&#x200B;是一种促销资源，其中包括作为营销活动的一部分分发给特定受众的可视和交互式内容。
+[!DNL Insights] _[!UICONTROL 广告标记]_&#x200B;视图显示已连接渠道广告帐户的广告列表。 _广告_&#x200B;是一种促销资源，其中包括作为营销活动的一部分分发给特定受众的可视和交互式内容。
 
 {{connect-insights}}
 
-_[!UICONTROL 广告]_&#x200B;表是使用[!UICONTROL 广告名称]组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。
+_[!UICONTROL 广告标记]_&#x200B;表是使用[!UICONTROL 广告名称]组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。
 
-![广告筛选器和表](/help/assets/insights-ads-filter.png){zoomable="yes"}
+![广告标记分析性能指标](./ad-tags-tab.png)
 
-_[!UICONTROL 广告]_&#x200B;图库视图显示广告预览拼合和量度，如点进率。 单击图库右上方的设置(cog)图标以打开&#x200B;**[!UICONTROL 卡片设置]**&#x200B;并切换三个可查看的量度之一：
+_[!UICONTROL 广告标记]_&#x200B;图库视图显示广告预览拼贴和量度，如点进率。 单击图库右上方的设置(cog)图标以打开&#x200B;**[!UICONTROL 卡片设置]**&#x200B;并切换三个可查看的量度之一：
 
 - CPA（每次操作的成本）
 - CTR（点进率）
