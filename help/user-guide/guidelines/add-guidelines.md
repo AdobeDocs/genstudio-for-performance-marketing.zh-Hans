@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 899a575f664d3aba0fe913fd625f8e5353ee854d
+source-git-commit: 8ec5d89113f24b91b4d963124050eaf4bf1bf368
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3023
 ht-degree: 0%
 
 ---
@@ -199,7 +199,7 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 要添加角色，请[上载角色](#upload-a-persona)、[手动创建角色](#manually-add-persona)或从URL [&#128279;](#adding-personas-from-url)添加角色。 手动上传文件或添加角色时，请选择指南并输入角色详细信息。
 
-在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Personas]**。
+在左侧导航区域中，单击&#x200B;**[!DNL More]**，然后单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Personas]**。
 
 GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
@@ -282,12 +282,12 @@ GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){
 
 要添加产品，请执行以下操作：
 
-1. 在左侧导航区域中，单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Products]**。
+1. 在左侧导航区域中，单击&#x200B;**[!DNL More]**，然后单击&#x200B;_共享_&#x200B;列表中的&#x200B;**[!DNL Products]**。
    GenStudio for Performance Marketing中的![准则](/help/assets/guidelines.png){width="650" zoomable="yes"}
 1. 在&#x200B;_[!DNL Products]_&#x200B;面板中，选择&#x200B;**[!UICONTROL 添加产品]**。
 1. 选择[上传产品](#upload-a-product)、[手动创建产品](#manually-add-a-product)或从URL[&#128279;](#adding-products-from-url)添加产品。 手动上传文件或添加产品时，请选择指南并输入产品详细信息。
 
-![添加[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+![添加[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes" align="center"}
 
 您可以在GenStudio for Performance Marketing中包含[!DNL Product]，以便更好地定制您为特定产品创建的内容。
 
