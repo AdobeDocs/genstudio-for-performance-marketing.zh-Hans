@@ -18,16 +18,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 2694ca42a231d75df755936f80b398d554f42842
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 0%
+source-wordcount: 575
+ht-degree: 1%
 
 ---
 
 # 激活工作流
 
-[!DNL Activate]支持以特定于渠道的格式(如Meta或Google Campaign Manager 360广告体验)激活广告体验。
+[!DNL Activate]支持以特定于渠道的格式（如Meta或Google Campaign Manager 360广告体验）激活广告体验。
 
 GenStudio for Performance Marketing体验是一种营销活动组件（如广告），它准备为付费广告渠道或电子邮件上的特定受众提供广告体验。 激活体验包含三个主要组件：
 
@@ -64,3 +64,4 @@ GenStudio for Performance Marketing体验是一种营销活动组件（如广告
 * [Google Campaign Manager 360](activate-cm360-ad.md)
 * [LinkedIn](activate-linkedin-ad.md)
 * [Meta](activate-meta-ad.md)
+* [ChatGPT](../create/create-chatgpt-ad.md#activate-a-chatgpt-ad)
