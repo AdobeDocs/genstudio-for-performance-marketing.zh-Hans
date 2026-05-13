@@ -4,19 +4,13 @@ description: 部署适用于GenStudio for Performance Marketing的App Builder应
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 622
 ht-degree: 0%
 
 ---
@@ -91,6 +85,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 * [数字资产管理(DAM)扩展](#find-dam-extensions)
 * [模板扩展](#find-template-extensions)
 * [翻译扩展](#find-translation-extensions)
+* [内容片段扩展](#find-content-fragment-extension)
 
 ### 查找提示扩展
 
@@ -128,7 +123,6 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 ![模板扩展](./template-ext.png){width="600" zoomable="yes"}
 
-
 ### 查找翻译扩展
 
 使用翻译扩展点通过代理提供您自己的翻译服务，而不是使用GenStudio默认翻译。
@@ -136,7 +130,21 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 如果注册了扩展，则使用提供的翻译服务。 否则，将使用默认的GenStudio翻译服务。
 
+### 查找内容片段扩展
 
+[!DNL GenStudio for Performance Marketing]中的内容片段扩展将[!DNL Create]画布上生成的电子邮件体验中的文本替换为来自连接的第三方(3P)存储库的条目。 配置和部署扩展后，无需离开工作流即可从画布交换副本。
+
+>[!NOTE]
+>
+>内容片段扩展交换现在可用于画布上的&#x200B;**电子邮件**&#x200B;体验。 即将支持&#x200B;**Horizon**&#x200B;渠道。
+
+**要使用内容片段扩展交换文本**：
+
+1. 在画布上，单击生成的电子邮件变体中的可编辑文本字段。
+1. 单击&#x200B;**[!UICONTROL 交换]**。
+   ![交换文本](./subject-line-swap.png){width="400" zoomable="yes"}
+1. 选择您的第三方存储库。 您的组织控制显示哪些存储库以及存储库UI的行为方式。
+1. 选择要用作该字段替换文本的声明。
 
 如果您对加载项感到满意，则可以将其分发而不使用`query`参数。
 
