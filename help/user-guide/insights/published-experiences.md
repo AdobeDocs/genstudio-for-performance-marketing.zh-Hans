@@ -1,6 +1,6 @@
 ---
-title: 广告和广告投放概述
-description: 有关Adobe GenStudio for Performance Marketing中的广告和广告投放效果的客户参与、预算和支出的概述。
+title: 已发布的体验详细信息
+description: 有关Adobe GenStudio for Performance Marketing中发布的体验和置入绩效，请参阅客户参与、预算和支出的概述。
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
@@ -24,45 +24,21 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
+source-git-commit: d61c45100a8ec4973e87948315f5500e023a29eb
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
-# 广告标记和广告投放概述
 
-[!DNL Insights] _[!UICONTROL 广告标记]_&#x200B;视图显示已连接渠道广告帐户的广告列表。 _广告_&#x200B;是一种促销资源，其中包括作为营销活动的一部分分发给特定受众的可视和交互式内容。
+# 已发布的体验详细信息 {#ad-details}
 
-{{connect-insights}}
+选择已发布的体验，并查看与每个体验关联的性能量度、文本属性和版面。 _[!UICONTROL 已发布的体验详细信息]_&#x200B;包括体验`click-through rate`、`cost per action`和`spend`的量度 — 有多少预算已用于该体验。 由于体验可以具有多个投放位置，例如信息源或横幅，因此您可以看到每个投放位置的相同量度细分。 使用&#x200B;**[!UICONTROL 按投放位置]**&#x200B;列出的绩效下的左右箭头循环显示投放位置量度。
 
-_[!UICONTROL 广告标记]_&#x200B;表是使用[!UICONTROL 广告名称]组织的。 单击表格右侧上方的设置(cog)图标可切换可查看列。
+![包含量度和版面的已发布体验详细信息](/help/assets/insights-ad-details.png){zoomable="yes"}
 
-![广告标记分析性能指标](./ad-tags-tab.png)
-
-_[!UICONTROL 广告标记]_&#x200B;图库视图显示广告预览拼贴和量度，如点进率。 单击图库右上方的设置(cog)图标以打开&#x200B;**[!UICONTROL 卡片设置]**&#x200B;并切换三个可查看的量度之一：
-
-- CPA（每次操作的成本）
-- CTR（点进率）
-- CPC（每次点击成本）
-- 支出
-
-{{filter-table}}
-
-## 广告详细信息
-
-选择一个广告并查看与每个广告关联的性能量度、文本属性和版面。 _[!UICONTROL 广告详细信息页面]_&#x200B;包含广告`click-through rate`、`cost per action`和`spend`的量度 — 预算在广告上花费了多少。 由于广告可以具有多个投放位置，例如馈送或横幅，因此您可以看到每个广告投放位置的相同量度细分。 使用&#x200B;**[!UICONTROL 广告投放的绩效]**&#x200B;下的左右箭头循环显示投放指标。
-
-![包含量度和广告投放位置的广告详细信息](/help/assets/insights-ad-details.png){zoomable="yes"}
-
-### 广告属性
-
-广告预览下方是与广告关联的属性列表。
-
-{{$include /help/_includes/generated-attributes.md}}
-
-### 广告格式
+## 广告格式
 
 广告格式是指用于与促销活动目标保持一致、吸引目标受众参与以及帮助跟踪绩效指标的各种创意元素和布局。
 
@@ -76,7 +52,7 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YouTube_AND_PARTNERS_AD</li></ul> | 付费媒体渠道不提供检索创意资产的权限，因此难以对广告类型进行准确分类。 |
 | 无病毒 | 不适用 | 付费媒体渠道不提供检索创意资产的权限，因此难以对广告类型进行准确分类。 |
 
-### 广告投放
+## 广告投放
 
 广告投放位置是指广告在促销活动中出现的特定位置或平台。 这些投放位置决定受众与内容的交互方式和位置。 广告投放扩大了受众范围，这有助于最大限度地提高可见性、参与度和整体促销活动有效性。
 
@@ -124,4 +100,3 @@ GenStudio for Performance Marketing中的[!DNL Insights]当前支持以下可用
 | **[!UICONTROL CPC &#x200B;]**<br>_每次点击成本_ | 在单个广告投放中每次点击关联的平均成本。<p>**计算**：总金额`spent`除以`clicks`<p>此量度有助于评估广告投放在生成点击次数方面的成本效益。 | CPC越低，表示广告投放正以更低的成本产生点击次数，这有利于实现投资回报的最大化。 |
 | **[!UICONTROL 支出]** | 投放单个广告所花费的金额，在整个广告所花费的总金额中所占的比例非常小。 此指标有助于跟踪每个广告投放的预算分配和支出效率。 | 监控支出有助于确保资源在不同的投放位置得到有效使用。 |
 | **属性** | 此广告投放位置中存在的固有功能列表。 | 属性有助于识别与受众产生最多共鸣的创意元素。 查看[类别](/help/user-guide/insights/attributes.md#categories)。 |
-
