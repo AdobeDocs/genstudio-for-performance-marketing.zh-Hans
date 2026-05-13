@@ -49,7 +49,7 @@ A new filter in the [!DNL Insights] module automatically hides [unsupported imag
 * Added support for [publishing ad experiences](/help/user-guide/activation/activate-linkedin-ad.md) from GenStudio for Performance Marketing into LinkedIn Campaign Manager. [!DNL Activate] supports detailed LinkedIn ad previews before publishing to LinkedIn Campaign Manager.
 ```
 
-仅将此子节用于源材料中明确标记为修复或增强的项目&#x200B;****。
+仅将此子节用于源材料中明确标记为修复或增强的项目&#x200B;**&#x200B;**。
 
 ## 已存档的块（以前的发行说明）
 
