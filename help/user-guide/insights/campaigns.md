@@ -5,12 +5,25 @@ level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
 TQID: https://experienceleague.adobe.com/2U5hz1iDNFnxkrGDBPxAAne8rW8Jp0FypcwHkpRVTE8
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4cac970f46ab08bcec2f23fd882c552af088c4ea
 workflow-type: tm+mt
 source-wordcount: 716
@@ -57,9 +70,9 @@ _[!UICONTROL 营销活动]_&#x200B;表是使用基于渠道的广告营销活动
 | **[!UICONTROL 启动项]** | 营销活动发布或发布到市场的日期。 | 高展示次数计数可能表示广告达到了预期受众。 |
 | **[!UICONTROL 展示次数]** | 每次在渠道中加载内容时进行的计数，不考虑交互或查看。 | 高展示次数计数可指示广泛的可见性，但要了解insight的真正性能，请将其与其他参与度量度一起考虑。 |
 | **[!UICONTROL 次点击]** | 用户在广告营销活动中与可点击元素（例如链接或call-to-action按钮）交互的次数。 | 高点击数表示对内容非常感兴趣并参与其中，这可能有效并影响合适的受众。 |
-| **[!UICONTROL CTR ]**<br>_点进率_ | 导致渠道内促销活动点击的展示次数百分比(%)。<br>**计算**： （`clicks`除以`impressions`） x 100 = % | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
-| **[!UICONTROL CPM ]**<br>_每千成本_ | 广告营销活动的每1000次广告展示的费用。 <br>**计算**：（总金额`spent`除以`impressions`） x 1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
-| **[!UICONTROL CPC ]**<br>_每次点击成本_ | 与广告营销活动中的每次点击关联的平均成本。<br>**计算**：总金额`spent`除以`clicks` = $ | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
+| **[!UICONTROL CTR &#x200B;]**<br>_点进率_ | 导致渠道内促销活动点击的展示次数百分比(%)。<br>**计算**： （`clicks`除以`impressions`） x 100 = % | 高点进率表明，内容在消息传递和设计中与受众高度相关且具有激励性，能够有效地定位受众的兴趣。 |
+| **[!UICONTROL CPM &#x200B;]**<br>_每千成本_ | 广告营销活动的每1000次广告展示的费用。 <br>**计算**：（总金额`spent`除以`impressions`） x 1000 | 低值可能表示可视性具有成本效益，尤其是与高点进率配对时。 |
+| **[!UICONTROL CPC &#x200B;]**<br>_每次点击成本_ | 与广告营销活动中的每次点击关联的平均成本。<br>**计算**：总金额`spent`除以`clicks` = $ | 平均成本降低可能表明广告支出具有成本效益，尤其是与转化率提高相比。 |
 | **[!UICONTROL 视频播放]** | 视频在广告营销活动中开始播放的次数（不包括重播）。 当用户单击“播放”或视频自动播放时，视频开始播放。 | 视频播放次数较多可能表示视频正在捕获关注，也可能表示缩略图、标题或位置正在有效地在查看器中绘制。 |
 | **[!UICONTROL 预算]** | 为实现营销活动目标而分配的广告营销活动资金总数。 | 高预算意味着有更多的资源用于更广泛的覆盖范围和潜在更大的影响。 |
 | **[!UICONTROL 支出]** | 在指定时间段内预算中用于跨不同平台投放广告的金额。 | 在短时间内高支出量可能表示使用迅速，这可能导致资源提前耗尽。 根据关键绩效指标跟踪支出金额，以帮助监控总体投资回报。 |
