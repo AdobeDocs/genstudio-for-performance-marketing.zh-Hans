@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 此集成的用途
 
->[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491089?captions=chi_hans&learn=on)
 
 Lightning Web Component (LWC) `sfgsmfe`加载Adobe的Experience Selector UMD捆绑包并在`<dialog>`中呈现它，以便用户能够从[!DNL GenStudio for Performance Marketing]中选取体验。
 
