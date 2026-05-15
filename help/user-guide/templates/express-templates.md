@@ -4,9 +4,9 @@ description: 探索能够集成Adobe Express资源的GenStudio for Performance M
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
+source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 [!DNL GenStudio for Performance Marketing]可以使用已在[!DNL Adobe Express]中创建和设计的模板。 从[!DNL Adobe Express]引入品牌资产，并使用这些强大的工具将它们集成到引人注目的营销活动和[!DNL Experiences]中。
 
-本指南介绍[!DNL Adobe Express]模板的要求和功能。
+本指南介绍[!DNL Adobe Express]模板的要求和功能。 有关更多提示和最佳实践，请参阅[使用模板的最佳实践](/help/user-guide/templates/best-practices-for-templates.md#express-to-genstudio-template-best-practices)。
 
 ## 关于[!DNL Adobe Express]中的模板
 
-在[!DNL Adobe Express]中，可以使用应用程序中提供的现有启动程序模板[&#128279;](https://helpx.adobe.com/cn/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)创建新文档，也可以使用包含有用的品牌限制的[自定义模板创建](https://helpx.adobe.com/cn/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)新文档，例如：
+在[!DNL Adobe Express]中，可以使用应用程序中提供的现有启动程序模板](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)创建[新文档，也可以使用包含有用的品牌限制的[自定义模板创建](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)新文档，例如：
 
-- 无法更改的[锁定的元素](https://helpx.adobe.com/cn/express/web/invite-collaborate/object-locking.html)
+- 无法更改的[锁定的元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)
 - 锁定限制可控制用户在需要时如何解锁元素
 
-已在[!DNL Adobe Express]中的模板上设置的锁定设置也将在[!DNL GenStudio for Performance Marketing]中应用。 使用[说明 [!DNL Adobe Express] 创建具有品牌限制的自定义模板](https://helpx.adobe.com/cn/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
+已在[!DNL Adobe Express]中的模板上设置的锁定设置也将在[!DNL GenStudio for Performance Marketing]中应用。 使用[说明 [!DNL Adobe Express] 创建具有品牌限制的自定义模板](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
 
 要在Express模板中使用自定义字体，管理员必须首先在Admin Console中接受“自定义字体”资格鉴定选件，该选件包含在Express许可证权利中。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 ## 关于变体和[!DNL Experiences]及[!DNL Adobe Express]模板
 
-[!DNL Express]模板提供了许多在[管理其他变体](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)时您将熟悉的功能。 但是，有一些功能强大的添加项可简化来自[!DNL Express]的内容的任何工作流。 本节介绍[!DNL Adobe Express]实现特有的功能。
+[!DNL Express]模板提供了许多在[管理其他变体](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)时您将熟悉的功能。 但是，有一些功能强大的添加项可简化来自[!DNL Express]的内容的任何工作流。 本节介绍[!DNL Adobe Express]实现特有的功能。
 
 ### 自动生成多个大小
 
-在 [!DNL Express][&#128279;](https://helpx.adobe.com/cn/express/web/arrange-layers-and-pages/add-pages.html)中为一个资产创建了多个页面后，这些页面将转移到从该资产创建的任何模板中。 Express页面将在[!DNL GenStudio for Performance Marketing]中生成不同大小的创意内容。
+在 [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html)中为一个资产创建了[多个页面后，这些页面将转移到从该资产创建的任何模板中。 Express页面将在[!DNL GenStudio for Performance Marketing]中生成不同大小的创意内容。
 
 当[!DNL Express]中的某个资源存在多个大小的内容时，可以在单个生成过程中为所有这些大小生成变体。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 ### 模板锁定限制
 
-模板可以包含从[!DNL Express]结转的[锁定元素](https://helpx.adobe.com/cn/express/web/invite-collaborate/object-locking.html)，并控制某些功能的更改方式。 这些设置由模板遵循，也可以在模板上更改：
+模板可以包含从[!DNL Express]结转的[锁定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)，并控制某些功能的更改方式。 这些设置由模板遵循，也可以在模板上更改：
 
 1. 在模板上选择一个锁定的元素。
 1. 单击选定元素左上角的锁定图标。
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 **要使用视频程序集**：
 
-1. 选择体验并单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮进入焦点模式并使用视频程序集功能。 将只显示单个变体，并且场景线将沿底部显示。
+1. 选择体验并单击&#x200B;**[!UICONTROL 编辑]**按钮进入焦点模式并使用视频程序集功能。 将只显示单个变体，并且场景线将沿底部显示。
    ![具有视频程序集选项的选定体验](./images/video-assembly.png){width=70%}
 1. 调整您的视频体验。 视频组件选项包括：
    - 播放视频
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 **要使用生成展开**&#x200B;展开图像：
 
-1. 选择一个已解锁的图像图层，然后单击图像框架底部的&#x200B;**[!UICONTROL 展开]**&#x200B;按钮。
+1. 选择一个已解锁的图像图层，然后单击图像框架底部的&#x200B;**[!UICONTROL 展开]**按钮。
    ![显示展开窗格的图像图层](./images/image-expand.png){width=70%}
 1. 将框架拉到图像将要展开的所需尺寸。 将出现“Expand options（展开选项）”窗口。 在“展开”选项中，您可以通过以下方式促进展开：
    - 输入提示
@@ -242,5 +242,5 @@ ht-degree: 0%
 
 ## 审阅并批准
 
-编辑和调整变体后，通过[审阅和批准工作流](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/overview)批准并发布您的内容。
+编辑和调整变体后，通过[审阅和批准工作流](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview)批准并发布您的内容。
 

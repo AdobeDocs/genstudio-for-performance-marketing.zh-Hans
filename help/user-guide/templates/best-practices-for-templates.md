@@ -6,22 +6,14 @@ role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
 TQID: https://experienceleague.adobe.com/fiKHSZ-YFZ2gSD5iZ-aKaZtsC49Mrj1dqHpHqtbXZVM
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: 1347
 ht-degree: 0%
 
 ---
@@ -36,14 +28,13 @@ ht-degree: 0%
 1. 配置[渠道准则](#configure-channel-guidelines)以便有效地个性化内容
 1. 使用[辅助功能标准](accessibility-for-templates.md)进行设计以获得最佳体验
 1. 遵循[特定于渠道的模板准则](#follow-channel-specific-template-guidelines)
-
->[!TIP]
->
->了解[使用模板](use-templates.md)中模板元素和过程的基础知识。 深入了解[自定义模板](customize-template.md)以了解具体说明，以便在下一个营销活动中使用。
+1. 使用[Express模板](/help/user-guide/templates/express-templates.md)时，请考虑[Express to GenStudio模板最佳实践](#express-to-genstudio-template-best-practices)下的特定提示。
+>>
+了解[使用模板](use-templates.md)中模板元素和过程的基础知识。 深入了解[自定义模板](customize-template.md)以了解具体说明，以便在下一个营销活动中使用。
 
 ## 使用正确的模板元素
 
-每种模板类型使用不同的元素来为特定于渠道的内容创建创建结构。[熟悉模板](use-templates.md#template-elements)的各个部分，并包含适合您的内容和模板类型的最佳元素。
+每种模板类型使用不同的元素来为特定于渠道的内容创建创建结构。 [熟悉模板的各个部分](use-templates.md#template-elements)并包含最适合您的内容和模板类型的元素。
 
 在自定义模板时，请使用字段名称来代替您需要GenStudio for Performance Marketing生成内容的这些元素。
 
@@ -125,3 +116,75 @@ ht-degree: 0%
 - [显示广告和横幅广告](/help/user-guide/templates/display-template.md)
 - [LinkedIn](/help/user-guide/templates/linkedin-template.md)
 - [Meta广告](/help/user-guide/templates/meta-template.md)
+
+## 快速转到GenStudio模板最佳实践
+
+在将设计从[!DNL Adobe Express]转换为[!DNL GenStudio for Performance Marketing]的模板时，以下提示可帮助您获得可靠的结果。
+
+### 使用多变体模板
+
+在[!DNL Adobe Express]中，页面可以在一个模板文件中表示多个大小或长宽比变化。
+当您在[!DNL GenStudio for Performance Marketing]中选择模板时，所有变体都会显示在画布中。
+
+此行为可改进HTML模板，这些模板仅支持每个文件一个变体。
+
+### 锁定字段以控制营销人员可以编辑的内容
+
+使用锁定来传达意图。 例如，锁定法律免责声明，使其从不由人工智能生成，但为一代人保留灵活的标题。
+
+右键单击[!DNL Adobe Express]中的任何元素以设置锁定行为：
+
+- **[!UICONTROL 完全锁定]** — 元素是静态的，AI不会为其生成内容。
+- **[!UICONTROL 锁定，允许图像替换]** — 锁定大小和位置，但允许用户交换图像。 此选项非常适用于徽标。
+- **[!UICONTROL 锁定，允许替换文本]** — 锁定大小和位置，但允许用户编辑文本。 AI不会自动为其生成内容。
+- **完全灵活** （已解锁） — 用户可以移动元素并调整其大小，AI会将其视为要生成的内容。
+
+### 命名图层以实现更好的AI映射
+
+将设计转换为模板时，AI会扫描设计并映射标题、CTA和正文等字段。 与高度复杂的版面相比，AI更准确地映射简单模板。
+
+**最佳实践：**&#x200B;在占位符副本中，包含所需的字段类型（例如，`headline`、`sub-headline`或`CTA`）以帮助AI映射字段正确无误。 此方法可减少映射错误。
+
+### 转换为模板
+
+1. 在[!DNL Adobe Express]中，单击&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 转换为模板]**。
+1. 只有&#x200B;**[!UICONTROL 信息]**&#x200B;选项卡和&#x200B;**[!UICONTROL 锁定]**&#x200B;选项卡会转移到[!DNL GenStudio for Performance Marketing]。
+1. 在转换时，选择解锁的工作方式：
+   - **[!UICONTROL 允许用户解锁]**
+   - **[!UICONTROL 阻止所有解锁]**
+   - **[!UICONTROL 设置密码短语]** — 中间立场，不鼓励随意更改而不永久阻止访问。
+
+### 保留原始设计文件的副本
+
+转换会创建一个单独的[!DNL Adobe Express]模板文件，但原始设计文件仍可编辑。
+
+**提示：**&#x200B;保留原始模板，以便以后修改设计、创建变体并生成新模板。
+
+### 共享以提高可见性
+
+转换后，默认情况下仅对您可见。 您可以将其与个人或整个组织共享。
+
+**要求：** [!DNL Adobe Express]和[!DNL GenStudio for Performance Marketing]必须使用相同的IMS组织才能同步模板。 模板通常在转换后几乎立即出现在[!DNL GenStudio for Performance Marketing]中。
+
+### 控制AI字段映射
+
+选择模板后，AI为每个模板映射一次字段，分配标签，如&#x200B;**[!UICONTROL 主媒体]**、**[!UICONTROL 生成的]**&#x200B;或&#x200B;**[!UICONTROL 已锁定]**。 当AI错误地分配字段时，您可以手动调整映射。
+
+使用&#x200B;**[!UICONTROL 为每个字段启用生成]**&#x200B;切换开关在生成之前打开或关闭。 当AI错误地分配字段时，您可以手动调整映射。 计划在未来版本中永久更正模板映射。
+
+### 在[!DNL Adobe Express]中进行设计，在[!DNL GenStudio for Performance Marketing]中进行组装
+
+请考虑这些设计工作流，以充分利用每项服务：
+
+- 在[!DNL Adobe Express]中完成设计工作，例如颜色、布局和图形。
+- 使用[!DNL GenStudio for Performance Marketing]从这些模板汇编和生成内容。
+- 使用[!DNL Adobe Express]品牌（颜色、徽标、字体和图形）进行设计管理。
+- 使用[!DNL GenStudio for Performance Marketing]品牌在生成后更改字体颜色。
+
+### 电子邮件限制
+
+在[!DNL Adobe Express]模板工作流的Horizon画布上，**不支持**&#x200B;电子邮件。 电子邮件会继续使用传统的HTML模板过程。
+
+### 利用自定义字体
+
+团队经常询问自定义字体如何与[!DNL Adobe Express]模板一起使用。 管理员可能需要在Admin Console中接受自定义字体资格鉴定选件，这些字体才可用；请参阅[使用 [!DNL Adobe Express] 模板](express-templates.md)。
