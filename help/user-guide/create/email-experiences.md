@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 >
 >内容片段交换现在可用于画布上的&#x200B;**电子邮件**&#x200B;体验。 即将支持&#x200B;**Horizon**&#x200B;渠道。
 
-企业电子邮件内容通常既需要新生成的副本，又需要经过批准的模块块（例如免责声明、安全语言、优惠和管控声明），以及您为模板定制的内容。 在[!DNL Adobe Experience Manager]、[!DNL Marketo Engage]、[!DNL Adobe Journey Optimizer]和[!DNL Adobe Campaign]中存储模块化内容的团队可以在不离开[!DNL GenStudio for Performance Marketing]的情况下查找和交换要在电子邮件体验中使用的内容。 此项可用于执行以下操作：
+企业电子邮件内容通常既需要新生成的副本，又需要经过批准的模块块（例如免责声明、安全语言、优惠和管控声明），以及您为模板定制的内容。 在[!DNL Adobe Experience Manager]中存储模块化内容的团队可以在不离开[!DNL GenStudio for Performance Marketing]的情况下查找和交换要在电子邮件体验中使用的内容。 此项可用于执行以下操作：
 
 * **合规性感知内容：** AI可以填充创意版版块，而合规性批准的片段可以替换可插入版块；通过导出，锁定的法律版块保持不变。
 * **可重复使用的已批准内容组件：**&#x200B;已批准的标题、区域免责声明或产品描述可以保留在[!DNL Adobe Experience Manager]中的记录系统，而作者将它们拉入变体而不采用复制 — 粘贴解决方法。
