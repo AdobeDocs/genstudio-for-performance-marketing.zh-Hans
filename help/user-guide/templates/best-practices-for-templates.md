@@ -6,11 +6,19 @@ role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
 TQID: https://experienceleague.adobe.com/fiKHSZ-YFZ2gSD5iZ-aKaZtsC49Mrj1dqHpHqtbXZVM
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
 source-wordcount: 1347
@@ -29,7 +37,7 @@ ht-degree: 0%
 1. 使用[辅助功能标准](accessibility-for-templates.md)进行设计以获得最佳体验
 1. 遵循[特定于渠道的模板准则](#follow-channel-specific-template-guidelines)
 1. 使用[Express模板](/help/user-guide/templates/express-templates.md)时，请考虑[Express to GenStudio模板最佳实践](#express-to-genstudio-template-best-practices)下的特定提示。
->>
+&#x200B;>>
 了解[使用模板](use-templates.md)中模板元素和过程的基础知识。 深入了解[自定义模板](customize-template.md)以了解具体说明，以便在下一个营销活动中使用。
 
 ## 使用正确的模板元素
