@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
 workflow-type: tm+mt
-source-wordcount: 4727
+source-wordcount: 4991
 ht-degree: 0%
 
 ---
@@ -50,7 +50,35 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2026.04.16 {#latest}
+## 2026.05.15 {#latest}
+
+### 在Horizon画布上进行协作编辑
+
+Horizon画布上的付费媒体草稿不再是一个单独的操作。 现在，所有者可以通过电子邮件邀请角色为&#x200B;**[!UICONTROL 编辑者]**&#x200B;或&#x200B;**[!UICONTROL 查看者]**&#x200B;的协作者，这样每个人便可从同一动态草稿开始工作，而不是在工具之间退回导出。
+
+使用画布中的[!UICONTROL 共享]按钮，编辑人员可实时观看画板和字段更新（包括标题、CTA和描述）登陆。
+
+### 已刷新[!DNL Create] [!DNL Content]页面上的卡片布局
+
+[!DNL Content]中的[!DNL Create]入口点将首次刷新卡片布局。
+
+### AEM内容片段在HTML画布上的电子邮件体验中进行交换
+
+HTML画布上的[电子邮件体验](/help/user-guide/create/email-experiences.md)现在为预先控制的模块化内容提供了与预先批准的&#x200B;**AEM内容片段**&#x200B;的内容交换；不会从侧渠道粘贴。
+
+无需离开GenStudio for Performance Marketing，即可使用已在AEM中发布的组织发酵。
+
+### 从URL添加[!DNL Brands]、[!DNL Products]和[!DNL Personas]
+
+[!DNL GenStudio for Performance Marketing]个内嵌直接从URL发布了&#x200B;**[!DNL Brand]**、**[!DNL Product]**&#x200B;和&#x200B;**[!DNL Persona]**&#x200B;信号，减少了手动输入的小时数，同时使输出内容以品牌实际在线发布的内容为基础。 [从公共URL添加准则](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url)最终反映了营销人员在打开摘要之前研究Web的方式。
+
+品牌准则一步一步到位，而产品和角色则从智能短名单开始，这样您就可以在系统丰富记录之前策划属于哪些内容。 当站点较薄或处于封闭状态时，AI辅助发现故意保持保守，这可以保护受管控团队而不会阻碍势头。
+
+需要&#x200B;**[!UICONTROL 品牌管理器]**&#x200B;或更高版本的组织仍会自动强制实施这些护栏。 当您跨区域或项目组合扩展项目时，可公开访问的品牌域会继续解锁最丰富的指导。
+
+## 早期发行说明
+
++++2026.04.16版注释
 
 ### [!DNL Create]中的上下文感知推荐
 
@@ -68,7 +96,7 @@ ht-degree: 0%
 
 您可以&#x200B;**上传基于DOM的HTML5 zip文件以在[!DNL Create]中开发显示模板**，生成HTML5广告变体，并将创意大小调整为其他宽高比。 已完成的体验可以激活到[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)和[[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md)。
 
-## 早期发行说明
++++
 
 +++2026.03.15版注释
 
