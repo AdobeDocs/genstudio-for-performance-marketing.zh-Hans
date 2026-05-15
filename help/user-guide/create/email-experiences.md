@@ -6,24 +6,14 @@ role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
 TQID: https://experienceleague.adobe.com/-lwSfvc0TnVd8byNT-5OfoEsXz7yaeIifcHOJtp-n4c
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: dee4e9a9-78d1-4953-8179-f8da6117027did: ee4b6e5f-5b7a-421b-9859-0f964841a866
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +78,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 >
 >内容片段交换现在可用于画布上的&#x200B;**电子邮件**&#x200B;体验。 即将支持&#x200B;**Horizon**&#x200B;渠道。
 
-企业电子邮件内容通常既需要新生成的副本，又需要经过批准的模块块（例如免责声明、安全语言、优惠和管控声明），以及您为模板定制的内容。 在[!DNL Adobe Experience Manager]、[!DNL Marketo Engage]、[!DNL Adobe Journey Optimizer]和[!DNL Adobe Campaign]中存储模块化内容的团队可以在不离开[!DNL GenStudio for Performance Marketing]的情况下查找和交换要在电子邮件体验中使用的内容。 此项可用于执行以下操作：
+企业电子邮件内容通常既需要新生成的副本，又需要经过批准的模块块（例如免责声明、安全语言、优惠和管控声明），以及您为模板定制的内容。 在[!DNL Adobe Experience Manager]中存储模块化内容的团队可以在不离开[!DNL GenStudio for Performance Marketing]的情况下查找和交换要在电子邮件体验中使用的内容。 此项可用于执行以下操作：
 
 * **合规性感知内容：** AI可以填充创意版版块，而合规性批准的片段可以替换可插入版块；通过导出，锁定的法律版块保持不变。
 * **可重复使用的已批准内容组件：**&#x200B;已批准的标题、区域免责声明或产品描述可以保留在[!DNL Adobe Experience Manager]中的记录系统，而作者将它们拉入变体而不采用复制 — 粘贴解决方法。
