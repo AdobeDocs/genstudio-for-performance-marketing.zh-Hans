@@ -4,19 +4,13 @@ description: 了解并为GenStudio应用程序和加载项实施Experience Selec
 feature: Extensibility, Extensions, Experiences
 exl-id: 918d3772-406b-4e16-bddc-0d5b160978d3
 TQID: https://experienceleague.adobe.com/0KCx1agovbj3-ShbAZ6JiHnHchMI47F9g4mvE4NPpvc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8caee588140b91f81a8c77f7da4b930674f46865
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bfaa655b-e017-428d-80d0-09de2183b296
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2f451a5fc53507d84b19166b5dde5a412ac0c508
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 655
 ht-degree: 4%
 
 ---
@@ -24,6 +18,8 @@ ht-degree: 4%
 # GenStudio Experience Selector MFE
 
 Experience Selector是一个微型前端(MFE)，它提供了用于选择GenStudio体验的`ExperienceSelectorDialog`组件。 通过从独立的JavaScript捆绑包导入`renderExperienceSelectorWithSUSI`函数在应用程序中使用组件，该捆绑包会自动加载最新部署的Micro Frontend并呈现自然的组件接口。
+
+> API服务可用> GenStudio API提供了一个用于管理体验的RESTful API。 如果要使用GenStudio API管理体验，请参阅[GenStudio API文档](https://developer.adobe.com/genstudio-api/)。
 
 GenStudio Experience Selector MFE允许用户执行以下操作：
 
