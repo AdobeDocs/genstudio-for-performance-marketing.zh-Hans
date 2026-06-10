@@ -2,9 +2,9 @@
 title: 适用于GenStudio的Journey Optimizer
 description: 安装和配置适用于GenStudio Adobe Exchange的Journey Optimizer应用程序，以便您的组织可以在GenStudio for Performance Marketing中使用Adobe Journey Optimizer模板。
 feature: Extensibility
-source-git-commit: fbec4567d960a6e3607c5e5e43057e2f22e9f6ea
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## 从Adobe Exchange安装应用程序
 
->[!VIDEO](https://video.tv.adobe.com/v/3483309?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
-1. 打开[Adobe Exchange](https://exchange.adobe.com)并转到&#x200B;**[!UICONTROL Experience Cloud]**。
+1. 打开[Adobe Exchange](https://exchange.adobe.com)并转到&#x200B;**[!UICONTROL CX Enterprise]**。
 1. 打开[Journey Optimizer for GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)列表。
    Adobe Exchange上的![Journey Optimizer for GenStudio列表，包括要求和免费安装](/help/extensibility/ajo-adobe-exchange.png){width="75%"}
 1. 选择&#x200B;**[!UICONTROL 免费]**&#x200B;为您的组织请求应用。
@@ -36,7 +36,7 @@ ht-degree: 0%
 在[Adobe Developer Console](https://developer.adobe.com/console/)中创建一个&#x200B;**项目**，以提供Journey Optimizer API的OAuth凭据。 在Exchange中配置应用程序时，您将需要&#x200B;**客户端ID**、**客户端密钥**、**组织ID**&#x200B;和&#x200B;**作用域**&#x200B;之类的值。
 
 1. 登录到Adobe Developer Console并创建&#x200B;**新项目**。
-1. 通过单击&#x200B;**[!UICONTROL 添加API]**&#x200B;并从&#x200B;**[!DNL Experience Cloud]**&#x200B;产品API列表中选择&#x200B;**[!UICONTROL Adobe Journey Optimizer]**，将&#x200B;**Adobe Journey Optimizer (AJO) API**&#x200B;添加到项目中。
+1. 通过单击&#x200B;**[!UICONTROL 添加API]**&#x200B;并从&#x200B;**[!DNL CX Enterprise]**&#x200B;产品API列表中选择&#x200B;**[!UICONTROL Adobe Journey Optimizer]**，将&#x200B;**Adobe Journey Optimizer (AJO) API**&#x200B;添加到项目中。
 1. 在项目工作区中生成凭据，并复制&#x200B;**客户端ID**、**客户端密钥**、**组织ID**、**作用域**&#x200B;以及部署流要求的任何其他值。 安全地保存它们以供下一节使用。
 
 >[!NOTE]
@@ -50,18 +50,18 @@ ht-degree: 0%
 1. 返回至[Adobe Exchange](https://exchange.adobe.com)。
 1. 选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL App Builder应用程序]**（或您的组织到托管应用程序的路径）。
 1. 为GenStudio **选择** Journey Optimizer，并确认该应用程序已获得&#x200B;**批准**。
-1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**&#x200B;以创建一个环境。
+1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**以创建一个环境。
    ![具有“已批准”状态的应用程序详细信息并添加环境](/help/extensibility/ajo-config-002.png){width="50%"}
 1. 在选定的环境中，选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 配置]**&#x200B;选项卡上，查找&#x200B;**[!UICONTROL AJO凭据]**。
    ![部署前使用AJO凭据进行配置（草稿）](/help/extensibility/ajo-config-004.png){width="80%"}
 1. 输入已添加Journey Optimizer API的Developer Console项目中的凭据（例如，**[!UICONTROL AJO客户端ID]**、**[!UICONTROL AJO客户端密钥]**&#x200B;和&#x200B;**[!UICONTROL AJO令牌端点]**&#x200B;以及任何其他必填字段）。
 1. 输入&#x200B;**沙盒名称，全部小写**（例如，`prod`）。
-1. 单击&#x200B;**[!UICONTROL 部署]**。 部署完成后，状态将显示为已部署。 按钮文本将更改为&#x200B;**[!UICONTROL 取消部署]**。
+1. 单击&#x200B;**[!UICONTROL 部署]**。部署完成后，状态将显示为已部署。按钮文本将更改为&#x200B;**[!UICONTROL 取消部署]**。
    在App Builder应用程序视图上提供了![已部署应用程序及其取消部署](/help/extensibility/ajo-config-005.png){width="80%"}
 
-部署后，Adobe Developer Console包含一个名为&#x200B;**Journey Optimizer的新自动生成的项目，该项目适用于使用AJO和Adobe Runtime API的GenStudio &lt;Your_Environment_Name>**。 此项目为只读，无法编辑或删除。
-部署后![只读的自动生成Developer Console项目](/help/extensibility/ajo-auto-project.png){width="100%"}
+部署后，Adobe Developer Console包含一个名为&#x200B;**Journey Optimizer的新自动生成的项目，该项目用于GenStudio &lt;Your_Environment_Name>**，带有AJO和Adobe Runtime API。此项目为只读，无法编辑或删除。
+![部署后只读的自动生成Developer Console项目](/help/extensibility/ajo-auto-project.png){width="100%"}
 
 ### 更新配置
 
@@ -79,9 +79,9 @@ ht-degree: 0%
 
 **另请参阅** （Journey Optimizer访问控制）：
 
-* [访问控制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Journey Optimizer中的权限](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/permissions)
-* [系统管理员入门指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [访问控制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Journey Optimizer中的权限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [系统管理员入门指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## 访问GenStudio中的AJO模板
 
