@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: 729
-ht-degree: 88%
+source-wordcount: 794
+ht-degree: 81%
 
 ---
 
@@ -234,6 +234,18 @@ GenStudio for Performance Marketing针对每个变体执行[内容检查](/help/
 草稿会自动保存并显示在[!DNL Create]主页的&#x200B;_最近访问_&#x200B;部分中。 此部分中的每个草稿都显示一个状态，如&#x200B;_草稿_&#x200B;或&#x200B;_已批准_。
 
 单击图库视图（网格）图标，以网格或表格视图显示&#x200B;_最近项目_。
+
+### 协作编辑
+
+草稿创建者现在可以与协作者共享其草稿、分配角色，并一起实时制作内容。 除了简单的审阅和批准之外，此功能还提供了一些重要的工作流优势：
+
+* **通过快速通知轻松协作现有草稿**，无需重新创建或导出任何内容。
+
+* **团队成员之间的实时协同编辑**&#x200B;无需随后刷新或合并文件。
+
+* **只读访问权限**，让好奇的利益相关者在R&amp;A流程开始之前查看画布。
+
+了解如何[对草稿使用协作编辑](collaborative-editing.md)。
 
 ### 管理变体
 
