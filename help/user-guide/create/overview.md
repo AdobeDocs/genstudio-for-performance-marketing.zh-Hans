@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
+source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
 workflow-type: tm+mt
-source-wordcount: 794
-ht-degree: 81%
+source-wordcount: 820
+ht-degree: 79%
 
 ---
 
@@ -234,6 +234,10 @@ GenStudio for Performance Marketing针对每个变体执行[内容检查](/help/
 草稿会自动保存并显示在[!DNL Create]主页的&#x200B;_最近访问_&#x200B;部分中。 此部分中的每个草稿都显示一个状态，如&#x200B;_草稿_&#x200B;或&#x200B;_已批准_。
 
 单击图库视图（网格）图标，以网格或表格视图显示&#x200B;_最近项目_。
+
+### 翻译和本地化
+
+您可以从[!DNL Create]登陆页面或[!DNL Content]将批准的电子邮件和付费媒体体验翻译成多种语言。 请参阅[翻译和本地化体验](/help/user-guide/create/translate-experiences.md)。
 
 ### 协作编辑
 

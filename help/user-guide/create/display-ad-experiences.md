@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 126
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 在生成显示广告体验时，将会创建四个变体并将其显示在画布中。
 
 请参阅[显示广告模板准则](/help/user-guide/templates/display-template.md)，以了解有关支持的维度、可识别的字段名称等的信息。
+
+您可以在HTML画布上将批准的显示广告体验翻译成多种语言。 请参阅[翻译和本地化体验](/help/user-guide/create/translate-experiences.md)。
 
 显示广告体验的可编辑部分包括：
 

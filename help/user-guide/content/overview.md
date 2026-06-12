@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，
 
 ### 上传资源
 
-通过&#x200B;**[!UICONTROL 添加资源]**&#x200B;面板，您可以拖放或浏览本地文件中的资源。 或者，您也可以从外部源(如OneDrive或Dropbox)导入资源。 [!UICONTROL 促销活动]或项目名称是上传之前唯一需要的详细信息。 提供更详细的信息（如关键字），使团队中的每个人能够快速识别和检索相关内容。
+通过&#x200B;**[!UICONTROL 添加资源]**&#x200B;面板，您可以拖放或浏览本地文件中的资源。 或者，您也可以从外部源（如OneDrive或Dropbox）导入资源。 [!UICONTROL 促销活动]或项目名称是上传之前唯一需要的详细信息。 提供更详细的信息（如关键字），使团队中的每个人能够快速识别和检索相关内容。
 
 ### 搜索并查找批准的内容
 
@@ -100,3 +100,8 @@ GenStudio for Performance Marketing [!DNL Content]提供了一个中心位置，
 ### 使用模板
 
 模板可加快创建过程，以便您可以跨多个渠道生成一致的内容。 上传您的自定义模板，以用作具有预配置布局和设计元素的创建过程的起点。 了解[使用模板](../templates/use-templates.md)中的基本模板元素和过程。 并使用[自定义模板](../templates/customize-template.md)主题深入了解如何构建模板。
+
+### 翻译批准的体验
+
+您可以直接从[!DNL Content] _[!UICONTROL 体验]_&#x200B;库或[!DNL Create]登陆页面将批准的电子邮件和付费媒体体验翻译成多种语言。 请参阅[从内容翻译](../create/translate-experiences.md#translate-from-content)或[从创建翻译](../create/translate-experiences.md#translate-from-create)。
+
