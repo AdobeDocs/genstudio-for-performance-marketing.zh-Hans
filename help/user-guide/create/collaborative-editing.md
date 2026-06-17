@@ -4,9 +4,9 @@ description: 了解如何在Horizon画布上与协作者实时共享付费媒体
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 80f96e0db22ab9215660991f0833da719bdc6393
+source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 4%
 
 ---
@@ -30,11 +30,11 @@ Horizon画布上的协作编辑提供了以下功能：
 
 所有受邀协作者都可以打开并查看草稿。 下表列出了按角色显示的编辑操作和工作流操作。
 
-| 角色 | 编辑画板元素 | 编辑Chrome字段 | 共享草稿 | 启动审阅和批准 | 发布 | 注释 |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[!UICONTROL 所有者]** | 是 | 是 | 是 | 是 | 是 | 仅文档创建者 |
-| **[!UICONTROL 编辑器]** | 是 | 是 | 是 | 是 | 是 | 用户被明确邀请为&#x200B;**[!UICONTROL 编辑者]** |
-| **[!UICONTROL 查看器]** | 否 | 否 | 否 | 否 | 否 | 作为&#x200B;**[!UICONTROL 查看器]**&#x200B;邀请的用户 |
+| 角色 | 编辑画板元素 | 编辑Chrome字段 | 共享草稿 | 删除草稿 | 启动审阅和批准 | 发布 | 注释 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **[!UICONTROL 所有者]** | 是 | 是 | 是 | 是 | 是 | 是 | 仅文档创建者 |
+| **[!UICONTROL 编辑器]** | 是 | 是 | 是 | 否 | 是 | 是 | 用户被明确邀请为&#x200B;**[!UICONTROL 编辑者]** |
+| **[!UICONTROL 查看器]** | 否 | 否 | 否 | 否 | 否 | 否 | 作为&#x200B;**[!UICONTROL 查看器]**&#x200B;邀请的用户 |
 
 ## 先决条件
 
