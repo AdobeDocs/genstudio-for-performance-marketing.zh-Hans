@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
-source-wordcount: 5284
+source-wordcount: 5467
 ht-degree: 0%
 
 ---
@@ -152,6 +152,26 @@ HTML画布上的[电子邮件体验](/help/user-guide/create/email-experiences.m
 ### GenStudio for Performance Marketing中的TikTok内容
 
 您现在可以从GenStudio for Performance Marketing创建、批准和激活TikTok信息源中视频广告。 在[!DNL Create]工作流中轻松生成广告，然后将体验发布到[!DNL Content]。 使用TikTok的[!DNL Insights]监视性能并通知下一次创意刷新。
+
+### Content Intelligence功能化V4
+
+功能化V4是从V3全面升级，引入了广告优先的设计，在图像、文本和视频内容类型中提供了许多特定于广告的新功能。
+
+V4的优势包括：
+
+* **Advertising-First设计**：专门为广告分析而构建，具有全面的CTA/优惠/徽标分析套件（18项组合功能）。
+* **粒度分类**：在图像/文本/视频中，具有明确分类和一致功能定义的功能总数增加了249%。
+* **生产质量评估**：用于技术质量评估、移动优化和生产类型分类的13个视频质量功能(CLC/Studio/UGC)。
+* **增强的语义理解**：新增功能，包括品牌角色、人类需求、认知触发器和全面的实体识别。
+* **跨渠道一致性**：跨内容类型的统一功能启用了跨渠道广告分析。
+* **移动设备优化**：专用于宽高比、适合放置和移动设备本机检测。
+
+**主要功能添加：**
+
+* Advertising套件（20多项功能）：CTA/优惠/徽标分析、联合品牌、影响者检测
+* 营销活动和产品上下文（7个功能）：产品、营销活动目标/主题、目标受众、国家/地区、地域
+* 视频质量量度（13项功能）：技术质量、生产分类、移动设备优化
+* 实体识别（9项功能）：影响者、活动、地点、品牌/产品提及、大众媒体
 
 +++
 

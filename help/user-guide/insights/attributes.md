@@ -24,16 +24,16 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4cac970f46ab08bcec2f23fd882c552af088c4ea
+source-git-commit: 020002de6749d03d1d41227aaab1bade7da5559d
 workflow-type: tm+mt
-source-wordcount: 812
+source-wordcount: 834
 ht-degree: 0%
 
 ---
 
 # 属性概述
 
-[!DNL Insights] _[!UICONTROL 属性]_&#x200B;视图显示所选渠道帐户在广告营销活动中使用的属性列表。
+[!DNL Insights] _[!UICONTROL 属性]_&#x200B;视图显示所选渠道帐户在广告营销活动中使用的属性列表。 属性的最新版本是V4。 有关V4的发行信息，请参阅发行说明中的[Content Intelligence Featuration V4](/help/user-guide/release-notes.md#content-intelligence-featurization-v4)。
 
 {{connect-insights}}
 
