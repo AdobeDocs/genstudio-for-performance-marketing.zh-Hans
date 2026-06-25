@@ -6,26 +6,15 @@ role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
 TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: 1654
 ht-degree: 1%
 
 ---
@@ -77,7 +66,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 管理模板
 
-_[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
+_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
 
 ### 搜索模板
 
@@ -90,7 +79,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 下面显示了按渠道类型（如电子邮件、展示广告、Meta广告和LinkedIn广告）过滤的内容。
 
-![内容模板列表](/help/assets/content-templates-filter.png "搜索LinkedIn模板"){width="650"}
+![内容模板列表](/help/assets/content-templates-filter.png "搜索LinkedIn模板"){width="650" zoomable="yes"}
 
 在为自有或付费媒体选择模板时，模板搜索功能在[!UICONTROL 创建]期间可用。 如果某些过滤器选项不可见，则表示存储库中没有符合相应元数据条件的模板。 确保使用元数据正确标记模板，以使这些模板可通过这些过滤器发现。
 
@@ -100,34 +89,55 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **添加模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择顶部栏中的&#x200B;**[!UICONTROL HTML模板]**部分。
 
-2. 单击&#x200B;**[!UICONTROL 添加模板]**。
+1. 单击&#x200B;**[!UICONTROL +添加模板]**。
 
-3. 在&#x200B;_[!UICONTROL 添加批准的模板]_&#x200B;窗格中，浏览HTML模板文件或将HTML模板文件拖放到放置空间。 单击&#x200B;**[!UICONTROL 下一步]**。
+1. 在&#x200B;_[!UICONTROL 添加您批准的模板]_&#x200B;窗格中，选择模板类型。 然后浏览HTML模板文件或将HTML模板文件拖放到放置空间。 单击&#x200B;**[!UICONTROL 下一步]**。
 
-4. 在&#x200B;_[!UICONTROL 检查检测到的字段]_&#x200B;窗格中，查看这些字段。 验证您使用的模板是否正确，以及所有详细信息是否均按预期显示。
+   ![窗格中的模板类型](/help/assets/template-choose-type.png){width="500" zoomable="yes"}
 
-   电子邮件模板的示例预览：
-
-   ![检测到预览字段](/help/assets/template-detected-fields.png){width="650"}
+1. 在&#x200B;_[!UICONTROL 检查检测到的字段]_&#x200B;窗格中，查看这些字段。 验证您使用的模板是否正确，以及所有详细信息是否均按预期显示。
 
    >[!TIP]
    >
-   >如果模板不正确，请单击“上一步”**&#x200B;**&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
+   >如果模板中的详细信息不正确，请单击“上一步”****&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
 
-5. 对模板预览感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。
+1. 查看自动检测到的字段。 在双面板“预览/代码”视图中，左侧面板显示模板的实时预览，其中检测区域以颜色突出显示。右侧边栏显示所有检测到的字段及其当前插槽状态的字段列表。 字段使用在“代码”选项卡中可见的Handlebars表示法标记（例如，`{{headline}}`、`{{body}}`、`{{image}}`）。
 
-6. 在&#x200B;_[!UICONTROL 提供模板详细信息并上传]_&#x200B;中，命名您的模板并选择&#x200B;**[!UICONTROL 渠道]**&#x200B;类型。
+   电子邮件模板的示例预览：
+
+   ![检测到预览字段](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+
+1. 如果未自动检测到某个区域，请在“预览”面板中将鼠标悬停在该区域上以查看&#x200B;**悬停到标记**&#x200B;功能。 单击以指定手柄栏标记并设置正确的插槽状态。
+
+   ![显示徽标字段插槽状态的悬停标记功能](/help/assets/template-slot-state.png){width="500" zoomable="yes"}
+
+   >[!TIP]
+   >
+   > **插槽状态**
+   >
+   > 对于每个检测到的字段，分配相应的插槽状态：
+   >
+   > | **插槽状态** | **描述** | **用于** |
+   > |---|---|---|
+   > | **其他（可编辑）** | AI在运行时为此字段生成内容，或允许手动编辑自定义字段。 | 标题、正文和跨域跟踪 — 任何需要人工智能变化的地方。 或用于手动编辑或内容片段交换的自定义字段。 |
+   > | **已修复** | AI或用户无法修改字段。 | 法律声明、法规脚注、取消订阅链接。 |
+
+1. 或者，您可以在“代码”选项卡中手动编辑HTML，然后单击&#x200B;**[!UICONTROL 自动检测字段]**&#x200B;按钮以重新运行检测并更新字段列表。
+
+1. 对模板预览感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。
+
+1. 在&#x200B;_[!UICONTROL 提供模板详细信息并上传]_&#x200B;中，命名您的模板并选择&#x200B;**[!UICONTROL 渠道]**&#x200B;类型。
 
    模板名称和渠道类型为必填项。 其他要求可能包括：
 
    - **Meta**：需要宽高比
    - **横幅和显示广告**：需要维度
 
-7. 添加尽可能多的详细信息，以改进搜索和筛选中的模板识别。
+1. 添加尽可能多的详细信息，以改进搜索和筛选中的模板识别。
 
-8. 单击&#x200B;**[!UICONTROL 完成]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
 ### 刷新模板
 
@@ -135,7 +145,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **刷新模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 
@@ -147,7 +157,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **要使用模板创建体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 
