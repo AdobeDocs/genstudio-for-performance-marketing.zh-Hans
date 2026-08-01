@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 24297d57c6dc54c7be22321af9e5079da53f0c60
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ba8bbc541c2be32c1b221c1630440a71f3de0ad6
 workflow-type: tm+mt
-source-wordcount: 5535
+source-wordcount: 5720
 ht-degree: 0%
 
 ---
@@ -50,9 +21,25 @@ ht-degree: 0%
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2026.06.11 {#latest}
+## 2026.07.16 {#latest}
 
 **新功能：**
+
+### 在Horizon画布上批量编辑
+
+[!DNL Create]现在链接了多大小或多页模板中各种大小和页面的相关文本和图像字段，因此最后一英里编辑只需进行一次。 在RTE面板中选择&#x200B;**[!UICONTROL 应用于]**&#x200B;范围（此大小、所有大小或所有概念），编辑将自动传播，并可以选择在需要时手动调整字段标记。
+
+### 直接在交易台激活显示广告
+
+营销人员现在可以将已批准的显示创意直接从[!DNL GenStudio for Performance Marketing]发布到现有的交易台营销活动中。 将帐户与API令牌连接，从[!DNL Activate]或[!DNL Content]中启动激活，并通过深层链接跟踪激活状态，以返回交易台。
+
+### Horizon画布上的内容片段交换
+
+[!DNL Create]现在允许您在Horizon画布上交换文本块，以作为直接从AEM内容片段库中拉取的预批准、可重用的内容片段。 内容片段交换与批量编辑结合使用，因此交换可以应用于单个大小或一次传播到所有大小和概念，从而确保受管控拷贝完全按照批准状态进行复制，而无需手动重新进入。
+
+## 早期发行说明
+
++++2026.06.11版注释
 
 ### [!DNL Create]和[!DNL Activate]中的YouTube Shorts
 
@@ -84,7 +71,7 @@ ht-degree: 0%
 
 [!DNL Create]现在在Horizon画布上执行文本流转，Adobe Express功能将两个文本框链接在一起，因此一个短语可在两个文本框之间流转。 生成的副本将链接框填充为一个连接的短语，因此其消息在两个框之间的拆分最终可以被模板化以用于生成，而无需手动复制或重新定位。 了解有关[链接文本流框](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes)的详细信息。
 
-## 早期发行说明
++++
 
 +++2026.05.15版注释
 
@@ -230,7 +217,7 @@ GenStudio for Performance Marketing现在支持Content Credentials，允许团�
 
 ### Firefly Image Model 4上的自定义模型
 
-* GenStudio for Performance Marketing现在支持在Adobe Firefly Image Model 4[&#128279;](/help/user-guide/create/generate-assets.md)上训练的自定义模型，通过改进的照片真实感和细节提供增强的品牌上图像生成功能。
+* GenStudio for Performance Marketing现在支持在Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md)上训练的[自定义模型，通过改进的照片真实感和细节提供增强的品牌上图像生成功能。
 
 ### Meta单个视频广告激活
 
@@ -239,7 +226,7 @@ GenStudio for Performance Marketing现在支持Content Credentials，允许团�
 
 ### 适用于Meta促销活动的按操作类型划分的CPA
 
-* 针对Meta广告促销活动，通过灵活的转化跟踪[&#128279;](/help/user-guide/insights/published-experiences.md)分析每操作成本(CPA)。
+* 针对Meta广告促销活动，通过灵活的转化跟踪](/help/user-guide/insights/published-experiences.md)分析[每操作成本(CPA)。
 * 从多种操作类型（如购买、添加到购物车的事件、商机、视频查看或自定义转化）中进行选择（而不是单个固定量度），以在[!DNL Insights]中跨促销活动、广告、资源和属性计算和查看CPA。
 
 ### 修复和增强功能
@@ -495,7 +482,7 @@ Meta广告的多纵横比图像激活允许广告商在单个广告创意下上�
 * 添加了将链接[添加到变体中的图像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 已将[内容检查](/help/user-guide/guidelines/brand-validation.md)和审核和批准功能移至新的右侧操作栏，以最大化画布上的空间并改善用户体验。
 * 简化了[上传或手动添加品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引入了在画布上的变体[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中添加或交换图像资产的功能。
+* 引入了在画布上的变体](/help/user-guide/create/manage-variants.md#swap-image)中[添加或交换图像资产的功能。
 * 通过将渠道类别[划分到自有媒体、付费媒体和内容部分，改进了创建主页](/help/user-guide/create/overview.md)上的用户体验和可见性。
 * 改进了[!DNL Insights]表和图库视图中的筛选。
 
