@@ -4,9 +4,9 @@ description: 探索能够集成Adobe Express资源的GenStudio for Performance M
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,21 @@ ht-degree: 0%
 1. 要设置文本格式，请单击或在文本框元素中键入。 格式设置选项将显示在弹出栏中。 按住Shift键将隐藏要查看文本的栏。
 1. 单击文本字段以外的以保存任何更改。
 
+### 使用链接的文本流框
+
+[!DNL Adobe Express]支持文本流，它允许模板作者链接两个文本框，以便单个短语在两个框中流动。 例如，标题可以在一个框中开始，而在另一个框中结束，或者短语的一部分可以使用与其余部分不同的样式。 将具有文本流的模板导入到[!DNL GenStudio for Performance Marketing]中时，画布将识别并遵循该链接。 了解有关在Adobe Express[&#128279;](https://helpx.adobe.com/cn/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html)的文本流中创建链接文本框的详细信息。
+
+生成链接文本框的副本的方式与生成任何其他字段的方式相同，无需额外设置。 链接的框在整个生成、编辑和变体审阅过程中充当单个连接的短语，因此您无需在框之间拆分、复制或重新定位文本。
+
+如果生成的副本太长，无法容纳链接的框，则最后一个框的底部会显示一条红线，表示溢出，与[!DNL Adobe Express]中使用的同一指示符匹配。 缩短副本或重新生成字段以删除溢出。
+
 ### 查看图层
 
 您可以快速选择变体的单个图层并进行更改，如重新生成截面或裁切图像。 选择单个图层时，图层中的可编辑字段或图像会突出显示。
 
 **要查看变体**&#x200B;的层：
 
-1. 生成变体集后，单击变体中的可编辑字段或图像。 图层将显示在右上角的一行图块中。
+1. 生成变体集后，单击变体中的可编辑字段或图像。图层将显示在右上角的一行图块中。
    变体中的![层](./images/view-layers.png){width=50%}
 1. 单击图层拼贴以将其选中。 为变体加亮所选的层。
 1. 继续对选定图层进行任何必要的编辑。
@@ -205,7 +213,7 @@ ht-degree: 0%
 
 **要使用视频程序集**：
 
-1. 选择体验并单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮进入焦点模式并使用视频程序集功能。 将只显示单个变体，并且场景线将沿底部显示。
+1. 选择体验并单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮进入焦点模式并使用视频程序集功能。将只显示单个变体，并且场景线将沿底部显示。
    ![具有视频程序集选项的选定体验](./images/video-assembly.png){width=70%}
 1. 调整您的视频体验。 视频组件选项包括：
    - 播放视频
