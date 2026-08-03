@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
+source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
 source-wordcount: 5723
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ### 在Horizon画布上批量编辑
 
-Horizon画布现在可以在多大小或多页模板中，跨各种大小和页面链接相关的文本和图像字段，因此最后一英里编辑只需进行一次。 在RTE面板中选择&#x200B;**[!UICONTROL 应用于]**&#x200B;范围（此大小、所有大小或所有概念），编辑将自动传播，并可以选择在需要时手动调整字段标记。
+Horizon画布现在可以在多大小或多页模板中，跨各种大小和页面链接相关的文本和图像字段，因此最后一英里编辑只需进行一次。 在编辑菜单中选择&#x200B;**[!UICONTROL 应用于]**&#x200B;范围（此大小、所有大小或所有概念），编辑将自动传播，并可在需要时手动调整字段标记。
 
 ### 直接在交易台激活显示广告
 
