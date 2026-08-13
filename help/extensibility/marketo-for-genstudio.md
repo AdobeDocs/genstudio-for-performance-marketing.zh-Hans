@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 从Adobe Exchange安装应用程序
 
->[!VIDEO](https://video.tv.adobe.com/v/3483321?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
 
 1. 打开[Adobe Exchange](https://exchange.adobe.com)并转到&#x200B;**[!UICONTROL CX Enterprise]**。
 1. 打开[Marketo for GenStudio](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)列表。
@@ -52,7 +52,7 @@ ht-degree: 0%
 ### 创建或选择LaunchPoint服务
 
 1. 在&#x200B;**[!UICONTROL 管理员]**&#x200B;中，在&#x200B;**[!UICONTROL 集成]**&#x200B;下，打开&#x200B;**[!UICONTROL LaunchPoint]**。
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建新服务（或使用现有的自定义服务）。
+1. 单击&#x200B;**[!UICONTROL 创建]**以创建新服务（或使用现有的自定义服务）。
    ![LaunchPoint自定义服务](/help/extensibility/marketo-launchpoint-custom-service.png){width="80%"}
 1. 对于您的服务，请单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;并复制&#x200B;**[!UICONTROL 客户端ID]**&#x200B;和&#x200B;**[!UICONTROL 客户端密钥]**。 您将在Adobe Exchange **[!UICONTROL 配置]**&#x200B;中输入这些内容。
 

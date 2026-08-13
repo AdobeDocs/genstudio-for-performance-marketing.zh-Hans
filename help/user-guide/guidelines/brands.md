@@ -4,25 +4,14 @@ description: GenStudio for Performance Marketing [!DNL Brands] 是一系列全�
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
 TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -65,10 +54,10 @@ GenStudio for Performance Marketing使用来自您的[!DNL Brand]的丰富品牌
 
 | 准则类别 | 描述 | 最佳做法 |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL 语音音调] | 通过书面沟通表达的品牌个性 | 使用描述性词语清晰地传达品牌的情感和语气。<br>_示例_：“正版”、“好玩”<br><br>简洁明了（3-6个准则），并侧重于关键品牌语音属性。<br><br>选择跨通信渠道一致的单词/短语以构建一致的品牌标识。 |
-| [!UICONTROL 品牌值] | 推动品牌文化、客户体验和业务策略的原则 | 使用描述性词语传达品牌的使命、愿景和受众需求。<br>_示例_：“真实性”、“启发性”、“渐进式”<br><br>简洁明了（3-6个准则）并侧重于核心品牌价值/主题。 |
-| [!UICONTROL 编辑指南] | 定义定制品牌消息传递最佳实践的通信指南 | 使用积极的措辞（5-10准则）来建立坚实的基础。<br>_示例_： “使用简单、易懂的语言”而不是“避免使用行话”<br><br>提供明确和可操作的指导。<br>_示例_：“将句子保留在20个单词以下”而不是“简洁明了”<br><br>反映您的品牌风格，例如使用特定的语法偏好设置。<br>_示例_：“使用长划线而不是冒号”、“使用句子大小写”<br><br>制定在输出之间保持一致性的精确准则。 |
-| [!UICONTROL 编辑限制] | 定义在品牌消息中要避免的内容的通信准则 | 使用直接的否定词语（5-10条指南）来指定应避免的内容。<br>_示例_：“避免使用……”<br><br>提供明确且可操作的指导。<br>_示例_：“避免回答问题” |
+| [!UICONTROL 语音音调] | 通过书面沟通表达的品牌个性 | 使用描述性词语清晰地传达品牌的情感和语气。 <br>_示例_：“正版”、“好玩”<br><br>简洁明了（3-6个准则），并侧重于关键品牌声音属性。<br><br>选择在通信渠道中一致的单词/短语，以建立一致的品牌标识。 |
+| [!UICONTROL 品牌值] | 推动品牌文化、客户体验和业务策略的原则 | 使用描述性词语传达品牌的使命、愿景和受众需求。 <br>_示例_：“真实性”、“启发性”、“渐进式”<br><br>简洁明了（3-6个准则）并关注核心品牌价值/主题。 |
+| [!UICONTROL 编辑指南] | 定义定制品牌消息传递最佳实践的通信指南 | 使用积极的措辞（5-10准则）来建立坚实的基础。<br>_示例_： “使用简单、易懂的语言”而不是“避免使用行话”<br><br>提供明确和可操作的指导。 <br>_示例_：“将句子保留在20个单词以下”而不是“简洁明了”<br><br>反映您的品牌风格，例如使用特定的语法偏好设置。 <br>_示例_：“使用长划线而不是冒号”、“使用句子大小写”<br><br>制定保持输出之间一致性的精确准则。 |
+| [!UICONTROL 编辑限制] | 定义在品牌消息中要避免的内容的通信准则 | 使用直接的否定词语（5-10条指南）来指定应避免的内容。 <br>_示例_：“避免使用……”<br><br>提供明确且可操作的指导。 <br>_示例_：“避免回答问题” |
 
 ### 图像准则
 

@@ -6,21 +6,12 @@ level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
 TQID: https://experienceleague.adobe.com/ESQljlBQv9vk7Zz-SU-hMNkY2zFy6qawEfkonjXaCkQ
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 758
@@ -63,7 +54,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 >[!NOTE]
 >
->如果在提示抽屉中的&#x200B;_参数_&#x200B;中添加了准则，则无需在提示中包含对这些准则的引用。 GenStudio for Performance Marketing会自动利用内容生成中的库。
+如果在提示抽屉中的&#x200B;_参数_&#x200B;中添加了准则，则无需在提示中包含对这些准则的引用。 GenStudio for Performance Marketing会自动利用内容生成中的库。
 
 ### 准则
 
@@ -71,21 +62,21 @@ GenStudio for Performance Marketing指南帮助创作AI个性化您的资源组�
 
 >[!TIP]
 >
->您可以控制GenStudio for Performance Marketing使用您的[!DNL Brand]指南的方式和时间。 请参阅[指南](/help/user-guide/guidelines/overview.md)以了解如何配置和管理您的品牌指南。
+您可以控制GenStudio for Performance Marketing使用您的[!DNL Brand]指南的方式和时间。 请参阅[指南](/help/user-guide/guidelines/overview.md)以了解如何配置和管理您的品牌指南。
 
 ### 结构化提示
 
-对于多节电子邮件，您可以构建提示以提供特定于节的说明，以便为电子邮件中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板[&#128279;](/help/user-guide/templates/customize-template.md#sections-or-groups)中的节名称，以便生成的内容可以插入到相应的内容占位符中。
+对于多节电子邮件，您可以构建提示以提供特定于节的说明，以便为电子邮件中的每个节生成各种内容。 结构化提示应直接引用电子邮件模板](/help/user-guide/templates/customize-template.md#sections-or-groups)中的[节名称，以便生成的内容可以插入到相应的内容占位符中。
 
 例如，您可以在第一部分中指示GenStudio for Performance Marketing为推广新产品的电子邮件生成内容，并在第二部分中详细介绍可节省成本的好处。
 
 结构化提示应：
 
 - 在电子邮件模板中对节名称使用以下引用之一：
-   - Pod
-   - 组
-   - 分区
-   - 模块
+  - Pod
+  - 组
+  - 分区
+  - 模块
 
   例如，如果您的模板使用`moduleA`或`Group-3`作为节名称，则您可以在提示中引用这些节名称。
 

@@ -4,23 +4,11 @@ description: 简化并增强对品牌认可资产的管理，以在您的数字�
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
 TQID: https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
 source-wordcount: 1546
@@ -54,13 +42,13 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 **要搜索要重复使用的内容，请执行以下操作：**
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL Assets]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL Assets]**部分。
 
 1. 从&#x200B;**[!UICONTROL 位置]**&#x200B;列表中选择一个资源存储库，或验证您所查看的资源存储库是否正确。 `GenStudio assets`是默认存储库。
 
    >[!IMPORTANT]
    >
-   >_位置_&#x200B;列表仅在您[连接到AEM存储库](connect-aem-repo.md)时可用。
+   _位置_&#x200B;列表仅在您[连接到AEM存储库](connect-aem-repo.md)时可用。
 
 1. 单击&#x200B;**[!UICONTROL 搜索]**（放大镜）以输入关键字或说明。
 
@@ -114,7 +102,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要添加一个或多个资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，单击&#x200B;**[!UICONTROL 添加资源]**。
+1. 在&#x200B;_[!DNL Content]_中，单击&#x200B;**[!UICONTROL 添加资源]**。
 
 2. 在&#x200B;_添加批准的资产_&#x200B;视图中，将一个或多个文件拖放到放置空间中。 或者，您也可以使用&#x200B;**[!UICONTROL 浏览]**&#x200B;从本地文件中选择，或者从Dropbox或Microsoft OneDrive导入文件。
 
@@ -138,7 +126,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要下载资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个资源或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个资源或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 下载]**&#x200B;图标（向下箭头）。
 
@@ -148,7 +136,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要删除资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 删除]** （垃圾桶）。
 
@@ -164,11 +152,11 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 >[!WARNING]
 >
->检索到的资产不安全，未经清理便无法显示。 所有用户都必须在其终端使用输入清理技术处理来自模板的跨站点脚本(XSS)。
+检索到的资产不安全，未经清理便无法显示。 所有用户都必须在其终端使用输入清理技术处理来自模板的跨站点脚本(XSS)。
 
 **要导出或下载体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个或多个体验。
+1. 在&#x200B;_[!DNL Content]_中，选择一个或多个体验。
 
    此时将显示一个横幅，左侧显示所选体验数量，右侧显示用于[!UICONTROL 激活]、[!UICONTROL 下载]或[!UICONTROL 删除]的选项。
 
@@ -201,7 +189,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **使用Express**&#x200B;编辑资源：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个图像资源。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 在Adobe Express中编辑]**&#x200B;图标。
 
@@ -219,6 +207,6 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
    >[!TIP]
    >
-   >您提供的详细信息越多，就越能体验GenStudio for Performance Marketing的强大功能。 从列表中选择一个或多个详细信息，或在适用的情况下输入新详细信息，例如使用关键字。 您添加的每个详细信息都显示在列表下方。 单击&#x200B;**`x`**&#x200B;可删除详细信息。
+   您提供的详细信息越多，就越能体验GenStudio for Performance Marketing的强大功能。 从列表中选择一个或多个详细信息，或在适用的情况下输入新详细信息，例如使用关键字。 您添加的每个详细信息都显示在列表下方。 单击&#x200B;**`x`**&#x200B;可删除详细信息。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。

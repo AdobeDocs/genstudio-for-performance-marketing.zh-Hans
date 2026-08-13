@@ -7,18 +7,14 @@ badgeBeta: label="Beta" tooltip="此功能当前位于Beta中，因此某些功�
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
 TQID: https://experienceleague.adobe.com/wM0dD2t751PHH9UkmPpZDzwv-1L90UW5vdcKXDeIBHE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 3%
+source-wordcount: 415
+ht-degree: 5%
 
 ---
 
@@ -42,7 +38,7 @@ _入门模板_&#x200B;是预定义的模板选项，旨在帮助您快速开始�
 
 ### LinkedIn广告模板
 
-静态图像支持所有长宽比。 对于视频，请将9:16用于LinkedIn故事，并确保您的视频已针对短的垂直格式进行了优化。
+静态图像支持所有长宽比。 对于视频，请使用适用于LinkedIn故事的9:16时间并确保您的视频已针对短的垂直格式进行了优化。
 
 | 宽高比 | 方向 | 指导 |
 |--------------|--------------|------------------------------------------------------------------------------------------------|

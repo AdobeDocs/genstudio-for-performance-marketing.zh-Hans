@@ -4,16 +4,13 @@ description: 开始构建应用程序或加载项以扩展GenStudio for Performa
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
 TQID: https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
 workflow-type: tm+mt
 source-wordcount: 496
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,19 +42,19 @@ App Builder应用程序的关键组件包括这些内部版本和配置文件。
 
 * TS应用程序文件：
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * App Builder配置文件：
 
-   * `app.config.yaml`
-   * `ext.config.yaml`：加载项的配置文件。
-   * `app.config.yaml`：加载项的配置文件（包括将您的应用程序定义为GenStudio for Performance Marketing加载项）。
-   * `.aio`
-   * `.env`：不将`.env`文件提交到源代码管理。
+  * `app.config.yaml`
+  * `ext.config.yaml`：加载项的配置文件。
+  * `app.config.yaml`：加载项的配置文件（包括将您的应用程序定义为GenStudio for Performance Marketing加载项）。
+  * `.aio`
+  * `.env`：不将`.env`文件提交到源代码管理。
 
 ### Source代码
 

@@ -6,24 +6,15 @@ role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
 TQID: https://experienceleague.adobe.com/6gHxPvfz-30X3w2MYIc2Aj5SiGZokzOqSvOHYTQ-u7I
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1652
 ht-degree: 0%
 
 ---
@@ -32,7 +23,7 @@ ht-degree: 0%
 
 通过插入创作AI用于插入内容的内容占位符或字段，可以自定义在GenStudio for Performance Marketing中使用的模板。
 
-接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
+接下来的几个部分将说明如何使用&#x200B;_[!DNL Handlebars]_模板语言来调整HTML模板以用于GenStudio for Performance Marketing。 [!DNL Handlebars]语法使用带双大括号的常规文本作为内容占位符。 请参阅_ Handlebars语言指南&#x200B;_中的[什么是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)以了解如何准备模板。
 
 模板准备就绪后，您可以[将其上传到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，并开始根据您的自定义模板生成个性化电子邮件。
 
@@ -131,7 +122,7 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 
 ### 替换文本
 
-使用用户定义的字段名称作为占位符为图像生成替换文本(HTML `alt="text"`属性)描述。 以下`{{imageDescription}}`占位符与同一`<img>`标记中的`{{image}}`字段一起使用，确保图像及其描述之间的关系持续存在。
+使用用户定义的字段名称作为占位符为图像生成替换文本（HTML `alt="text"`属性）描述。 以下`{{imageDescription}}`占位符与同一`<img>`标记中的`{{image}}`字段一起使用，确保图像及其描述之间的关系持续存在。
 
 ```html
 <img src="{{image}}" alt="{{imageDescription}}">
@@ -144,7 +135,7 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 
 ### 辅助功能标签
 
-`aria-label`属性用于为没有可见标签的元素定义可访问的名称。 在必须提供交互元素(如CTA按钮)的上下文的模板中，此属性特别有用。
+`aria-label`属性用于为没有可见标签的元素定义可访问的名称。 在必须提供交互元素（如CTA按钮）的上下文的模板中，此属性特别有用。
 
 ```html
 <a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
@@ -230,7 +221,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ## 区域或组
 
-如果您的电子邮件模板需要多个内容区域（如多个选件或故事），则可以使用分区或组来组织这些区域。_节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
+如果您的电子邮件模板需要多个内容区域（如多个选件或故事），则可以使用分区或组来组织这些区域。 _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
 
 使用您选择的组名作为前缀以指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（如`headline`、`body`、`image`或`cta`）。
 
@@ -248,7 +239,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 由于此规则，无法嵌套这些部分。
 
-每种模板类型(如电子邮件或Meta广告)都包含特定于渠道的区段使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](/help/user-guide/templates/best-practices-for-templates.md)。
+每种模板类型（如电子邮件或Meta广告）都包含特定于渠道的区段使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](/help/user-guide/templates/best-practices-for-templates.md)。
 
 例如，电子邮件模板最多可包含三个部分；因此，您可以包含三个标题部分和正文部分：
 

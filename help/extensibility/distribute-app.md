@@ -4,14 +4,12 @@ description: 为GenStudio for Performance Marketing分发您的应用程序或�
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
 TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 本主题讨论专用分发。 专用分发将加载项部署限制在由IMS组织标识的组织中。
 
-公共分发使加载项作为Adobe Exchange上的应用程序提供。[_App Builder_&#x200B;开发人员文档中的公共分发](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)介绍了如何使您的应用程序可供任何Adobe组织使用。
+公共分发使加载项作为Adobe Exchange上的应用程序提供。 _App Builder_&#x200B;开发人员文档中的[公共分发](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)介绍了如何使您的应用程序可供任何Adobe组织使用。
 
 >[!BEGINSHADEBOX]
 

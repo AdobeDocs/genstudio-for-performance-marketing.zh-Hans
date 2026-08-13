@@ -4,18 +4,13 @@ description: 在Adobe GenStudio for Performance Marketing中构建模板，这�
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
 TQID: https://experienceleague.adobe.com/b56YHJsOAunGenV-F3u7Y2mo56f6CnnX4qPXyzczPJY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 371
 ht-degree: 0%
 
 ---
@@ -50,7 +45,7 @@ Adobe致力于为所有受众提供最佳体验。 请参阅Adobe上的[辅助�
 在文本和背景之间提供相应的对比度。 避免使用在深色背景上生成深色文本，而在浅色背景上生成浅色文本的字体颜色。 考虑对比度准则以获得最佳比例：
 
 - 文本的文本和图像：对比度至少为4.5:1
-- 大型文本的大型文本和图像：对比度至少为3:1
+- 大型文本和图像大型文本：对比度至少为3:1
 
 ## 链接目的（仅限链接）
 

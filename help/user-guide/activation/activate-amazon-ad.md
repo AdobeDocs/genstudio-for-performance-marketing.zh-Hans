@@ -4,18 +4,13 @@ description: 了解如何激活Amazon广告体验。
 feature: Ad Activation
 exl-id: 539cb43c-a9d8-4473-8a7d-e81967111741
 TQID: https://experienceleague.adobe.com/4L4JHcYLSsoQ50QbCW7Mof52h5jpz3z8n0UL8CaqLA8
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: 508
 ht-degree: 0%
 
 ---
@@ -44,7 +39,7 @@ GenStudio系统管理员必须将您的Amazon广告帐户连接到GenStudio for 
 
 要选择体验，请执行以下操作：
 
-1. 使用内容库的搜索和筛选工具来识别要激活的体验，然后单击“**[!UICONTROL 使用]**”。 (或者，您可以通过单击Amazon Ads产品卡上的&#x200B;**[!UICONTROL 新建]**，从“激活”中选择体验。)
+1. 使用内容库的搜索和筛选工具来识别要激活的体验，然后单击“**[!UICONTROL 使用]**”。 （或者，您可以通过单击Amazon Ads产品卡上的&#x200B;**[!UICONTROL 新建]**，从“激活”中选择体验。）
 
 1. 在继续激活之前，系统将要求您选择平台。 选择&#x200B;_Amazon_。
 
@@ -58,7 +53,7 @@ GenStudio系统管理员必须将您的Amazon广告帐户连接到GenStudio for 
 
 ## 步骤4：确认Amazon Ads平台设置
 
-1. 从“帐户”下拉菜单中选择一个帐户。 您的Amazon广告帐户设置决定了可用的帐户。激活完成后，您的创意体验将会在Amazon Ads中传送到此帐户的创意库。
+1. 从“帐户”下拉菜单中选择一个帐户。 您的Amazon广告帐户设置决定了可用的帐户。激活完成后，您的创意体验将会在Amazon Ads中交付到此帐户的创意库。
 
 1. 向Creative名称字段中添加名称。 Amazon Ads通过此名称标识体验。
 

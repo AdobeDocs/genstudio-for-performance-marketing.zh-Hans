@@ -4,27 +4,14 @@ description: 根据您的数字营销需求，自定义和增强生成的变体�
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
 TQID: https://experienceleague.adobe.com/2VdZdQv90JGEpCM7BE4egbz933eotbeePy3ze35mM0o
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -60,13 +47,13 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 * 文本大小
 * 链接
 
-文本格式选项因渠道而异(Meta、电子邮件等)
+文本格式选项因渠道而异（Meta、电子邮件等）
 
 **若要在生成的变量中手动编辑文本**：
 
 1. 生成变体集后，双击变体中的可编辑文本。
 1. 输入新文本。
-1. 要设置文本格式，请突出显示适用的文本，然后单击&#x200B;**[!UICONTROL 设置文本格式**]。
+1. 要设置文本格式，请突出显示适用的文本，然后单击**[!UICONTROL 设置文本格式**]。
 
    应用任何（或全部！） 可用的格式设置选项。
 
@@ -109,7 +96,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 >[!NOTE]
 >
->如果标签文本是生成的模板字段（未在模板中硬编码），则可以使用&#x200B;_[!UICONTROL 重新短语]_&#x200B;选项编辑CTA标签文本。 如果链接存在并可编辑（未在模板中硬编码），则可以使用&#x200B;_[!UICONTROL 编辑链接]_&#x200B;选项编辑CTA链接。
+如果标签文本是生成的模板字段（未在模板中硬编码），则可以使用&#x200B;_[!UICONTROL 重新短语]_&#x200B;选项编辑CTA标签文本。 如果链接存在并可编辑（未在模板中硬编码），则可以使用&#x200B;_[!UICONTROL 编辑链接]_&#x200B;选项编辑CTA链接。
 
 **要修订变体中的CTA**：
 
@@ -181,11 +168,11 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 更改宽高比
 
-您可以快速更改Meta广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1方形图像可能会裁切侧边，从而可能切断重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
+您可以快速更改Meta广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1的方形图像可能会裁切侧边，从而可能剪切重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
 
 >[!NOTE]
 >
->根据可用的模板，可以使用各种长宽比和大小。
+根据可用的模板，可以使用各种长宽比和大小。
 
 **要更改生成的Meta广告的长宽比**：
 
@@ -193,7 +180,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
    当前用于广告的长宽比显示在&#x200B;_[!UICONTROL 调整大小]_&#x200B;窗口的顶部。
 
-   受此修订影响的变体数量将记录在窗口的右上角。_示例_：“4个变体中的4个”
+   受此修订影响的变体数量将记录在窗口的右上角。 _示例_：“4个变体中的4个”
 
 1. 选择[可用的纵横比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)。
 
@@ -203,7 +190,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
    [!DNL Create]根据新的选定纵横比构建每个变体的副本。 所有变体（包括初始长宽比中的变体）都会显示在画布中。
 
-   例如，如果您最初以1:1纵横比生成四个变体，然后将纵横比更改为4:5，则画布上现在提供了&#x200B;_8_&#x200B;个总变体。
+   例如，如果您最初以1:1的长宽比生成四个变体，然后将长宽比更改为4:5，则画布上现在提供了&#x200B;_8_&#x200B;个总变体。
 
 ## 交换图像
 
@@ -215,7 +202,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 1. 单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
 1. 使用GenStudio资源[!DNL Content]视图中的筛选器和搜索功能进一步缩小搜索结果。
 
-   您还可以通过从[**[!UICONTROL 位置&#x200B;]**&#x200B;菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
+   您还可以通过从[**[!UICONTROL 位置&#x200B;]**菜单](/help/user-guide/content/manage-assets.md#location)中选择连接的Adobe Experience Manager (AEM) Assets Content Hub存储库中可用的图像，来使用该存储库。
 
 1. 单击选择图像，然后单击&#x200B;**[!UICONTROL 使用]**。
 
@@ -223,7 +210,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 添加链接
 
-您可以添加指向变体中的文本、图像和CTA按钮的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接[&#128279;](/help/user-guide/templates/customize-template.md#content-placeholders)的内容占位符才能启用此功能。
+您可以添加指向变体中的文本、图像和CTA按钮的链接。 用于生成变体的模板&#x200B;_必须_&#x200B;包含链接](/help/user-guide/templates/customize-template.md#content-placeholders)的[内容占位符才能启用此功能。
 
 **在变体中添加链接**：
 

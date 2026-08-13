@@ -17,18 +17,18 @@ ht-degree: 47%
 
 + [可扩展性指南](home.md)
 + 快速入门 {#get-started}
-   + [设置环境](setup.md)
+  + [设置环境](setup.md)
 + 应用程序开发 {#apps}
-   + [创建App Builder项目](create-project.md)
-   + [开发App Builder应用程序](create-app.md)
-   + [部署您的应用程序](deploy-app.md)
-   + [分发您的应用程序](distribute-app.md)
-   + [体验选择器MFE](experience-selector.md)
+  + [创建App Builder项目](create-project.md)
+  + [开发App Builder应用程序](create-app.md)
+  + [部署您的应用程序](deploy-app.md)
+  + [分发您的应用程序](distribute-app.md)
+  + [体验选择器MFE](experience-selector.md)
 + 第一方扩展 {#first-party}
-   + [适用于GenStudio的Journey Optimizer](journey-optimizer-for-genstudio.md)
-   + [适用于GenStudio的Marketo](marketo-for-genstudio.md)
+  + [适用于GenStudio的Journey Optimizer](journey-optimizer-for-genstudio.md)
+  + [适用于GenStudio的Marketo](marketo-for-genstudio.md)
 + 3P扩展 {#third-party-extensions}
-   + [Salesforce中的Experience Selector MFE](experience-selector-salesforce.md)
+  + [Salesforce中的Experience Selector MFE](experience-selector-salesforce.md)
 
 <!--
   + UI Extensions {#ui}

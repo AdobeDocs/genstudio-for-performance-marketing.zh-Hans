@@ -4,22 +4,14 @@ description: 了解如何激活无痕体验。
 feature: Ad Activation
 exl-id: ebb2aa9e-8efb-45b0-9ba2-7b27b8888708
 TQID: https://experienceleague.adobe.com/VTzk2CDlTqawM1ckdHPVzs2ES-y0Ui0mkOLnVD88bJk
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 490
 ht-degree: 0%
 
 ---
@@ -51,7 +43,7 @@ Innovid允许营销人员在不同帐户中组织营销活动和广告。 每个
 1. 使用内容库的搜索和筛选工具来识别要激活的体验。 然后单击&#x200B;**[!UICONTROL 使用]**。 或者，您也可以通过单击Innovid产品卡上的&#x200B;**[!UICONTROL 新建]**，从“激活”中选择体验。
 1. 在继续激活之前，系统将提示您选择平台。 选择&#x200B;*Innovid*。 随即会为此体验打开“无可视化体验设置”页面。 该页面已预填充体验的详细信息，无法修改。 
 1. （可选）单击&#x200B;**[!UICONTROL 添加体验]**&#x200B;以向此激活组添加体验。
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的Innovid平台设置。 将打开&#x200B;**[!UICONTROL 平台设置]**&#x200B;视图。此视图显示从您配置的Innovid帐户派生的选项。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的Innovid平台设置。 **[!UICONTROL 平台设置]**&#x200B;视图打开。此视图显示从配置的Innovid帐户派生的选项。
 
 ## 步骤4：确认无病毒平台设置
 
