@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 380
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Meta广告模板可帮助您跨Meta平台创建视觉上一致且有效的广告
 
 在自定义Meta广告模板时，请为以下必填字段应用内容占位符：
 
-- `image` (必需，从Content JPEG、PNG或GIF中选择)
+- `image` （必需，从Content JPEG、PNG或GIF中选择）
 - `on_image_text` （图像上显示的文本）
 
 GenStudio for Performance Marketing会自动生成以下字段。 您不必为以下内容应用内容占位符：

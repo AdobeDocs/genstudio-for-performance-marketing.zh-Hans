@@ -13,7 +13,7 @@ role_v2:
 source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
 workflow-type: tm+mt
 source-wordcount: 496
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,19 +45,19 @@ App Builder应用程序的关键组件包括这些内部版本和配置文件。
 
 * TS应用程序文件：
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * App Builder配置文件：
 
-   * `app.config.yaml`
-   * `ext.config.yaml`：加载项的配置文件。
-   * `app.config.yaml`：加载项的配置文件（包括将您的应用程序定义为GenStudio for Performance Marketing加载项）。
-   * `.aio`
-   * `.env`：不将`.env`文件提交到源代码管理。
+  * `app.config.yaml`
+  * `ext.config.yaml`：加载项的配置文件。
+  * `app.config.yaml`：加载项的配置文件（包括将您的应用程序定义为GenStudio for Performance Marketing加载项）。
+  * `.aio`
+  * `.env`：不将`.env`文件提交到源代码管理。
 
 ### Source代码
 

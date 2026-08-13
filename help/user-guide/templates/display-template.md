@@ -44,7 +44,7 @@ ht-degree: 1%
 - `headline`
 - `sub_headline`
 - `body`
-- `image` (必需，从Content JPEG、PNG或GIF中选择)
+- `image` （必需，从Content JPEG、PNG或GIF中选择）
 
 GenStudio for Performance Marketing会自动生成以下字段。 您不必为以下内容应用内容占位符：
 

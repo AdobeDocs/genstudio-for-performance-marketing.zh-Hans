@@ -45,7 +45,7 @@ ht-degree: 0%
 - `sub_headline`
 - `body`
 - `cta`
-- `image` (从Content JPEG、PNG或GIF中选择)
+- `image` （从Content JPEG、PNG或GIF中选择）
 
 GenStudio for Performance Marketing会自动生成以下字段。 未启用富文本。 您不必为以下内容应用内容占位符：
 

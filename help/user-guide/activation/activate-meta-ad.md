@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
+source-wordcount: 1981
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ GenStudio的系统管理员和编辑人员可以激活广告体验。
 
 使用&#x200B;_媒体_&#x200B;部分至少选择一个要包含在体验中的图像资产。 广告投放与支持的图像长宽比相关联，这些长宽比在&#x200B;_投放位置_&#x200B;下拉菜单中作为选项列出。 此菜单显示Facebook帖子或Instagram故事支持的广告投放，按长宽比组织。
 
-上传后，资产将保存到[!DNL Content]。 默认情况下，_媒体_&#x200B;区域以1:1的长宽比显示图像。 替代宽高比仅包括付费广告渠道支持的值。 它们按垂直和水平方向分组。 GenStudio for Performance Marketing支持每个激活体验最多包含六个纵横比。
+上传后，资产将保存到[!DNL Content]。 默认情况下，_媒体_&#x200B;区域以1:1的纵横比显示图像。 替代宽高比仅包括付费广告渠道支持的值。 它们按垂直和水平方向分组。 GenStudio for Performance Marketing支持每个激活体验最多包含六个纵横比。
 
 **从内容上载资产**：
 

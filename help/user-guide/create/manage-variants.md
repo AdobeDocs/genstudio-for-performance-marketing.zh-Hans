@@ -24,7 +24,7 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]允许您自定义和增�
 * 文本大小
 * 链接
 
-文本格式选项因渠道而异(Meta、电子邮件等)
+文本格式选项因渠道而异（Meta、电子邮件等）
 
 **若要在生成的变量中手动编辑文本**：
 
@@ -181,7 +181,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
 ## 更改宽高比
 
-您可以快速更改Meta广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1方形图像可能会裁切侧边，从而可能切断重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
+您可以快速更改Meta广告的[长宽比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)以适应所需的广告大小。 选择与模板尺寸非常匹配的图像长宽比，以避免不需要的裁切或拉伸。 例如，如果模板为1200 × 628像素（宽矩形），则使用1:1的方形图像可能会裁切侧边，从而可能剪切重要内容。 最佳图像大小为628 x 628像素，这与模板的高度匹配。
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
    当前用于广告的长宽比显示在&#x200B;_[!UICONTROL 调整大小]_&#x200B;窗口的顶部。
 
-   受此修订影响的变体数量将记录在窗口的右上角。_示例_：“4个变体中的4个”
+   受此修订影响的变体数量将记录在窗口的右上角。 _示例_：“4个变体中的4个”
 
 1. 选择[可用的纵横比](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)。
 
@@ -203,7 +203,7 @@ GenStudio for Performance Marketing具有内置功能，可重新生成生成的
 
    [!DNL Create]根据新的选定纵横比构建每个变体的副本。 所有变体（包括初始长宽比中的变体）都会显示在画布中。
 
-   例如，如果您最初以1:1纵横比生成四个变体，然后将纵横比更改为4:5，则画布上现在提供了&#x200B;_8_&#x200B;个总变体。
+   例如，如果您最初以1:1的长宽比生成四个变体，然后将长宽比更改为4:5，则画布上现在提供了&#x200B;_8_&#x200B;个总变体。
 
 ## 交换图像
 

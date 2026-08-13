@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: 508
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ GenStudio系统管理员必须将您的Amazon广告帐户连接到GenStudio for 
 
 要选择体验，请执行以下操作：
 
-1. 使用内容库的搜索和筛选工具来识别要激活的体验，然后单击“**[!UICONTROL 使用]**”。 (或者，您可以通过单击Amazon Ads产品卡上的&#x200B;**[!UICONTROL 新建]**，从“激活”中选择体验。)
+1. 使用内容库的搜索和筛选工具来识别要激活的体验，然后单击“**[!UICONTROL 使用]**”。 （或者，您可以通过单击Amazon Ads产品卡上的&#x200B;**[!UICONTROL 新建]**，从“激活”中选择体验。）
 
 1. 在继续激活之前，系统将要求您选择平台。 选择&#x200B;_Amazon_。
 
@@ -58,7 +58,7 @@ GenStudio系统管理员必须将您的Amazon广告帐户连接到GenStudio for 
 
 ## 步骤4：确认Amazon Ads平台设置
 
-1. 从“帐户”下拉菜单中选择一个帐户。 您的Amazon广告帐户设置决定了可用的帐户。激活完成后，您的创意体验将会在Amazon Ads中传送到此帐户的创意库。
+1. 从“帐户”下拉菜单中选择一个帐户。 您的Amazon广告帐户设置决定了可用的帐户。激活完成后，您的创意体验将会在Amazon Ads中交付到此帐户的创意库。
 
 1. 向Creative名称字段中添加名称。 Amazon Ads通过此名称标识体验。
 

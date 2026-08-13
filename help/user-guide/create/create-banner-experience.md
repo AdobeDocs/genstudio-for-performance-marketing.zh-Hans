@@ -96,7 +96,7 @@ ht-degree: 0%
 **要修订生成的变体**：
 
 * **要[编辑横幅草稿名称](/help/user-guide/create/manage-variants.md#change-draft-name)**，请单击画布顶部的&#x200B;_无标题草稿_&#x200B;标题，然后输入新标题。
-* **要[手动编辑横幅](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击任何横幅部分或字段(如标题或CTA)，然后根据需要进行编辑。
+* **要[手动编辑横幅](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请双击任何横幅部分或字段（如标题或CTA），然后根据需要进行编辑。
 * **要在变体中[应用文本格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击变体的图像上文本或内嵌链接，然后单击&#x200B;**[!UICONTROL 设置文本格式]**。
 * **要[重新生成变体](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的部分，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者在_[!UICONTROL 生成新文本_部分]中输入新提示，然后单击&#x200B;**[!UICONTROL 生成]**。
 * **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。

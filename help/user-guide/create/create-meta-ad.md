@@ -186,7 +186,7 @@ ht-degree: 0%
 
 1. **要发布新的Meta广告体验**，请单击顶部工具栏或审批流中的&#x200B;**[!UICONTROL 发布]**。
 1. **要导出新的Meta广告体验**，请单击顶部工具栏中的&#x200B;**[!UICONTROL 导出]**。
-   1. 选择格式 — HTML和图像或CSV和图像(JPG或PNG) — 单击&#x200B;**[!UICONTROL 导出]**。
+   1. 选择格式 — HTML和图像或CSV和图像（JPG或PNG） — 单击&#x200B;**[!UICONTROL 导出]**。
 
 有关详细信息，请参阅[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
 

@@ -44,10 +44,10 @@ ht-degree: 0%
 
 - 可以访问所有Meta服务的Facebook/Meta登录信息
 - _完全控制_ Meta商业Portfolio和广告帐户，包括：
-   - 管理营销活动
-   - 查看性能
-   - 管理Creative中心模型
-   - 高级分析
+  - 管理营销活动
+  - 查看性能
+  - 管理Creative中心模型
+  - 高级分析
 - 在浏览器中禁用任何弹出窗口阻止程序
 - 在尝试连接之前，请在Meta Business Manager中验证任何Instagram帐户页面关联
 - 确认管理员对所有连接资产的访问权限

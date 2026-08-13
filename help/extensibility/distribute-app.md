@@ -11,7 +11,7 @@ role_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本主题讨论专用分发。 专用分发将加载项部署限制在由IMS组织标识的组织中。
 
-公共分发使加载项作为Adobe Exchange上的应用程序提供。[_App Builder_&#x200B;开发人员文档中的公共分发](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)介绍了如何使您的应用程序可供任何Adobe组织使用。
+公共分发使加载项作为Adobe Exchange上的应用程序提供。 _App Builder_&#x200B;开发人员文档中的[公共分发](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)介绍了如何使您的应用程序可供任何Adobe组织使用。
 
 >[!BEGINSHADEBOX]
 

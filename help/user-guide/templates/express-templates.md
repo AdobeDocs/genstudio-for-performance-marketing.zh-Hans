@@ -6,7 +6,7 @@ role: Developer, User
 feature: Media Templates
 source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 **要查看变体**&#x200B;的层：
 
-1. 生成变体集后，单击变体中的可编辑字段或图像。图层将显示在右上角的一行图块中。
+1. 生成变体集后，单击变体中的可编辑字段或图像。 图层将显示在右上角的一行图块中。
    变体中的![层](./images/view-layers.png){width=50%}
 1. 单击图层拼贴以将其选中。 为变体加亮所选的层。
 1. 继续对选定图层进行任何必要的编辑。
@@ -213,7 +213,7 @@ ht-degree: 0%
 
 **要使用视频程序集**：
 
-1. 选择体验并单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮进入焦点模式并使用视频程序集功能。将只显示单个变体，并且场景线将沿底部显示。
+1. 选择体验并单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮进入焦点模式并使用视频程序集功能。 将只显示单个变体，并且场景线将沿底部显示。
    ![具有视频程序集选项的选定体验](./images/video-assembly.png){width=70%}
 1. 调整您的视频体验。 视频组件选项包括：
    - 播放视频

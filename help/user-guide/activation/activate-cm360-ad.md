@@ -17,7 +17,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 551
+source-wordcount: 539
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ GenStudio系统管理员必须先将您的Google Campaign Manager 360帐户连�
 
 **要选择体验**：
 
-1. 使用[!DNL Content]图库的搜索和筛选工具识别要激活的体验，然后单击&#x200B;**[!UICONTROL 使用]**。 (或者，您可以通过单击Google Campaign Manager 360产品卡上的&#x200B;**[!UICONTROL 新建]**，从[!DNL Activate]中选择体验。)
+1. 使用[!DNL Content]图库的搜索和筛选工具识别要激活的体验，然后单击&#x200B;**[!UICONTROL 使用]**。 （或者，您可以通过单击Google Campaign Manager 360产品卡上的&#x200B;**[!UICONTROL 新建]**，从[!DNL Activate]中选择体验。）
 
    随即会为此体验打开Google Campaign Manager 360 _体验设置_&#x200B;页面。 该界面已预填充了体验的详细信息，您无法对其进行修改。 在继续激活之前，系统可能会要求您选择平台。
 

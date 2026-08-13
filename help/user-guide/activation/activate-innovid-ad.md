@@ -19,7 +19,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 490
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Innovid允许营销人员在不同帐户中组织营销活动和广告。 每个
 1. 使用内容库的搜索和筛选工具来识别要激活的体验。 然后单击&#x200B;**[!UICONTROL 使用]**。 或者，您也可以通过单击Innovid产品卡上的&#x200B;**[!UICONTROL 新建]**，从“激活”中选择体验。
 1. 在继续激活之前，系统将提示您选择平台。 选择&#x200B;*Innovid*。 随即会为此体验打开“无可视化体验设置”页面。 该页面已预填充体验的详细信息，无法修改。 
 1. （可选）单击&#x200B;**[!UICONTROL 添加体验]**&#x200B;以向此激活组添加体验。
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的Innovid平台设置。 将打开&#x200B;**[!UICONTROL 平台设置]**&#x200B;视图。此视图显示从您配置的Innovid帐户派生的选项。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的Innovid平台设置。 **[!UICONTROL 平台设置]**&#x200B;视图打开。此视图显示从配置的Innovid帐户派生的选项。
 
 ## 步骤4：确认无病毒平台设置
 

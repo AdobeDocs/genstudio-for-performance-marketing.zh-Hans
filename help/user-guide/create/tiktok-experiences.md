@@ -23,8 +23,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 89%
+source-wordcount: 933
+ht-degree: 84%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 89%
 ### 创建配置
 
 * 您的[品牌、产品和角色](/help/user-guide/guidelines/overview.md)已配置，因此应用程序可以生成品牌内副本和布局。
-* 至少会上传一个TikTok模板。 Adobe建议使用TikTok垂直视频模板，该模板针对进纸位置进行了优化，具有&#x200B;**9:16**&#x200B;宽高比以及用于顶部和底部UI的安全区域。
+* 至少会上传一个TikTok模板。 Adobe建议使用针对进纸位置进行了优化的TikTok垂直视频模板，该模板具有&#x200B;**9:16**&#x200B;宽高比以及用于顶部和底部UI的安全区域。
 * 视频已上传到[!DNL Content]。
 
 ## 生成TikTok信息源内广告

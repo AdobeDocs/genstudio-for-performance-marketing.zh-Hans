@@ -33,7 +33,7 @@ ht-degree: 10%
 
 # 用户角色和权限
 
-创建和部署现代营销活动需要具有不同责任和技能的利益相关者之间的协作。_用户角色_&#x200B;控制利益相关者对GenStudio for Performance Marketing众多功能的访问。 您分配的用户角色决定了您可以使用此平台执行的任务。 Adobe系统管理员将您分配给Adobe Admin Console中GenStudio产品配置文件中的一个角色。 您的欢迎电子邮件将标识您分配的角色。
+创建和部署现代营销活动需要具有不同责任和技能的利益相关者之间的协作。 _用户角色_&#x200B;控制利益相关者对GenStudio for Performance Marketing众多功能的访问。 您分配的用户角色决定了您可以使用此平台执行的任务。 Adobe系统管理员将您分配给Adobe Admin Console中GenStudio产品配置文件中的一个角色。 您的欢迎电子邮件将标识您分配的角色。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 10%
 
 **Adobe系统管理员**&#x200B;在Adobe Admin Console中拥有超级用户权限并执行所有用户管理任务，例如添加或删除用户。 此系统管理员角色不提供GenStudio for Performance Marketing应用程序中的权限，因此解释了为何Adobe系统管理员不需要GenStudio的许可证。 Adobe系统管理员通常使用Admin Console在GenStudio部署中添加和删除用户帐户，并从单个用户或用户组分配或删除权利或权限。
 
-**GenStudio系统管理员**&#x200B;是GenStudio for Performance Marketing中的超级用户，但没有在Adobe Admin Console中执行任务的权限。 此系统管理员角色需要GenStudio产品许可证，并且它对应于[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超级用户。 GenStudio系统管理员完全有权使用GenStudio for Performance Marketing功能，包括[!DNL Brands]、[!DNL Persona]和[!DNL Product]创建、删除、更新和发布。[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)介绍了GenStudio用户角色与产品许可证的关系。
+**GenStudio系统管理员**&#x200B;是GenStudio for Performance Marketing中的超级用户，但没有在Adobe Admin Console中执行任务的权限。 此系统管理员角色需要GenStudio产品许可证，并且它对应于[Adobe GenStudio for Performance Marketing产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超级用户。 GenStudio系统管理员完全有权使用GenStudio for Performance Marketing功能，包括[!DNL Brands]、[!DNL Persona]和[!DNL Product]创建、删除、更新和发布。 [Adobe GenStudio for Performance Marketing产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)介绍GenStudio用户角色与产品许可证的关系。
 
 请参阅&#x200B;_企业和团队管理指南_&#x200B;中的[管理角色](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html#enterprise)。
 

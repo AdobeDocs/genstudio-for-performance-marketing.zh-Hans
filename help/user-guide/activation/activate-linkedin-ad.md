@@ -76,7 +76,7 @@ _预览面板_&#x200B;支持在特定广告投放的上下文中以交互方式�
 
    随即会为此体验打开LinkedIn广告&#x200B;_体验设置_&#x200B;页面。 该界面中已预填充所选体验的详细信息。 在继续激活之前，系统可能会要求您选择平台。
 
-1. （可选）编辑可编辑字段(**[!UICONTROL Call to action]**、**[!UICONTROL 网站URL]**、*[!UICONTROL 显示链接]**)中的值。
+1. （可选）编辑可编辑字段（**[!UICONTROL Call to action]**、**[!UICONTROL 网站URL]**、*[!UICONTROL 显示链接]**）中的值。
 
 1. （可选）单击&#x200B;**[!UICONTROL 添加体验]**&#x200B;以向此激活组添加体验。
 

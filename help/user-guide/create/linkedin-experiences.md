@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # LinkedIn体验
 
-借助Adobe GenStudio for Performance Marketing，您可以利用创作AI高效[创建强大的LinkedIn体验](/help/user-guide/create/create-linkedin.md)。[!DNL Create] 使内容创建者和营销人员能够采用[指南](/help/user-guide/guidelines/overview.md)、图像资源和一个[指示性提示](/help/user-guide/effective-prompts.md)来[生成品牌遵守的LinkedIn体验](/help/user-guide/create/create-email-experience.md)。
+使用Adobe GenStudio for Performance Marketing，您可以利用创作AI高效[创建强大的LinkedIn体验](/help/user-guide/create/create-linkedin.md)。 [!DNL Create]使内容创建者和营销人员能够采用[指南](/help/user-guide/guidelines/overview.md)、图像资源和[说明性提示](/help/user-guide/effective-prompts.md)来[生成遵守品牌的LinkedIn体验](/help/user-guide/create/create-email-experience.md)。
 
 在生成LinkedIn体验时，会在画布中创建并显示四个变体。
 

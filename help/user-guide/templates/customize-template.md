@@ -23,7 +23,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1652
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 
 ### 替换文本
 
-使用用户定义的字段名称作为占位符为图像生成替换文本(HTML `alt="text"`属性)描述。 以下`{{imageDescription}}`占位符与同一`<img>`标记中的`{{image}}`字段一起使用，确保图像及其描述之间的关系持续存在。
+使用用户定义的字段名称作为占位符为图像生成替换文本（HTML `alt="text"`属性）描述。 以下`{{imageDescription}}`占位符与同一`<img>`标记中的`{{image}}`字段一起使用，确保图像及其描述之间的关系持续存在。
 
 ```html
 <img src="{{image}}" alt="{{imageDescription}}">
@@ -144,7 +144,7 @@ GenStudio for Performance Marketing也可以提供各种行动号召短语。 �
 
 ### 辅助功能标签
 
-`aria-label`属性用于为没有可见标签的元素定义可访问的名称。 在必须提供交互元素(如CTA按钮)的上下文的模板中，此属性特别有用。
+`aria-label`属性用于为没有可见标签的元素定义可访问的名称。 在必须提供交互元素（如CTA按钮）的上下文的模板中，此属性特别有用。
 
 ```html
 <a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
@@ -230,7 +230,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ## 区域或组
 
-如果您的电子邮件模板需要多个内容区域（如多个选件或故事），则可以使用分区或组来组织这些区域。_节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
+如果您的电子邮件模板需要多个内容区域（如多个选件或故事），则可以使用分区或组来组织这些区域。 _节_&#x200B;通知GenStudio for Performance Marketing此节中的字段需要高度一致性。 建立这种关系有助于AI生成与部分中的创意元素匹配的内容。
 
 使用您选择的组名作为前缀以指示字段是部分或组的一部分。 在下划线(`_`)之后使用字段名称（如`headline`、`body`、`image`或`cta`）。
 
@@ -248,7 +248,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 由于此规则，无法嵌套这些部分。
 
-每种模板类型(如电子邮件或Meta广告)都包含特定于渠道的区段使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](/help/user-guide/templates/best-practices-for-templates.md)。
+每种模板类型（如电子邮件或Meta广告）都包含特定于渠道的区段使用限制。 请参阅&#x200B;_使用模板的最佳实践_&#x200B;主题中的[特定于渠道的指南](/help/user-guide/templates/best-practices-for-templates.md)。
 
 例如，电子邮件模板最多可包含三个部分；因此，您可以包含三个标题部分和正文部分：
 

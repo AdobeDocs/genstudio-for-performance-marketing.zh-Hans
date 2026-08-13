@@ -4,7 +4,7 @@ description: 安装和配置适用于GenStudio Adobe Exchange的Journey Optimize
 feature: Extensibility
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ ht-degree: 0%
    ![部署前使用AJO凭据进行配置（草稿）](/help/extensibility/ajo-config-004.png){width="80%"}
 1. 输入已添加Journey Optimizer API的Developer Console项目中的凭据（例如，**[!UICONTROL AJO客户端ID]**、**[!UICONTROL AJO客户端密钥]**&#x200B;和&#x200B;**[!UICONTROL AJO令牌端点]**&#x200B;以及任何其他必填字段）。
 1. 输入&#x200B;**沙盒名称，全部小写**（例如，`prod`）。
-1. 单击&#x200B;**[!UICONTROL 部署]**。部署完成后，状态将显示为已部署。按钮文本将更改为&#x200B;**[!UICONTROL 取消部署]**。
+1. 单击&#x200B;**[!UICONTROL 部署]**。 部署完成后，状态将显示为已部署。 按钮文本将更改为&#x200B;**[!UICONTROL 取消部署]**。
    在App Builder应用程序视图上提供了![已部署应用程序及其取消部署](/help/extensibility/ajo-config-005.png){width="80%"}
 
-部署后，Adobe Developer Console包含一个名为&#x200B;**Journey Optimizer的新自动生成的项目，该项目用于GenStudio &lt;Your_Environment_Name>**，带有AJO和Adobe Runtime API。此项目为只读，无法编辑或删除。
-![部署后只读的自动生成Developer Console项目](/help/extensibility/ajo-auto-project.png){width="100%"}
+部署后，Adobe Developer Console包含一个名为&#x200B;**Journey Optimizer的新自动生成的项目，该项目用于GenStudio &lt;Your_Environment_Name>**，带有AJO和Adobe Runtime API。 此项目为只读，无法编辑或删除。
+部署后![只读的自动生成Developer Console项目](/help/extensibility/ajo-auto-project.png){width="100%"}
 
 ### 更新配置
 

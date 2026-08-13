@@ -86,8 +86,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 根据所部署的扩展类型，新扩展可在UI中的不同位置找到。 当前可用的扩展点包括：
 
 * 合规性扩展，其中包括：
-   * [*提示扩展点*](#find-prompt-extensions)，允许客户向LLM生成添加其他上下文，并且
-   * [*验证扩展点*](#find-validation-extensions)，允许客户验证从LLM生成的内容。 验证通常与Prompt扩展结合使用，以确保扩展提示生成的内容符合客户要求（例如，医疗药品索赔或法律要求）
+  * [*提示扩展点*](#find-prompt-extensions)，允许客户向LLM生成添加其他上下文，并且
+  * [*验证扩展点*](#find-validation-extensions)，允许客户验证从LLM生成的内容。 验证通常与Prompt扩展结合使用，以确保扩展提示生成的内容符合客户要求（例如，医疗药品索赔或法律要求）
 * [数字资产管理(DAM)扩展](#find-dam-extensions)
 * [模板扩展](#find-template-extensions)
 * [翻译扩展](#find-translation-extensions)
