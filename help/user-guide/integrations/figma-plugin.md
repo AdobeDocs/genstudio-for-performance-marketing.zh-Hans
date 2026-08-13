@@ -42,7 +42,7 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 * 将生成的[!DNL Experiences]导出到GenStudio for Performance Marketing。
 * 使用可适应Figma画布中所选元素的插件选项。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478819?captions=chi_hans&learn=on)
 
 ## 创建模板
 
@@ -220,7 +220,7 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 可以使用Figma插件将一个Figma框架、多个框架或整个文档转换为Photoshop格式，并将其导出以用于[GenStudio Photoshop](photoshop-plugin.md)。 目前，在转换过程中仅支持可视性、字体大小和基本图层属性等主要属性。 目前尚不支持删除线、上标、下标、不透明度百分比、渐变和类似高级属性等功能。
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492279?captions=chi_hans&learn=on)
 
 该插件支持以下用于转换的Figma层类型：
 
