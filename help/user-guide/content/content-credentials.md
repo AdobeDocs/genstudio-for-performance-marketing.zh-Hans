@@ -17,20 +17,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
+source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 4%
+source-wordcount: 670
+ht-degree: 5%
 
 ---
 
 # Content Credentials组织版
 
 了解用于证明品牌真实性并促进合规性的内容的防篡改凭据如何直接嵌入您的营销工作流程中。
-
->[!WARNING]
->
-> 此功能当前为测试版，仅适用于已被授予访问权限的组织。 如有兴趣，请联系您的Adobe客户团队代表或[使用此链接申请注册](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
 ## 开始使用 Content Credentials {#content-credentials}
 
@@ -39,15 +35,11 @@ ht-degree: 4%
 >title="[!DNL GenStudio for Performance Marketing] 中的 Content Credentials"
 >abstract="用于证明品牌真实性并推动合规性的内容防篡改凭证可以直接嵌入到您的营销工作流中。"
 
-在Admin Console中激活Content Credentials后，GenStudio for Performance Marketing用户可以在应用程序中全局启用所有资产的Content Credentials。 如果应用凭据的全局选项处于关闭状态，则用户可以选择为每个单独的资源应用Content Credentials。
+GenStudio for Performance Marketing会自动将Content Credentials全局应用到所有资源。 没有设置步骤和每个资源的设置可开启：在整个营销工作流中嵌入、保留和刷新凭据。
 
 发布内容后，Content Credentials将显示在外部平台上，如LinkedIn。
 
-管理员负责在Admin Console中上传有效的X.509证书。 此步骤可确保企业的数字签名配置正确，并可在支持的Adobe DX应用程序中使用。
-
->[!NOTE]
->
->控制此设置可能会在将来过渡到Admin Console，从而简化跨应用程序的Content Credentials管理并增强行政监督。
+符合C2PA标准的Content Credentials不需要设置证书。 品牌签名属于例外：要使用您组织自己的签名对内容进行签名，管理员必须在Admin Console中上传有效的X.509证书。 此步骤可确保企业的数字签名配置正确，并可在支持的Adobe DX应用程序中使用。
 
 ## 什么是Content Credentials？ 
 
@@ -71,7 +63,7 @@ Content Credentials是一种持久的行业标准元数据类型，其中包含�
 
 在内容库中，凭据将显示在导入的资产上。
 
-缩略图右上角的Content Credential徽章表示“Brand signed”内容。
+缩略图右上角的Content Credential徽章表示[!UICONTROL Brand signed]内容。
 
 ![已导入具有凭据的资产](./images/import-discovery1.png)
 
@@ -93,7 +85,7 @@ Content Credential徽章将显示在画布资源选择器中。
 
 在从草稿导出期间，修改后的资产会自动重新签名，并且新凭据将链接到原始凭据。
 
-![已导出资产的凭据数据](./images/edit-and-transformation1.png){width="60%"}
+![包含导出格式选项的“下载”对话框](./images/edit-and-transformation2.png){width="60%"}
 
 ### 审阅和批准
 
@@ -103,7 +95,7 @@ Content Credential徽章将显示在画布资源选择器中。
 
 当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”**&#x200B;**&#x200B;时，已批准的体验将被重新签名。
 
-![已批准资产上的凭据数据](./images/review-and-approve2.png)
+![已批准内容的“确认详细信息”对话框，显示了“保存到内容”按钮](./images/review-and-approve3.png)
 
 ### 激活和导出
 
