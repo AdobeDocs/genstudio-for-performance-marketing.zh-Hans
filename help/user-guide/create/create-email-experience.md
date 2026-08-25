@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
+source-git-commit: e47c6644de51ead57f1c2e780aa287eb1de7ac87
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1547
 ht-degree: 0%
 
 ---
@@ -111,10 +111,57 @@ ht-degree: 0%
 * **要在变体中[应用文本格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，请单击变体的图像上文本，然后单击&#x200B;**[!UICONTROL 设置文本格式]**。
 * **要[重新生成变体的部分](/help/user-guide/create/manage-variants.md#re-generate-sections)**，请单击可编辑文本字段并使用&#x200B;_[!UICONTROL 建议的编辑]_&#x200B;选项，或者输入新提示并单击&#x200B;**[!UICONTROL 生成]**。
 * **要[在变体中添加或交换图像](/help/user-guide/create/manage-variants.md#swap-image)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击&#x200B;**[!UICONTROL 从内容交换]**&#x200B;图标。
+* **要[编辑变体中的图像](#edit-images-in-the-canvas)**，请单击图像字段，然后单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标）以直接在画布中裁切、重新定位或展开图像。
 * **要[添加指向变体中的图像的链接](/help/user-guide/create/manage-variants.md#add-image-link)**，请单击图像资源（如果图像当前不存在，则单击图像资源区域），然后单击链接图标。
 * **要[为变体中的图像添加替换文本](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，请单击图像资源并使用&#x200B;_替换文本_&#x200B;选项为每个图像手动添加或生成替换文本。
 * **要[将辅助功能标签](/help/user-guide/create/manage-variants.md#add-accessibility-labels)添加到您的变体**，请单击图像或call-to-action链接，然后提供简要说明该链接或按钮的作用。
 * **要[删除电子邮件](/help/user-guide/create/manage-variants.md#delete-variant)**，请单击以选择电子邮件标题（例如，“电子邮件1/4”），然后单击&#x200B;**[!UICONTROL 删除变体]**。
+
+## 在画布中编辑图像
+
+无需离开画布或依赖外部设计工具即可调整图像。 您可以裁切和重新定位图像以专注于主题，或者使用“创作”“展开”将图像扩展至其原始边界之外。 编辑内容仅适用于您的电子邮件草稿。 绝不会修改[!DNL Content]和连接的资源存储库中的Source资源。
+
+从电子邮件画布中的任意图像字段访问图像编辑。 编辑的图像以可视方式指示，这样您就可以跟踪从原始资产中更改了哪些图像。
+
+### 裁切和重新定位图像
+
+裁切图像以仅使用所需的区域。 电子邮件中的裁剪是自由格式的，没有纵横比限制，因此您可以完全控制图像的哪一部分显示以及按什么比例显示。
+
+**若要裁切和重新定位图像**：
+
+1. 在电子邮件草稿中，将鼠标悬停在上面并单击图像字段。
+1. 单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标）。
+1. 单击&#x200B;**[!UICONTROL 裁切]**。
+1. 调整裁切区域并将图像拖到所需位置。
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以裁切所选图像，或单击&#x200B;**[!UICONTROL 应用于所有图像]**&#x200B;以将裁切应用于草稿中的所有图像字段。
+
+要退出而不保存更改，请单击&#x200B;**[!UICONTROL 取消]**。
+
+![电子邮件画布中的图像上具有活动裁切工具的“编辑图像”视图](/help/assets/edit-image-crop-email.png){width="650" zoomable="yes"}
+
+### 使用生成展开展开图像
+
+使用“创作”“展开”可通过创作AI将图像扩展至其原始边界之外。 电子邮件中的扩展不受固定大小或比例的约束，因此您可以将图像调整到所需的空间。
+
+**要展开图像**：
+
+1. 在电子邮件草稿中，将鼠标悬停在上面并单击图像字段。
+1. 单击&#x200B;**[!UICONTROL 编辑]**（铅笔图标）。
+1. 单击&#x200B;**[!UICONTROL 展开]**。
+
+   该图像在展开画布上的&#x200B;_[!UICONTROL 编辑图像]_&#x200B;视图中打开，[!DNL GenStudio for Performance Marketing]生成展开选项。
+
+1. 移动图像以将其定位在扩展区域中。
+1. 选择生成的选项，或单击&#x200B;**[!UICONTROL 更多]**（加号图标）以查看更多选项。
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以将结果应用于所选图像，或单击&#x200B;**[!UICONTROL 应用于所有图像]**&#x200B;以将结果应用于草稿中的所有图像字段。
+
+要退出而不保存更改，请单击&#x200B;**[!UICONTROL 取消]**。
+
+>[!NOTE]
+>
+>生成性扩展输出大小不受限制，因此对于非常大的扩展，质量可能发生变化。 单击&#x200B;**[!UICONTROL 更多]**&#x200B;可生成其他选项（如果结果不符合您的需要）。
+
+![已选定生成性展开结果并准备在“编辑图像”视图中应用](/help/assets/generative-expand-email.png){width="650" zoomable="yes"}
 
 ## 提交生成反馈
 
