@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
+source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 750
 ht-degree: 5%
 
 ---
@@ -105,6 +105,13 @@ Content Credential徽章将显示在画布资源选择器中。
 
 导出的文件将嵌入符合C2PA的凭据。
 
+导出的资产还会保留其族系。 嵌入的凭据记录从中派生导出的资产，因此导出的体验可以通过其对原始导入资产的编辑进行回溯。 由于族系在文件中传播，因此在资产离开GenStudio for Performance Marketing后，它仍可检查。
+
 凭据完整性在所有支持的格式(JPEG、PNG、MP4)中得到了维护。
 
 ![已导出资产的凭据数据](./images/activate-export2.png)
+
+## 相关信息
+
+* [内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* Adobe上的[Content Credentials](https://helpx.adobe.com/cn/creative-cloud/help/content-credentials.html)
