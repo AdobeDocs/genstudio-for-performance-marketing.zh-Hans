@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 自动生成多个大小
 
-在 [!DNL Express][&#128279;](https://helpx.adobe.com/cn/express/web/arrange-layers-and-pages/add-pages.html)中为一个资产创建了多个页面后，这些页面将转移到从该资产创建的任何模板中。 Express页面将在[!DNL GenStudio for Performance Marketing]中生成不同大小的创意内容。
+在 [!DNL Express]&#x200B;[&#128279;](https://helpx.adobe.com/cn/express/web/arrange-layers-and-pages/add-pages.html)中为一个资产创建了多个页面后，这些页面将转移到从该资产创建的任何模板中。 Express页面将在[!DNL GenStudio for Performance Marketing]中生成不同大小的创意内容。
 
 当[!DNL Express]中的某个资源存在多个大小的内容时，可以在单个生成过程中为所有这些大小生成变体。
 
