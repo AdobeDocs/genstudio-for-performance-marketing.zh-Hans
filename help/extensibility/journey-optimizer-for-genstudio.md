@@ -79,9 +79,9 @@ ht-degree: 0%
 
 **另请参阅** （Journey Optimizer访问控制）：
 
-* [访问控制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Journey Optimizer中的权限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
-* [系统管理员入门指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [访问控制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Journey Optimizer中的权限](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/permissions)
+* [系统管理员入门指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## 访问GenStudio中的AJO模板
 
