@@ -5,11 +5,17 @@ level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
 TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 890
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此功能也作为与Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md)的[集成提供。 此集成在GenStudio for Performance Marketing画布中提供验证功能。 通过Workfront Proof集成，GenStudio for Performance Marketing获得更加结构化、透明和协作的审核流程，帮助团队更自信、更明确地从草稿走向最终。
+> 此功能也作为与Adobe Workfront Proof[&#128279;](/help/user-guide/approvals/proof-integration.md)的集成提供。 此集成在GenStudio for Performance Marketing画布中提供验证功能。 通过Workfront Proof集成，GenStudio for Performance Marketing获得更加结构化、透明和协作的审核流程，帮助团队更自信、更明确地从草稿走向最终。
 
 ## 审核和批准工作流的优势
 

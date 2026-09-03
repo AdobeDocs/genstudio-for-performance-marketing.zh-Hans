@@ -4,10 +4,15 @@ description: Workfront Proof与Adobe GenStudio for Performance Marketing集成�
 feature: Content Review, Content Management
 exl-id: 149db773-4787-4cfb-b29e-c49f13abf39a
 TQID: https://experienceleague.adobe.com/G9e9Ft0l9OmSX1lCJY8syzP2-pIswt0MkCpOYlox-Zk
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 912
@@ -62,7 +67,7 @@ Adobe系统管理员在Adobe Admin Console中管理这两种产品的用户配�
 
 >[!NOTE]
 >
-Workfront Proof还提供[个其他用户角色](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)。 并非所有角色在Performance Marketing中均可见。 但是，系统会遵循Workfront Proof模板中设置的任何角色。
+>Workfront Proof还提供[个其他用户角色](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)。 并非所有角色在Performance Marketing中均可见。 但是，系统会遵循Workfront Proof模板中设置的任何角色。
 
 ### 草稿和校样
 
