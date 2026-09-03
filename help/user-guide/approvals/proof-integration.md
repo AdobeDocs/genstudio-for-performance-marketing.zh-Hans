@@ -4,15 +4,10 @@ description: Workfront Proof与Adobe GenStudio for Performance Marketing集成�
 feature: Content Review, Content Management
 exl-id: 149db773-4787-4cfb-b29e-c49f13abf39a
 TQID: https://experienceleague.adobe.com/G9e9Ft0l9OmSX1lCJY8syzP2-pIswt0MkCpOYlox-Zk
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 912
@@ -22,13 +17,13 @@ ht-degree: 1%
 
 # Workfront Proof与GenStudio for Performance Marketing集成
 
-与Workfront Proof集成通过高级功能（包括审批模板、多阶段工作流和[比较校对版本](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)）增强了GenStudio for Performance Marketing审阅和审批生命周期。 这种结构化版本控制确保了内容审查生命周期中的透明度、责任制和简化的协作。
+与Workfront Proof集成通过高级功能（包括审批模板、多阶段工作流和[比较校对版本](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)）增强了GenStudio for Performance Marketing审阅和审批生命周期。 这种结构化版本控制确保了内容审查生命周期中的透明度、责任制和简化的协作。
 
 >[!BEGINSHADEBOX]
 
 **先决条件**：
 
-安装[Adobe Workfront Web Viewer扩展](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+安装[Adobe Workfront Web Viewer扩展](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +50,7 @@ Workfront Proof的[!DNL Proofing Viewer]是一个丰富的工作区，可用于�
 
 ### 许可证和用户角色
 
-许可证标识产品中的用户权利集合。 Workfront Proof比GenStudio for Performance Marketing提供更多的许可证类型或用户角色。 [验证角色概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)介绍了与Workfront Proof审阅和审批工作流关联的用户角色。
+许可证标识产品中的用户权利集合。 Workfront Proof比GenStudio for Performance Marketing提供更多的许可证类型或用户角色。 [验证角色概述](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)介绍了与Workfront Proof审阅和审批工作流关联的用户角色。
 
 | GenStudio for Performance Marketing许可证       | Workfront许可证                 | 描述                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -67,7 +62,7 @@ Adobe系统管理员在Adobe Admin Console中管理这两种产品的用户配�
 
 >[!NOTE]
 >
->Workfront Proof还提供[个其他用户角色](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)。 并非所有角色在Performance Marketing中均可见。 但是，系统会遵循Workfront Proof模板中设置的任何角色。
+Workfront Proof还提供[个其他用户角色](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)。 并非所有角色在Performance Marketing中均可见。 但是，系统会遵循Workfront Proof模板中设置的任何角色。
 
 ### 草稿和校样
 
@@ -89,9 +84,9 @@ Workfront Proof审批模板提供了可以简化验证审批工作流的预定�
 
 查看者可以直接单击验证的特定区域以留下精确的上下文注释。 所有评论都加盖时间戳，并另存为校样版本历史记录的一部分。 评论历史记录在GenStudio for Performance Marketing中不可用。
 
-您可以[比较两个版本的验证](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)以评估审核评论和内容。
+您可以[比较两个版本的验证](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)以评估审核评论和内容。
 
 ## 通知和提醒
 
 当新验证可供审阅或正在进行的审阅状态已更改时，审阅人和审批人会收到电子邮件通知。
-[验证通知和提醒](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders)包括验证的个性化链接、有关验证及其审批流程进度的详细信息以及版本控制信息。
+[验证通知和提醒](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders)包括验证的个性化链接、有关验证及其审批流程进度的详细信息以及版本控制信息。

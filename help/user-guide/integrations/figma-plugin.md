@@ -5,18 +5,11 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
 source-wordcount: 1913
@@ -42,7 +35,7 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 * 将生成的[!DNL Experiences]导出到GenStudio for Performance Marketing。
 * 使用可适应Figma画布中所选元素的插件选项。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478819?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## 创建模板
 
@@ -130,9 +123,9 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 
 使用GenStudio for Performance Marketing AI生成或制作图形模板中元素的变体。
 
-1. 如果您使用GenStudio插件游乐场或已经准备好的模板，请选择包含广告模板的部分节点。 您可以在&#x200B;**图层**&#x200B;面板中或通过直接单击画布中的部分来执行此操作。
+1. 如果您使用GenStudio插件游乐场或已经准备好的模板，请选择包含广告模板的部分节点。 您可以在&#x200B;**图层**面板中或通过直接单击画布中的部分来执行此操作。
    ![分区选择或变体](./plugin-playground.png){width="50%" zoomable="yes"}
-1. 在插件窗口中，输入变体的项目名称，选择内容的平台，并填写其他必需信息。 然后单击&#x200B;**[!UICONTROL 完成设置]**&#x200B;按钮。
+1. 在插件窗口中，输入变体的项目名称，选择内容的平台，并填写其他必需信息。 然后单击&#x200B;**[!UICONTROL 完成设置]**按钮。
    ![设置项目窗口](./setup-project.png){width="30%" zoomable="yes"}
 1. 选择要用于内容生成的[!DNL Brand]、[!DNL Persona]和[!DNL Product]。
 1. 选择要生成的变体数（最多八个）。
@@ -145,17 +138,17 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 
 使用GenStudio for Performance Marketing人工智能生成广告复制变体或翻译图形模板。
 
-1. 选择包含广告模板的部分节点。 您可以在&#x200B;**图层**&#x200B;面板中或通过直接单击画布中的部分来执行此操作。
+1. 选择包含广告模板的部分节点。 您可以在&#x200B;**图层**面板中或通过直接单击画布中的部分来执行此操作。
    ![分区选择或变体](./plugin-playground.png){width="50%" zoomable="yes"}
 1. 在插件窗口中，输入变体的项目名称，然后选择内容的平台。
-1. 在&#x200B;**[!UICONTROL 目标是什么？]**&#x200B;中，选择&#x200B;**[!UICONTROL 生成变体]**&#x200B;或&#x200B;**[!UICONTROL 转换]**，然后单击&#x200B;**[!UICONTROL 完成设置]**&#x200B;按钮。
+1. 在&#x200B;**[!UICONTROL 目标是什么？]**&#x200B;中，选择&#x200B;**[!UICONTROL 生成变体]**&#x200B;或&#x200B;**[!UICONTROL 转换]**，然后单击&#x200B;**[!UICONTROL 完成设置]**按钮。
    ![设置项目窗口](./setup-project.png){width="30%" zoomable="yes"}
 1. 选择要用于内容生成的[!DNL Brand]、[!DNL Persona]和[!DNL Product]。
 1. 选择要生成的变体数量。
 1. 使用&#x200B;**[!UICONTROL 选择内容]**&#x200B;下的按钮浏览和选择资源中的图像。 40个最近添加的资产显示在最前，您可以搜索其他资产。 所选图像会自动调整大小以适合您的模板。
 1. 输入文本提示。 **[!UICONTROL 字段]**&#x200B;列表中的每个字段都将&#x200B;**[!UICONTROL 操作]**&#x200B;选项设置为&#x200B;**[!UICONTROL 为新内容生成]**。
 1. 映射所有字段角色。 查看[字段角色映射](#field-role-mapping)。
-1. 在插件左侧的面板中选择每个字段类型以生成变体或翻译，并将初始内容粘贴到每个&#x200B;**[!UICONTROL 初始内容]**&#x200B;框中。
+1. 在插件左侧的面板中选择每个字段类型以生成变体或翻译，并将初始内容粘贴到每个&#x200B;**[!UICONTROL 初始内容]**框中。
    ![初始内容框中的示例文本](./initial-content-box.png){width="60%" zoomable="yes"}
 1. 单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮。
 
@@ -220,7 +213,7 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 可以使用Figma插件将一个Figma框架、多个框架或整个文档转换为Photoshop格式，并将其导出以用于[GenStudio Photoshop](photoshop-plugin.md)。 目前，在转换过程中仅支持可视性、字体大小和基本图层属性等主要属性。 目前尚不支持删除线、上标、下标、不透明度百分比、渐变和类似高级属性等功能。
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492279?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
 
 该插件支持以下用于转换的Figma层类型：
 
@@ -256,13 +249,13 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 1. 要迁移选定的帧，请执行下列操作之一：
 
    * 单击&#x200B;**[!UICONTROL 导出]**&#x200B;以将转换后的文件导出到选定的位置，或者
-   * 单击&#x200B;**[!UICONTROL 传输到Photoshop]**&#x200B;可缓存转换后的文件，以便在GenStudio Photoshop中立即使用。
+   * 单击&#x200B;**[!UICONTROL 传输到Photoshop]**可缓存转换后的文件，以便在GenStudio Photoshop中立即使用。
      ![转移到GenStudio Photoshop按钮](./transfer-to-ps-button.png){width="40%"}
 1. 接下来，共享您的Figma文件链接。 插件需要一个Figma文件URL才能完成转换。 添加文档的URL。
 
    1. 在Figma中，单击画布右上角的&#x200B;**[!UICONTROL 共享]**。
    1. 在&#x200B;**[!UICONTROL 共享此文件]**&#x200B;中，单击&#x200B;**[!UICONTROL 复制链接]**。
-   1. 将复制的链接粘贴到[!DNL GenStudio for Performance Marketing]插件对话框中的&#x200B;**[!UICONTROL Figma文件链接]**&#x200B;字段中。 需要为每个文件执行此操作：
+   1. 将复制的链接粘贴到[!DNL GenStudio for Performance Marketing]插件对话框中的&#x200B;**[!UICONTROL Figma文件链接]**字段中。 需要为每个文件执行此操作：
       ![需要文件密钥对话框](./file-key-required.png){width="35%"}
    1. 单击&#x200B;**[!UICONTROL 提交]**。
 1. 将出现一个弹出窗口，要求您读取文件的内容和元数据。 只需对所有文件执行一次此操作。 单击&#x200B;**[!UICONTROL 允许访问]**。 该插件将读取Figma中的选定帧，并将它们转换为JSON文档（文件数据的一种中间格式）。
@@ -271,10 +264,10 @@ GenStudio for Performance Marketing Figma插件会在Figma应用程序中添加�
 1. 要选择转换后的文件，请执行下列步骤之一：
 
    * 单击&#x200B;**[!UICONTROL 从插件]**&#x200B;以从缓存的文件列表中选择通过&#x200B;**[!UICONTROL 传输到GenStudio Photoshop]**&#x200B;转换的文件，或者
-   * 单击&#x200B;**[!UICONTROL 上传JSON]**&#x200B;以浏览并选择要上传的JSON文件。
+   * 单击&#x200B;**[!UICONTROL 上传JSON]**以浏览并选择要上传的JSON文件。
      ![上传JSON按钮](./upload-json.png){width="40%"}
 1. GenStudio Photoshop将JSON文档中的信息转换为打开的Photoshop文档。
-1. 单击&#x200B;**[!UICONTROL 完成]**。 新文件将在Photoshop中打开并可供使用。 或单击&#x200B;**[!UICONTROL 另存为……]**&#x200B;以选择保存文件的位置。
+1. 单击&#x200B;**[!UICONTROL 完成]**。 新文件将在Photoshop中打开并可供使用。 或单击&#x200B;**[!UICONTROL 另存为……]**以选择保存文件的位置。
    ![完成按钮对话框](./import-done-button.png){width="40%"}
 
 ## 生成历史记录

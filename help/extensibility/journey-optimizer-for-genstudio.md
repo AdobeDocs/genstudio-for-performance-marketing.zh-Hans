@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 从Adobe Exchange安装应用程序
 
->[!VIDEO](https://video.tv.adobe.com/v/3483309?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. 打开[Adobe Exchange](https://exchange.adobe.com)并转到&#x200B;**[!UICONTROL CX Enterprise]**。
 1. 打开[Journey Optimizer for GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)列表。
@@ -50,7 +50,7 @@ ht-degree: 0%
 1. 返回至[Adobe Exchange](https://exchange.adobe.com)。
 1. 选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL App Builder应用程序]**（或您的组织到托管应用程序的路径）。
 1. 为GenStudio **选择** Journey Optimizer，并确认该应用程序已获得&#x200B;**批准**。
-1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**&#x200B;以创建一个环境。
+1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**以创建一个环境。
    ![具有“已批准”状态的应用程序详细信息并添加环境](/help/extensibility/ajo-config-002.png){width="50%"}
 1. 在选定的环境中，选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 配置]**&#x200B;选项卡上，查找&#x200B;**[!UICONTROL AJO凭据]**。
@@ -79,9 +79,9 @@ ht-degree: 0%
 
 **另请参阅** （Journey Optimizer访问控制）：
 
-* [访问控制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Journey Optimizer中的权限](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/permissions)
-* [系统管理员入门指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [访问控制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Journey Optimizer中的权限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [系统管理员入门指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## 访问GenStudio中的AJO模板
 

@@ -4,17 +4,11 @@ description: 了解如何激活Google促销活动管理器360体验。
 feature: Ad Activation
 exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
 TQID: https://experienceleague.adobe.com/pQbT2OC7-jK33HhJWgTBBtJrmEvr48mGkl8v-fTkOLQ
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 539
@@ -42,7 +36,7 @@ GenStudio系统管理员必须先将您的Google Campaign Manager 360帐户连�
 
 ## 步骤3：为您的广告体验选择内容
 
-您可以从&#x200B;_[!DNL Content]_&#x200B;体验库或&#x200B;_[!DNL Activate]_&#x200B;主页启动发布流程。 无法编辑已批准的体验。 每个体验只能包含一个资源。
+您可以从&#x200B;_[!DNL Content]_体验库或_[!DNL Activate]_&#x200B;主页启动发布流程。 无法编辑已批准的体验。 每个体验只能包含一个资源。
 
 **要选择体验**：
 
@@ -52,7 +46,7 @@ GenStudio系统管理员必须先将您的Google Campaign Manager 360帐户连�
 
 1. （可选）单击&#x200B;**[!UICONTROL 添加体验]**&#x200B;以向此激活组添加体验。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以确认您的Google Campaign Manager 360平台设置。
+1. 单击&#x200B;**[!UICONTROL 下一步]**以确认您的Google Campaign Manager 360平台设置。
 _平台设置_&#x200B;视图打开。 此视图填充有从您配置的Google Campaign Manager 360帐户派生的选项。
 
 ## 步骤4：确认Google Campaign Manager 360平台设置
@@ -61,7 +55,7 @@ _平台设置_&#x200B;视图打开。 此视图填充有从您配置的Google Ca
 
    激活完成后，您的创意体验将会交付到Google Campaign Manager 360中的此广告商库。
 
-1. 向&#x200B;**[!UICONTROL Creative名称]**&#x200B;字段添加名称。 Google Campaign Manager 360通过此名称标识体验。
+1. 向&#x200B;**[!UICONTROL Creative名称]**字段添加名称。 Google Campaign Manager 360通过此名称标识体验。
 对每个选定的体验重复此操作。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以确认您的Google Campaign Manager 360设置。
