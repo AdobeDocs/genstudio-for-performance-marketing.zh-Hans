@@ -36,7 +36,7 @@ ht-degree: 0%
 
 作为最佳实践，请使用[准则](/help/user-guide/guidelines/overview.md)向GenStudio for Performance Marketing提供您的品牌信息，然后您可以充分利用创作AI来生成与品牌一致的内容体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502681?captions=chi_hans&learn=on)
 
 ## 描述性语言
 
