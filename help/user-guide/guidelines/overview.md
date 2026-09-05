@@ -34,7 +34,7 @@ ht-degree: 1%
 
 # GenStudio for Performance Marketing准则
 
->[!VIDEO](https://video.tv.adobe.com/v/3502922?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502939?captions=chi_hans&learn=on)
 
 GenStudio for Performance Marketing准则可以上传或手动添加到GenStudio for Performance Marketing，允许用户建立抓住品牌标识精髓的品牌准则。
 
