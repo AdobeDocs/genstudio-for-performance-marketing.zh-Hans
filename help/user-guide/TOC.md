@@ -6,13 +6,11 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: ea05f9614304388b2e8a5d0c87d5bac47b4164b4
+source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 84%
-
+source-wordcount: '287'
+ht-degree: 82%
 ---
-
 
 # Adobe GenStudio for Performance Marketing指南 {#user-guide}
 
@@ -54,6 +52,7 @@ ht-degree: 84%
   + [在模板中设置徽标交换](create/logo-swap-setup.md)
   + [创建电子邮件体验](create/create-email-experience.md)
   + [创建Meta广告体验](create/create-meta-ad.md)
+  + [创建Meta广告体验 — 轮播广告](create/create-meta-carousel-ad.md)
   + [创建ChatGPT广告体验](create/create-chatgpt-ad.md)
   + [创建LinkedIn体验](create/create-linkedin.md)
   + [创建显示广告体验](create/create-display-ad.md)
