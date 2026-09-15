@@ -22,7 +22,7 @@ Meta轮播广告是一种付费广告格式，可显示两到十张可滑动卡�
 
 选择模板并打开画布后，在提示抽屉中选择轮播格式。
 
-1. 在&#x200B;_[!DNL Create your ads]_面板中，展开_[!UICONTROL &#x200B;参数&#x200B;]_。
+1. 在&#x200B;_[!DNL Create your ads]_&#x200B;面板中，展开&#x200B;_[!UICONTROL &#x200B;参数&#x200B;]_。
 1. 从&#x200B;**[!UICONTROL 格式]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL 轮播广告]**。
 
    ![在“格式”下拉列表设置为“轮播广告”且卡片列表的情况下创建广告面板](./carousel-format-cards.png){width="70%" zoomable="yes"}
