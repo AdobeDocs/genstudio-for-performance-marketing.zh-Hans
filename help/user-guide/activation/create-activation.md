@@ -6,62 +6,123 @@ exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
 TQID: https://experienceleague.adobe.com/HSwFeL1qCzgFao2Ii64Hx-kaADRnd3dxaswFMzJ7nfA
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+    internal-label: Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2694ca42a231d75df755936f80b398d554f42842
+    internal-label: Insights
+source-git-commit: 6cb428b368f75e0b646cfa4e6536a4728fdf40e2
 workflow-type: tm+mt
-source-wordcount: 575
+source-wordcount: '1158'
 ht-degree: 1%
-
 ---
-
 # 激活工作流
 
-[!DNL Activate]支持以特定于渠道的格式（如Meta或Google Campaign Manager 360广告体验）激活广告体验。
+[!DNL Activate]将发布的体验激活到其付费广告渠道。 GenStudio for Performance Marketing体验是一种营销活动组件（如广告），可为付费广告渠道上的特定受众做好准备。 激活体验包含三个主要组件：
 
-GenStudio for Performance Marketing体验是一种营销活动组件（如广告），它准备为付费广告渠道或电子邮件上的特定受众提供广告体验。 激活体验包含三个主要组件：
+* **媒体资产**：广告体验中包含的图像或视频。 支持的文件类型和长宽比因渠道和格式而异。
 
-* **媒体资源**：媒体资源是广告体验中包含的图像(GIF、PNG、JPEG)。 激活当前支持静态图像。
+* **文本**：广告中包含的所有形式的副本，包括标题、正文文本和call-to-action元素。
 
-  要为广告体验选择图像资源，需要选择适当的纵横比。 长宽比定义图像的宽度和高度之间的比例关系，它们对于广告投放的有效性至关重要。 付费媒体渠道仔细为其平台上的每个广告投放指定有效的宽高比。 将图像资产添加到激活时，必须根据体验的最终广告投放位置选择纵横比。 文件类型仅限于JPEG、PNG和GIF。
+* **元数据**：可增强性能分析、筛选和跟踪的用户定义属性。 元数据通常对最终广告受众不可见。
 
-* **文本**：文本包含广告中包含的所有形式的副本，包括标题、正文文本和call-to-action元素。
+在激活之前，您可以在[!DNL Content]中准备并批准这些组件。 [!DNL Activate]不会创建或编辑已批准的资产、标题或正文。 它只应用每个渠道所需的设置，然后发布体验。
 
-* **元数据**：可分配给内容的用户定义属性。 元数据增强了性能分析、筛选和跟踪。 它通常对用户不可见。
+单个激活表可以同时包含多个付费广告渠道和广告格式的体验。
 
-创建激活涉及优化这些广告组件的每一个以用于指定的渠道投放和营销活动。 GenStudio for Performance Marketing支持将一个体验激活到一个付费渠道。
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
-## 工作流阶段
+## 连接您的渠道帐户
 
-尽管唯一的投放位置要求定义了每个付费渠道，但所有广告激活都共享相同的高级步骤。 将体验激活到任何付费渠道有三个核心阶段：
+GenStudio系统管理员或编辑器必须连接每个付费广告渠道的广告帐户，然后才能向该渠道激活体验。 要查看此进程的步骤，请参阅[连接付费媒体帐户](/help/user-guide/connectors/connect-channel.md)。
 
-1. **将GenStudio for Performance Marketing连接到您的Target频道**。 GenStudio系统管理员必须连接您的渠道帐户，然后才能激活体验。
+## 开始激活
 
-1. **准备激活体验**。 您可以通过两种方式准备激活体验：
+从以下两个入口点之一开始激活：
 
-   * 直接从[!DNL Content]激活具有预定义设置的已批准体验。 这种将一个或多个广告体验激活到单个渠道的简化方式。 从[!DNL Content]图库中选择体验后，便无法编辑资产或将其添加到广告体验。 从[!DNL Content]激活适用于Meta和Google促销活动管理器360广告体验。
+* **从[!DNL Content]**：筛选到体验，选择一个或多个已发布的体验，然后单击顶部操作栏上的&#x200B;**[!UICONTROL 激活]**。
+* **从[!DNL Activate]**：在[!DNL Activate]登陆页面上，单击&#x200B;**[!UICONTROL +新激活]**。 这将打开体验库，您可以在其中选择要激活的体验。
 
-   * 通过从[!DNL Content]中选择可视化资产、添加文本元素并选择长宽比，组合您的广告体验。 此方法涉及更多步骤，但提供了更大的创意灵活性。 准备工作包括按照特定广告投放的相应纵横比选择媒体资源，并将文本分配给call-to-action元素和正文。 您可以添加信息性元数据，帮助用户在激活后搜索体验。 每个广告渠道投放都为投放中包含的可视资源指定有效的长宽比。
+无论属于哪种情况，都可按体验名称搜索，或按多个渠道进行筛选以查找所需的体验。
 
-1. **查看您的体验并将其发布到Target频道**。 在体验设置期间使用&#x200B;_预览_&#x200B;面板，以在最终激活之前评估您选择的广告投放位置和文本元素。 最终的发布前审核将在目标渠道的广告管理应用程序中进行。 例如，在GenStudio for Performance Marketing中激活Meta广告体验后，您必须登录Meta广告管理器，查看您的广告体验，然后在发布之前选择其特定属性。
+如果您的选择包括显示格式体验，请指定要使用的显示平台：Google Campaign Manager 360、Innovid、Amazon Ads或交易台。 然后单击&#x200B;**[!UICONTROL 开始激活]**。 对于其他格式，如Meta、LinkedIn、TikTok、YouTube和ChatGPT，[!DNL Activate]推断来自体验渠道的平台并跳过此步骤。
 
-一旦广告体验在其目标付费媒体频道上线，[!DNL Insights]就可以跟踪和分析其性能数据。
+[!DNL Activate]生成一个激活表，其中列出了所有选定的体验。 该表按广告格式和渠道组织为子表，例如Meta单个图像或LinkedIn单个图像。 每一行表示一个广告。 对于大多数渠道（如LinkedIn、TikTok和显示渠道），具有多个纵横比的体验会为每个纵横比生成一行；删除任何您不需要的行。 Meta是个例外。 Meta广告可以在单个广告中包含多个长宽比，因此多长宽比Meta体验仍只会生成一行。
+
+激活表在打开时自动另存为草稿。 您可以在发布之前随时离开并继续草稿。
+
+若要向已打开的激活表添加更多体验，请单击表右上角的&#x200B;**[!UICONTROL 添加更多体验]**。 这将重新打开体验库，以便您能够选择[!DNL Activate]添加到现有表中的其他体验。
+
+**[!UICONTROL 添加更多体验]**&#x200B;还允许您激活到同一表中的多个显示平台。 显示格式体验会要求您首先选择单个显示平台，但您可以单击&#x200B;**[!UICONTROL 添加更多体验]**，选择更多显示格式体验，并选择与表格中已有的显示平台不同的显示平台。 例如，您可以将交易台广告添加到已包含Innovid广告的表中。
+
+## 配置广告和平台设置详细信息
+
+批准的资产、标题和正文已锁定，无法在激活表中编辑，因为它们已在[!DNL Content]中经过审阅和批准。 其余字段可以编辑，并且因渠道而异：
+
+>[!NOTE]
+>
+>[!DNL Content]在&#x200B;**channel**&#x200B;中调用Meta或LinkedIn等目标。 [!DNL Activate]将同一目标调用为&#x200B;**平台**（例如，在&#x200B;**[!UICONTROL 平台设置]**&#x200B;中以及下面的&#x200B;**可编辑平台设置字段**&#x200B;列中）。 这两个术语指的是一样的。
+
+您无需提前查看渠道字段。 [!DNL Activate]仅显示与您选择的渠道和格式相关的列。 使用下表作为每个渠道可编辑内容的参考。
+
+**可按渠道编辑的字段**
+
+| 渠道 | 支持的格式 | 锁定的副本 | 可编辑的文本字段 | 可编辑的平台设置字段 |
+|---|---|---|---|---|
+| Meta | 图像、视频、轮播 | 标题，正文 | 描述、Call-to-action、目标URL、URL参数、跟踪ID | 广告帐户、Facebook页面、Instagram个人资料、Meta促销活动、Meta广告集 |
+| LinkedIn | 单个图像、单个视频 | 标题，介绍性文本 | 描述、Call-to-action、目标URL、URL参数、跟踪ID | 广告帐户、营销活动、广告集 |
+| Google Campaign Manager 360 | 静态显示、视频显示、HTML5 Zip显示 | 不适用 | 跟踪Id | 广告商 |
+| Amazon Ads | 静态显示 | 不适用 | 跟踪Id | 帐户 |
+| 无病毒 | 静态显示、HTML5 Zip显示 | 不适用 | 跟踪Id | 帐户， Creative库，概念名称 |
+| TikTok | 信息源内视频广告 | 主文本 | call-to-action，目标URL，跟踪ID | 广告帐户、营销活动、广告组 |
+| YouTube | Google中的Shorts Ads Demand Gen促销活动 | 描述 | call-to-action、业务名称、目标URL、URL参数、跟踪ID | 帐户、营销活动、广告组、徽标 |
+| ChatGPT | 聊天卡 | 标题、正文 | 目标URL，跟踪ID | OpenAI广告帐户、OpenAI营销活动、OpenAI广告组 |
+| 交易台 | 静态显示 | 不适用 | 跟踪Id | 帐户、营销活动 |
+
+**跟踪ID**&#x200B;是您分配给广告行的唯一标签。 它作为广告或创意名称传递到目标平台，因此使用它来识别该广告，以进行报告和故障排除。
+
+编辑每行内嵌的字段，或选择同一格式表中的多行，然后单击工具栏上的&#x200B;**[!UICONTROL 编辑详细信息]**，该工具栏似乎可以同时批量编辑这些字段。 要为一组广告格式配置平台设置字段，请单击&#x200B;**[!UICONTROL 管理平台设置]**&#x200B;并编辑结果对话框中的字段。
+
+若要更快地在&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;字段之间移动，请使用以下键盘快捷键：
+
+* 按&#x200B;**Enter**&#x200B;打开所选&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;的编辑字段。
+* 按&#x200B;**向上**&#x200B;或&#x200B;**向下**&#x200B;箭头键移至该列的上一个或下一个&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;字段。
+* 再次按&#x200B;**Enter**&#x200B;保存您的编辑。
+
+## 审核您的体验并将其发布到其广告渠道
+
+确认每一行都显示[!UICONTROL 准备激活]。 [!DNL Activate]标记缺少字段或字段无效、不兼容的操作调用以及重复的跟踪ID为[!UICONTROL 需要注意]。 当每行都就绪时，单击&#x200B;**[!UICONTROL 发送到Platform]**&#x200B;并在发布对话框中确认。
+
+[!DNL Activate]近乎实时地报告每个广告的状态：待定，然后发布或失败。 如果广告失败，请将鼠标悬停在其状态上以查看平台的错误。 您可以通过单击&#x200B;**[!UICONTROL 重试]**&#x200B;来一次重试表中的每个失败广告，而不是分别重试每个广告。 已发布的行会被锁定以防止重新提交，并在目标平台的原生广告管理器中包含指向广告的深层链接。 您的最终发布前审核和启动广告会在目标渠道自己的广告管理器中进行： [!DNL Activate]始终以非活动状态投放广告。
+
+您的激活表显示在[!DNL Activate]登陆页上。
 
 ## 支持的渠道
 
-每个付费媒体渠道都有一个独特的激活工作流。 为激活指南选择付费渠道：
+每个付费广告渠道都具有特定于渠道的设置字段和先决条件。 为激活指南选择付费广告渠道：
 
-* [Google Campaign Manager 360](activate-cm360-ad.md)
-* [LinkedIn](activate-linkedin-ad.md)
 * [Meta](activate-meta-ad.md)
-* [ChatGPT](../create/create-chatgpt-ad.md#activate-a-chatgpt-ad)
+* [LinkedIn](activate-linkedin-ad.md)
+* [Google Campaign Manager 360](activate-cm360-ad.md)
+* [Amazon广告](activate-amazon-ad.md)
+* [无](activate-innovid-ad.md)
+* [TikTok](activate-tiktok-ad.md)
+* [YouTube](activate-youtube-ad.md)
+* [ChatGPT](activate-chatgpt-ad.md)
+* [交易台](activate-trade-desk-ad.md)
