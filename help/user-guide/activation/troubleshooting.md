@@ -7,35 +7,43 @@ exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
 TQID: https://experienceleague.adobe.com/-D3DGxTpZ-0J-grE5-jKPrptf4C1Z-OE1t0DCoqhRLQ
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Security
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '530'
 ht-degree: 1%
-
 ---
-
 # 优化激活
 
 激活付费广告渠道的广告体验涉及两个主要阶段：
 
-* 准备体验以进行激活
+* 为激活表中的每一行配置广告和平台设置详细信息
 
-* 将您的体验发布到其指定的付费渠道广告经理
+* 将您的激活发布到其指定的付费广告渠道的广告经理
 
-在创建和激活广告体验时遵循最佳实践有助于最大限度地减少在将内容交付到目标渠道期间潜在的复杂性或错误。
+在配置和激活广告体验时遵循最佳实践有助于最大限度地减少在将内容交付到目标渠道期间潜在的复杂性或错误。
 
 ## 最佳做法
 
 以下是一些常见的最佳实践以及它们可以预防的错误。
+
+* **对每一行使用唯一的跟踪ID**
+
+  [!DNL Activate]将重复的跟踪ID标记为[!UICONTROL 需要注意]，并且直到受影响格式和Platform表中的每一行都有一个唯一的跟踪ID时才允许您发布。 如果您批量编辑跨越多行的跟踪ID，请确认您要将相同的值应用于每个选定行。
 
 * **使用有效、完整的目标URL**
 
@@ -43,7 +51,7 @@ ht-degree: 1%
 
 * **确保您的应用程序正确处理令牌过期**
 
-  应用程序应根据需要请求新令牌。 根据需要，通过再次登录或刷新会话来重新进行身份验证并获取新的访问令牌。 示例错误： _验证访问令牌时出错：会话已失效，因为用户更改了密码或Facebook出于安全原因更改了会话。 (190)_
+  应用程序必须根据需要请求新令牌。 通过再次登录或刷新会话来重新验证并获取新的访问令牌。 示例错误： _验证访问令牌时出错：会话已失效，因为用户更改了密码或Facebook出于安全原因更改了会话。 (190)_
 
 * **查看您的广告集，并确保在任何时候只有一个广告处于活动状态**
 

@@ -6,115 +6,62 @@ exl-id: edc95319-36c3-4cbf-a5c0-865b49482b50
 TQID: https://experienceleague.adobe.com/1mcxWePqYd8tYp3e1D2UTSeBHSvPj4WrqeSyiUCxD8c
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Metadata
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 863
+source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 # 激活LinkedIn广告
 
-Adobe GenStudio for Performance Marketing支持将具有单个资产的LinkedIn体验激活到[LinkedIn营销活动管理器](https://business.linkedin.com/marketing-solutions)和LinkedIn页面。
+Adobe GenStudio for Performance Marketing支持将LinkedIn广告体验激活到[LinkedIn营销活动管理器](https://business.linkedin.com/marketing-solutions)。
 
-您可以在GenStudio for Performance Marketing中[创建LinkedIn体验](/help/user-guide/create/create-linkedin.md)并选择它进行激活，或在[!DNL Activate]中利用已批准的资源构建新的体验。
+**支持的格式**：单个图像、单个视频。
 
-激活LinkedIn广告遵循激活其他付费渠道所需的[相同常规步骤](create-activation.md)。 激活过程支持根据LinkedIn的特定要求准备广告体验。 在GenStudio for Performance Marketing中激活LinkedIn体验后，请使用LinkedIn营销活动管理器在最终发布之前优化特定LinkedIn广告投放的体验。
+您可以在GenStudio for Performance Marketing中[创建一个LinkedIn体验](/help/user-guide/create/create-linkedin.md)，然后选中它进行激活。
+
+激活LinkedIn广告遵循激活其他付费广告渠道所需的[相同常规步骤](create-activation.md)。 本页介绍特定于LinkedIn的先决条件和设置字段。 在GenStudio for Performance Marketing中激活LinkedIn体验后，使用LinkedIn营销活动管理器查看该体验并启动广告。
 
 GenStudio的系统管理员和编辑人员可以激活广告体验。
 
-## 步骤1：设置您的LinkedIn帐户
+## 先决条件
 
-在启动激活之前，[登录到](https://www.linkedin.com/campaignmanager/login)您的LinkedIn营销活动管理器帐户。
-
->[!BEGINSHADEBOX]
-
-**先决条件**：
-
-* 具有管理促销活动组、促销活动和广告完全权限的LinkedIn促销活动管理器帐户。 此帐户必须包含营销活动组和营销活动。
-
+* 具有管理营销活动和广告的完全权限的LinkedIn营销活动管理器帐户。 此帐户必须包含现有营销活动。
 * 具有在LinkedIn页面上创建广告和发布内容的完全权限的LinkedIn广告帐户。
 
->[!ENDSHADEBOX]
+LinkedIn营销活动管理器中必须已存在目标LinkedIn营销活动和广告集。 GenStudio for Performance Marketing不会创建营销活动或广告集。
 
-## 步骤2：连接到您的LinkedIn帐户
+>[!NOTE]
+>
+>LinkedIn重命名了其促销活动层次结构：LinkedIn促销活动管理器以前称为&#x200B;**促销活动组**&#x200B;现在称为&#x200B;**促销活动**，而它以前称为&#x200B;**促销活动**&#x200B;现在称为&#x200B;**广告集**。 [!DNL Activate]中的&#x200B;**[!UICONTROL LinkedIn营销活动]**&#x200B;和&#x200B;**[!UICONTROL LinkedIn广告集]**&#x200B;设置字段使用此当前术语。
 
-在您的组织激活体验之前，GenStudio系统管理员必须将您的LinkedIn帐户连接到GenStudio for Performance Marketing。 通过这种连接，数据可以在GenStudio和外部营销工具（如LinkedIn）之间流动，从而启用激活流程。
+GenStudio for Performance Marketing当前支持“单图像”和“单视频”LinkedIn广告，此类广告在每篇帖子中仅包含一个图像或视频。 如果您的体验包含多个纵横比，则[!DNL Activate]会在激活表中为每个纵横比生成一个单独的行，以便每个行都可以作为自己的广告运行；删除您不需要的任何行。
+
+## 连接您的LinkedIn帐户
+
+在您的组织能够激活体验之前，GenStudio系统管理员或编辑器必须将您的LinkedIn广告帐户连接到GenStudio for Performance Marketing。 要成功连接，您必须对广告帐户和LinkedIn配置文件页面具有完全管理员访问权限。 您只需在&#x200B;**[!UICONTROL 设置]**&#x200B;中连接一次广告帐户。 之后，任何有权访问该实例的人都可以访问该实例。
+
+此连接允许数据在GenStudio for Performance Marketing和LinkedIn之间流动，从而启用激活过程。
 
 同步完成后，您可以查看添加的帐户。 大量数据需要更长的时间才能同步。
 
-## 步骤3：准备体验
+## LinkedIn设置字段
 
-您可以通过从[!DNL Content]中选择一个或多个具有预定义设置的已批准体验来启动激活。
+批准的资产、标题和介绍性文本已锁定，在激活期间无法编辑，因为它们已在[!DNL Content]中经过审阅和批准。 您可以编辑：
 
-_体验设置_&#x200B;视图是一个用于在激活之前调整并审阅体验的工作区。 如果您选择激活多个体验，则此视图包含一个左侧边栏，其中显示所有选定体验的缩略图。 使用此左侧边栏将&#x200B;_体验设置_&#x200B;视图的焦点置于所选体验的详细信息。
-
-_预览面板_&#x200B;支持在特定广告投放的上下文中以交互方式查看您的文本和资源。 使用&#x200B;_选择投放位置_&#x200B;下拉菜单在支持的广告投放位置之间切换。 预览提供最终确定有关特定投放位置的广告元素的决策的机会。 在&#x200B;_预览_&#x200B;面板中选择版面时，只有广告视图会受到影响。 未保存&#x200B;_预览_&#x200B;面板中的版面选择。
-
-### 从内容激活已批准的体验
-
-您可以选择一个或多个体验来激活到单个付费渠道。 体验只能包含一个资源。 将从所选批准的体验中加载详细信息。
-
-可编辑的体验详细信息包括：
-
-* call-to-action (CTA)文本
-* 网站URL
-* 显示链接
-
-**要选择体验**：
-
-1. 使用[!DNL Content]图库的搜索和筛选工具识别要激活的体验，然后单击&#x200B;**[!UICONTROL 激活]**。 或者，您也可以选择一个体验，然后从更多(...)中选择&#x200B;**[!UICONTROL 激活]** 菜单。
-
-   随即会为此体验打开LinkedIn广告&#x200B;_体验设置_&#x200B;页面。 该界面中已预填充所选体验的详细信息。 在继续激活之前，系统可能会要求您选择平台。
-
-1. （可选）编辑可编辑字段（**[!UICONTROL Call to action]**、**[!UICONTROL 网站URL]**、*[!UICONTROL 显示链接]**）中的值。
-
-1. （可选）单击&#x200B;**[!UICONTROL 添加体验]**&#x200B;以向此激活组添加体验。
-
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的体验设置。
-
-## 步骤4：确认LinkedIn帐户设置
-
-准备广告体验后，必须确认LinkedIn帐户信息。 _LinkedIn广告设置_&#x200B;视图填充了从配置的LinkedIn帐户派生的选项。
-
-_营销活动组_&#x200B;是LinkedIn营销活动管理器的基本组件。 活动组根据共享目标组织离散的活动。 营销活动可以从其所属营销活动组继承预算限制、目标和计划。
-
-**确认您的帐户设置**：
-
-1. 从&#x200B;**[!UICONTROL 帐户]**&#x200B;下拉菜单中选择一个帐户。 选项是已连接到GenStudio for Performance Marketing的LinkedIn帐户。
-
-1. 从&#x200B;**[!UICONTROL 营销活动组]**&#x200B;下拉菜单中选择一个营销活动组。 这是发布体验的LinkedIn营销活动组。
-
-1. 从&#x200B;**[!UICONTROL 营销活动]**&#x200B;下拉菜单中选择一个营销活动。 这是将广告体验交付到的LinkedIn营销活动。
-
-1. 在每个体验的&#x200B;**[!UICONTROL 广告名称]**&#x200B;字段中输入广告名称。 LinkedIn Campaign Manager通过此名称标识体验。
-
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的LinkedIn广告设置。
-
-## 步骤5：预览和激活广告
-
-_审阅_&#x200B;页面提供了在发布之前审核激活的最终机会。
-
-**要查看和发布您的体验**：
-
-1. （可选）单击要编辑的体验或平台详细信息旁边的&#x200B;**[!UICONTROL 编辑部分]**。
-根据您选择的部分，_体验设置_&#x200B;或&#x200B;_平台设置_&#x200B;视图将打开。
-
-1. （可选）编辑详细信息，然后单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以返回&#x200B;_审阅_&#x200B;视图。
-
-1. 单击&#x200B;**[!UICONTROL 发布]**。
-
-   完整的LinkedIn广告体验及其关联的元数据将直接推送到指定的LinkedIn营销活动管理器营销活动中。 体验以非活动状态交付。 通过LinkedIn营销活动管理器，您可以管理部署广告体验和LinkedIn营销活动的最后步骤。
-
-## 步骤6：完成广告体验的发布
-
-1. [登录](https://www.linkedin.com/campaignmanager/login)您的LinkedIn Campaign Manager帐户以查看您的广告体验并完成特定的LinkedIn页面发布。
+* **文本字段**：描述、Call-to-action、目标URL、URL参数、跟踪ID（用作平台广告名称）
+* **平台设置字段**： LinkedIn广告帐户、LinkedIn营销活动、LinkedIn广告集
