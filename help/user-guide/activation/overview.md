@@ -44,7 +44,7 @@ GenStudio系统管理员或编辑器必须连接每个付费广告渠道的广�
 
 使用[!DNL Activate]为其目标付费广告渠道准备广告体验。 在单个激活表中[跨多个付费广告渠道批量激活体验](create-activation.md)。 然后，[管理您的激活](manage-activations.md)以查看每个激活体验的状态和详细信息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503546?captions=chi_hans&learn=on)
 
 ### 从内容激活已批准的体验
 
