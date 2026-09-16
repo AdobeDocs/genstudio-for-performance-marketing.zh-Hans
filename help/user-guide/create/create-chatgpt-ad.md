@@ -4,17 +4,15 @@ description: 了解如何在Adobe GenStudio for Performance Marketing中创建�
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
-source-git-commit: 0f5bc2b5416193c01cc4b2fc96d9cb575e209aa3
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 9%
-
+source-wordcount: '581'
+ht-degree: 8%
 ---
-
 
 # 创建ChatGPT广告体验
 
-在[!DNL GenStudio for Performance Marketing]中使用[[!DNL Create]](/help/user-guide/create/overview.md)生成&#x200B;**ChatGPT广告**&#x200B;作为付费媒体体验 — 从准则和资产到生成、品牌和渠道检查、审批、发布到[!DNL Content]，以及在用于Meta和Google Campaign Manager 360等渠道的相同[!DNL Activate]流中激活。
+在[!DNL GenStudio for Performance Marketing]中使用[[!DNL Create]](/help/user-guide/create/overview.md)将&#x200B;**ChatGPT广告**&#x200B;生成为付费媒体体验，从准则和资产到生成、品牌和渠道检查、审批、发布到[!DNL Content]，以及在用于Meta和Google Campaign Manager 360等渠道的相同[!DNL Activate]流中激活。
 
 在开始之前，[根据需要添加准则](/help/user-guide/guidelines/add-guidelines.md)并审阅[有效提示](/help/user-guide/effective-prompts.md)，以使标题提示产生强变体。
 
@@ -77,7 +75,7 @@ ht-degree: 9%
 
 1. 单击&#x200B;**[!UICONTROL 内容检查]**（品牌和渠道检查）。
 1. 在&#x200B;[_内容检查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)中查看验证结果。
-1. 通过根据需要编辑变体或再生来解决任何标记的问题，例如复制长度或密集的屏幕文本。
+1. 通过编辑变体或根据需要重新生成，解决任何标记的问题（例如，复制长度或密集的屏幕文本）。
 
 请参阅[品牌验证](/help/user-guide/guidelines/brand-validation.md)。
 
@@ -87,8 +85,8 @@ ht-degree: 9%
 
 有两种状态：
 
-* **草稿体验** — 正在工作且未获得批准。
-* **已发布的体验** — 已批准并在[!DNL Content]中可供激活。
+* **草稿体验**：工作正在进行且未获得批准。
+* **已发布体验**：已批准，可用于[!DNL Content]进行激活。
 
 ### 发送以供审查
 
@@ -106,65 +104,13 @@ ht-degree: 9%
 在所有必需的审批之后，发布到[!DNL Content]：
 
 1. 单击&#x200B;**[!UICONTROL 发布到内容]**。
-1. 确认元数据 — 例如促销活动或激活名称、地区、语言、角色、funnel阶段和&#x200B;**渠道：ChatGPT**。
+1. 确认元数据，例如促销活动或激活名称、地区、语言、角色、funnel阶段和&#x200B;**渠道：ChatGPT**。
 1. 单击&#x200B;**[!UICONTROL 发布]**。
 
-ChatGPT广告出现在[!DNL Content]中 — 可通过渠道或营销活动等筛选器发现 — 并准备在[!DNL Activate]中进行选择。
+ChatGPT广告出现在[!DNL Content]中，可通过渠道或营销活动等过滤器发现，并准备在[!DNL Activate]中选择。
 
 查看[发布批准的内容](/help/user-guide/approvals/publish-content.md)和[[!DNL Content] 概述](/help/user-guide/content/overview.md)。
 
 ## 激活ChatGPT广告
 
-ChatGPT激活使用与Meta和Google Campaign Manager 360相同的[[!DNL Activate]](/help/user-guide/activation/overview.md)模块。 请参阅[为共享激活工作流创建激活](/help/user-guide/activation/create-activation.md)。
-
-### 启动ChatGPT激活
-
-您可以从[!DNL Content]或[!DNL Activate]开始。
-
-**来自[!DNL Content]**
-
-* 选择一个或多个&#x200B;**已发布** ChatGPT体验。
-
-**来自[!DNL Activate]**
-
-* 打开&#x200B;**ChatGPT**&#x200B;卡并单击&#x200B;**[!UICONTROL +新建]**。
-
-每个体验都映射到&#x200B;**一个** ChatGPT广告。
-
-### 配置体验设置
-
-对于每个选定的体验，请确认：
-
-* **标题**
-* **正文**
-* **目标URL** — 必须使用有效的`https://`格式（例如`https://www.example.com`）。
-
-### 配置平台设置
-
-选择ChatGPT广告管理器详细信息：
-
-* **OpenAI广告帐户**
-* **ChatGPT营销活动** — 必须已存在于OpenAI广告管理器中。
-* **ChatGPT广告组** — 必须已存在于OpenAI广告管理器中。
-* **ChatGPT广告名称** — 每个ChatGPT广告有一个不同的名称。
-
-### 审阅并发布
-
-1. 查看所有创意和平台详细信息。
-1. 单击&#x200B;**[!UICONTROL 发布]**。
-
-[!DNL GenStudio for Performance Marketing]在&#x200B;**不活动**&#x200B;状态下将广告推送到ChatGPT广告管理器，以便您的媒体团队与其他付费渠道一样，控制最终启动时间和预算。 请参阅[激活概述](/help/user-guide/activation/overview.md)。
-
-### 发布后发生的情况
-
-* **正在发布**&#x200B;模式随即出现并自动关闭。
-* 您将被重定向到&#x200B;**ChatGPT激活**&#x200B;表，其中列出了最新激活。 处理完成时状态显示&#x200B;**[!UICONTROL 挂起]**。
-* 您可以在发布完成时导航离开。
-
-处理完成时：
-
-* 确认弹出窗口显示&#x200B;**成功**&#x200B;或&#x200B;**失败**。
-* 如果单击弹出窗口或在激活表中打开ChatGPT激活，则会看到&#x200B;**详细信息**&#x200B;页面。
-* 如果激活&#x200B;**[!UICONTROL 失败]**，则表显示该状态并显示ChatGPT的错误消息。
-
-在OpenAI广告管理器中，媒体团队可以运行最终检查，并在准备就绪后使广告或广告组处于活动状态。
+ChatGPT激活使用与其他付费渠道相同的[[!DNL Activate]](/help/user-guide/activation/overview.md)模块。 请参阅[激活ChatGPT广告](/help/user-guide/activation/activate-chatgpt-ad.md)，了解特定于ChatGPT的先决条件和设置字段。

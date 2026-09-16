@@ -6,73 +6,58 @@ exl-id: ebb2aa9e-8efb-45b0-9ba2-7b27b8888708
 TQID: https://experienceleague.adobe.com/VTzk2CDlTqawM1ckdHPVzs2ES-y0Ui0mkOLnVD88bJk
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Insights
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: '268'
 ht-degree: 0%
-
 ---
-
 # 激活无痕广告
 
-通过Adobe GenStudio for Performance Marketing，GenStudio系统管理员和编辑人员可以将广告体验发布到Innovid平台。
+Adobe GenStudio for Performance Marketing支持将广告体验激活为Innovid。
 
-从内容库或激活主页启动无痕广告体验的发布。
+**支持的格式**：静态显示、HTML5 Zip显示。
 
-## 第1步：设置您的无风险帐户
+激活无痕体验遵循激活其他付费广告渠道所需的[相同常规步骤](create-activation.md)。 本页介绍特定于Innovid的先决条件和设置字段。 在GenStudio for Performance Marketing中激活体验后，使用Innovid查看体验并启动广告。
 
-Innovid允许营销人员在不同帐户中组织营销活动和广告。 每个广告商都有一个创意库，GenStudio for Performance Marketing会将广告体验发布到创意库中。
+GenStudio的系统管理员和编辑人员可以激活广告体验。
 
-在尝试激活之前，[登录到您的Innovid帐户][1]。 确认您有权访问无效帐户。 当您从GenStudio for Performance Marketing发布无痕体验时，该体验会交付给在创建期间选择的创意库。
+## 先决条件
 
-## 第2步：连接到您的无风险帐户
+* 访问目标Innovid帐户
+* 管理员可以访问该帐户，以对Innovid进行读写操作。
 
-在您的组织能够在创意库中发布资产之前，GenStudio系统管理员必须将您的无病毒帐户连接到GenStudio for Performance Marketing。 您必须对添加的帐户具有管理员访问权限才能在Innovid中读取和写入。 查看[连接付费媒体帐户][2]。
+Innovid在不同帐户中组织营销活动和广告，每个帐户都有一个创意库。 Innovid中必须已存在目标创意库；GenStudio for Performance Marketing将广告体验发布到该创意库中，但不创建帐户或创意库。
+
+## 连接您的无名帐户
+
+在您的组织能够在创意库中发布资产之前，GenStudio系统管理员必须将您的无病毒帐户连接到GenStudio for Performance Marketing。 您必须拥有该帐户的管理员访问权限才能在Innovid中读取和写入。 查看[连接付费媒体帐户](/help/user-guide/connectors/connect-channel.md)。
 
 同步完成后，您可以查看添加的帐户。
 
-## 步骤3：为您的广告体验选择内容
+## 无设置字段
 
-从内容体验库或激活主页启动发布流程。 无法编辑已批准的体验。 每个体验只能包含一个资源。
+批准的资产已锁定，在激活期间无法编辑，因为它们已在[!DNL Content]中经过审阅和批准。 您可以编辑：
 
-要选择体验，请执行以下操作：
+* **文本字段**：跟踪ID（用作平台创意名称）
+* **平台设置字段**：帐户、Creative库、概念名称
 
-1. 使用内容库的搜索和筛选工具来识别要激活的体验。 然后单击&#x200B;**[!UICONTROL 使用]**。 或者，您也可以通过单击Innovid产品卡上的&#x200B;**[!UICONTROL 新建]**，从“激活”中选择体验。
-1. 在继续激活之前，系统将提示您选择平台。 选择&#x200B;*Innovid*。 随即会为此体验打开“无可视化体验设置”页面。 该页面已预填充体验的详细信息，无法修改。 
-1. （可选）单击&#x200B;**[!UICONTROL 添加体验]**&#x200B;以向此激活组添加体验。
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的Innovid平台设置。 **[!UICONTROL 平台设置]**&#x200B;视图打开。此视图显示从配置的Innovid帐户派生的选项。
-
-## 步骤4：确认无病毒平台设置
-
-1. 从&#x200B;**[!UICONTROL 帐户]**&#x200B;下拉菜单中选择一个帐户。 
-1. 从&#x200B;**[!UICONTROL Creative Library]**&#x200B;下拉菜单中选择一个Creative库。 您的Innovid帐户设置决定了可用的Creative库。 激活完成后，您的创意体验将以无忧状态交付到此Creative库。
-1. 向&#x200B;**[!UICONTROL Creative名称]**&#x200B;字段添加名称。 Innovid通过此名称标识体验。
-1. 对每个选定的体验重复此操作。
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;确认您的无痕设置。
-
-## 步骤5：预览和激活广告
-
-“审阅”页面提供了一个最终机会，让您在发布之前审阅您的激活。
-
-1. （可选）单击&#x200B;**[!UICONTROL 平台设置]**&#x200B;标签旁边的&#x200B;**[!UICONTROL 编辑部分]**&#x200B;以编辑平台设置。 您无法编辑体验内容。
-1. 单击&#x200B;**[!UICONTROL 发布]**。
-
-您的无痕广告体验会直接推送到选定Innovid帐户内的创意库。
-
-## 步骤6：完成广告体验的发布
-
-访问[Innovid的网站][1]以管理设置的最后步骤并在发布的体验中部署您的广告。
-
-[1]: https://www.innovid.com/
-[2]: /help/user-guide/connectors/connect-channel.md
+激活完成后，您的创意体验将以无忧状态交付到选定的创意库。
