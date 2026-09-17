@@ -46,7 +46,7 @@ ht-degree: 1%
 
 单个激活表可以包含多个付费广告平台和广告格式的体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503546?captions=chi_hans&learn=on)
 
 ## 连接您的平台帐户
 
