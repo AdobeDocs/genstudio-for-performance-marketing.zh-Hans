@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6cb428b368f75e0b646cfa4e6536a4728fdf40e2
+source-git-commit: 0844f7407c4b3a3f8eafe248f498ef7fcd51555d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1238'
 ht-degree: 1%
 ---
 # 激活工作流
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 单个激活表可以同时包含多个付费广告渠道和广告格式的体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503546?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## 连接您的渠道帐户
 
@@ -58,6 +58,8 @@ GenStudio系统管理员或编辑器必须连接每个付费广告渠道的广�
 
 * **从[!DNL Content]**：筛选到体验，选择一个或多个已发布的体验，然后单击顶部操作栏上的&#x200B;**[!UICONTROL 激活]**。
 * **从[!DNL Activate]**：在[!DNL Activate]登陆页面上，单击&#x200B;**[!UICONTROL +新激活]**。 这将打开体验库，您可以在其中选择要激活的体验。
+
+![在“内容”中选择已发布的体验，然后单击“激活”以开始激活](./images/content-select-activate.png)
 
 无论属于哪种情况，都可按体验名称搜索，或按多个渠道进行筛选以查找所需的体验。
 
@@ -99,17 +101,27 @@ GenStudio系统管理员或编辑器必须连接每个付费广告渠道的广�
 
 编辑每行内嵌的字段，或选择同一格式表中的多行，然后单击工具栏上的&#x200B;**[!UICONTROL 编辑详细信息]**，该工具栏似乎可以同时批量编辑这些字段。 要为一组广告格式配置平台设置字段，请单击&#x200B;**[!UICONTROL 管理平台设置]**&#x200B;并编辑结果对话框中的字段。
 
+![在激活表中选择多个广告以批量编辑详细信息或平台设置](./images/bulk-edit-action-bar.png)
+
+![用于选择Meta广告帐户、营销活动和广告集的“管理平台设置”对话框](./images/manage-platform-settings.png)
+
 若要更快地在&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;字段之间移动，请使用以下键盘快捷键：
 
 * 按&#x200B;**Enter**&#x200B;打开所选&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;的编辑字段。
 * 按&#x200B;**向上**&#x200B;或&#x200B;**向下**&#x200B;箭头键移至该列的上一个或下一个&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;字段。
 * 再次按&#x200B;**Enter**&#x200B;保存您的编辑。
 
+![正在编辑激活表中内联的跟踪ID字段](./images/tracking-id-edit.png)
+
 ## 审核您的体验并将其发布到其广告渠道
 
 确认每一行都显示[!UICONTROL 准备激活]。 [!DNL Activate]标记缺少字段或字段无效、不兼容的操作调用以及重复的跟踪ID为[!UICONTROL 需要注意]。 当每行都就绪时，单击&#x200B;**[!UICONTROL 发送到Platform]**&#x200B;并在发布对话框中确认。
 
+![每个行都显示“准备激活”的激活表，启用“发送到平台”](./images/ready-to-activate.png)
+
 [!DNL Activate]近乎实时地报告每个广告的状态：待定，然后发布或失败。 如果广告失败，请将鼠标悬停在其状态上以查看平台的错误。 您可以通过单击&#x200B;**[!UICONTROL 重试]**&#x200B;来一次重试表中的每个失败广告，而不是分别重试每个广告。 已发布的行会被锁定以防止重新提交，并在目标平台的原生广告管理器中包含指向广告的深层链接。 您的最终发布前审核和启动广告会在目标渠道自己的广告管理器中进行： [!DNL Activate]始终以非活动状态投放广告。
+
+![显示发布后“待处理”和“发送到平台”状态的混合激活表](./images/activation-status-pending.png)
 
 您的激活表显示在[!DNL Activate]登陆页上。
 
