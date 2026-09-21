@@ -36,8 +36,8 @@ Claude需要Pro 、 Max 、 Team或Enterprise计划。 相同的远程连接器�
 1. 使用您的Adobe ID登录。
 1. 选择有权访问[!DNL GenStudio for Performance Marketing]的IMS组织。
 
-> [!NOTE]
-> 在团队或企业计划中，组织所有者可能需要先添加连接器。 如果连接器已经可用，请改为选择&#x200B;**[!UICONTROL 连接]**。
+&#x200B;> [!NOTE]
+&#x200B;> 在团队或企业计划中，组织所有者可能需要先添加连接器。 如果连接器已经可用，请改为选择&#x200B;**[!UICONTROL 连接]**。
 
 ## 连接ChatGPT
 
@@ -52,7 +52,7 @@ ChatGPT需要Plus 、 Pro 、 Business 、 Enterprise或Education帐户。 可�
 1. 使用您的Adobe ID登录。
 1. 选择有权访问[!DNL GenStudio for Performance Marketing]的IMS组织。
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 > ChatGPT可以更改开发人员和连接器设置的位置。 如果帐户中的这些标签不同，请按照当前的OpenAI说明添加远程MCP连接器。
 
 ## 连接代码
@@ -106,8 +106,8 @@ Microsoft控制Copilot中自定义MCP连接的设置流程。 按照当前[Micro
 
 该助理会返回可用的性能数据，或解释为何没有数据与请求匹配。
 
-> [!TIP]
-> 如果身份验证失败，请重新连接，并确认您选择了正确的IMS组织。 如果未显示工具，请确认您的帐户有权访问[!DNL GenStudio for Performance Marketing]。
+&#x200B;> [!TIP]
+&#x200B;> 如果身份验证失败，请重新连接，并确认您选择了正确的IMS组织。 如果未显示工具，请确认您的帐户有权访问[!DNL GenStudio for Performance Marketing]。
 
 ## 相关功能
 
