@@ -2,7 +2,7 @@
 title: 连接AI助手
 description: 了解如何将受支持的AI助手连接到[!DNL GenStudio for Performance Marketing]并验证对可用工具的访问权限。
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -36,8 +36,9 @@ Claude需要Pro 、 Max 、 Team或Enterprise计划。 相同的远程连接器�
 1. 使用您的Adobe ID登录。
 1. 选择有权访问[!DNL GenStudio for Performance Marketing]的IMS组织。
 
-&#x200B;> [!NOTE]
-&#x200B;> 在团队或企业计划中，组织所有者可能需要先添加连接器。 如果连接器已经可用，请改为选择&#x200B;**[!UICONTROL 连接]**。
+>[!NOTE]
+>
+>在团队或企业计划中，组织所有者可能需要先添加连接器。 如果连接器已经可用，请改为选择&#x200B;**[!UICONTROL 连接]**。
 
 ## 连接ChatGPT
 
@@ -52,8 +53,9 @@ ChatGPT需要Plus 、 Pro 、 Business 、 Enterprise或Education帐户。 可�
 1. 使用您的Adobe ID登录。
 1. 选择有权访问[!DNL GenStudio for Performance Marketing]的IMS组织。
 
-&#x200B;> [!NOTE]
-> ChatGPT可以更改开发人员和连接器设置的位置。 如果帐户中的这些标签不同，请按照当前的OpenAI说明添加远程MCP连接器。
+>[!NOTE]
+>
+>ChatGPT可以更改开发人员和连接器设置的位置。 如果帐户中的这些标签不同，请按照当前的OpenAI说明添加远程MCP连接器。
 
 ## 连接代码
 
@@ -106,8 +108,9 @@ Microsoft控制Copilot中自定义MCP连接的设置流程。 按照当前[Micro
 
 该助理会返回可用的性能数据，或解释为何没有数据与请求匹配。
 
-&#x200B;> [!TIP]
-&#x200B;> 如果身份验证失败，请重新连接，并确认您选择了正确的IMS组织。 如果未显示工具，请确认您的帐户有权访问[!DNL GenStudio for Performance Marketing]。
+>[!TIP]
+>
+>如果身份验证失败，请重新连接，并确认您选择了正确的IMS组织。 如果未显示工具，请确认您的帐户有权访问[!DNL GenStudio for Performance Marketing]。
 
 ## 相关功能
 

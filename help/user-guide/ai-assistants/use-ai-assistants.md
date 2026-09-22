@@ -2,7 +2,7 @@
 title: 使用AI助理
 description: 了解如何使用连接到[!DNL GenStudio for Performance Marketing]的AI助手查询性能数据、创建草稿和发布已批准的广告。
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -89,8 +89,9 @@ ht-degree: 0%
 - “我可以更改此模板中的哪些内容？”
 - &quot;根据此模板创建一个Meta广告。 使用标题夏季促销活动和call to action Shop Now。 以下是创意简介：[描述促销活动、语调和选件]。”
 
-&#x200B;> [!TIP]
-> 在Creative Cloud中，创建草稿会成为真实的文档。 它不是预览。 先准备创意简报并复制，然后再询问。
+>[!TIP]
+>
+>在Creative Cloud中，创建草稿会成为真实的文档。 它不是预览。 先准备创意简报并复制，然后再询问。
 
 ## 查看和共享草稿
 
@@ -109,8 +110,9 @@ ht-degree: 0%
 - “为我的Meta广告帐户和营销活动设置此体验。”
 - “将此体验发布到LinkedIn。”
 
-&#x200B;> [!IMPORTANT]
-> 发布会创建一个实时广告投放，并且可能会产生广告支出。 无法通过助手还原。 在发布之前确认目标帐户、营销活动和体验。 重复请求会创建另一个广告。
+>[!IMPORTANT]
+>
+>发布会创建一个实时广告投放，并且可能会产生广告支出。 无法通过助手还原。 在发布之前确认目标帐户、营销活动和体验。 重复请求会创建另一个广告。
 
 ## 解释为空或不可用的结果
 
