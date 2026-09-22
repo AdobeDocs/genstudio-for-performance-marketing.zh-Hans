@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: 378b5c689ce9dab9ffdde6d17a06df68cca2d305
+source-git-commit: e577c7b1e55c629fb3ab7155eb012963884731cd
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 81%
+source-wordcount: '309'
+ht-degree: 77%
 ---
 
 # Adobe GenStudio for Performance Marketing指南 {#user-guide}
@@ -23,6 +23,11 @@ ht-degree: 81%
   + [配置 [!DNL Brand] 权限](configure-brand-permissions.md)
   + [用户角色](user-roles.md)
   + [有效提示](effective-prompts.md)
++ AI助理 {#ai-assistants}
+  + [AI助理概述](ai-assistants/overview.md)
+  + [连接AI助手](ai-assistants/connect-ai-assistants.md)
+  + [使用AI助理](ai-assistants/use-ai-assistants.md)
+  + [AI助手工具引用](ai-assistants/tools-reference.md)
 + 设置 {#settings}
   + [连接付费媒体](connectors/connect-channel.md)
   + 付费媒体帐户 {#connect-account}
