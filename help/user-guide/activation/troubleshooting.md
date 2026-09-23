@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 1%
 ---
 # 优化激活
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 * **对每一行使用唯一的跟踪ID**
 
-  [!DNL Activate]将重复的跟踪ID标记为[!UICONTROL 需要注意]，并且直到受影响格式和Platform表中的每一行都有一个唯一的跟踪ID时才允许您发布。 如果您批量编辑跨越多行的跟踪ID，请确认您要将相同的值应用于每个选定行。
+  [!DNL Activate]将重复的跟踪ID标记为[!UICONTROL 需要注意]，并且直到受影响格式和Platform表中的每一行都有一个唯一的跟踪ID时才允许您发布。 每个&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;字段都会预先填充体验名称，因此跨广告格式或平台共享体验的行都会以相同的值开头。 检查并解决这些重复项，而不仅仅是批量编辑引入的重复项。 如果您批量编辑跨越多行的跟踪ID，请确认您要将相同的值应用于每个选定行。
 
 * **使用有效、完整的目标URL**
 

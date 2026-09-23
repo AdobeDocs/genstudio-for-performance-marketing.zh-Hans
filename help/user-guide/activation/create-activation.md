@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c8d964aa325aee782c175abf3fce880fb17ae6ca
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1233'
 ht-degree: 1%
 ---
 # 激活工作流
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 单个激活表可以包含多个付费广告平台和广告格式的体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503546?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## 连接您的平台帐户
 
@@ -108,7 +108,7 @@ GenStudio系统管理员或编辑器必须连接每个付费广告平台的广�
 
 ![用于选择Meta广告帐户、营销活动和广告集的“管理平台设置”对话框](./images/manage-platform-settings.png)
 
-**[!UICONTROL 跟踪ID]**&#x200B;字段最初为空。 跟踪ID与广告平台的广告名称或创意名称相同，且广告平台会将其用作广告的标识名称。 使用此字段可标识该广告，以用于报告和疑难解答。 在&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;字段中输入要使用的值。
+每个&#x200B;**[!UICONTROL 跟踪ID]**&#x200B;字段均预先填充了体验名称：广告平台使用此值作为广告名称或创意名称进行报告和疑难解答。 如果要使用其他内容，请就地编辑该值。
 
 ![正在编辑激活表中内联的跟踪ID字段](./images/tracking-id-edit.png)
 
