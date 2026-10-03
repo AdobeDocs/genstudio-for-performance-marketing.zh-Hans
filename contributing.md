@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 参与者指南文档
 
-请参阅[Adobe参与者指南文档](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+请参阅[Adobe参与者指南文档](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
 
 ## 有疑问吗？
 
