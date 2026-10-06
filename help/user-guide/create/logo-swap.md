@@ -1,16 +1,29 @@
 ---
-title: 在 [!DNL Create]中使用徽标交换
-description: 了解如何在 [!DNL Create] 工作流期间交换模板中的品牌徽标。
+title: 在[!DNL Create]中使用徽标交换
+description: 了解如何在[!DNL Create]工作流期间在模板中交换品牌徽标。
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 380825c8dc046f826458f3dc75044ab2d000df92
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Create]中使用徽标交换
 
 在[!DNL GenStudio for Performance Marketing]中的内容创建期间，使用徽标交换替换模板中的品牌徽标。
@@ -28,7 +41,7 @@ ht-degree: 0%
 1. 照常创建内容。 将显示四个变体。
 1. 将鼠标悬停在徽标区域上以显示占位符。
    ![徽标占位符](./hover-placeholder.png){width="200"}
-1. 单击“品牌徽标”区域，然后单击“从内容交换”**&#x200B;**。
+1. 单击“品牌徽标”区域，然后单击“从内容交换”****。
    从内容![交换](./hover-icon-for-swap.png){width="200"}
 1. 在“品牌徽标”面板中，选择一个徽标，然后单击&#x200B;**[!UICONTROL 使用]**&#x200B;以将其应用于当前变体，或单击&#x200B;**[!UICONTROL 应用于所有变体]**&#x200B;以将其应用于所有四个变体。
 1. 您还可以按品牌名称或过滤器使用搜索徽标来查找徽标。

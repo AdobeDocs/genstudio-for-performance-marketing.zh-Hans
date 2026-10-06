@@ -4,26 +4,36 @@ description: 了解如何在GenStudio for Performance Marketing中应用和查�
 level: Intermediate
 feature: Content Management, Content Attributes
 exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
-TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
+TQID: 'https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+    internal-label: Content attributes
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
+    internal-label: Metadata
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: '750'
 ht-degree: 5%
-
 ---
-
 # Content Credentials组织版
 
 了解用于证明品牌真实性并促进合规性的内容的防篡改凭据如何直接嵌入您的营销工作流程中。
@@ -43,7 +53,7 @@ GenStudio for Performance Marketing会自动将Content Credentials全局应用�
 
 ## 什么是Content Credentials？ 
 
-Content Credentials是一种持久的行业标准元数据类型，其中包含有关如何制作内容的详细信息以及有关创建者的身份信息。 当内容在线发布到支持平台时，或者使用诸如[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome浏览器扩展](https://helpx.adobe.com/cn/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)之类的工具时，可以查看Content Credentials。  
+Content Credentials是一种持久的行业标准元数据类型，其中包含有关如何制作内容的详细信息以及有关创建者的身份信息。 当内容在线发布到支持平台时，或者使用诸如[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome浏览器扩展](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)之类的工具时，可以查看Content Credentials。  
 
 应用Content Credentials有助于提高内容制作方式的透明度，并且可帮助您的用户将自己连接到其内容。
 
@@ -93,7 +103,7 @@ Content Credential徽章将显示在画布资源选择器中。
 
 ![已批准资产上的凭据数据](./images/review-and-approve1.png){width="60%"}
 
-当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”**&#x200B;**&#x200B;时，已批准的体验将被重新签名。
+当审阅者检查资产时，会显示每个变体的凭据详细信息。 当用户单击“保存到内容”****&#x200B;时，已批准的体验将被重新签名。
 
 ![已批准内容的“确认详细信息”对话框，显示了“保存到内容”按钮](./images/review-and-approve3.png)
 
@@ -113,5 +123,5 @@ Content Credential徽章将显示在画布资源选择器中。
 
 ## 相关信息
 
-* [内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 * Adobe上的[Content Credentials](https://helpx.adobe.com/cn/creative-cloud/help/content-credentials.html)

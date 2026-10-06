@@ -5,31 +5,44 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
+TQID: 'https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: '1654'
 ht-degree: 1%
-
 ---
-
 # 使用模板
 
 GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板_&#x200B;快速生成一致的品牌营销内容。 模板通过提供包括预配置布局和设计元素的起点，显着减少了生成新内容所需的时间和精力。 若要开始，请在[!DNL Content]中上传自定义模板，或在[!DNL Create]中使用起始模板。 [入门模板](/help/user-guide/templates/starter-templates.md)提供了从标准设计开始的快速方法，而自定义模板允许您使用独特的设计和布局。
@@ -77,7 +90,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 管理模板
 
-_[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
+_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
 
 ### 搜索模板
 
@@ -100,7 +113,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **添加模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择顶部栏中的&#x200B;**[!UICONTROL HTML模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择顶部栏中的&#x200B;**[!UICONTROL HTML模板]**部分。
 
 1. 单击&#x200B;**[!UICONTROL +添加模板]**。
 
@@ -112,7 +125,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
    >[!TIP]
    >
-   >如果模板中的详细信息不正确，请单击“上一步”**&#x200B;**&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
+   >如果模板中的详细信息不正确，请单击“上一步”****&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
 
 1. 查看自动检测到的字段。 在双面板“预览/代码”视图中，左侧面板显示模板的实时预览，其中检测区域以颜色突出显示。右侧边栏显示所有检测到的字段及其当前插槽状态的字段列表。 字段使用在“代码”选项卡中可见的Handlebars表示法标记（例如，`{{headline}}`、`{{body}}`、`{{image}}`）。
 
@@ -156,7 +169,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **刷新模板**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 
@@ -168,7 +181,7 @@ _[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Mark
 
 **要使用模板创建体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 

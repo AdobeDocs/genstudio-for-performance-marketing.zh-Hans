@@ -4,34 +4,50 @@ description: 了解如何根据实时内容性能指标优化广告。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-TQID: https://experienceleague.adobe.com/7ERGkM2wuM8JHYf-bi-SAVMSblhwpkt7NNuUNgCCcfc
+TQID: 'https://experienceleague.adobe.com/7ERGkM2wuM8JHYf-bi-SAVMSblhwpkt7NNuUNgCCcfc'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: b03d2162-d906-40a0-9cbd-001391e22d4a
+    internal-label: Content performance
   - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
+    internal-label: Ad performance
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+    internal-label: Channels
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
+  - id: e61505eb-ae0c-4fa0-a6cc-9f95313d4431
+    internal-label: Reporting and insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 96438790ee2d211cee8ab076b13f8d404b0a2700
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 1002
+source-wordcount: '1002'
 ht-degree: 0%
-
 ---
-
 # Adobe GenStudio for Performance Marketing Insights
 
 Adobe GenStudio for Performance Marketing [!DNL Insights]提供对内容性能的高级分析和见解，可帮助您做出数据驱动型决策。
@@ -94,15 +110,15 @@ Meta、LinkedIn和TikTok提供了对营销活动、广告、媒体和属性的�
 
 ### 营销活动
 
-[[!DNL Insights] _[!UICONTROL 营销活动&#x200B;]_&#x200B;视图](campaigns.md)是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请务必[连接渠道帐户](/help/user-guide/connectors/connect-channel.md)，以便GenStudio for Performance Marketing开始接收您的统计数据。
+[[!DNL Insights] _[!UICONTROL 营销活动&#x200B;]_视图](campaigns.md)是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请务必[连接渠道帐户](/help/user-guide/connectors/connect-channel.md)，以便GenStudio for Performance Marketing开始接收您的统计数据。
 
 ### 已发布的体验
 
-[[!DNL Insights] _[!UICONTROL 已发布的体验详细信息&#x200B;]_&#x200B;视图](published-experiences.md)侧重于评估体验的有效性。 通过[!UICONTROL 发布的体验]视图，可根据体验在指定日期范围内的位置分析该体验的量度。 通过单击&#x200B;_[!UICONTROL &#x200B;体验名称&#x200B;]_，您可以查看体验性能量度、按投放位置列出的性能和属性。
+[[!DNL Insights] _[!UICONTROL 已发布的体验详细信息&#x200B;]_视图](published-experiences.md)侧重于评估体验的有效性。 通过[!UICONTROL 发布的体验]视图，可根据体验在指定日期范围内的位置分析该体验的量度。 通过单击_[!UICONTROL &#x200B;体验名称&#x200B;]_，您可以查看体验性能量度、按投放位置列出的性能和属性。
 
 ### 媒体
 
-[[!DNL Insights] _[!UICONTROL 媒体&#x200B;]_&#x200B;视图](media.md)旨在帮助您分析创意内容的性能。 您可以识别有助于改进所选量度的媒体属性，例如点击次数或展示次数。
+[[!DNL Insights] _[!UICONTROL 媒体&#x200B;]_视图](media.md)旨在帮助您分析创意内容的性能。 您可以识别有助于改进所选量度的媒体属性，例如点击次数或展示次数。
 
 单击媒体内容可提供有关其在不同广告和广告投放位置中的性能的更多上下文：
 
@@ -114,8 +130,8 @@ Meta、LinkedIn和TikTok提供了对营销活动、广告、媒体和属性的�
 
 媒体&#x200B;_属性_&#x200B;可帮助通过固有详细信息(如颜色、色调、合成（如主题、字体、视觉元素）和其他关键组件)识别创意内容。 属性通常是一组经过最少衡量和分析的内容信息。
 
-[[!DNL Insights] _[!UICONTROL 属性&#x200B;]_&#x200B;视图](attributes.md)可以帮助您调查并确定哪些属性对特定受众、渠道和区域表现更好，还可以帮助您突出季节性趋势。 借助这些见解，您可以使用性能属性创建变体、定位特定受众或试验不同的营销活动策略。
+[[!DNL Insights] _[!UICONTROL 属性&#x200B;]_视图](attributes.md)可以帮助您调查并确定哪些属性对特定受众、渠道和区域表现更好，还可以帮助您突出季节性趋势。 借助这些见解，您可以使用性能属性创建变体、定位特定受众或试验不同的营销活动策略。
 
 ### 广告标记
 
-[[!DNL Insights] _[!UICONTROL 广告标记&#x200B;]_&#x200B;视图](ad-tags.md)显示已连接渠道广告帐户的广告列表。_&#x200B;广告&#x200B;_是一种促销资源，其中包括作为营销活动的一部分分发给特定受众的可视和交互式内容。
+[[!DNL Insights] _[!UICONTROL 广告标记&#x200B;]_视图](ad-tags.md)显示已连接渠道广告帐户的广告列表。_&#x200B;广告&#x200B;_是一种促销资源，其中包括作为营销活动的一部分分发给特定受众的可视和交互式内容。

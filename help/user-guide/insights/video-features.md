@@ -4,30 +4,46 @@ description: 了解GenStudio for Performance Marketing中使用的属性类别�
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-TQID: https://experienceleague.adobe.com/s-8h3ODnNuRyebiDTLZGQORJzPnPOcPzQjIhWBmpk-c
+TQID: 'https://experienceleague.adobe.com/s-8h3ODnNuRyebiDTLZGQORJzPnPOcPzQjIhWBmpk-c'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+    internal-label: Content attributes
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
+  - id: e61505eb-ae0c-4fa0-a6cc-9f95313d4431
+    internal-label: Reporting and insights
+  - id: f73d44c4-c328-457d-b61d-933788fc39b1
+    internal-label: Video attributes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: '683'
 ht-degree: 17%
-
 ---
-
 # 视频功能
 
 视频功能表示视频中用于分析[!DNL Insights]的不同且信息性元素、声音或模式。 这些功能有助于分类和了解视频内容，从而实现更准确和详细的分析。 通过识别音频情绪、音乐流派和对象等各种属性，人工智能可以提供对视频的综合分析，有助于更好地决策和策略制定。
@@ -40,7 +56,7 @@ GenStudio for Performance Marketing中的音频检测涉及分析视频的音频
 
 **要预览视频并聆听音频示例**，请执行以下操作：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 属性]**&#x200B;视图。
+1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 属性]**视图。
 
 1. 通过选择&#x200B;**[!UICONTROL 视频]**&#x200B;更改表视图。
 

@@ -2,13 +2,23 @@
 title: 适用于GenStudio的Journey Optimizer
 description: 安装和配置适用于GenStudio Adobe Exchange的Journey Optimizer应用程序，以便您的组织可以在GenStudio for Performance Marketing中使用Adobe Journey Optimizer模板。
 feature: Extensibility
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
-
 ---
-
 # 适用于GenStudio的Journey Optimizer
 
 在同一[!DNL IMS]组织中使用[!DNL Adobe Journey Optimizer] (AJO)和[!DNL GenStudio for Performance Marketing]的组织可以从[!DNL Adobe Exchange]安装适用于GenStudio **应用程序的** Journey Optimizer。 系统管理员批准应用程序并完成部署后，作者可以在GenStudio中创建电子邮件体验时选择AJO内容模板，并选择直接上传到[!DNL Content]的模板旁边。
@@ -23,7 +33,7 @@ ht-degree: 0%
 
 ## 从Adobe Exchange安装应用程序
 
->[!VIDEO](https://video.tv.adobe.com/v/3483309?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. 打开[Adobe Exchange](https://exchange.adobe.com)并转到&#x200B;**[!UICONTROL CX Enterprise]**。
 1. 打开[Journey Optimizer for GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)列表。
@@ -50,7 +60,7 @@ ht-degree: 0%
 1. 返回至[Adobe Exchange](https://exchange.adobe.com)。
 1. 选择&#x200B;**[!UICONTROL 管理]**&#x200B;并打开&#x200B;**[!UICONTROL App Builder应用程序]**（或您的组织到托管应用程序的路径）。
 1. 为GenStudio **选择** Journey Optimizer，并确认该应用程序已获得&#x200B;**批准**。
-1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**&#x200B;以创建一个环境。
+1. 在&#x200B;**[!UICONTROL 环境]**&#x200B;下，从&#x200B;**环境：**&#x200B;下拉列表中选择一个现有环境，或选择&#x200B;**[!UICONTROL 添加环境]**以创建一个环境。
    ![具有“已批准”状态的应用程序详细信息并添加环境](/help/extensibility/ajo-config-002.png){width="50%"}
 1. 在选定的环境中，选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 配置]**&#x200B;选项卡上，查找&#x200B;**[!UICONTROL AJO凭据]**。
@@ -79,9 +89,9 @@ ht-degree: 0%
 
 **另请参阅** （Journey Optimizer访问控制）：
 
-* [访问控制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Journey Optimizer中的权限](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/permissions)
-* [系统管理员入门指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [访问控制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Journey Optimizer中的权限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [系统管理员入门指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## 访问GenStudio中的AJO模板
 

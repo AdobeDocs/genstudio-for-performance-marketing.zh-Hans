@@ -2,7 +2,13 @@
 title: 创建Meta广告体验 — 轮播广告
 description: 了解如何在[!DNL GenStudio for Performance Marketing]中创建多信息卡Meta轮播广告体验、管理信息卡并生成品牌内概念。
 role: User
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -22,7 +28,7 @@ Meta轮播广告是一种付费广告格式，可显示两到十张可滑动卡�
 
 选择模板并打开画布后，在提示抽屉中选择轮播格式。
 
-1. 在&#x200B;_[!DNL Create your ads]_&#x200B;面板中，展开&#x200B;_[!UICONTROL &#x200B;参数&#x200B;]_。
+1. 在&#x200B;_[!DNL Create your ads]_面板中，展开_[!UICONTROL &#x200B;参数&#x200B;]_。
 1. 从&#x200B;**[!UICONTROL 格式]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL 轮播广告]**。
 
    ![在“格式”下拉列表设置为“轮播广告”且卡片列表的情况下创建广告面板](./carousel-format-cards.png){width="70%" zoomable="yes"}

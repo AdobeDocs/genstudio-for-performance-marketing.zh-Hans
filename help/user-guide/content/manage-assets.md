@@ -3,31 +3,45 @@ title: 管理Assets和体验
 description: 简化并增强对品牌认可资产的管理，以在您的数字营销历程中使用和重复使用。
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-TQID: https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc
+TQID: 'https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+    internal-label: Content attributes
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+    internal-label: Channels
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 1546
+source-wordcount: '1546'
 ht-degree: 1%
-
 ---
-
 # 管理资源和体验
 
 Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品牌批准资源的管理，以便在您的数字营销历程中使用和重复使用。
@@ -54,7 +68,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]简化并增强了对品
 
 **要搜索要重复使用的内容，请执行以下操作：**
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL Assets]**&#x200B;部分。
+1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL Assets]**部分。
 
 1. 从&#x200B;**[!UICONTROL 位置]**&#x200B;列表中选择一个资源存储库，或验证您所查看的资源存储库是否正确。 `GenStudio assets`是默认存储库。
 
@@ -114,7 +128,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要添加一个或多个资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，单击&#x200B;**[!UICONTROL 添加资源]**。
+1. 在&#x200B;_[!DNL Content]_中，单击&#x200B;**[!UICONTROL 添加资源]**。
 
 2. 在&#x200B;_添加批准的资产_&#x200B;视图中，将一个或多个文件拖放到放置空间中。 或者，您也可以使用&#x200B;**[!UICONTROL 浏览]**&#x200B;从本地文件中选择，或者从Dropbox或Microsoft OneDrive导入文件。
 
@@ -138,7 +152,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要下载资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个资源或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个资源或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 下载]**&#x200B;图标（向下箭头）。
 
@@ -148,7 +162,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要删除资源**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择资产、体验或模板。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 删除]** （垃圾桶）。
 
@@ -168,7 +182,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **要导出或下载体验**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个或多个体验。
+1. 在&#x200B;_[!DNL Content]_中，选择一个或多个体验。
 
    此时将显示一个横幅，左侧显示所选体验数量，右侧显示用于[!UICONTROL 激活]、[!UICONTROL 下载]或[!UICONTROL 删除]的选项。
 
@@ -201,7 +215,7 @@ AEM存储库可能会强制实施某些许可要求，如资源过期。 这些�
 
 **使用Express**&#x200B;编辑资源：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择一个图像资源。 单击资产可打开资产的集中视图。
+1. 在&#x200B;_[!DNL Content]_中，选择一个图像资源。 单击资产可打开资产的集中视图。
 
 1. 在资源视图中，单击右上角的&#x200B;**[!UICONTROL 在Adobe Express中编辑]**&#x200B;图标。
 

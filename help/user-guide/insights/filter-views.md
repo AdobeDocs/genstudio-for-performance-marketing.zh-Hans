@@ -4,31 +4,44 @@ description: 了解如何将增强的过滤器功能与Insights结合使用。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-TQID: https://experienceleague.adobe.com/67TI5R4hy9levkPkdXdQVCgLZl43YEq1oXV8kEEWWOs
+TQID: 'https://experienceleague.adobe.com/67TI5R4hy9levkPkdXdQVCgLZl43YEq1oXV8kEEWWOs'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+    internal-label: Channels
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
+  - id: e61505eb-ae0c-4fa0-a6cc-9f95313d4431
+    internal-label: Reporting and insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 # 筛选分析视图
 
 [!DNL Insights]仪表板提供了一组全面的筛选器，可帮助您获得高效的数据探索体验。 在分析渠道、广告、媒体或特定属性时，筛选选项允许您自定义视图并简化工作流。 使用关键词过滤器进行精确定位或浏览预定义列表，以优化搜索并关注最重要的数据。
@@ -75,7 +88,7 @@ ht-degree: 0%
 
 **要使用促销活动过滤器优化广告表**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，选择&#x200B;**[!UICONTROL 广告]**&#x200B;视图。
+1. 在&#x200B;_[!DNL Insights]_中，选择&#x200B;**[!UICONTROL 广告]**视图。
 
    ![广告筛选器和表](/help/assets/insights-ads-filter.png "带有筛选菜单的广告视图"){zoomable="yes"}
 

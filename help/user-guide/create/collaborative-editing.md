@@ -4,13 +4,26 @@ description: 了解如何在Horizon画布上与协作者实时共享付费媒体
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
-
 ---
-
 # 协作编辑
 
 协作编辑功能允许草稿创建者与协作者在Horizon画布上共享付费媒体草稿、分配角色并实时协作。
@@ -60,7 +73,7 @@ Horizon画布上的协作编辑提供了以下功能：
 ## 查找共享内容
 
 1. 转到内容登陆页面。
-1. 在“**[!UICONTROL 最近访问]**”部分中，单击“Adobe Express模板&#x200B;**”选项卡中的**。
+1. 在“**[!UICONTROL 最近访问]**”部分中，单击“Adobe Express模板&#x200B;]**”选项卡中的**[!UICONTROL 。
 1. 选择&#x200B;**[!UICONTROL 与您共享]**&#x200B;以查看其他人授予您访问权限的所有草稿。
 1. 选择&#x200B;**[!UICONTROL 您的]**&#x200B;以仅查看您创建的草稿。
 1. 将鼠标悬停在任意行上的共享指标图标上，可查看文档所有者和您的权限级别。
