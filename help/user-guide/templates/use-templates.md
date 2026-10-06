@@ -90,7 +90,7 @@ GenStudio for Performance Marketing使内容创建者能够使用&#x200B;_模板
 
 ## 管理模板
 
-_[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
+_[!DNL Templates]_&#x200B;图库会显示您为在GenStudio for Performance Marketing中生成体验而自定义的模板清单。
 
 ### 搜索模板
 
@@ -113,7 +113,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
 **添加模板**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择顶部栏中的&#x200B;**[!UICONTROL HTML模板]**部分。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择顶部栏中的&#x200B;**[!UICONTROL HTML模板]**&#x200B;部分。
 
 1. 单击&#x200B;**[!UICONTROL +添加模板]**。
 
@@ -125,7 +125,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
    >[!TIP]
    >
-   >如果模板中的详细信息不正确，请单击“上一步”****&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
+   >如果模板中的详细信息不正确，请单击“上一步”**&#x200B;**&#x200B;并返回上一步。 上载更正后的模板文件。 或者使用[模板代码编辑器](/help/user-guide/templates/code-editor.md)进行简单的更正。
 
 1. 查看自动检测到的字段。 在双面板“预览/代码”视图中，左侧面板显示模板的实时预览，其中检测区域以颜色突出显示。右侧边栏显示所有检测到的字段及其当前插槽状态的字段列表。 字段使用在“代码”选项卡中可见的Handlebars表示法标记（例如，`{{headline}}`、`{{body}}`、`{{image}}`）。
 
@@ -169,7 +169,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
 **刷新模板**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 
@@ -181,7 +181,7 @@ _[!DNL Templates]_图库会显示您为在GenStudio for Performance Marketing中
 
 **要使用模板创建体验**：
 
-1. 在&#x200B;_[!DNL Content]_中，选择&#x200B;**[!UICONTROL 模板]**部分。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，选择&#x200B;**[!UICONTROL 模板]**&#x200B;部分。
 
 2. 单击模板可查看完整视图和详细信息列表。
 

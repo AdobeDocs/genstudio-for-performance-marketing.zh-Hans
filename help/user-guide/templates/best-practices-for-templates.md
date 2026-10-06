@@ -54,7 +54,7 @@ ht-degree: 0%
 1. 使用[辅助功能标准](accessibility-for-templates.md)进行设计以获得最佳体验
 1. 遵循[特定于渠道的模板准则](#follow-channel-specific-template-guidelines)
 1. 使用[Express模板](/help/user-guide/templates/express-templates.md)时，请考虑[Express to GenStudio模板最佳实践](#express-to-genstudio-template-best-practices)下的特定提示。
->>
+&#x200B;>>
 了解[使用模板](use-templates.md)中模板元素和过程的基础知识。 深入了解[自定义模板](customize-template.md)以了解具体说明，以便在下一个营销活动中使用。
 
 ## 使用正确的模板元素

@@ -110,15 +110,15 @@ Meta、LinkedIn和TikTok提供了对营销活动、广告、媒体和属性的�
 
 ### 营销活动
 
-[[!DNL Insights] _[!UICONTROL 营销活动&#x200B;]_视图](campaigns.md)是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请务必[连接渠道帐户](/help/user-guide/connectors/connect-channel.md)，以便GenStudio for Performance Marketing开始接收您的统计数据。
+[[!DNL Insights] _[!UICONTROL 营销活动&#x200B;]_&#x200B;视图](campaigns.md)是默认视图，它显示活动详细信息（如目标、预算、启动日期和活动）的列表。 请务必[连接渠道帐户](/help/user-guide/connectors/connect-channel.md)，以便GenStudio for Performance Marketing开始接收您的统计数据。
 
 ### 已发布的体验
 
-[[!DNL Insights] _[!UICONTROL 已发布的体验详细信息&#x200B;]_视图](published-experiences.md)侧重于评估体验的有效性。 通过[!UICONTROL 发布的体验]视图，可根据体验在指定日期范围内的位置分析该体验的量度。 通过单击_[!UICONTROL &#x200B;体验名称&#x200B;]_，您可以查看体验性能量度、按投放位置列出的性能和属性。
+[[!DNL Insights] _[!UICONTROL 已发布的体验详细信息&#x200B;]_&#x200B;视图](published-experiences.md)侧重于评估体验的有效性。 通过[!UICONTROL 发布的体验]视图，可根据体验在指定日期范围内的位置分析该体验的量度。 通过单击&#x200B;_[!UICONTROL &#x200B;体验名称&#x200B;]_，您可以查看体验性能量度、按投放位置列出的性能和属性。
 
 ### 媒体
 
-[[!DNL Insights] _[!UICONTROL 媒体&#x200B;]_视图](media.md)旨在帮助您分析创意内容的性能。 您可以识别有助于改进所选量度的媒体属性，例如点击次数或展示次数。
+[[!DNL Insights] _[!UICONTROL 媒体&#x200B;]_&#x200B;视图](media.md)旨在帮助您分析创意内容的性能。 您可以识别有助于改进所选量度的媒体属性，例如点击次数或展示次数。
 
 单击媒体内容可提供有关其在不同广告和广告投放位置中的性能的更多上下文：
 
@@ -130,8 +130,8 @@ Meta、LinkedIn和TikTok提供了对营销活动、广告、媒体和属性的�
 
 媒体&#x200B;_属性_&#x200B;可帮助通过固有详细信息(如颜色、色调、合成（如主题、字体、视觉元素）和其他关键组件)识别创意内容。 属性通常是一组经过最少衡量和分析的内容信息。
 
-[[!DNL Insights] _[!UICONTROL 属性&#x200B;]_视图](attributes.md)可以帮助您调查并确定哪些属性对特定受众、渠道和区域表现更好，还可以帮助您突出季节性趋势。 借助这些见解，您可以使用性能属性创建变体、定位特定受众或试验不同的营销活动策略。
+[[!DNL Insights] _[!UICONTROL 属性&#x200B;]_&#x200B;视图](attributes.md)可以帮助您调查并确定哪些属性对特定受众、渠道和区域表现更好，还可以帮助您突出季节性趋势。 借助这些见解，您可以使用性能属性创建变体、定位特定受众或试验不同的营销活动策略。
 
 ### 广告标记
 
-[[!DNL Insights] _[!UICONTROL 广告标记&#x200B;]_视图](ad-tags.md)显示已连接渠道广告帐户的广告列表。_&#x200B;广告&#x200B;_是一种促销资源，其中包括作为营销活动的一部分分发给特定受众的可视和交互式内容。
+[[!DNL Insights] _[!UICONTROL 广告标记&#x200B;]_&#x200B;视图](ad-tags.md)显示已连接渠道广告帐户的广告列表。_&#x200B;广告&#x200B;_是一种促销资源，其中包括作为营销活动的一部分分发给特定受众的可视和交互式内容。
