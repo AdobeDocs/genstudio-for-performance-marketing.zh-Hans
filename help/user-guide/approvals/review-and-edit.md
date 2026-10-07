@@ -3,23 +3,33 @@ title: 查看和编辑内容
 description: 了解如何使用Adobe GenStudio for Performance Marketing迭代查看和编辑内容。
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
+TQID: 'https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Content production
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # 审阅和编辑内容
 
 审查和批准阶段通常涉及多个利益相关者和反复反馈，这会减慢内容制作的速度。 GenStudio for Performance Marketing通过可加快内容修订的创新型人工智能简化了此过程，使创建者能够使用基于提示的编辑快速响应反馈。 审核周期越复杂，GenStudio带来的节省时间优势就越多。
@@ -36,7 +46,7 @@ ht-degree: 0%
 
 * **直接从审批请求中的草稿链接访问草稿以供审阅**。 单击批准请求电子邮件或产品内通知中的草稿链接。 这将打开画布，显示资产或体验。 右侧显示&#x200B;_审批_&#x200B;面板。
 
-* **从审批请求列表中访问草稿以供审阅**。 如果要求您审阅多个内容草稿，您的通知电子邮件将包含&#x200B;**[!UICONTROL 查看所有通知]**&#x200B;按钮。 单击此按钮可导航到一个页面，该页面显示您收到的所有通知，包括已从其他Adobe CX Enterprise产品启用的批准请求和通知。
+* **从审批请求列表中访问草稿以供审阅**。 如果要求您审阅多个内容草稿，您的通知电子邮件将包含&#x200B;**[!UICONTROL 查看所有通知]**&#x200B;按钮。 单击此按钮可导航到一个页面，该页面显示您收到的所有通知，包括批准请求和您已从其他Adobe CX Enterprise产品启用的通知。
 
 ## 访问内容以供审阅
 

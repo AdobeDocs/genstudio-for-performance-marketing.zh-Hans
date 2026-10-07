@@ -4,25 +4,36 @@ description: 了解GenStudio for Performance Marketing审核和批准流程。
 level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
+TQID: 'https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Metadata
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: '890'
 ht-degree: 0%
-
 ---
-
 # Adobe GenStudio for Performance Marketing审阅和批准
 
 审查和批准工作流程确保所有利益相关者（从创意团队到法律专家）都能高效地审查和批准活动资源和体验，包括创意人工智能生成的品牌资产。
@@ -79,7 +90,7 @@ _审阅人_&#x200B;可以添加评论，但不能批准内容。 审阅者的参
 
 GenStudio for Performance Marketing产品内通知会实时更新审批者和内容编辑器，以更新资源状态更改和`@mention`备注。 通知支持在多个审阅、编辑和批准周期中快速迭代。
 
-内容编辑者和批准者可以注册以在Slack中接收这些通知。 请参阅[订阅CX Enterprise中的服务](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/subscription)。
+内容编辑者和批准者可以注册以在Slack中接收这些通知。 请参阅[在CX Enterprise中订阅服务](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/subscription)。
 
 批准参与者执行的操作会触发自动产品内通知和电子邮件通知。 开始审批流程时，指定的审批者会收到电子邮件和产品内通知。 每当审批者添加`@mention`评论或做出决定时，您就会与产品内通知和电子邮件通知保持同步。 通知包括指向内容草稿的链接。
 
