@@ -205,7 +205,7 @@ Experience Selector通过SUSI自动处理身份验证：
         },
         "destination_url": {
             "fieldName": "destination_url",
-            "fieldValue": "https://www.adobe.com"
+            "fieldValue": "https://www.adobe.com/cn"
         },
         "description": {
             "fieldName": "description",
