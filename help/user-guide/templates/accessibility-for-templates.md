@@ -30,7 +30,7 @@ ht-degree: 0%
 ---
 # 创建无障碍模板
 
-Adobe致力于为所有受众提供最佳体验。 请参阅Adobe上的[辅助功能计划](https://www.adobe.com/trust/accessibility/initiatives.html)以了解更多内容。
+Adobe致力于为所有受众提供最佳体验。 请参阅Adobe上的[辅助功能计划](https://www.adobe.com/cn/trust/accessibility/initiatives.html)以了解更多内容。
 
 在GenStudio for Performance Marketing中，您可以上传资源和模板，以便为各种体验创建内容。 遵守辅助功能标准有助于您的内容触及最大目标受众。
 
