@@ -68,18 +68,34 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
+source-git-commit: 87749b66644ae6b322ccf872a9b21696d87b4b99
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5942'
 ht-degree: 0%
 ---
 # GenStudio for Performance Marketing发行说明
 
 此发行信息提供了对GenStudio for Performance Marketing应用程序的最新更新。
 
-## 2026.09.15 {#latest}
+## 2026.10.15 {#latest}
 
 **新功能：**
+
+### 具有声纹和视觉提示的有状态生成
+
+状态生成允许您通过轮流加入对话来优化内容，而不是每次都以新的提示重新开始。 层代会记住您之前的说明和您保留的变体，然后仅应用您要求的更改。
+
+声纹功能可在使用[!DNL Insights]的频道（如LinkedIn和Meta）上保持品牌声音的复本。 所选图像或视频中的视觉提示背景复制，您可以在提示中添加网页URL作为引用上下文。
+
+在[生成并优化具有状态生成](/help/user-guide/create/stateful-generation.md)的内容中了解更多信息。
+
+### 修复和增强功能
+
+* 现在，批量激活中的跟踪ID会自动填充体验名称。
+
+## 早期发行说明
+
++++2026.09.15版注释
 
 ### 批量激活
 
@@ -87,7 +103,7 @@ ht-degree: 0%
 
 在[激活工作流](/help/user-guide/activation/create-activation.md)中了解详情。
 
-## 早期发行说明
++++
 
 +++2026.07.16版注释
 
