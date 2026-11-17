@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
+source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 75%
+source-wordcount: '319'
+ht-degree: 74%
 ---
 
 # Adobe GenStudio for Performance Marketing指南 {#user-guide}
@@ -98,6 +98,7 @@ ht-degree: 75%
   + [激活概述](activation/overview.md)
   + [激活工作流](activation/create-activation.md)
   + [管理激活](activation/manage-activations.md)
+  + [生成广告名称](activation/generate-ad-names.md)
   + [优化激活](activation/troubleshooting.md)
   + 付费媒体广告 {#paid-media-ads}
     + [Google Campaign Manager 360](activation/activate-cm360-ad.md)

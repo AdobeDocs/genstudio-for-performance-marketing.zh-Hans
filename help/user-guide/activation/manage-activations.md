@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
+source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '326'
 ht-degree: 0%
 ---
 # 管理激活
@@ -43,6 +43,10 @@ ht-degree: 0%
 您可以通过单击右上角的&#x200B;**[!UICONTROL 重试]**&#x200B;来自动重试失败的激活。
 
 已发布行会被锁定以防止重新提交，并在目标平台的原生广告管理器中包含指向广告的深层链接，因此您可以直接跳转到该链接以进行查看或启动。
+
+## 生成广告名称
+
+使用您组织的命名惯例从体验信息生成一致的广告名称。 在向平台发送广告之前，您可以查看、编辑或覆盖名称。 请参阅[生成广告名称](generate-ad-names.md)。
 
 ## 详细信息视图
 
